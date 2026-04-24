@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.google.ortools:ortools-java:9.10.4067") // Check Maven Central for the latest version
     testImplementation(kotlin("test"))
 }
 

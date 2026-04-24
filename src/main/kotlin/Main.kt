@@ -1,24 +1,121 @@
 package org.example
 
+import com.google.ortools.linearsolver.MPSolver
 import java.io.File
+import kotlin.math.abs
+import kotlin.math.exp
+import kotlin.math.max
+import kotlin.math.min
+import kotlin.system.exitProcess
 
 fun main() {
     println("Hello World!")
     println(listOf(1, 2, 3, 4) - 3)
 
-    //val matroid = uniformMatroid((1..7).toSet(), 7)
+    /*for (k in 1..7) {
+        println("uniform matroid of rank $k")
+        val matroid = uniformMatroid((1..7).toSet(), k)
+        assessMatroid(matroid)
+    }*/
 
-    val file = File("rank_7_matroids.txt")
+    /*val file = File("rank_7_matroids.txt")
     for (line in file.readLines()) {
         val matroid = parseMatroid(line)
         println("matroid = ${matroid.bases}")
-        val dummy = DummyLPBuilder()
+        assessMatroid(matroid)
+    }*/
 
-        buildMatroidSecretaryLP(matroid, dummy)
+    //val matroid = uniformMatroid((1..5).toSet(), 2)
 
-        println("num variables = ${dummy.numVariables}")
-        println("num constraints = ${dummy.numConstraints}")
-        println()
+    val matroids = mutableListOf<Matroid<Int>>()
+    val counterexamples = mutableListOf<Matroid<Int>>()
+
+    val n = 6
+    val elements = (1..n).toSet()
+    for (k in 1..n) {
+        val subsetsOfSize = subsets(elements).filter { it.size == k }
+        for (bases in subsets(subsetsOfSize.toSet())) {
+            val matroid = MatroidByBases(elements, bases.toList())
+            if (isMatroid(matroid) && !matroids.any { isomorphic(matroid, it) }) {
+                matroids.add(matroid)
+                println("matroid with bases $bases")
+                println()
+                println("solving without symmetry")
+                val x = solveMatroid(matroid, 0)
+                repeat(2) { println() }
+                println("solving with symmetry")
+                val y = solveMatroid(matroid, 1)
+                repeat(2) { println() }
+                println("solving with more symmetry")
+                val z = solveMatroid(matroid, 2)
+
+                if (maxOf(x, y, z) - minOf(x, y, z) > 0.0001) {
+                    println("competitive ratios different")
+                    counterexamples.add(matroid)
+                    //return
+                }
+                if (abs(x - y) > 0.0001) {
+                    println("competitive ratios different for first two")
+                    return
+                }
+                repeat(5) { println() }
+            }
+        }
+    }
+    println("all complete")
+    println("total num matroids = ${matroids.size}")
+    println("num counterexamples = ${counterexamples.size}")
+    for (matroid in counterexamples) {
+        println(matroid)
+    }
+}
+
+fun <E> assessMatroid(matroid: Matroid<E>) {
+    var dummy = DummyLPBuilder()
+
+    buildMatroidSecretaryLPOld(matroid, dummy)
+    println()
+
+    println("old num variables = ${dummy.numVariables}")
+    println("old num constraints = ${dummy.numConstraints}")
+    println()
+
+    dummy = DummyLPBuilder()
+    buildMatroidSecretaryLP(matroid, dummy)
+    println("new num variables = ${dummy.numVariables}")
+    println("new num constraints = ${dummy.numConstraints}")
+
+    println()
+    println("-".repeat(32))
+    println()
+}
+
+fun <E> solveMatroid(matroid: Matroid<E>, mode: Int): Double {
+    var builder = OrToolsLinearProgramBuilder()
+
+    when (mode) {
+        0 -> buildMatroidSecretaryLPNoSymmetry(matroid, builder)
+        1 -> buildMatroidSecretaryLPOld(matroid, builder)
+        2 -> buildMatroidSecretaryLP(matroid, builder)
+        else -> throw IllegalArgumentException("mode = $mode, should be 0, 1, 2")
+    }
+
+    println("num variables = ${builder.getNumVariables()}")
+    println("num constraints = ${builder.getNumConstraints()}")
+
+    // Solve the model
+    val startTime = System.currentTimeMillis()
+    val status = builder.solve()
+    val endTime = System.currentTimeMillis()
+    println("time taken = ${(endTime - startTime).toDouble() / 1000.0} seconds")
+
+    if (status == MPSolver.ResultStatus.OPTIMAL) {
+        println("Solution found!")
+        println("Objective value = ${builder.getObjectiveValue()}")
+        return builder.getObjectiveValue()
+    } else {
+        println("The problem does not have an optimal solution.")
+        exitProcess(0)
     }
 }
 
