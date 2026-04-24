@@ -186,7 +186,7 @@ fun <E, V> buildMatroidSecretaryLP(matroid: Matroid<E>, lpBuilder: LinearProgram
     for ((key, yesExpr) in yes) {
         val noExpr = no[key]!!
         val prevOrderedSubset = key.orderedSubset - key.orderedSubset[key.index]
-        val covered = prevOrderedSubset.indices.filter { it != key.index && matroid.spans(key.prevSpan, prevOrderedSubset[it]) }
+        val covered = prevOrderedSubset.indices.filter { matroid.spans(key.prevSpan, prevOrderedSubset[it]) }
         val prevIdentity = orderedSubsetIdentity[prevOrderedSubset]!!
         val coveredImage = covered.map(prevIdentity::get).toSet()
         val prevSpanIdentity = spanIdentity[SpanKey(prevIdentity.toSet(), coveredImage)]!!
