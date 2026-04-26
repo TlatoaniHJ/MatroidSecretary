@@ -1,0 +1,2318 @@
+/Users/Tlatoani/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.11/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53197:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/Tlatoani/Projects/MatroidSecretary/build/classes/kotlin/main:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.23/dbaadea1f5e68f790d242a91a38355a83ec38747/kotlin-stdlib-1.9.23.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-java/9.10.4067/9da7ce8ed400c5f33bff71d92ee497e58a882ebf/ortools-java-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.14.0/28934d48aed814f11e4c584da55c49fa7032b31b/jna-platform-5.14.0.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/4.26.1/594fabdcbceb7edfb883fe621d3e97d9cc05fa73/protobuf-java-4.26.1.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.14.0/67bf3eaea4f0718cb376a181a629e5f88fa1c9dd/jna-5.14.0.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-linux-x86-64/9.10.4067/6f44422bd67d9edefbad62fb98d81b52ade5e9c8/ortools-linux-x86-64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-darwin-x86-64/9.10.4067/f9ac955d3f69b0c60dd4446f829495aba3838ff8/ortools-darwin-x86-64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-win32-x86-64/9.10.4067/57c27a57ef2261cc6c2fc67e78e96d013b0792f1/ortools-win32-x86-64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-linux-aarch64/9.10.4067/16e882ef608540f08bf140f9c03e421b6302495a/ortools-linux-aarch64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-darwin-aarch64/9.10.4067/582bace1f3ebc32ece7cdbd936d2ecfcb0f211b3/ortools-darwin-aarch64-9.10.4067.jar org.example.Main7Kt
+num matroids = 1724
+matroid  #0 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[]])
+matroid #1 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4], [5], [6], [7]])
+solving with more symmetry
+num variables = 108
+num constraints = 72
+time taken = 0.003 seconds
+Solution found!
+Objective value = 0.40982142857142867
+HIT
+
+
+
+
+
+matroid #2 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4], [5], [6]])
+solving with more symmetry
+num variables = 649
+num constraints = 460
+time taken = 0.003 seconds
+Solution found!
+Objective value = 0.4142857142857144
+
+
+
+
+
+matroid #3 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4], [5]])
+solving with more symmetry
+num variables = 1854
+num constraints = 1370
+time taken = 0.011 seconds
+Solution found!
+Objective value = 0.4277777777777778
+
+
+
+
+
+matroid #4 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4]])
+solving with more symmetry
+num variables = 3188
+num constraints = 2444
+time taken = 0.021 seconds
+Solution found!
+Objective value = 0.43333333333333335
+
+
+
+
+
+matroid #5 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3]])
+solving with more symmetry
+num variables = 3551
+num constraints = 2821
+time taken = 0.024 seconds
+Solution found!
+Objective value = 0.4583333333333335
+
+
+
+
+
+matroid #6 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2]])
+solving with more symmetry
+num variables = 2592
+num constraints = 2136
+time taken = 0.013 seconds
+Solution found!
+Objective value = 0.5000000000000002
+
+
+
+
+
+matroid #7 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1]])
+solving with more symmetry
+num variables = 1184
+num constraints = 1015
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #8 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0]])
+solving with more symmetry
+num variables = 269
+num constraints = 240
+time taken = 0.001 seconds
+Solution found!
+Objective value = 1.0
+
+
+
+
+
+matroid #9 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [4, 7], [6, 7]])
+solving with more symmetry
+num variables = 3481
+num constraints = 2382
+time taken = 0.038 seconds
+Solution found!
+Objective value = 0.45833333333333354
+
+
+
+
+
+matroid #10 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [2, 7], [3, 7], [5, 7]])
+solving with more symmetry
+num variables = 5588
+num constraints = 3820
+time taken = 0.091 seconds
+Solution found!
+Objective value = 0.4333333333333335
+
+
+
+
+
+matroid #11 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6], [2, 7], [3, 7]])
+solving with more symmetry
+num variables = 2792
+num constraints = 1898
+time taken = 0.026 seconds
+Solution found!
+Objective value = 0.4277777777777779
+
+
+
+
+
+matroid #12 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7]])
+solving with more symmetry
+num variables = 712
+num constraints = 468
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.41428571428571426
+
+
+
+
+
+matroid #13 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6]])
+solving with more symmetry
+num variables = 23452
+num constraints = 16655
+time taken = 1.818 seconds
+Solution found!
+Objective value = 0.45833333333333354
+
+
+
+
+
+matroid #14 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6]])
+solving with more symmetry
+num variables = 13788
+num constraints = 9771
+time taken = 0.521 seconds
+Solution found!
+Objective value = 0.43333333333333335
+
+
+
+
+
+matroid #15 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6]])
+solving with more symmetry
+num variables = 3971
+num constraints = 2755
+time taken = 0.049 seconds
+Solution found!
+Objective value = 0.4277777777777777
+
+
+
+
+
+matroid #16 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5]])
+solving with more symmetry
+num variables = 20111
+num constraints = 14797
+time taken = 1.508 seconds
+Solution found!
+Objective value = 0.49999999999999983
+
+
+
+
+
+matroid #17 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5]])
+solving with more symmetry
+num variables = 29478
+num constraints = 21673
+time taken = 1.829 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #18 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5]])
+solving with more symmetry
+num variables = 10031
+num constraints = 7269
+time taken = 0.298 seconds
+Solution found!
+Objective value = 0.43333333333333324
+
+
+
+
+
+matroid #19 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 34331
+num constraints = 26146
+time taken = 5.399 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #20 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4]])
+solving with more symmetry
+num variables = 14578
+num constraints = 10988
+time taken = 0.463 seconds
+Solution found!
+Objective value = 0.4583333333333333
+
+
+
+
+
+matroid #21 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3]])
+solving with more symmetry
+num variables = 11216
+num constraints = 8848
+time taken = 0.212 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #22 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3]])
+solving with more symmetry
+num variables = 12973
+num constraints = 10156
+time taken = 0.297 seconds
+Solution found!
+Objective value = 0.4999999999999998
+
+
+
+
+
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2]])
+solving with more symmetry
+num variables = 6904
+num constraints = 5615
+time taken = 0.047 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1]])
+solving with more symmetry
+num variables = 904
+num constraints = 763
+time taken = 0.003 seconds
+Solution found!
+Objective value = 1.0
+
+
+
+
+
+matroid #25 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 31196
+num constraints = 20379
+time taken = 4.241 seconds
+Solution found!
+Objective value = 0.45833333333333326
+
+
+
+
+
+matroid #26 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7]])
+solving with more symmetry
+num variables = 32174
+num constraints = 20994
+time taken = 8.39 seconds
+Solution found!
+Objective value = 0.496341765873016
+
+
+
+
+
+matroid #27 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 18560
+num constraints = 12135
+time taken = 1.184 seconds
+Solution found!
+Objective value = 0.43333333333333357
+
+
+
+
+
+matroid #28 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7]])
+solving with more symmetry
+num variables = 24088
+num constraints = 15726
+time taken = 1.828 seconds
+Solution found!
+Objective value = 0.4583333333333333
+
+
+
+
+
+matroid #29 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 2921
+num constraints = 1908
+time taken = 0.032 seconds
+Solution found!
+Objective value = 0.4277777777777778
+
+
+
+
+
+matroid #30 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 52611
+num constraints = 35761
+time taken = 40.828 seconds
+Solution found!
+Objective value = 0.4997196691656523
+
+
+
+
+
+matroid #31 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 77786
+num constraints = 52954
+time taken = 46.55 seconds
+Solution found!
+Objective value = 0.4583333333333329
+
+
+
+
+
+matroid #32 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6]])
+solving with more symmetry
+num variables = 81850
+num constraints = 55519
+time taken = 90.253 seconds
+Solution found!
+Objective value = 0.4970119639895763
+
+
+
+
+
+matroid #33 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 14398
+num constraints = 9843
+time taken = 0.487 seconds
+Solution found!
+Objective value = 0.43333333333333346
+
+
+
+
+
+matroid #34 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 133461
+num constraints = 94411
+time taken = 439.263 seconds
+Solution found!
+Objective value = 0.5000000000000006
+
+
+
+
+
+matroid #35 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5]])
+solving with more symmetry
+num variables = 35062
+num constraints = 24714
+time taken = 6.514 seconds
+Solution found!
+Objective value = 0.49861111111111117
+
+
+
+
+
+matroid #36 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 30775
+num constraints = 21908
+time taken = 2.323 seconds
+Solution found!
+Objective value = 0.458333333333333
+
+
+
+
+
+matroid #37 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 57538
+num constraints = 42348
+time taken = 22.726 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #38 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 35935
+num constraints = 26604
+time taken = 4.65 seconds
+Solution found!
+Objective value = 0.49999999999999994
+
+
+
+
+
+matroid #39 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3]])
+solving with more symmetry
+num variables = 23751
+num constraints = 18316
+time taken = 0.666 seconds
+Solution found!
+Objective value = 0.5000000000000004
+
+
+
+
+
+matroid #40 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1], [0, 2], [1, 2]])
+solving with more symmetry
+num variables = 2704
+num constraints = 2192
+time taken = 0.04 seconds
+Solution found!
+Objective value = 0.7499999999999998
+
+
+
+
+
+matroid #41 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 30819
+num constraints = 19947
+time taken = 9.702 seconds
+Solution found!
+Objective value = 0.49861200489024854
+
+
+
+
+
+matroid #42 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 45876
+num constraints = 29720
+time taken = 9.983 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #43 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 94417
+num constraints = 60973
+time taken = 233.214 seconds
+Solution found!
+Objective value = 0.49701196398957603
+
+
+
+
+
+matroid #44 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7]])
+solving with more symmetry
+num variables = 12244
+num constraints = 7892
+time taken = 0.646 seconds
+Solution found!
+Objective value = 0.49761904761904774
+
+
+
+
+
+matroid #45 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 5974
+num constraints = 3878
+time taken = 0.119 seconds
+Solution found!
+Objective value = 0.43333333333333346
+
+
+
+
+
+matroid #46 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 155874
+num constraints = 105087
+time taken = 858.081 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #47 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 80310
+num constraints = 53940
+time taken = 70.648 seconds
+Solution found!
+Objective value = 0.498611111111111
+
+
+
+
+
+matroid #48 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 25125
+num constraints = 17026
+time taken = 2.339 seconds
+Solution found!
+Objective value = 0.4583333333333333
+
+
+
+
+
+matroid #49 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 100139
+num constraints = 70273
+time taken = 171.154 seconds
+Solution found!
+Objective value = 0.49999999999999944
+
+
+
+
+
+matroid #50 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 43382
+num constraints = 30612
+time taken = 12.747 seconds
+Solution found!
+Objective value = 0.5000000000000002
+
+
+
+
+
+matroid #51 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 37772
+num constraints = 27783
+time taken = 4.911 seconds
+Solution found!
+Objective value = 0.49999999999999994
+
+
+
+
+
+matroid #52 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3]])
+solving with more symmetry
+num variables = 4146
+num constraints = 3206
+time taken = 0.06 seconds
+Solution found!
+Objective value = 0.6250000000000001
+
+
+
+
+
+matroid #53 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 60587
+num constraints = 39056
+time taken = 62.314 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #54 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 45686
+num constraints = 29400
+time taken = 18.288 seconds
+Solution found!
+Objective value = 0.49861111111111117
+
+
+
+
+
+matroid #55 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 7629
+num constraints = 4923
+time taken = 0.177 seconds
+Solution found!
+Objective value = 0.4583333333333334
+
+
+
+
+
+matroid #56 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 77365
+num constraints = 51944
+time taken = 72.981 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #57 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 26000
+num constraints = 17508
+time taken = 3.566 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #58 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 33572
+num constraints = 23579
+time taken = 3.562 seconds
+Solution found!
+Objective value = 0.4999999999999999
+
+
+
+
+
+matroid #59 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 4015
+num constraints = 2958
+time taken = 0.084 seconds
+Solution found!
+Objective value = 0.6166666666666666
+
+
+
+
+
+matroid #60 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 22810
+num constraints = 14641
+time taken = 3.298 seconds
+Solution found!
+Objective value = 0.5000000000000002
+
+
+
+
+
+matroid #61 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 6355
+num constraints = 4074
+time taken = 0.189 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #62 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 16225
+num constraints = 10867
+time taken = 0.977 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #63 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 2486
+num constraints = 1741
+time taken = 0.037 seconds
+Solution found!
+Objective value = 0.5972222222222224
+
+
+
+
+
+matroid #64 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 3385
+num constraints = 2151
+time taken = 0.058 seconds
+Solution found!
+Objective value = 0.4999999999999999
+
+
+
+
+
+matroid #65 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 919
+num constraints = 608
+time taken = 0.007 seconds
+Solution found!
+Objective value = 0.574206349206349
+
+
+
+
+
+matroid #66 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 160
+num constraints = 98
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.5574404761904761
+
+
+
+
+
+matroid #67 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [2, 3, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [0, 5, 7], [1, 5, 7], [3, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 28902
+num constraints = 19893
+time taken = 7.361 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #68 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [2, 3, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [2, 3, 7], [3, 4, 7], [2, 5, 7], [4, 5, 7]])
+solving with more symmetry
+num variables = 21287
+num constraints = 14617
+time taken = 1.695 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #69 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [3, 5, 6], [2, 3, 7], [3, 4, 7], [3, 6, 7]])
+solving with more symmetry
+num variables = 25040
+num constraints = 16935
+time taken = 2.18 seconds
+Solution found!
+Objective value = 0.4583333333333332
+
+
+
+
+
+matroid #70 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [2, 3, 6], [3, 4, 6], [2, 3, 7], [3, 4, 7]])
+solving with more symmetry
+num variables = 14768
+num constraints = 9939
+time taken = 0.6 seconds
+Solution found!
+Objective value = 0.43333333333333335
+
+
+
+
+
+matroid #71 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [2, 3, 6], [2, 3, 7]])
+solving with more symmetry
+num variables = 2180
+num constraints = 1426
+time taken = 0.016 seconds
+Solution found!
+Objective value = 0.4277777777777781
+
+
+
+
+
+matroid #72 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [2, 3, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 71930
+num constraints = 51198
+time taken = 65.431 seconds
+Solution found!
+Objective value = 0.5000000000000003
+
+
+
+
+
+matroid #73 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [3, 5, 6]])
+solving with more symmetry
+num variables = 42287
+num constraints = 29729
+time taken = 11.662 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #74 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [2, 3, 6], [3, 4, 6]])
+solving with more symmetry
+num variables = 62086
+num constraints = 43564
+time taken = 14.248 seconds
+Solution found!
+Objective value = 0.4583333333333332
+
+
+
+
+
+matroid #75 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [2, 3, 6]])
+solving with more symmetry
+num variables = 10796
+num constraints = 7437
+time taken = 0.23 seconds
+Solution found!
+Objective value = 0.43333333333333335
+
+
+
+
+
+matroid #76 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5]])
+solving with more symmetry
+num variables = 30331
+num constraints = 22335
+time taken = 3.899 seconds
+Solution found!
+Objective value = 0.4999999999999997
+
+
+
+
+
+matroid #77 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 106584
+num constraints = 77706
+time taken = 115.163 seconds
+Solution found!
+Objective value = 0.5000000000000002
+
+
+
+
+
+matroid #78 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5]])
+solving with more symmetry
+num variables = 23096
+num constraints = 16633
+time taken = 0.9 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #79 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4]])
+solving with more symmetry
+num variables = 45558
+num constraints = 34461
+time taken = 3.694 seconds
+Solution found!
+Objective value = 0.4999999999999996
+
+
+
+
+
+matroid #80 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4]])
+solving with more symmetry
+num variables = 26857
+num constraints = 20154
+time taken = 1.798 seconds
+Solution found!
+Objective value = 0.5000000000000006
+
+
+
+
+
+matroid #81 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3]])
+solving with more symmetry
+num variables = 17467
+num constraints = 13642
+time taken = 0.143 seconds
+Solution found!
+Objective value = 0.49999999999999967
+
+
+
+
+
+matroid #82 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2]])
+solving with more symmetry
+num variables = 1822
+num constraints = 1478
+time taken = 0.006 seconds
+Solution found!
+Objective value = 0.9999999999999999
+
+
+
+
+
+matroid #83 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [2, 3, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [0, 4, 7], [1, 4, 7], [0, 5, 7], [1, 5, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 95242
+num constraints = 64041
+time taken = 355.254 seconds
+Solution found!
+Objective value = 0.49999999999999983
+
+
+
+
+
+matroid #84 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [2, 3, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [3, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 189202
+num constraints = 126279
+time taken = 2807.934 seconds
+Solution found!
+Objective value = 0.4999999999999998
+
+
+
+
+
+matroid #85 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7]])
+solving with more symmetry
+num variables = 49452
+num constraints = 32954
+time taken = 43.409 seconds
+Solution found!
+Objective value = 0.49861111111111117
+
+
+
+
+
+matroid #86 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [3, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 60194
+num constraints = 40483
+time taken = 96.986 seconds
+Solution found!
+Objective value = 0.4999999999999998
+
+
+
+
+
+matroid #87 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [3, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [3, 6, 7]])
+solving with more symmetry
+num variables = 55776
+num constraints = 36321
+time taken = 142.489 seconds
+Solution found!
+Objective value = 0.49971966916565225
+
+
+
+
+
+matroid #88 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [2, 3, 7], [3, 4, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7]])
+solving with more symmetry
+num variables = 44836
+num constraints = 30253
+time taken = 27.695 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #89 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [2, 3, 6], [3, 4, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [4, 5, 7], [2, 6, 7], [4, 6, 7]])
+solving with more symmetry
+num variables = 44215
+num constraints = 29534
+time taken = 36.093 seconds
+Solution found!
+Objective value = 0.45833333333333326
+
+
+
+
+
+matroid #90 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [2, 3, 6], [3, 4, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [3, 6, 7]])
+solving with more symmetry
+num variables = 82579
+num constraints = 53794
+time taken = 149.129 seconds
+Solution found!
+Objective value = 0.45833333333333304
+
+
+
+
+
+matroid #91 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7]])
+solving with more symmetry
+num variables = 86609
+num constraints = 56359
+time taken = 303.261 seconds
+Solution found!
+Objective value = 0.49701196398957576
+
+
+
+
+
+matroid #92 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [2, 3, 6], [2, 5, 6], [3, 5, 6], [2, 3, 7], [2, 5, 7], [3, 5, 7]])
+solving with more symmetry
+num variables = 5768
+num constraints = 3876
+time taken = 0.24 seconds
+Solution found!
+Objective value = 0.4333333333333334
+
+
+
+
+
+matroid #93 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [2, 3, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [3, 6, 7]])
+solving with more symmetry
+num variables = 15387
+num constraints = 10011
+time taken = 2.287 seconds
+Solution found!
+Objective value = 0.43333333333333324
+
+
+
+
+
+matroid #94 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 237562
+num constraints = 164767
+time taken = 3716.169 seconds
+Solution found!
+Objective value = 0.5000000000000004
+
+
+
+
+
+matroid #95 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 151462
+num constraints = 105902
+time taken = 876.166 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #96 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 149811
+num constraints = 104109
+time taken = 853.028 seconds
+Solution found!
+Objective value = 0.5000000000000003
+
+
+
+
+
+matroid #97 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6]])
+solving with more symmetry
+num variables = 279013
+num constraints = 189453
+
+
+/Users/Tlatoani/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.11/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54134:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/Tlatoani/Projects/MatroidSecretary/build/classes/kotlin/main:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.23/dbaadea1f5e68f790d242a91a38355a83ec38747/kotlin-stdlib-1.9.23.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-java/9.10.4067/9da7ce8ed400c5f33bff71d92ee497e58a882ebf/ortools-java-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.8.0/ac1dc37a30a93150b704022f8d895ee1bd3a36b3/kotlinx-coroutines-core-jvm-1.8.0.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.14.0/28934d48aed814f11e4c584da55c49fa7032b31b/jna-platform-5.14.0.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/4.26.1/594fabdcbceb7edfb883fe621d3e97d9cc05fa73/protobuf-java-4.26.1.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.14.0/67bf3eaea4f0718cb376a181a629e5f88fa1c9dd/jna-5.14.0.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-linux-x86-64/9.10.4067/6f44422bd67d9edefbad62fb98d81b52ade5e9c8/ortools-linux-x86-64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-darwin-x86-64/9.10.4067/f9ac955d3f69b0c60dd4446f829495aba3838ff8/ortools-darwin-x86-64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-win32-x86-64/9.10.4067/57c27a57ef2261cc6c2fc67e78e96d013b0792f1/ortools-win32-x86-64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-linux-aarch64/9.10.4067/16e882ef608540f08bf140f9c03e421b6302495a/ortools-linux-aarch64-9.10.4067.jar:/Users/Tlatoani/.gradle/caches/modules-2/files-2.1/com.google.ortools/ortools-darwin-aarch64/9.10.4067/582bace1f3ebc32ece7cdbd936d2ecfcb0f211b3/ortools-darwin-aarch64-9.10.4067.jar org.example.MainParallelKt
+num matroids = 1724
+matroid #7 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1]])
+solving with more symmetry
+num variables = 1184
+num constraints = 1015
+time taken = 0.012 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #3 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4], [5]])
+solving with more symmetry
+num variables = 1854
+num constraints = 1370
+time taken = 0.028 seconds
+Solution found!
+Objective value = 0.4277777777777778
+
+
+
+
+
+matroid #8 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0]])
+solving with more symmetry
+num variables = 269
+num constraints = 240
+time taken = 0.022 seconds
+Solution found!
+Objective value = 1.0
+
+
+
+
+
+matroid #6 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2]])
+solving with more symmetry
+num variables = 2592
+num constraints = 2136
+time taken = 0.02 seconds
+Solution found!
+Objective value = 0.5000000000000002
+
+
+
+
+
+matroid #4 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4]])
+solving with more symmetry
+num variables = 3188
+num constraints = 2444
+time taken = 0.021 seconds
+Solution found!
+Objective value = 0.43333333333333335
+
+
+
+
+
+matroid #5 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3]])
+solving with more symmetry
+num variables = 3551
+num constraints = 2821
+time taken = 0.038 seconds
+Solution found!
+Objective value = 0.4583333333333335
+
+
+
+
+
+matroid #11 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6], [2, 7], [3, 7]])
+solving with more symmetry
+num variables = 2792
+num constraints = 1898
+time taken = 0.032 seconds
+Solution found!
+Objective value = 0.4277777777777779
+
+
+
+
+
+matroid #10 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [2, 7], [3, 7], [5, 7]])
+solving with more symmetry
+num variables = 5588
+num constraints = 3820
+time taken = 0.102 seconds
+Solution found!
+Objective value = 0.4333333333333335
+
+
+
+
+
+matroid #14 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6]])
+solving with more symmetry
+num variables = 13788
+num constraints = 9771
+time taken = 0.642 seconds
+Solution found!
+Objective value = 0.43333333333333335
+
+
+
+
+
+matroid #2 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4], [5], [6]])
+solving with more symmetry
+num variables = 649
+num constraints = 460
+time taken = 0.011 seconds
+Solution found!
+Objective value = 0.4142857142857144
+
+
+
+
+
+matroid #9 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [4, 7], [6, 7]])
+solving with more symmetry
+num variables = 3481
+num constraints = 2382
+time taken = 0.038 seconds
+Solution found!
+Objective value = 0.45833333333333354
+
+
+
+
+
+matroid #12 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7]])
+solving with more symmetry
+num variables = 712
+num constraints = 468
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.41428571428571426
+
+
+
+
+
+matroid #13 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6]])
+solving with more symmetry
+num variables = 23452
+num constraints = 16655
+time taken = 3.099 seconds
+Solution found!
+Objective value = 0.45833333333333354
+
+
+
+
+
+matroid #142 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [2, 4, 7], [2, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 23383
+num constraints = 15126
+time taken = 3.569 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #1723 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2, 3, 4, 5, 6, 7]])
+solving with more symmetry
+num variables = 73
+num constraints = 44
+time taken = 0.001 seconds
+Solution found!
+Objective value = 1.0000000000000007
+
+
+
+
+
+matroid #15 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6]])
+solving with more symmetry
+num variables = 3971
+num constraints = 2755
+time taken = 0.084 seconds
+Solution found!
+Objective value = 0.4277777777777777
+
+
+
+
+
+matroid #1 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0], [1], [2], [3], [4], [5], [6], [7]])
+solving with more symmetry
+num variables = 108
+num constraints = 72
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.40982142857142867
+HIT
+
+
+
+
+
+matroid #16 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5]])
+solving with more symmetry
+num variables = 20111
+num constraints = 14797
+time taken = 2.613 seconds
+Solution found!
+Objective value = 0.49999999999999983
+
+
+
+
+
+matroid #17 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5]])
+solving with more symmetry
+num variables = 29478
+num constraints = 21673
+time taken = 5.102 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #18 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5]])
+solving with more symmetry
+num variables = 10031
+num constraints = 7269
+time taken = 1.022 seconds
+Solution found!
+Objective value = 0.43333333333333324
+
+
+
+
+
+matroid #19 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 34331
+num constraints = 26146
+time taken = 16.303 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #157 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7]])
+solving with more symmetry
+num variables = 52774
+num constraints = 33800
+time taken = 53.433 seconds
+Solution found!
+Objective value = 0.49861111111111117
+
+
+
+
+
+matroid #20 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4]])
+solving with more symmetry
+num variables = 14578
+num constraints = 10988
+time taken = 1.376 seconds
+Solution found!
+Objective value = 0.4583333333333333
+
+
+
+
+
+matroid #21 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3]])
+solving with more symmetry
+num variables = 11216
+num constraints = 8848
+time taken = 0.608 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #22 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3]])
+solving with more symmetry
+num variables = 12973
+num constraints = 10156
+time taken = 0.974 seconds
+Solution found!
+Objective value = 0.4999999999999998
+
+
+
+
+
+matroid #158 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [2, 3, 6], [2, 5, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [2, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [2, 6, 7], [3, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 34680
+num constraints = 22306
+time taken = 8.904 seconds
+Solution found!
+Objective value = 0.45833333333333304
+
+
+
+
+
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2]])
+solving with more symmetry
+num variables = 6904
+num constraints = 5615
+time taken = 0.137 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1]])
+solving with more symmetry
+num variables = 904
+num constraints = 763
+time taken = 0.003 seconds
+Solution found!
+Objective value = 1.0
+
+
+
+
+
+matroid #147 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [2, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 79924
+num constraints = 53851
+time taken = 113.656 seconds
+Solution found!
+Objective value = 0.4999999999999991
+
+
+
+
+
+matroid #25 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 31196
+num constraints = 20379
+time taken = 14.068 seconds
+Solution found!
+Objective value = 0.45833333333333326
+
+
+
+
+
+matroid #149 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 103916
+num constraints = 72856
+time taken = 118.758 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #159 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [2, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 47668
+num constraints = 30656
+time taken = 31.088 seconds
+Solution found!
+Objective value = 0.45833333333333365
+
+
+
+
+
+matroid #26 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7]])
+solving with more symmetry
+num variables = 32174
+num constraints = 20994
+time taken = 26.44 seconds
+Solution found!
+Objective value = 0.496341765873016
+
+
+
+
+
+matroid #27 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 18560
+num constraints = 12135
+time taken = 3.616 seconds
+Solution found!
+Objective value = 0.43333333333333357
+
+
+
+
+
+matroid #28 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7]])
+solving with more symmetry
+num variables = 24088
+num constraints = 15726
+time taken = 6.672 seconds
+Solution found!
+Objective value = 0.4583333333333333
+
+
+
+
+
+matroid #29 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 2921
+num constraints = 1908
+time taken = 0.114 seconds
+Solution found!
+Objective value = 0.4277777777777778
+
+
+
+
+
+matroid #156 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 75041
+num constraints = 48372
+time taken = 223.192 seconds
+Solution found!
+Objective value = 0.4999999999999999
+
+
+
+
+
+matroid #150 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4]])
+solving with more symmetry
+num variables = 59090
+num constraints = 43188
+time taken = 295.565 seconds
+Solution found!
+Objective value = 0.7198979591836732
+
+
+
+
+
+matroid #30 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 52611
+num constraints = 35761
+time taken = 136.155 seconds
+Solution found!
+Objective value = 0.4997196691656523
+
+
+
+
+
+matroid #162 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 93681
+num constraints = 62782
+time taken = 196.082 seconds
+Solution found!
+Objective value = 0.4999999999999999
+
+
+
+
+
+matroid #31 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 77786
+num constraints = 52954
+time taken = 158.681 seconds
+Solution found!
+Objective value = 0.4583333333333329
+
+
+
+
+
+matroid #165 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 146420
+num constraints = 102301
+time taken = 177.36 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #163 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 116275
+num constraints = 77962
+time taken = 344.48 seconds
+Solution found!
+Objective value = 0.5000000000000007
+
+
+
+
+
+matroid #167 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4]])
+solving with more symmetry
+num variables = 38771
+num constraints = 28343
+time taken = 112.332 seconds
+Solution found!
+Objective value = 0.7301587301587295
+
+
+
+
+
+matroid #32 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6]])
+solving with more symmetry
+num variables = 81850
+num constraints = 55519
+time taken = 267.635 seconds
+Solution found!
+Objective value = 0.4970119639895763
+
+
+
+
+
+matroid #33 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 14398
+num constraints = 9843
+time taken = 1.395 seconds
+Solution found!
+Objective value = 0.43333333333333346
+
+
+
+
+
+matroid #168 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 54851
+num constraints = 35310
+time taken = 100.275 seconds
+Solution found!
+Objective value = 0.4999999999999997
+
+
+
+
+
+matroid #169 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 69938
+num constraints = 45016
+time taken = 156.293 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #170 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [2, 4, 6], [3, 4, 6], [2, 5, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [2, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 8417
+num constraints = 5401
+time taken = 0.485 seconds
+Solution found!
+Objective value = 0.45833333333333354
+
+
+
+
+
+matroid #171 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 87031
+num constraints = 58364
+time taken = 137.373 seconds
+Solution found!
+Objective value = 0.4999999999999997
+
+
+
+
+
+matroid #172 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [2, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 28330
+num constraints = 19000
+time taken = 7.716 seconds
+Solution found!
+Objective value = 0.5000000000000003
+
+
+
+
+
+matroid #173 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 35912
+num constraints = 25151
+time taken = 5.373 seconds
+Solution found!
+Objective value = 0.49999999999999956
+
+
+
+
+
+matroid #174 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 1, 3], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4]])
+solving with more symmetry
+num variables = 4120
+num constraints = 3014
+time taken = 0.41 seconds
+Solution found!
+Objective value = 0.7444444444444446
+
+
+
+
+
+matroid #166 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 206042
+num constraints = 144144
+time taken = 604.978 seconds
+Solution found!
+Objective value = 0.4999999999999996
+
+
+
+
+
+matroid #175 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [4, 5, 7], [2, 6, 7], [4, 6, 7]])
+solving with more symmetry
+num variables = 48163
+num constraints = 31781
+time taken = 55.713 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #177 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [4, 6, 7]])
+solving with more symmetry
+num variables = 6928
+num constraints = 4578
+time taken = 0.419 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #178 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [3, 6, 7]])
+solving with more symmetry
+num variables = 27684
+num constraints = 17788
+time taken = 13.563 seconds
+Solution found!
+Objective value = 0.5000000000000003
+
+
+
+
+
+matroid #179 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [0, 5, 6], [1, 5, 6]])
+solving with more symmetry
+num variables = 17109
+num constraints = 11716
+time taken = 1.592 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #164 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 161203
+num constraints = 108135
+time taken = 986.708 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #181 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [2, 4, 5]])
+solving with more symmetry
+num variables = 12532
+num constraints = 8758
+time taken = 2.782 seconds
+Solution found!
+Objective value = 0.6166666666666667
+
+
+
+
+
+matroid #180 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [2, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [2, 4, 6], [2, 5, 6]])
+solving with more symmetry
+num variables = 70489
+num constraints = 47312
+time taken = 116.28 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #176 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [3, 6, 7]])
+solving with more symmetry
+num variables = 81954
+num constraints = 52784
+time taken = 258.288 seconds
+Solution found!
+Objective value = 0.49999999999999994
+
+
+
+
+
+matroid #152 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 172016
+num constraints = 111004
+time taken = 1814.042 seconds
+Solution found!
+Objective value = 0.5000000000000003
+
+
+
+
+
+matroid #34 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 133461
+num constraints = 94411
+time taken = 1117.139 seconds
+Solution found!
+Objective value = 0.5000000000000006
+
+
+
+
+
+matroid #35 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5]])
+solving with more symmetry
+num variables = 35062
+num constraints = 24714
+time taken = 18.621 seconds
+Solution found!
+Objective value = 0.49861111111111117
+
+
+
+
+
+matroid #36 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+solving with more symmetry
+num variables = 30775
+num constraints = 21908
+time taken = 7.294 seconds
+Solution found!
+Objective value = 0.458333333333333
+
+
+
+
+
+matroid #37 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 57538
+num constraints = 42348
+time taken = 61.257 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #38 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+solving with more symmetry
+num variables = 35935
+num constraints = 26604
+time taken = 14.828 seconds
+Solution found!
+Objective value = 0.49999999999999994
+
+
+
+
+
+matroid #39 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3]])
+solving with more symmetry
+num variables = 23751
+num constraints = 18316
+time taken = 1.876 seconds
+Solution found!
+Objective value = 0.5000000000000004
+
+
+
+
+
+matroid #40 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1], [0, 2], [1, 2]])
+solving with more symmetry
+num variables = 2704
+num constraints = 2192
+time taken = 0.089 seconds
+Solution found!
+Objective value = 0.7499999999999998
+
+
+
+
+
+matroid #41 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 30819
+num constraints = 19947
+time taken = 28.007 seconds
+Solution found!
+Objective value = 0.49861200489024854
+
+
+
+
+
+matroid #42 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 45876
+num constraints = 29720
+time taken = 30.276 seconds
+Solution found!
+Objective value = 0.45833333333333337
+
+
+
+
+
+matroid #43 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 94417
+num constraints = 60973
+time taken = 575.572 seconds
+Solution found!
+Objective value = 0.49701196398957603
+
+
+
+
+
+matroid #44 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7]])
+solving with more symmetry
+num variables = 12244
+num constraints = 7892
+time taken = 1.86 seconds
+Solution found!
+Objective value = 0.49761904761904774
+
+
+
+
+
+matroid #45 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+solving with more symmetry
+num variables = 5974
+num constraints = 3878
+time taken = 0.328 seconds
+Solution found!
+Objective value = 0.43333333333333346
+
+
+
+
+
+matroid #183 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [3, 5, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 181392
+num constraints = 115850
+time taken = 1792.401 seconds
+Solution found!
+Objective value = 0.4999999999999991
+
+
+
+
+
+matroid #154 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 211231
+num constraints = 136085
+time taken = 3230.275 seconds
+Solution found!
+Objective value = 0.5000000000000003
+
+
+
+
+
+matroid #148 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 433327
+num constraints = 303303
+time taken = 3227.081 seconds
+Solution found!
+Objective value = 0.5000000000000004
+
+
+
+
+
+matroid #161 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 253326
+num constraints = 169441
+time taken = 3600.318 seconds
+Solution found!
+Objective value = 0.5000000000000012
+
+
+
+
+
+matroid #155 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 201840
+num constraints = 129580
+time taken = 3850.377 seconds
+Solution found!
+Objective value = 0.4999999999999995
+
+
+
+
+
+matroid #186 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 78690
+num constraints = 54384
+time taken = 743.85 seconds
+Solution found!
+Objective value = 0.6778809445898774
+
+
+
+
+
+matroid #153 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 214085
+num constraints = 137997
+time taken = 4117.844 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #184 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [2, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 229326
+num constraints = 146421
+time taken = 2706.349 seconds
+Solution found!
+Objective value = 0.5000000000000013
+
+
+
+
+
+matroid #190 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [4, 6, 7]])
+solving with more symmetry
+num variables = 114874
+num constraints = 73622
+time taken = 505.446 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #194 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [2, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [2, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [2, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 66563
+num constraints = 42772
+time taken = 137.55 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #46 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6]])
+solving with more symmetry
+num variables = 155874
+num constraints = 105087
+time taken = 2104.949 seconds
+Solution found!
+Objective value = 0.5000000000000001
+
+
+
+
+
+matroid #192 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 146710
+num constraints = 94136
+time taken = 875.283 seconds
+Solution found!
+Objective value = 0.4999999999999987
+
+
+
+
+
+matroid #145 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 269436
+num constraints = 180718
+time taken = 5048.091 seconds
+Solution found!
+Objective value = 0.5000000000000004
+
+
+
+
+
+matroid #197 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [2, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 172020
+num constraints = 114990
+time taken = 1508.878 seconds
+Solution found!
+Objective value = 0.4999999999999999
+
+
+
+
+
+matroid #193 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [3, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 206595
+num constraints = 132389
+time taken = 2982.016 seconds
+Solution found!
+Objective value = 0.49999999999999956
+
+
+
+
+
+matroid #198 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [3, 4, 5]])
+solving with more symmetry
+num variables = 147006
+num constraints = 102301
+time taken = 2099.149 seconds
+Solution found!
+Objective value = 0.6250000000000006
+
+
+
+
+
+matroid #188 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 217437
+num constraints = 139640
+time taken = 4561.947 seconds
+Solution found!
+Objective value = 0.5
+
+
+
+
+
+matroid #146 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 341306
+num constraints = 229559
+time taken = 8013.677 seconds
+Solution found!
+Objective value = 0.4999999999999999
+
+
+
+
+
+matroid #195 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6]])
+solving with more symmetry
+num variables = 365969
+num constraints = 244382
+time taken = 3780.233 seconds
+Solution found!
+Objective value = 0.5000000000000003
+
+
+
+
+
+matroid #189 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [3, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 309574
+num constraints = 198671
+time taken = 7919.356 seconds
+Solution found!
+Objective value = 0.4999999999999996
+
+
+
+
+
+matroid #191 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+solving with more symmetry
+num variables = 317935
+num constraints = 203389
+time taken = 8970.589 seconds
+Solution found!
+Objective value = 0.5000000000000002
+
+
+
+
+
+

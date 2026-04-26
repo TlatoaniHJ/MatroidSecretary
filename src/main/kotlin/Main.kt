@@ -12,6 +12,9 @@ fun main() {
     println("Hello World!")
     println(listOf(1, 2, 3, 4) - 3)
 
+    val matroid = MatroidByBases((1..4).toSet(), listOf(setOf(1, 2), setOf(3, 2), setOf(1, 4), setOf(3, 4)))
+    assessMatroid(matroid)
+
     /*for (k in 1..7) {
         println("uniform matroid of rank $k")
         val matroid = uniformMatroid((1..7).toSet(), k)
@@ -27,10 +30,10 @@ fun main() {
 
     //val matroid = uniformMatroid((1..5).toSet(), 2)
 
-    val matroids = mutableListOf<Matroid<Int>>()
+    /*val matroids = mutableListOf<Matroid<Int>>()
     val counterexamples = mutableListOf<Matroid<Int>>()
 
-    val n = 6
+    val n = 5
     val elements = (1..n).toSet()
     for (k in 1..n) {
         val subsetsOfSize = subsets(elements).filter { it.size == k }
@@ -48,14 +51,13 @@ fun main() {
                 repeat(2) { println() }
                 println("solving with more symmetry")
                 val z = solveMatroid(matroid, 2)
+                repeat(2) { println() }
+                println("solving with even more symmetry")
+                val w = solveMatroid(matroid, 3)
 
-                if (maxOf(x, y, z) - minOf(x, y, z) > 0.0001) {
+                if (listOf(w, x, y, z).max() - listOf(w, x, y, z).min() > 0.0001) {
                     println("competitive ratios different")
                     counterexamples.add(matroid)
-                    //return
-                }
-                if (abs(x - y) > 0.0001) {
-                    println("competitive ratios different for first two")
                     return
                 }
                 repeat(5) { println() }
@@ -67,7 +69,7 @@ fun main() {
     println("num counterexamples = ${counterexamples.size}")
     for (matroid in counterexamples) {
         println(matroid)
-    }
+    }*/
 }
 
 fun <E> assessMatroid(matroid: Matroid<E>) {
@@ -84,10 +86,22 @@ fun <E> assessMatroid(matroid: Matroid<E>) {
     buildMatroidSecretaryLP(matroid, dummy)
     println("new num variables = ${dummy.numVariables}")
     println("new num constraints = ${dummy.numConstraints}")
+    println()
+
+    dummy = DummyLPBuilder()
+    buildMatroidSecretaryLP3(matroid, dummy)
+    println("new 3 num variables = ${dummy.numVariables}")
+    println("new 3 num constraints = ${dummy.numConstraints}")
 
     println()
     println("-".repeat(32))
     println()
+}
+
+fun <E> assessMatroidQuietly(matroid: Matroid<E>): Pair<Int, Int> {
+    val dummy = DummyLPBuilder()
+    buildMatroidSecretaryLP(matroid, dummy)
+    return Pair(dummy.numVariables, dummy.numConstraints)
 }
 
 fun <E> solveMatroid(matroid: Matroid<E>, mode: Int): Double {
@@ -97,6 +111,7 @@ fun <E> solveMatroid(matroid: Matroid<E>, mode: Int): Double {
         0 -> buildMatroidSecretaryLPNoSymmetry(matroid, builder)
         1 -> buildMatroidSecretaryLPOld(matroid, builder)
         2 -> buildMatroidSecretaryLP(matroid, builder)
+        3 -> buildMatroidSecretaryLP3(matroid, builder)
         else -> throw IllegalArgumentException("mode = $mode, should be 0, 1, 2")
     }
 

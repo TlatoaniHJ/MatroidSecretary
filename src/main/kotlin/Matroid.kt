@@ -6,7 +6,9 @@ interface Matroid<E> {
 
     operator fun contains(set: Set<E>): Boolean
 
-    fun basis(set: Set<E>): Set<E> {
+    fun size() = elements().size
+
+    fun basis(set: Set<E> = elements()): Set<E> {
         val result = mutableSetOf<E>()
         for (x in set) {
             if (result + x in this) {
@@ -16,13 +18,29 @@ interface Matroid<E> {
         return result
     }
 
-    fun rank(set: Set<E>) = basis(set).size
+    fun rank(set: Set<E> = elements()) = basis(set).size
 
     fun spans(set: Set<E>, x: E) = x in set || basis(set) + x !in this
 
     fun span(set: Set<E>) = elements().filter { spans(set, it) }.toSet()
 
     fun minor(contract: Set<E>, newElements: Set<E>): Matroid<E> = MatroidMinor(newElements, basis(contract), this)
+
+    fun restrict(newElements: Set<E>) = minor(setOf(), newElements)
+
+    fun isDecomposable(): Boolean {
+        for (subset in subsets(elements())) {
+            if (subset.isNotEmpty() && subset.size < elements().size) {
+                val matroid1 = restrict(subset)
+                val matroid2 = restrict(elements() - subset)
+                val sum = MatroidSum(matroid1, matroid2)
+                if (same(sum)) {
+                    return true
+                }
+            }
+        }
+        return false
+    }
 
     fun same(other: Matroid<E>): Boolean {
         assert(elements() == other.elements())
@@ -32,6 +50,16 @@ interface Matroid<E> {
             }
         }
         return true
+    }
+
+    fun bases(): Set<Set<E>> {
+        val rank = rank(elements())
+        return subsets(elements()).filter { it in this && it.size == rank }.toSet()
+    }
+
+    fun automorphisms(): List<Map<E, E>> {
+        val bases = bases()
+        return bijections(elements()).filter { bijection -> bases.map { it.map(bijection::getValue).toSet() }.toSet() == bases }
     }
 }
 
@@ -45,6 +73,12 @@ class MatroidMinor<E>(val elements: Set<E>, val contract: Set<E>, val parent: Ma
     override fun elements() = elements
 
     override fun contains(set: Set<E>) = contract + set in parent
+}
+
+class MatroidSum<E>(val matroid1: Matroid<E>, val matroid2: Matroid<E>): Matroid<E> {
+    override fun elements() = matroid1.elements() + matroid2.elements()
+
+    override fun contains(set: Set<E>) = set.intersect(matroid1.elements()) in matroid1 && set.intersect(matroid2.elements()) in matroid2
 }
 
 fun <E> isMatroid(matroid: Matroid<E>): Boolean {
@@ -90,4 +124,24 @@ fun <E, F> isomorphic(matroid1: Matroid<E>, matroid2: Matroid<F>): Boolean {
         }
     }
     return false
+}
+
+class CachedMatroid<E>(val matroid: Matroid<E>): Matroid<E> {
+    val spans = mutableSetOf<Pair<Set<E>, E>>()
+
+    init {
+        for (subset in subsets(elements())) {
+            for (element in elements()) {
+                if (matroid.spans(subset, element)) {
+                    spans.add(Pair(subset, element))
+                }
+            }
+        }
+    }
+
+    override fun elements() = matroid.elements()
+
+    override fun contains(set: Set<E>) = set in matroid
+
+    override fun spans(set: Set<E>, x: E) = Pair(set, x) in spans
 }

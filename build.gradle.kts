@@ -12,6 +12,8 @@ repositories {
 dependencies {
     implementation("com.google.ortools:ortools-java:9.10.4067") // Check Maven Central for the latest version
     testImplementation(kotlin("test"))
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
 }
 
 tasks.test {

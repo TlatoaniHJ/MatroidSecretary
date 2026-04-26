@@ -5,15 +5,21 @@ import com.google.ortools.linearsolver.MPSolver
 import com.google.ortools.linearsolver.MPVariable
 
 class OrToolsLinearProgramBuilder : LinearProgramBuilder<MPVariable> {
-
-    init {
-        // Essential: Loads the C++ native binaries bundled in the OR-Tools jar
-        Loader.loadNativeLibraries()
+    // 1. This runs exactly once, globally, before anything else in this class.
+    companion object {
+        init {
+            Loader.loadNativeLibraries()
+        }
     }
 
-    // Initialize the GLOP solver for pure continuous linear programming
+    // 2. Now it is perfectly safe to call the native C++ solver creation.
     val solver: MPSolver = MPSolver.createSolver("GLOP")
         ?: throw IllegalStateException("GLOP solver could not be created.")
+
+    init {
+        // 3. Configure instance-specific settings here.
+        solver.setNumThreads(1)
+    }
 
     override fun newVariableRaw(type: VariableType): MPVariable {
         return when (type) {
