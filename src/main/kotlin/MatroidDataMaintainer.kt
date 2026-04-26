@@ -64,8 +64,9 @@ fun addData(file: File, valueIdentifier: String) {
 
 fun main() {
     //addData(File("matroids_8_competitive_ratios.txt"), "Objective value = ")
-    //displayCurrentResults()
-    addData(File("matroids_8_greedy_filter.txt"), "greedy competitive ratio = ")
+    displayCurrentResults()
+    //addData(File("matroids_8_greedy_filter.txt"), "greedy competitive ratio = ")
+    //writeDataStructured(File("matroids_8_greedy_filter_3.txt"), extractDataRaw(File("matroids_8_optimized_3_greedy_filter_raw.txt").readText(), "greedy competitive ratio = "))
 }
 
 fun displayCurrentResults() {
@@ -73,12 +74,17 @@ fun displayCurrentResults() {
     val n = 8
     val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n)
     val currentData = extractDataStructured(File("matroids_8_competitive_ratios.txt"))
-    val currentGreedyData = extractDataStructured(File("matroids_8_greedy_filter.txt"))
+    val currentGreedyData = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
     for ((index, ratio) in currentData.entries.filter { it.value != null }.sortedBy { it.value }) {
         val matroid = matroids[index]
         val numAutomorphisms = matroid.automorphisms().size
         val rank = matroid.rank()
-        println("matroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 5)}") //\t\tbases = ${matroid.bases()}")
+        val greedyRatio = currentGreedyData[index]!!
+        println("matroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\tgreedy competitive ratio = ${ratioFormat.format(greedyRatio)}\t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 5)}") //\t\tbases = ${matroid.bases()}")
+        if (greedyRatio > ratio!!) {
+            println("CONTRADICTION")
+            return
+        }
     }
     println()
     for (rank in 0..n) {

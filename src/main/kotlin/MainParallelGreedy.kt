@@ -8,20 +8,22 @@ import kotlinx.coroutines.sync.Semaphore
 import kotlinx.coroutines.sync.withPermit
 
 fun main() = runBlocking(Dispatchers.Default) {
-    val n = 8
-    val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n)
+    val n = 9
+    val k = 2
+    val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n, targetRank = k)
     println("num matroids = ${matroids.size}")
 
-    //val prevProgress = extractDataStructured(File("matroids_8_greedy_filter.txt"))
+    //val prevProgress = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
     //val prevTrueProgress = extractDataStructured(File("matroids_8_competitive_ratios.txt"))
 
+    val file = File("matroids_9_greedy_filter_raw.txt")
     val nondecomposable = mutableListOf<Int>()
     for ((index, matroid) in matroids.withIndex()) {
-        /*if (index in prevProgress || index in prevTrueProgress) {
+        /*if (index in prevTrueProgress || prevProgress[index]!! > .4099) {
             println("matroid #$index already handled")
-        }*/
-        if (matroid.isDecomposable()) {
+        } else */if (matroid.isDecomposable()) {
             println("matroid #$index is decomposable")
+            file.appendText("matroid #$index is decomposable\n")
         } else {
             nondecomposable.add(index)
         }
@@ -58,13 +60,13 @@ fun main() = runBlocking(Dispatchers.Default) {
     }
     val concurrentSolves = Semaphore(12)
 
-    val file = File("matroids_8_optimized_greedy_filter_raw.txt")
-
     val hits = nondecomposable.map { index ->
         async {
             concurrentSolves.withPermit {
                 val matroid = matroids[index]
-                val (variables, constraints) = assessMatroidQuietly(matroid)
+                //val (variables, constraints) = assessMatroidQuietly(matroid)
+                val variables = 0
+                val constraints = 0
                 val numAutomorphisms = matroid.automorphisms().size
 
                 // 2. Create a local string builder for this specific execution
@@ -79,7 +81,7 @@ fun main() = runBlocking(Dispatchers.Default) {
                     printCurrWorking(add = index)
                 }
 
-                val greedyCompetitiveRatio: Double = evaluateMatroidOnGreedyOptimized(matroid, listOf(3, 2, 4), log::appendLine)
+                val greedyCompetitiveRatio: Double = evaluateMatroidOnGreedyOptimized(matroid, listOf(3, 2, 4, 1, 5), log::appendLine)
                 log.appendLine("overall greedy competitive ratio = $greedyCompetitiveRatio")
 
                 var hitResult: HitResult? = null

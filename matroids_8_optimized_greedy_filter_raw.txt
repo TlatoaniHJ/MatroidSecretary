@@ -1179,3 +1179,687 @@ overall greedy competitive ratio = 0.5046130952380952
 
 
 
+matroid #375 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5], [0, 1, 6], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [1, 4, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 1, 7], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [2, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 4
+built bitmask matroid [0.037 seconds]
+reduced to 10080 canonical orders [11.464 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.5046130952380952 [1.012 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.47142857142857136 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.47906746031746034 [1.818 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4784391534391534 [0.001 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.4583333333333332 [0.753 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.4194444444444443 [0.0 seconds]
+overall greedy competitive ratio = 0.5046130952380952
+
+
+
+
+
+matroid #64 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7]])
+num automorphisms = 1440
+built bitmask matroid [0.054 seconds]
+reduced to 28 canonical orders [13.854 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.40654761904761905 [0.002 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4316964285714286 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.38730158730158737 [0.003 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.43234126984126986 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.37916666666666665 [0.002 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.39017857142857143 [0.0 seconds]
+overall greedy competitive ratio = 0.43234126984126986
+
+
+
+
+
+matroid #109 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7]])
+num automorphisms = 384
+built bitmask matroid [0.02 seconds]
+reduced to 105 canonical orders [10.757 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.43497023809523805 [0.009 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4417162698412698 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.448015873015873 [0.012 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.45674603174603173 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3904761904761905 [0.006 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3928571428571428 [0.0 seconds]
+overall greedy competitive ratio = 0.45674603174603173
+
+
+
+
+
+matroid #112 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [2, 3, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [2, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [2, 6, 7], [3, 6, 7]])
+num automorphisms = 720
+built bitmask matroid [0.015 seconds]
+reduced to 56 canonical orders [10.231 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.40029761904761907 [0.004 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4044642857142857 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.37876984126984126 [0.005 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.3890873015873016 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3773809523809524 [0.004 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.37857142857142856 [0.0 seconds]
+overall greedy competitive ratio = 0.4044642857142857
+HIT
+
+
+
+
+
+matroid #108 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [2, 3, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 48
+built bitmask matroid [0.023 seconds]
+reduced to 840 canonical orders [9.219 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4055059523809524 [0.068 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4119047619047619 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.39375000000000004 [0.12 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.41309523809523807 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3785714285714285 [0.046 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3797619047619047 [0.0 seconds]
+overall greedy competitive ratio = 0.41309523809523807
+
+
+
+
+
+matroid #377 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5], [0, 1, 6], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 1, 7], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [2, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 4
+built bitmask matroid [0.076 seconds]
+reduced to 10080 canonical orders [10.982 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.5046130952380952 [1.035 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.47142857142857136 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.47733134920634934 [1.432 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4782738095238095 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.4583333333333332 [0.663 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.41944444444444434 [0.0 seconds]
+overall greedy competitive ratio = 0.5046130952380952
+
+
+
+
+
+matroid #111 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [2, 3, 6], [3, 4, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7]])
+num automorphisms = 96
+built bitmask matroid [0.018 seconds]
+reduced to 420 canonical orders [8.733 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4 [0.031 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.40535714285714286 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.37876984126984126 [0.04 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.3935515873015873 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3773809523809524 [0.064 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3785714285714285 [0.0 seconds]
+overall greedy competitive ratio = 0.40535714285714286
+HIT
+
+
+
+
+
+matroid #110 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [3, 6, 7], [5, 6, 7]])
+num automorphisms = 144
+built bitmask matroid [0.021 seconds]
+reduced to 280 canonical orders [9.351 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4059523809523809 [0.069 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.41145833333333326 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3952380952380953 [0.029 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4145833333333333 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.37857142857142856 [0.015 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.37708333333333327 [0.0 seconds]
+overall greedy competitive ratio = 0.4145833333333333
+
+
+
+
+
+matroid #378 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5], [0, 1, 6], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 1, 7], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [2, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 4
+built bitmask matroid [0.034 seconds]
+reduced to 10080 canonical orders [11.268 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.5028273809523809 [1.071 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.47142857142857136 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4698412698412699 [1.516 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.47721560846560845 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.4583333333333332 [0.647 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.41944444444444434 [0.0 seconds]
+overall greedy competitive ratio = 0.5028273809523809
+
+
+
+
+
+matroid #362 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5], [0, 1, 6], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [1, 4, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 1, 7], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [2, 4, 7], [3, 4, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 2
+built bitmask matroid [0.034 seconds]
+reduced to 20160 canonical orders [11.344 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.5028273809523809 [2.116 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.47142857142857136 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.47227182539682544 [3.023 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.47840608465608464 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.4583333333333332 [1.311 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.41944444444444434 [0.0 seconds]
+overall greedy competitive ratio = 0.5028273809523809
+
+
+
+
+
+matroid #363 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5], [0, 1, 6], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [1, 4, 6], [2, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 1, 7], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [2, 4, 7], [3, 4, 7], [0, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 2
+built bitmask matroid [0.039 seconds]
+reduced to 20160 canonical orders [11.316 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.5043154761904761 [1.978 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.471329365079365 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4763888888888888 [2.85 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.47830687830687824 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.4583333333333332 [1.356 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.4194444444444443 [0.0 seconds]
+overall greedy competitive ratio = 0.5043154761904761
+
+
+
+
+
+matroid #134 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [4, 6, 7]])
+num automorphisms = 16
+built bitmask matroid [0.032 seconds]
+reduced to 2520 canonical orders [9.067 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4125 [0.205 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4264880952380953 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.41527777777777786 [0.32 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4409722222222222 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3797619047619047 [0.175 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.38541666666666663 [0.0 seconds]
+overall greedy competitive ratio = 0.4409722222222222
+
+
+
+
+
+matroid #138 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.022 seconds]
+reduced to 1680 canonical orders [8.518 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3715773809523809 [0.17 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.384672619047619 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3534722222222222 [0.186 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.38928571428571423 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3595238095238095 [0.093 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3619047619047619 [0.0 seconds]
+overall greedy competitive ratio = 0.38928571428571423
+HIT
+
+
+
+
+
+matroid #139 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.026 seconds]
+reduced to 1680 canonical orders [8.484 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3872023809523809 [0.167 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.40178571428571425 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3720734126984127 [0.174 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4050595238095238 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3684523809523809 [0.127 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3720238095238095 [0.0 seconds]
+overall greedy competitive ratio = 0.4050595238095238
+HIT
+
+
+
+
+
+matroid #140 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7]])
+num automorphisms = 32
+built bitmask matroid [0.03 seconds]
+reduced to 1260 canonical orders [8.492 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3959821428571427 [0.099 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.42113095238095233 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.38988095238095233 [0.136 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.42762896825396823 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.37083333333333324 [0.104 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.38154761904761897 [0.001 seconds]
+overall greedy competitive ratio = 0.42762896825396823
+
+
+
+
+
+matroid #141 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [2, 3, 6], [2, 5, 6], [3, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [3, 6, 7], [5, 6, 7]])
+num automorphisms = 48
+built bitmask matroid [0.02 seconds]
+reduced to 840 canonical orders [8.76 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3837797619047619 [0.067 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.3907738095238095 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3617559523809524 [0.082 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.38273809523809527 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3678571428571428 [0.084 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.369047619047619 [0.001 seconds]
+overall greedy competitive ratio = 0.3907738095238095
+HIT
+
+
+
+
+
+matroid #142 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [2, 4, 7], [2, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 192
+built bitmask matroid [0.019 seconds]
+reduced to 210 canonical orders [8.686 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3708333333333333 [0.016 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.3735119047619047 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.34880952380952385 [0.02 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.36755952380952384 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3595238095238095 [0.011 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3595238095238095 [0.0 seconds]
+overall greedy competitive ratio = 0.3735119047619047
+HIT
+
+
+
+
+
+matroid #137 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 3, 7], [1, 3, 7], [2, 3, 7], [3, 4, 7], [3, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.023 seconds]
+reduced to 1680 canonical orders [8.706 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.38482142857142854 [0.137 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.39851190476190473 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3683531746031746 [0.188 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4021825396825397 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3678571428571428 [0.142 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3708333333333333 [0.0 seconds]
+overall greedy competitive ratio = 0.4021825396825397
+HIT
+
+
+
+
+
+matroid #136 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 12
+built bitmask matroid [0.025 seconds]
+reduced to 3360 canonical orders [8.901 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3883928571428571 [0.317 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.40431547619047614 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3737599206349206 [0.362 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.406547619047619 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.369047619047619 [0.244 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.37261904761904757 [0.0 seconds]
+overall greedy competitive ratio = 0.406547619047619
+HIT
+
+
+
+
+
+matroid #135 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 16
+built bitmask matroid [0.026 seconds]
+reduced to 2520 canonical orders [8.961 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.39211309523809523 [0.25 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4230654761904762 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.38571428571428573 [0.328 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4372519841269841 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3696428571428571 [0.137 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3821428571428571 [0.0 seconds]
+overall greedy competitive ratio = 0.4372519841269841
+
+
+
+
+
+matroid #152 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 32
+built bitmask matroid [0.031 seconds]
+reduced to 1260 canonical orders [9.699 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.41369047619047616 [0.107 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.43824404761904756 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4133928571428571 [0.197 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4522486772486773 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.38035714285714284 [0.074 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.39107142857142857 [0.0 seconds]
+overall greedy competitive ratio = 0.4522486772486773
+
+
+
+
+
+matroid #156 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 72
+built bitmask matroid [0.033 seconds]
+reduced to 560 canonical orders [9.288 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3998511904761905 [0.045 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.41101190476190474 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3843253968253968 [0.06 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.41121031746031744 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.031 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3791666666666666 [0.0 seconds]
+overall greedy competitive ratio = 0.41121031746031744
+
+
+
+
+
+matroid #157 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7]])
+num automorphisms = 96
+built bitmask matroid [0.025 seconds]
+reduced to 420 canonical orders [9.041 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4089285714285714 [0.034 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.42202380952380947 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4037698412698413 [0.049 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4306547619047619 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3791666666666666 [0.024 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3845238095238095 [0.0 seconds]
+overall greedy competitive ratio = 0.4306547619047619
+
+
+
+
+
+matroid #158 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 4, 5], [3, 4, 5], [2, 3, 6], [2, 5, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [2, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [2, 6, 7], [3, 6, 7], [5, 6, 7]])
+num automorphisms = 144
+built bitmask matroid [0.024 seconds]
+reduced to 280 canonical orders [9.483 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3944940476190476 [0.022 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.403125 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3703373015873016 [0.028 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.3898809523809524 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.015 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3773809523809523 [0.0 seconds]
+overall greedy competitive ratio = 0.403125
+HIT
+
+
+
+
+
+matroid #155 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.024 seconds]
+reduced to 1680 canonical orders [8.619 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.38437499999999997 [0.193 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.3988095238095238 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3652777777777778 [0.235 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.40267857142857144 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3678571428571428 [0.103 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3708333333333333 [0.0 seconds]
+overall greedy competitive ratio = 0.40267857142857144
+HIT
+
+
+
+
+
+matroid #153 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [0, 4, 6], [1, 4, 6], [2, 5, 6], [3, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.026 seconds]
+reduced to 1680 canonical orders [8.921 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3991071428571428 [0.188 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4104166666666666 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.38263888888888886 [0.234 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.41130952380952385 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.11 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3791666666666666 [0.0 seconds]
+overall greedy competitive ratio = 0.41130952380952385
+
+
+
+
+
+matroid #159 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [2, 3, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [3, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [2, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 96
+built bitmask matroid [0.024 seconds]
+reduced to 420 canonical orders [9.197 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3831845238095238 [0.07 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.3904761904761905 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3589781746031746 [0.046 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.3827380952380952 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3678571428571428 [0.023 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.369047619047619 [0.0 seconds]
+overall greedy competitive ratio = 0.3904761904761905
+HIT
+
+
+
+
+
+matroid #154 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [2, 3, 5], [3, 4, 5], [0, 2, 6], [1, 2, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [2, 5, 7], [3, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.026 seconds]
+reduced to 1680 canonical orders [9.06 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.3877976190476191 [0.191 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.40431547619047614 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.369890873015873 [0.209 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4063492063492063 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.369047619047619 [0.104 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3726190476190476 [0.0 seconds]
+overall greedy competitive ratio = 0.4063492063492063
+HIT
+
+
+
+
+
+matroid #151 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 3, 6], [1, 3, 6], [2, 3, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 16
+built bitmask matroid [0.031 seconds]
+reduced to 2520 canonical orders [9.084 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.40922619047619047 [0.205 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4269345238095238 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.40555555555555556 [0.325 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4417162698412699 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.37916666666666665 [0.141 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.38541666666666663 [0.0 seconds]
+overall greedy competitive ratio = 0.4417162698412699
+
+
+
+
+
+matroid #523 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [2, 3, 4, 5], [0, 2, 3, 6], [1, 2, 3, 6], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [2, 3, 5, 6], [2, 4, 5, 6], [3, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 2, 4, 7], [1, 2, 4, 7], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [2, 3, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [0, 4, 6, 7], [1, 4, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 144
+built bitmask matroid [0.023 seconds]
+reduced to 280 canonical orders [9.561 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4098214285714286 [0.027 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.41488095238095235 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3977182539682539 [0.03 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4172619047619047 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3809523809523808 [0.017 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3809523809523808 [0.0 seconds]
+overall greedy competitive ratio = 0.4172619047619047
+
+
+
+
+
+matroid #168 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 4, 5], [1, 4, 5], [0, 2, 6], [1, 2, 6], [0, 3, 6], [1, 3, 6], [2, 3, 6], [0, 4, 6], [1, 4, 6], [3, 4, 6], [0, 5, 6], [1, 5, 6], [2, 5, 6], [4, 5, 6], [0, 2, 7], [1, 2, 7], [0, 3, 7], [1, 3, 7], [2, 3, 7], [0, 4, 7], [1, 4, 7], [3, 4, 7], [0, 5, 7], [1, 5, 7], [2, 5, 7], [4, 5, 7], [0, 6, 7], [1, 6, 7], [2, 6, 7], [3, 6, 7], [4, 6, 7], [5, 6, 7]])
+num automorphisms = 96
+built bitmask matroid [0.029 seconds]
+reduced to 420 canonical orders [9.259 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.42410714285714285 [0.035 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4417162698412698 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4218253968253968 [0.048 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4515873015873016 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.388095238095238 [0.023 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3928571428571428 [0.0 seconds]
+overall greedy competitive ratio = 0.4515873015873016
+
+
+
+
+
+matroid #528 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 3, 4, 5], [1, 3, 4, 5], [0, 2, 3, 6], [1, 2, 3, 6], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [2, 3, 4, 6], [0, 3, 5, 6], [1, 3, 5, 6], [0, 4, 5, 6], [1, 4, 5, 6], [3, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 2, 4, 7], [1, 2, 4, 7], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [0, 3, 5, 7], [1, 3, 5, 7], [0, 4, 5, 7], [1, 4, 5, 7], [3, 4, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [0, 4, 6, 7], [1, 4, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [0, 5, 6, 7], [1, 5, 6, 7], [3, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 192
+built bitmask matroid [0.021 seconds]
+reduced to 210 canonical orders [10.082 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4383928571428571 [0.02 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.44642857142857134 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4461309523809523 [0.024 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.47797619047619044 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.39285714285714274 [0.013 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.39285714285714274 [0.0 seconds]
+overall greedy competitive ratio = 0.47797619047619044
+
+
+
+
+
+matroid #524 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [2, 3, 4, 5], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [2, 3, 4, 6], [2, 4, 5, 6], [3, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 2, 4, 7], [1, 2, 4, 7], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [2, 3, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [0, 4, 6, 7], [1, 4, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 72
+built bitmask matroid [0.028 seconds]
+reduced to 560 canonical orders [9.5 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.40297619047619043 [0.052 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4125 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.3880952380952381 [0.061 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.41517857142857134 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.37857142857142845 [0.033 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.37976190476190463 [0.0 seconds]
+overall greedy competitive ratio = 0.41517857142857134
+
+
+
+
+
+matroid #529 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [2, 3, 4, 5], [0, 2, 3, 6], [1, 2, 3, 6], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [2, 3, 4, 6], [2, 3, 5, 6], [2, 4, 5, 6], [3, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 2, 4, 7], [1, 2, 4, 7], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [2, 3, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [0, 4, 6, 7], [1, 4, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 720
+built bitmask matroid [0.023 seconds]
+reduced to 56 canonical orders [12.043 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.40863095238095243 [0.005 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.41488095238095235 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.394047619047619 [0.006 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4172619047619047 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3809523809523809 [0.004 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3809523809523809 [0.0 seconds]
+overall greedy competitive ratio = 0.4172619047619047
+
+
+
+
+
+matroid #555 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 3, 5], [1, 2, 3, 5], [2, 3, 4, 5], [0, 3, 4, 6], [1, 3, 4, 6], [2, 3, 4, 6], [0, 3, 5, 6], [1, 3, 5, 6], [2, 3, 5, 6], [3, 4, 5, 6], [0, 2, 4, 7], [1, 2, 4, 7], [2, 3, 4, 7], [0, 2, 5, 7], [1, 2, 5, 7], [2, 3, 5, 7], [2, 4, 5, 7], [0, 4, 6, 7], [1, 4, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [0, 5, 6, 7], [1, 5, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 96
+built bitmask matroid [0.021 seconds]
+reduced to 420 canonical orders [9.204 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.38273809523809527 [0.039 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4145833333333333 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.38035714285714284 [0.125 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.43184523809523817 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.36190476190476184 [0.025 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3744047619047619 [0.0 seconds]
+overall greedy competitive ratio = 0.43184523809523817
+
+
+
+
+
+matroid #563 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 3, 5], [1, 2, 3, 5], [2, 3, 4, 5], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [2, 3, 4, 6], [0, 2, 5, 6], [1, 2, 5, 6], [0, 3, 5, 6], [1, 3, 5, 6], [2, 3, 5, 6], [2, 4, 5, 6], [3, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [2, 3, 4, 7], [2, 3, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7]])
+num automorphisms = 72
+built bitmask matroid [0.022 seconds]
+reduced to 560 canonical orders [8.789 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4007440476190476 [0.05 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4322916666666667 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.39156746031746026 [0.063 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.44523809523809527 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3767857142857142 [0.033 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3869047619047619 [0.001 seconds]
+overall greedy competitive ratio = 0.44523809523809527
+
+
+
+
+
+matroid #565 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [0, 4, 5, 6], [1, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 2, 4, 7], [1, 2, 4, 7], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [0, 2, 5, 7], [1, 2, 5, 7], [0, 3, 5, 7], [1, 3, 5, 7], [0, 4, 5, 7], [1, 4, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [0, 4, 6, 7], [1, 4, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [0, 5, 6, 7], [1, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 96
+built bitmask matroid [0.024 seconds]
+reduced to 420 canonical orders [9.608 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4413690476190476 [0.048 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4458333333333333 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4566468253968255 [0.059 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.47906746031746034 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.39285714285714274 [0.108 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.39285714285714274 [0.0 seconds]
+overall greedy competitive ratio = 0.47906746031746034
+
+
+
+
+
+matroid #549 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [0, 3, 4, 6], [1, 3, 4, 6], [2, 3, 4, 6], [0, 4, 5, 6], [1, 4, 5, 6], [2, 4, 5, 6], [3, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [0, 2, 5, 7], [1, 2, 5, 7], [0, 3, 5, 7], [1, 3, 5, 7], [0, 4, 5, 7], [1, 4, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [0, 5, 6, 7], [1, 5, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7]])
+num automorphisms = 16
+built bitmask matroid [0.022 seconds]
+reduced to 2520 canonical orders [9.674 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4142857142857142 [0.276 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.43660714285714275 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.42013888888888895 [0.372 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.45892857142857135 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3803571428571427 [0.152 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.39047619047619037 [0.0 seconds]
+overall greedy competitive ratio = 0.45892857142857135
+
+
+
+
+
+matroid #561 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [0, 4, 5, 6], [1, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 2, 4, 7], [1, 2, 4, 7], [2, 3, 4, 7], [0, 2, 5, 7], [1, 2, 5, 7], [0, 3, 5, 7], [1, 3, 5, 7], [0, 4, 5, 7], [1, 4, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [0, 4, 6, 7], [1, 4, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [0, 5, 6, 7], [1, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.034 seconds]
+reduced to 1680 canonical orders [9.832 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4348214285714285 [0.154 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4446428571428571 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4486111111111111 [0.19 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4740079365079365 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3904761904761903 [0.15 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.39285714285714274 [0.0 seconds]
+overall greedy competitive ratio = 0.4740079365079365
+
+
+
+
+
+matroid #562 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 3, 5], [1, 2, 3, 5], [2, 3, 4, 5], [0, 2, 3, 6], [1, 2, 3, 6], [0, 2, 4, 6], [1, 2, 4, 6], [0, 3, 4, 6], [1, 3, 4, 6], [0, 2, 5, 6], [1, 2, 5, 6], [0, 3, 5, 6], [1, 3, 5, 6], [2, 3, 5, 6], [2, 4, 5, 6], [3, 4, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [2, 3, 4, 7], [2, 3, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7]])
+num automorphisms = 24
+built bitmask matroid [0.02 seconds]
+reduced to 1680 canonical orders [9.105 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4078869047619047 [0.152 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.43459821428571427 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.40109126984126986 [0.191 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4483134920634921 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3791666666666666 [0.114 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3901785714285714 [0.0 seconds]
+overall greedy competitive ratio = 0.4483134920634921
+
+
+
+
+
+matroid #566 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 3, 5], [1, 2, 3, 5], [2, 3, 4, 5], [0, 2, 3, 6], [1, 2, 3, 6], [2, 3, 4, 6], [2, 3, 5, 6], [0, 2, 3, 7], [1, 2, 3, 7], [0, 2, 4, 7], [1, 2, 4, 7], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [0, 2, 5, 7], [1, 2, 5, 7], [0, 3, 5, 7], [1, 3, 5, 7], [2, 3, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 2, 6, 7], [1, 2, 6, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [2, 4, 6, 7], [3, 4, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7]])
+num automorphisms = 72
+built bitmask matroid [0.02 seconds]
+reduced to 560 canonical orders [9.057 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.40788690476190476 [0.053 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.43459821428571427 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.40109126984126986 [0.066 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.44910714285714287 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3791666666666667 [0.054 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3901785714285714 [0.0 seconds]
+overall greedy competitive ratio = 0.44910714285714287
+
+
+
+
+
+matroid #554 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [0, 2, 3, 6], [1, 2, 3, 6], [0, 3, 4, 6], [1, 3, 4, 6], [0, 2, 5, 6], [1, 2, 5, 6], [0, 3, 5, 6], [1, 3, 5, 6], [0, 4, 5, 6], [1, 4, 5, 6], [0, 3, 4, 7], [1, 3, 4, 7], [2, 3, 4, 7], [0, 4, 5, 7], [1, 4, 5, 7], [2, 4, 5, 7], [3, 4, 5, 7], [0, 3, 6, 7], [1, 3, 6, 7], [2, 3, 6, 7], [3, 4, 6, 7], [0, 5, 6, 7], [1, 5, 6, 7], [2, 5, 6, 7], [3, 5, 6, 7], [4, 5, 6, 7]])
+num automorphisms = 16
+built bitmask matroid [0.022 seconds]
+reduced to 2520 canonical orders [9.003 seconds]
+greedy algorithm 1 with threshold 3 -> competitive ratio = 0.4098214285714285 [0.257 seconds]
+greedy algorithm 2 with threshold 3 -> competitive ratio = 0.4330357142857142 [0.0 seconds]
+greedy algorithm 1 with threshold 2 -> competitive ratio = 0.4158730158730158 [0.287 seconds]
+greedy algorithm 2 with threshold 2 -> competitive ratio = 0.4575396825396824 [0.0 seconds]
+greedy algorithm 1 with threshold 4 -> competitive ratio = 0.3785714285714285 [0.187 seconds]
+greedy algorithm 2 with threshold 4 -> competitive ratio = 0.3892857142857143 [0.0 seconds]
+overall greedy competitive ratio = 0.4575396825396824
+
+
+
+
+

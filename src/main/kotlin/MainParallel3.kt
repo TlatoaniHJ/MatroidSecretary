@@ -12,14 +12,17 @@ fun main() = runBlocking(Dispatchers.Default) {
     val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n)
     println("num matroids = ${matroids.size}")
 
-    val prevProgress = "" // File("progress.txt").readText()
+    val prevProgress = extractDataStructured(File("matroids_8_competitive_ratios.txt"))//"" // File("progress.txt").readText()
+    val greedyData = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
 
     val withAutomorphisms = mutableListOf<Pair<Int, Int>>()
     for ((index, matroid) in matroids.withIndex()) {
-        if (matroid.isDecomposable()) {
+        /*if (matroid.isDecomposable()) {
             println("matroid #$index is decomposable")
-        } else if ("matroid #$index" in prevProgress) {
-            println("matroid #$index already handled")
+        } else*/ if (index in prevProgress) {
+            println("matroid #$index already computed")
+        } else if (greedyData[index]!! > .4099) {
+            println("matroid #$index filtered by greedy")
         } else {
             //val numAutomorphisms = bijections(matroid.elements()).count { isAutomorphism(matroid, it) }
             val numAutomorphisms = matroid.automorphisms().size
@@ -28,6 +31,7 @@ fun main() = runBlocking(Dispatchers.Default) {
         }
     }
     withAutomorphisms.sortByDescending { it.second }
+    withAutomorphisms.sortBy { matroids[it.first].rank() }
 
     // 1. Create a lock to synchronize console output
     val printMutex = Mutex()
@@ -56,6 +60,8 @@ fun main() = runBlocking(Dispatchers.Default) {
         println("-".repeat(20))
     }
     val concurrentSolves = Semaphore(12)
+
+    val file = File("matroids_8_competitive_ratios_raw.txt")
 
     val hits = withAutomorphisms.map { (index, numAutomorphisms) ->
         async {
@@ -93,6 +99,7 @@ fun main() = runBlocking(Dispatchers.Default) {
                     currWorking.remove(index)
                     print(log.toString()) // Use print, not println, since we appended lines
                 }
+                file.appendText(log.toString())
 
                 hitResult // Return the actual computation result to the list
             }

@@ -47,12 +47,7 @@ class BitmaskMatroid<E>(val original: Matroid<E>) {
  * Core DP function evaluating the exact competitive ratio of a greedy algorithm
  * on a specific canonical weight order.
  */
-fun evaluateDP(
-    bMatroid: BitmaskMatroid<*>,
-    weightOrderInds: IntArray,
-    threshold: Int,
-    isGreedy1: Boolean
-): Double {
+fun evaluateDP(bMatroid: BitmaskMatroid<*>, weightOrderInds: IntArray, threshold: Int, algorithmType: Int): Double {
     val n = bMatroid.n
     val better = IntArray(n)
     var currentBetterMask = 0
@@ -86,14 +81,46 @@ fun evaluateDP(
                         val heavierSeen = seenMask and better[e]
 
                         var takes = false
-                        if (k + 1 > threshold) { // k+1 is size of weightOrder up to current element
-                            if (isGreedy1) {
-                                val spannedByHeavier = (bMatroid.spans[heavierSeen] and (1 shl e)) != 0
-                                val spannedByTaken = (bMatroid.spans[takenMask] and (1 shl e)) != 0
-                                takes = !spannedByHeavier && !spannedByTaken
-                            } else {
-                                val spannedByUnion = (bMatroid.spans[heavierSeen or takenMask] and (1 shl e)) != 0
-                                takes = !spannedByUnion
+
+                        // 0: Standard Greedy1
+                        // 1: Standard Greedy2
+                        // 2: Rank-Based Threshold (Uses Greedy1 logic after threshold)
+                        // 3: Panic Greedy (Uses Greedy1 logic, but overrides if running out of time)
+
+                        val timeThresholdMet = (k + 1 > threshold)
+                        val rankThresholdMet = (bMatroid.rank[seenMask] >= threshold)
+
+                        // Determine if we are past the observation phase based on the algorithm type
+                        val pastThreshold = if (algorithmType == 2) rankThresholdMet else timeThresholdMet
+
+                        if (pastThreshold) {
+                            val spannedByTaken = (bMatroid.spans[takenMask] and (1 shl e)) != 0
+                            val spannedByHeavier = (bMatroid.spans[heavierSeen] and (1 shl e)) != 0
+
+                            when (algorithmType) {
+                                0 -> { // Greedy 1
+                                    takes = !spannedByHeavier && !spannedByTaken
+                                }
+                                1 -> { // Greedy 2
+                                    val spannedByUnion = (bMatroid.spans[heavierSeen or takenMask] and (1 shl e)) != 0
+                                    takes = !spannedByUnion
+                                }
+                                2 -> { // Rank-Based Threshold (Acts like Greedy1 once triggered)
+                                    takes = !spannedByHeavier && !spannedByTaken
+                                }
+                                3 -> { // Panic Greedy
+                                    val maxRank = bMatroid.rank[(1 shl n) - 1] // Rank of the entire matroid
+                                    val currentRank = bMatroid.rank[takenMask]
+                                    val elementsLeft = n - k // Total elements remaining (including 'e')
+
+                                    val panicMode = elementsLeft <= (maxRank - currentRank)
+
+                                    if (panicMode) {
+                                        takes = !spannedByTaken // Ignore heavier elements, just grab it if independent
+                                    } else {
+                                        takes = !spannedByHeavier && !spannedByTaken // Standard Greedy1
+                                    }
+                                }
                             }
                         }
 
@@ -169,6 +196,8 @@ fun <E> evaluateMatroidOnGreedyOptimized(
         indexAutomorphisms.add(mapping)
     }
 
+    log("computed index automorphisms [${timer.lapSeconds()} seconds]")
+
     // Reduce permutations to Canonical Weight Orders
     val seenOrders = mutableSetOf<List<Int>>()
     val canonicalOrders = mutableListOf<IntArray>()
@@ -188,21 +217,30 @@ fun <E> evaluateMatroidOnGreedyOptimized(
     var bestCompetitiveRatio = 0.0
 
     for (threshold in thresholds) {
-        var worstRatio1 = 1.0
-        var worstRatio2 = 1.0
+        // Track the worst-case (minimum) competitive ratio for each of the 4 algorithms
+        val worstRatios = DoubleArray(4) { 1.0 }
 
         for (order in canonicalOrders) {
-            val ratio1 = evaluateDP(bMatroid, order, threshold, true)
-            if (ratio1 < worstRatio1) worstRatio1 = ratio1
-
-            val ratio2 = evaluateDP(bMatroid, order, threshold, false)
-            if (ratio2 < worstRatio2) worstRatio2 = ratio2
+            for (algoType in 0..3) {
+                val ratio = evaluateDP(bMatroid, order, threshold, algoType)
+                if (ratio < worstRatios[algoType]) {
+                    worstRatios[algoType] = ratio
+                }
+            }
         }
 
-        log("greedy algorithm 1 with threshold $threshold -> competitive ratio = $worstRatio1 [${timer.lapSeconds()} seconds]")
-        log("greedy algorithm 2 with threshold $threshold -> competitive ratio = $worstRatio2 [${timer.lapSeconds()} seconds]")
+        val algorithmNames = arrayOf(
+            "Standard Greedy 1",
+            "Standard Greedy 2",
+            "Rank-Based Threshold",
+            "Panic Greedy"
+        )
 
-        bestCompetitiveRatio = maxOf(bestCompetitiveRatio, worstRatio1, worstRatio2)
+        for (algoType in 0..3) {
+            log("${algorithmNames[algoType]} with threshold $threshold -> competitive ratio = ${worstRatios[algoType]} [${timer.lapSeconds()} seconds]")
+        }
+
+        bestCompetitiveRatio = maxOf(bestCompetitiveRatio, worstRatios.maxOrNull() ?: 0.0)
     }
 
     return bestCompetitiveRatio
