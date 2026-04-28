@@ -13,19 +13,22 @@ fun main() = runBlocking(Dispatchers.Default) {
     val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n)
     println("num matroids = ${matroids.size}")
 
-    val nonDecomposable = mutableListOf<Int>()
+    val considered = mutableListOf<Int>()
     for ((index, matroid) in matroids.withIndex()) {
         if (matroid.isDecomposable()) {
             println("matroid #$index is decomposable")
+            if (matroid.rank() != 0) {
+                considered.add(index)
+            }
         } else {
-            nonDecomposable.add(index)
+            considered.add(index)
         }
     }
 
     // 1. Create a lock to synchronize console output
     val printMutex = Mutex()
     val currWorking = mutableMapOf<Int, InProgressMatroid>()
-    var remMatroids = nonDecomposable.size
+    var remMatroids = considered.size
     // ANSI escape codes
     val green = "\u001B[32m"
     val magenta = "\u001B[35m"
@@ -52,9 +55,7 @@ fun main() = runBlocking(Dispatchers.Default) {
     }
     val concurrentSolves = Semaphore(12)
 
-    val file = File("matroids_9_2_competitive_ratios_raw.txt")
-
-    val hits = nonDecomposable.map { index ->
+    val hits = considered.map { index ->
         async {
             concurrentSolves.withPermit {
                 val matroid = matroids[index]
@@ -86,7 +87,7 @@ fun main() = runBlocking(Dispatchers.Default) {
                 // The equivalent of repeat(5) { println() }
                 log.append("\n\n\n\n\n")
                 log.appendLine("competitive ratios = $x, $y, $z")
-                if (maxOf(x, y, z) - minOf(x, y, z) > .000001) {
+                if (maxOf(x, y, z) - minOf(x, y, z) > .0000001) {
                     log.appendLine("FAIL")
                     return@withPermit Pair(index, listOf(x, y, z))
                 }
@@ -98,7 +99,7 @@ fun main() = runBlocking(Dispatchers.Default) {
                     currWorking.remove(index)
                     print(log.toString()) // Use print, not println, since we appended lines
                 }
-                file.appendText(log.toString())
+                //file.appendText(log.toString())
 
                 null
             }

@@ -67,8 +67,9 @@ fun main() {
     //displayCurrentResults()
     //addData(File("matroids_8_greedy_filter.txt"), "greedy competitive ratio = ")
     //writeDataStructured(File("matroids_8_greedy_filter_3.txt"), extractDataRaw(File("matroids_8_optimized_3_greedy_filter_raw.txt").readText(), "greedy competitive ratio = "))
-    writeDataStructured(File("matroids_9_greedy_filter_3.txt"), extractDataRaw(File("matroids_9_3_greedy_filter_raw.txt").readText(), "greedy competitive ratio = "))
-    displayCurrentGreedyResults()
+    //writeDataStructured(File("matroids_9_greedy_filter_3.txt"), extractDataRaw(File("matroids_9_3_greedy_filter_raw.txt").readText(), "greedy competitive ratio = "))
+    //displayCurrentGreedyResults()
+    writeDataStructured(File("matroids_9_2_competitive_ratios.txt"), extractDataRaw(File("matroids_9_2_competitive_ratios_raw.txt").readText(), "Objective value = "))
     //rank2Information(9)
 }
 
