@@ -104,9 +104,9 @@ fun <E> solveMatroidStep1(matroid: Matroid<E>, mode: Int, log: StringBuilder, ta
     return builder
 }
 
-fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuilder, target: Double? = null): GurobiLinearProgramBuilder {
+fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuilder, target: Double? = null, logLP: Boolean = true): GurobiLinearProgramBuilder {
     val timer = Timer()
-    var builder = GurobiLinearProgramBuilder()
+    var builder = GurobiLinearProgramBuilder(logToConsole = logLP)
 
     when (mode) {
         0 -> buildMatroidSecretaryLPNoSymmetry(matroid, builder)

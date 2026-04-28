@@ -447,3 +447,2297 @@ Objective value = 0.49701199405621355
 
 
 
+num variables = 218713
+num constraints = 209646
+constructed LP [3.863] seconds
+matroid #1 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0], [1], [2], [3], [4], [5]])
+time taken = 0.146 seconds
+Solution found!
+Objective value = 0.4277777777394929
+
+
+
+
+
+solving with more symmetry
+num variables = 63
+num constraints = 42
+constructed LP [0.027] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.42777777777777776
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 95
+num constraints = 74
+constructed LP [0.03] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.4277777777777778
+
+
+
+
+
+competitive ratios = 0.4277777777394929, 0.42777777777777776, 0.4277777777777778
+num variables = 266821
+num constraints = 210366
+constructed LP [4.456] seconds
+matroid #18 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.225 seconds
+Solution found!
+Objective value = 0.45833333278945876
+
+
+
+
+
+solving with more symmetry
+num variables = 1003
+num constraints = 660
+constructed LP [0.047] seconds
+time taken = 0.005 seconds
+Solution found!
+Objective value = 0.45833333327561765
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1354
+num constraints = 1011
+constructed LP [0.057] seconds
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.45833333317127417
+
+
+
+
+
+competitive ratios = 0.45833333278945876, 0.45833333327561765, 0.45833333317127417
+num variables = 322459
+num constraints = 211086
+constructed LP [5.439] seconds
+matroid #45 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.481 seconds
+Solution found!
+Objective value = 0.49999999954318497
+
+
+
+
+
+solving with more symmetry
+num variables = 1406
+num constraints = 918
+constructed LP [0.054] seconds
+time taken = 0.022 seconds
+Solution found!
+Objective value = 0.49999999987673016
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1860
+num constraints = 1372
+constructed LP [0.066] seconds
+time taken = 0.008 seconds
+Solution found!
+Objective value = 0.49999999999978717
+
+
+
+
+
+competitive ratios = 0.49999999954318497, 0.49999999987673016, 0.49999999999978717
+num variables = 266859
+num constraints = 210366
+constructed LP [5.581] seconds
+matroid #16 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.298 seconds
+Solution found!
+Objective value = 0.49999999977161
+
+
+
+
+
+solving with more symmetry
+num variables = 4316
+num constraints = 2849
+constructed LP [0.096] seconds
+time taken = 0.054 seconds
+Solution found!
+Objective value = 0.49999999976970044
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 5624
+num constraints = 4157
+constructed LP [0.093] seconds
+time taken = 0.054 seconds
+Solution found!
+Objective value = 0.4999999999942162
+
+
+
+
+
+competitive ratios = 0.49999999977161, 0.49999999976970044, 0.4999999999942162
+num variables = 265489
+num constraints = 210366
+constructed LP [5.821] seconds
+matroid #17 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5]])
+time taken = 0.304 seconds
+Solution found!
+Objective value = 0.49861111112530043
+
+
+
+
+
+solving with more symmetry
+num variables = 1133
+num constraints = 747
+constructed LP [0.038] seconds
+time taken = 0.006 seconds
+Solution found!
+Objective value = 0.498611110434394
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1457
+num constraints = 1071
+constructed LP [0.057] seconds
+time taken = 0.006 seconds
+Solution found!
+Objective value = 0.49861110610165466
+
+
+
+
+
+competitive ratios = 0.49861111112530043, 0.498611110434394, 0.49861110610165466
+num variables = 259813
+num constraints = 210366
+constructed LP [5.942] seconds
+matroid #29 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.296 seconds
+Solution found!
+Objective value = 0.597222222163488
+
+
+
+
+
+solving with more symmetry
+num variables = 89
+num constraints = 55
+constructed LP [0.051] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.5972222176485589
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 124
+num constraints = 90
+constructed LP [0.059] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.5972222168834403
+
+
+
+
+
+competitive ratios = 0.597222222163488, 0.5972222176485589, 0.5972222168834403
+num variables = 264967
+num constraints = 210366
+constructed LP [5.882] seconds
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.349 seconds
+Solution found!
+Objective value = 0.4999999999984539
+
+
+
+
+
+solving with more symmetry
+num variables = 1414
+num constraints = 924
+constructed LP [0.073] seconds
+time taken = 0.007 seconds
+Solution found!
+Objective value = 0.49999999336848533
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1873
+num constraints = 1383
+constructed LP [0.213] seconds
+time taken = 0.006 seconds
+Solution found!
+Objective value = 0.4999999991811795
+
+
+
+
+
+competitive ratios = 0.4999999999984539, 0.49999999336848533, 0.4999999991811795
+num variables = 261705
+num constraints = 210366
+constructed LP [5.93] seconds
+matroid #27 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.312 seconds
+Solution found!
+Objective value = 0.5000000000033253
+
+
+
+
+
+solving with more symmetry
+num variables = 1106
+num constraints = 716
+constructed LP [0.086] seconds
+time taken = 0.006 seconds
+Solution found!
+Objective value = 0.4999999999711098
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1468
+num constraints = 1078
+constructed LP [0.202] seconds
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.499999999999589
+
+
+
+
+
+competitive ratios = 0.5000000000033253, 0.4999999999711098, 0.499999999999589
+num variables = 263597
+num constraints = 210366
+constructed LP [5.94] seconds
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.357 seconds
+Solution found!
+Objective value = 0.49999999998263656
+
+
+
+
+
+solving with more symmetry
+num variables = 3226
+num constraints = 2110
+constructed LP [0.3] seconds
+time taken = 0.028 seconds
+Solution found!
+Objective value = 0.49999999871714396
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4180
+num constraints = 3064
+constructed LP [0.2] seconds
+time taken = 0.025 seconds
+Solution found!
+Objective value = 0.4999999968586519
+
+
+
+
+
+competitive ratios = 0.49999999998263656, 0.49999999871714396, 0.4999999968586519
+num variables = 322497
+num constraints = 211086
+constructed LP [5.7] seconds
+matroid #52 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.707 seconds
+Solution found!
+Objective value = 0.4999999998554845
+
+
+
+
+
+solving with more symmetry
+num variables = 3409
+num constraints = 2221
+constructed LP [0.295] seconds
+time taken = 0.076 seconds
+Solution found!
+Objective value = 0.4999999999953948
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4365
+num constraints = 3177
+constructed LP [0.207] seconds
+time taken = 0.034 seconds
+Solution found!
+Objective value = 0.49999999995123995
+
+
+
+
+
+competitive ratios = 0.4999999998554845, 0.4999999999953948, 0.49999999995123995
+num variables = 326645
+num constraints = 211086
+constructed LP [5.716] seconds
+matroid #44 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5]])
+time taken = 0.791 seconds
+Solution found!
+Objective value = 0.4999999999983551
+
+
+
+
+
+solving with more symmetry
+num variables = 3379
+num constraints = 2221
+constructed LP [0.2] seconds
+time taken = 0.069 seconds
+Solution found!
+Objective value = 0.4999999989884536
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4335
+num constraints = 3177
+constructed LP [0.221] seconds
+time taken = 0.032 seconds
+Solution found!
+Objective value = 0.4999999999420232
+
+
+
+
+
+competitive ratios = 0.4999999999983551, 0.4999999989884536, 0.4999999999420232
+num variables = 329097
+num constraints = 211086
+constructed LP [2.915] seconds
+matroid #57 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.457 seconds
+Solution found!
+Objective value = 0.4999999999925322
+
+
+
+
+
+solving with more symmetry
+num variables = 1214
+num constraints = 779
+constructed LP [0.141] seconds
+time taken = 0.014 seconds
+Solution found!
+Objective value = 0.49999999999649525
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1582
+num constraints = 1147
+constructed LP [0.144] seconds
+time taken = 0.005 seconds
+Solution found!
+Objective value = 0.4999999999964991
+
+
+
+
+
+competitive ratios = 0.4999999999925322, 0.49999999999649525, 0.4999999999964991
+num variables = 325275
+num constraints = 211086
+constructed LP [5.037] seconds
+matroid #51 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 2.342 seconds
+Solution found!
+Objective value = 0.4999999999418403
+
+
+
+
+
+solving with more symmetry
+num variables = 14234
+num constraints = 9276
+constructed LP [0.94] seconds
+time taken = 0.809 seconds
+Solution found!
+Objective value = 0.49999999992359934
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 18004
+num constraints = 13046
+constructed LP [0.753] seconds
+time taken = 0.338 seconds
+Solution found!
+Objective value = 0.49999999999426553
+
+
+
+
+
+competitive ratios = 0.4999999999418403, 0.49999999992359934, 0.49999999999426553
+num variables = 325797
+num constraints = 211086
+constructed LP [3.291] seconds
+matroid #55 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.983 seconds
+Solution found!
+Objective value = 0.4999999999942357
+
+
+
+
+
+solving with more symmetry
+num variables = 6788
+num constraints = 4401
+constructed LP [0.489] seconds
+time taken = 0.202 seconds
+Solution found!
+Objective value = 0.4999999999940208
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 8694
+num constraints = 6307
+constructed LP [0.56] seconds
+time taken = 0.095 seconds
+Solution found!
+Objective value = 0.4999999999856015
+
+
+
+
+
+competitive ratios = 0.4999999999942357, 0.4999999999940208, 0.4999999999856015
+num variables = 413533
+num constraints = 212526
+constructed LP [4.375] seconds
+matroid #96 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3, 4], [0, 1, 2, 3, 5], [0, 1, 2, 4, 5], [0, 1, 3, 4, 5], [0, 2, 3, 4, 5], [1, 2, 3, 4, 5]])
+time taken = 0.898 seconds
+Solution found!
+Objective value = 0.8855555555687022
+
+
+
+
+
+solving with more symmetry
+num variables = 77
+num constraints = 46
+constructed LP [0.026] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.8855555555528084
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 109
+num constraints = 78
+constructed LP [0.019] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.8855555555382377
+
+
+
+
+
+competitive ratios = 0.8855555555687022, 0.8855555555528084, 0.8855555555382377
+num variables = 328575
+num constraints = 211086
+constructed LP [5.644] seconds
+matroid #54 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.7 seconds
+Solution found!
+Objective value = 0.49999999998847056
+
+
+
+
+
+solving with more symmetry
+num variables = 4870
+num constraints = 3146
+constructed LP [0.194] seconds
+time taken = 0.128 seconds
+Solution found!
+Objective value = 0.4999999999984439
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 6209
+num constraints = 4485
+constructed LP [0.138] seconds
+time taken = 0.049 seconds
+Solution found!
+Objective value = 0.49999999999902944
+
+
+
+
+
+competitive ratios = 0.49999999998847056, 0.4999999999984439, 0.49999999999902944
+num variables = 327205
+num constraints = 211086
+constructed LP [6.146] seconds
+matroid #60 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.687 seconds
+Solution found!
+Objective value = 0.6778809298861423
+
+
+
+
+
+solving with more symmetry
+num variables = 2608
+num constraints = 1677
+constructed LP [0.258] seconds
+time taken = 0.076 seconds
+Solution found!
+Objective value = 0.6778809452119843
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 3227
+num constraints = 2296
+constructed LP [0.059] seconds
+time taken = 0.03 seconds
+Solution found!
+Objective value = 0.6778809443224468
+
+
+
+
+
+competitive ratios = 0.6778809298861423, 0.6778809452119843, 0.6778809443224468
+num variables = 324949
+num constraints = 211086
+constructed LP [6.252] seconds
+matroid #63 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.643 seconds
+Solution found!
+Objective value = 0.6249999992626298
+
+
+
+
+
+solving with more symmetry
+num variables = 1234
+num constraints = 779
+constructed LP [0.041] seconds
+time taken = 0.011 seconds
+Solution found!
+Objective value = 0.6249999999996012
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1602
+num constraints = 1147
+constructed LP [0.067] seconds
+time taken = 0.008 seconds
+Solution found!
+Objective value = 0.6249999999999664
+
+
+
+
+
+competitive ratios = 0.6249999992626298, 0.6249999999996012, 0.6249999999999664
+num variables = 324427
+num constraints = 211086
+constructed LP [6.201] seconds
+matroid #61 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [3, 4, 5]])
+time taken = 0.923 seconds
+Solution found!
+Objective value = 0.624999999914273
+
+
+
+
+
+solving with more symmetry
+num variables = 4894
+num constraints = 3146
+constructed LP [0.199] seconds
+time taken = 0.127 seconds
+Solution found!
+Objective value = 0.6249999999964864
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 6233
+num constraints = 4485
+constructed LP [0.109] seconds
+time taken = 0.051 seconds
+Solution found!
+Objective value = 0.6249999983897013
+
+
+
+
+
+competitive ratios = 0.624999999914273, 0.6249999999964864, 0.6249999983897013
+num variables = 328249
+num constraints = 211086
+constructed LP [6.471] seconds
+matroid #65 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5]])
+time taken = 0.623 seconds
+Solution found!
+Objective value = 0.6817251366362447
+
+
+
+
+
+solving with more symmetry
+num variables = 888
+num constraints = 563
+constructed LP [0.054] seconds
+time taken = 0.009 seconds
+Solution found!
+Objective value = 0.6817251462041156
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1129
+num constraints = 804
+constructed LP [0.075] seconds
+time taken = 0.005 seconds
+Solution found!
+Objective value = 0.6817251430858373
+
+
+
+
+
+competitive ratios = 0.6817251366362447, 0.6817251462041156, 0.6817251430858373
+num variables = 328771
+num constraints = 211086
+constructed LP [6.38] seconds
+matroid #66 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.66 seconds
+Solution found!
+Objective value = 0.682681474072429
+
+
+
+
+
+solving with more symmetry
+num variables = 1616
+num constraints = 1026
+constructed LP [0.09] seconds
+time taken = 0.027 seconds
+Solution found!
+Objective value = 0.6826814746609191
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 2088
+num constraints = 1498
+constructed LP [0.077] seconds
+time taken = 0.014 seconds
+Solution found!
+Objective value = 0.6826814667989006
+
+
+
+
+
+competitive ratios = 0.682681474072429, 0.6826814746609191, 0.6826814667989006
+num variables = 329293
+num constraints = 211086
+constructed LP [6.323] seconds
+matroid #67 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 1, 3], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.605 seconds
+Solution found!
+Objective value = 0.683333334542592
+
+
+
+
+
+solving with more symmetry
+num variables = 100
+num constraints = 60
+constructed LP [0.081] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.6833333333283292
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 136
+num constraints = 96
+constructed LP [0.042] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.683333327402043
+
+
+
+
+
+competitive ratios = 0.683333334542592, 0.6833333333283292, 0.683333327402043
+num variables = 374601
+num constraints = 211806
+constructed LP [4.081] seconds
+matroid #78 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 3, 5], [1, 2, 3, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.895 seconds
+Solution found!
+Objective value = 0.4999999999872795
+
+
+
+
+
+solving with more symmetry
+num variables = 1068
+num constraints = 690
+constructed LP [0.03] seconds
+time taken = 0.012 seconds
+Solution found!
+Objective value = 0.49999999999982947
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1419
+num constraints = 1041
+constructed LP [0.029] seconds
+time taken = 0.007 seconds
+Solution found!
+Objective value = 0.49999999999925754
+
+
+
+
+
+competitive ratios = 0.4999999999872795, 0.49999999999982947, 0.49999999999925754
+num variables = 328249
+num constraints = 211086
+constructed LP [6.307] seconds
+matroid #64 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 1.837 seconds
+Solution found!
+Objective value = 0.6810817299780725
+
+
+
+
+
+solving with more symmetry
+num variables = 7187
+num constraints = 4616
+constructed LP [0.224] seconds
+time taken = 0.362 seconds
+Solution found!
+Objective value = 0.681081730647545
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 9088
+num constraints = 6517
+constructed LP [0.108] seconds
+time taken = 0.164 seconds
+Solution found!
+Objective value = 0.681081726425392
+
+
+
+
+
+competitive ratios = 0.6810817299780725, 0.681081730647545, 0.681081726425392
+num variables = 381043
+num constraints = 211806
+constructed LP [3.547] seconds
+matroid #85 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [1, 2, 3, 5], [0, 1, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.823 seconds
+Solution found!
+Objective value = 0.7499999997898987
+
+
+
+
+
+solving with more symmetry
+num variables = 1512
+num constraints = 964
+constructed LP [0.022] seconds
+time taken = 0.024 seconds
+Solution found!
+Objective value = 0.7500000002644969
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1971
+num constraints = 1423
+constructed LP [0.025] seconds
+time taken = 0.015 seconds
+Solution found!
+Objective value = 0.7499999999997132
+
+
+
+
+
+competitive ratios = 0.7499999997898987, 0.7500000002644969, 0.7499999999997132
+num variables = 378787
+num constraints = 211806
+constructed LP [3.96] seconds
+matroid #84 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [0, 1, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 1.303 seconds
+Solution found!
+Objective value = 0.7499999999950511
+
+
+
+
+
+solving with more symmetry
+num variables = 4612
+num constraints = 2969
+constructed LP [0.054] seconds
+time taken = 0.152 seconds
+Solution found!
+Objective value = 0.7499999999800337
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 5920
+num constraints = 4277
+constructed LP [0.058] seconds
+time taken = 0.072 seconds
+Solution found!
+Objective value = 0.7499999999912902
+
+
+
+
+
+competitive ratios = 0.7499999999950511, 0.7499999999800337, 0.7499999999912902
+num variables = 381565
+num constraints = 211806
+constructed LP [2.816] seconds
+matroid #86 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [0, 1, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.852 seconds
+Solution found!
+Objective value = 0.7904394155719849
+
+
+
+
+
+solving with more symmetry
+num variables = 1213
+num constraints = 777
+constructed LP [0.015] seconds
+time taken = 0.02 seconds
+Solution found!
+Objective value = 0.7904394142691027
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1537
+num constraints = 1101
+constructed LP [0.014] seconds
+time taken = 0.009 seconds
+Solution found!
+Objective value = 0.7904394139946069
+
+
+
+
+
+competitive ratios = 0.7904394155719849, 0.7904394142691027, 0.7904394139946069
+num variables = 386077
+num constraints = 211806
+constructed LP [2.651] seconds
+matroid #89 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [1, 2, 3, 5], [0, 1, 4, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.856 seconds
+Solution found!
+Objective value = 0.7950379250299289
+
+
+
+
+
+solving with more symmetry
+num variables = 1189
+num constraints = 746
+constructed LP [0.017] seconds
+time taken = 0.017 seconds
+Solution found!
+Objective value = 0.7950379240311083
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1551
+num constraints = 1108
+constructed LP [0.017] seconds
+time taken = 0.009 seconds
+Solution found!
+Objective value = 0.7950379258485809
+
+
+
+
+
+competitive ratios = 0.7950379250299289, 0.7950379240311083, 0.7950379258485809
+num variables = 388333
+num constraints = 211806
+constructed LP [2.49] seconds
+matroid #90 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 1, 3, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [1, 2, 3, 5], [0, 1, 4, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.777 seconds
+Solution found!
+Objective value = 0.7986111111104819
+
+
+
+
+
+solving with more symmetry
+num variables = 96
+num constraints = 57
+constructed LP [0.008] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.7986111110437324
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 131
+num constraints = 92
+constructed LP [0.009] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.7986111111099079
+
+
+
+
+
+competitive ratios = 0.7986111111104819, 0.7986111110437324, 0.7986111111099079
+num variables = 383821
+num constraints = 211806
+constructed LP [2.585] seconds
+matroid #88 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [0, 1, 4, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 1.111 seconds
+Solution found!
+Objective value = 0.7930989439849707
+
+
+
+
+
+solving with more symmetry
+num variables = 3432
+num constraints = 2200
+constructed LP [0.032] seconds
+time taken = 0.127 seconds
+Solution found!
+Objective value = 0.7930989444656156
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4386
+num constraints = 3154
+constructed LP [0.031] seconds
+time taken = 0.061 seconds
+Solution found!
+Objective value = 0.7930989445985402
+
+
+
+
+
+competitive ratios = 0.7930989439849707, 0.7930989444656156, 0.7930989445985402
+num variables = 327727
+num constraints = 211086
+constructed LP [6.09] seconds
+matroid #62 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 3.397 seconds
+Solution found!
+Objective value = 0.6794262687608841
+
+
+
+
+
+solving with more symmetry
+num variables = 9836
+num constraints = 6338
+constructed LP [0.08] seconds
+time taken = 0.929 seconds
+Solution found!
+Objective value = 0.6794262633108374
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 12260
+num constraints = 8762
+constructed LP [0.066] seconds
+time taken = 0.273 seconds
+Solution found!
+Objective value = 0.6794262715129196
+
+
+
+
+
+competitive ratios = 0.6794262687608841, 0.6794262633108374, 0.6794262715129196
+num variables = 218713
+num constraints = 209646
+constructed LP [3.775] seconds
+matroid #1 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0], [1], [2], [3], [4], [5]])
+time taken = 0.076 seconds
+Solution found!
+Objective value = 0.4277777777394929
+
+
+
+
+
+solving with more symmetry
+num variables = 63
+num constraints = 42
+constructed LP [0.03] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.42777777777777776
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 95
+num constraints = 74
+constructed LP [0.019] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.4277777777777778
+
+
+
+
+
+competitive ratios = 0.4277777777394929, 0.42777777777777776, 0.4277777777777778
+num variables = 264967
+num constraints = 210366
+constructed LP [4.298] seconds
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.195 seconds
+Solution found!
+Objective value = 0.4999999999984539
+
+
+
+
+
+solving with more symmetry
+num variables = 1414
+num constraints = 924
+constructed LP [0.064] seconds
+time taken = 0.007 seconds
+Solution found!
+Objective value = 0.49999999336848533
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1873
+num constraints = 1383
+constructed LP [0.096] seconds
+time taken = 0.007 seconds
+Solution found!
+Objective value = 0.4999999991811795
+
+
+
+
+
+competitive ratios = 0.4999999999984539, 0.49999999336848533, 0.4999999991811795
+num variables = 259813
+num constraints = 210366
+constructed LP [4.493] seconds
+matroid #29 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.232 seconds
+Solution found!
+Objective value = 0.597222222163488
+
+
+
+
+
+solving with more symmetry
+num variables = 89
+num constraints = 55
+constructed LP [0.064] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.5972222176485589
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 124
+num constraints = 90
+constructed LP [0.051] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.5972222168834403
+
+
+
+
+
+competitive ratios = 0.597222222163488, 0.5972222176485589, 0.5972222168834403
+num variables = 266821
+num constraints = 210366
+constructed LP [5.093] seconds
+matroid #18 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.221 seconds
+Solution found!
+Objective value = 0.45833333278945876
+
+
+
+
+
+solving with more symmetry
+num variables = 1003
+num constraints = 660
+constructed LP [0.114] seconds
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.45833333327561765
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1354
+num constraints = 1011
+constructed LP [0.073] seconds
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.45833333317127417
+
+
+
+
+
+competitive ratios = 0.45833333278945876, 0.45833333327561765, 0.45833333317127417
+num variables = 322459
+num constraints = 211086
+constructed LP [5.206] seconds
+matroid #45 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.584 seconds
+Solution found!
+Objective value = 0.49999999954318497
+
+
+
+
+
+solving with more symmetry
+num variables = 1406
+num constraints = 918
+constructed LP [0.051] seconds
+time taken = 0.015 seconds
+Solution found!
+Objective value = 0.49999999987673016
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1860
+num constraints = 1372
+constructed LP [0.062] seconds
+time taken = 0.008 seconds
+Solution found!
+Objective value = 0.49999999999978717
+
+
+
+
+
+competitive ratios = 0.49999999954318497, 0.49999999987673016, 0.49999999999978717
+num variables = 261705
+num constraints = 210366
+constructed LP [5.755] seconds
+matroid #27 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.275 seconds
+Solution found!
+Objective value = 0.5000000000033253
+
+
+
+
+
+solving with more symmetry
+num variables = 1106
+num constraints = 716
+constructed LP [0.084] seconds
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.4999999999711098
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1468
+num constraints = 1078
+constructed LP [0.208] seconds
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.499999999999589
+
+
+
+
+
+competitive ratios = 0.5000000000033253, 0.4999999999711098, 0.499999999999589
+num variables = 265489
+num constraints = 210366
+constructed LP [5.756] seconds
+matroid #17 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5]])
+time taken = 0.262 seconds
+Solution found!
+Objective value = 0.49861111112530043
+
+
+
+
+
+solving with more symmetry
+num variables = 1133
+num constraints = 747
+constructed LP [0.187] seconds
+time taken = 0.005 seconds
+Solution found!
+Objective value = 0.498611110434394
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1457
+num constraints = 1071
+constructed LP [0.147] seconds
+time taken = 0.005 seconds
+Solution found!
+Objective value = 0.49861110610165466
+
+
+
+
+
+competitive ratios = 0.49861111112530043, 0.498611110434394, 0.49861110610165466
+num variables = 266859
+num constraints = 210366
+constructed LP [5.486] seconds
+matroid #16 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.41 seconds
+Solution found!
+Objective value = 0.49999999977161
+
+
+
+
+
+solving with more symmetry
+num variables = 4316
+num constraints = 2849
+constructed LP [0.109] seconds
+time taken = 0.052 seconds
+Solution found!
+Objective value = 0.49999999976970044
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 5624
+num constraints = 4157
+constructed LP [0.349] seconds
+time taken = 0.035 seconds
+Solution found!
+Objective value = 0.4999999999942162
+
+
+
+
+
+competitive ratios = 0.49999999977161, 0.49999999976970044, 0.4999999999942162
+num variables = 322497
+num constraints = 211086
+constructed LP [5.299] seconds
+matroid #52 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.782 seconds
+Solution found!
+Objective value = 0.4999999998554845
+
+
+
+
+
+solving with more symmetry
+num variables = 3409
+num constraints = 2221
+constructed LP [0.281] seconds
+time taken = 0.072 seconds
+Solution found!
+Objective value = 0.4999999999953948
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4365
+num constraints = 3177
+constructed LP [0.21] seconds
+time taken = 0.03 seconds
+Solution found!
+Objective value = 0.49999999995123995
+
+
+
+
+
+competitive ratios = 0.4999999998554845, 0.4999999999953948, 0.49999999995123995
+num variables = 263597
+num constraints = 210366
+constructed LP [5.756] seconds
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5]])
+time taken = 0.28 seconds
+Solution found!
+Objective value = 0.49999999998263656
+
+
+
+
+
+solving with more symmetry
+num variables = 3226
+num constraints = 2110
+constructed LP [0.324] seconds
+time taken = 0.031 seconds
+Solution found!
+Objective value = 0.49999999871714396
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4180
+num constraints = 3064
+constructed LP [0.243] seconds
+time taken = 0.024 seconds
+Solution found!
+Objective value = 0.4999999968586519
+
+
+
+
+
+competitive ratios = 0.49999999998263656, 0.49999999871714396, 0.4999999968586519
+num variables = 326645
+num constraints = 211086
+constructed LP [5.462] seconds
+matroid #44 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5]])
+time taken = 0.784 seconds
+Solution found!
+Objective value = 0.4999999999983551
+
+
+
+
+
+solving with more symmetry
+num variables = 3379
+num constraints = 2221
+constructed LP [0.172] seconds
+time taken = 0.06 seconds
+Solution found!
+Objective value = 0.4999999989884536
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4335
+num constraints = 3177
+constructed LP [0.2] seconds
+time taken = 0.033 seconds
+Solution found!
+Objective value = 0.4999999999420232
+
+
+
+
+
+competitive ratios = 0.4999999999983551, 0.4999999989884536, 0.4999999999420232
+num variables = 328575
+num constraints = 211086
+constructed LP [4.108] seconds
+matroid #54 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.663 seconds
+Solution found!
+Objective value = 0.49999999998847056
+
+
+
+
+
+solving with more symmetry
+num variables = 4870
+num constraints = 3146
+constructed LP [0.301] seconds
+time taken = 0.111 seconds
+Solution found!
+Objective value = 0.4999999999984439
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 6209
+num constraints = 4485
+constructed LP [0.327] seconds
+time taken = 0.051 seconds
+Solution found!
+Objective value = 0.49999999999902944
+
+
+
+
+
+competitive ratios = 0.49999999998847056, 0.4999999999984439, 0.49999999999902944
+num variables = 325275
+num constraints = 211086
+constructed LP [5.755] seconds
+matroid #51 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [0, 2, 5], [1, 2, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 2.243 seconds
+Solution found!
+Objective value = 0.4999999999418403
+
+
+
+
+
+solving with more symmetry
+num variables = 14234
+num constraints = 9276
+constructed LP [0.786] seconds
+time taken = 0.836 seconds
+Solution found!
+Objective value = 0.49999999992359934
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 18004
+num constraints = 13046
+constructed LP [0.756] seconds
+time taken = 0.34 seconds
+Solution found!
+Objective value = 0.49999999999426553
+
+
+
+
+
+competitive ratios = 0.4999999999418403, 0.49999999992359934, 0.49999999999426553
+num variables = 413533
+num constraints = 212526
+constructed LP [4.459] seconds
+matroid #96 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3, 4], [0, 1, 2, 3, 5], [0, 1, 2, 4, 5], [0, 1, 3, 4, 5], [0, 2, 3, 4, 5], [1, 2, 3, 4, 5]])
+time taken = 0.874 seconds
+Solution found!
+Objective value = 0.8855555555687022
+
+
+
+
+
+solving with more symmetry
+num variables = 77
+num constraints = 46
+constructed LP [0.027] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.8855555555528084
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 109
+num constraints = 78
+constructed LP [0.037] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.8855555555382377
+
+
+
+
+
+competitive ratios = 0.8855555555687022, 0.8855555555528084, 0.8855555555382377
+num variables = 329097
+num constraints = 211086
+constructed LP [5.55] seconds
+matroid #57 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.487 seconds
+Solution found!
+Objective value = 0.4999999999925322
+
+
+
+
+
+solving with more symmetry
+num variables = 1214
+num constraints = 779
+constructed LP [0.112] seconds
+time taken = 0.011 seconds
+Solution found!
+Objective value = 0.49999999999649525
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1582
+num constraints = 1147
+constructed LP [0.108] seconds
+time taken = 0.005 seconds
+Solution found!
+Objective value = 0.4999999999964991
+
+
+
+
+
+competitive ratios = 0.4999999999925322, 0.49999999999649525, 0.4999999999964991
+num variables = 325797
+num constraints = 211086
+constructed LP [5.193] seconds
+matroid #55 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.89 seconds
+Solution found!
+Objective value = 0.4999999999942357
+
+
+
+
+
+solving with more symmetry
+num variables = 6788
+num constraints = 4401
+constructed LP [0.324] seconds
+time taken = 0.229 seconds
+Solution found!
+Objective value = 0.4999999999940208
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 8694
+num constraints = 6307
+constructed LP [0.253] seconds
+time taken = 0.095 seconds
+Solution found!
+Objective value = 0.4999999999856015
+
+
+
+
+
+competitive ratios = 0.4999999999942357, 0.4999999999940208, 0.4999999999856015
+num variables = 327205
+num constraints = 211086
+constructed LP [5.742] seconds
+matroid #60 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.584 seconds
+Solution found!
+Objective value = 0.6778809298861423
+
+
+
+
+
+solving with more symmetry
+num variables = 2608
+num constraints = 1677
+constructed LP [0.13] seconds
+time taken = 0.111 seconds
+Solution found!
+Objective value = 0.6778809452119843
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 3227
+num constraints = 2296
+constructed LP [0.141] seconds
+time taken = 0.027 seconds
+Solution found!
+Objective value = 0.6778809443224468
+
+
+
+
+
+competitive ratios = 0.6778809298861423, 0.6778809452119843, 0.6778809443224468
+num variables = 324949
+num constraints = 211086
+constructed LP [5.791] seconds
+matroid #63 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.53 seconds
+Solution found!
+Objective value = 0.6249999992626298
+
+
+
+
+
+solving with more symmetry
+num variables = 1234
+num constraints = 779
+constructed LP [0.075] seconds
+time taken = 0.01 seconds
+Solution found!
+Objective value = 0.6249999999996012
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1602
+num constraints = 1147
+constructed LP [0.041] seconds
+time taken = 0.007 seconds
+Solution found!
+Objective value = 0.6249999999999664
+
+
+
+
+
+competitive ratios = 0.6249999992626298, 0.6249999999996012, 0.6249999999999664
+num variables = 324427
+num constraints = 211086
+constructed LP [5.965] seconds
+matroid #61 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [3, 4, 5]])
+time taken = 0.758 seconds
+Solution found!
+Objective value = 0.624999999914273
+
+
+
+
+
+solving with more symmetry
+num variables = 4894
+num constraints = 3146
+constructed LP [0.141] seconds
+time taken = 0.223 seconds
+Solution found!
+Objective value = 0.6249999999964864
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 6233
+num constraints = 4485
+constructed LP [0.195] seconds
+time taken = 0.051 seconds
+Solution found!
+Objective value = 0.6249999983897013
+
+
+
+
+
+competitive ratios = 0.624999999914273, 0.6249999999964864, 0.6249999983897013
+num variables = 328249
+num constraints = 211086
+constructed LP [6.177] seconds
+matroid #65 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [3, 4, 5]])
+time taken = 0.637 seconds
+Solution found!
+Objective value = 0.6817251366362447
+
+
+
+
+
+solving with more symmetry
+num variables = 888
+num constraints = 563
+constructed LP [0.079] seconds
+time taken = 0.009 seconds
+Solution found!
+Objective value = 0.6817251462041156
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1129
+num constraints = 804
+constructed LP [0.085] seconds
+time taken = 0.004 seconds
+Solution found!
+Objective value = 0.6817251430858373
+
+
+
+
+
+competitive ratios = 0.6817251366362447, 0.6817251462041156, 0.6817251430858373
+num variables = 328771
+num constraints = 211086
+constructed LP [6.123] seconds
+matroid #66 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.715 seconds
+Solution found!
+Objective value = 0.682681474072429
+
+
+
+
+
+solving with more symmetry
+num variables = 1616
+num constraints = 1026
+constructed LP [0.119] seconds
+time taken = 0.025 seconds
+Solution found!
+Objective value = 0.6826814746609191
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 2088
+num constraints = 1498
+constructed LP [0.083] seconds
+time taken = 0.012 seconds
+Solution found!
+Objective value = 0.6826814667989006
+
+
+
+
+
+competitive ratios = 0.682681474072429, 0.6826814746609191, 0.6826814667989006
+num variables = 328249
+num constraints = 211086
+constructed LP [5.968] seconds
+matroid #64 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 1.645 seconds
+Solution found!
+Objective value = 0.6810817299780725
+
+
+
+
+
+solving with more symmetry
+num variables = 7187
+num constraints = 4616
+constructed LP [0.309] seconds
+time taken = 0.362 seconds
+Solution found!
+Objective value = 0.681081730647545
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 9088
+num constraints = 6517
+constructed LP [0.109] seconds
+time taken = 0.161 seconds
+Solution found!
+Objective value = 0.681081726425392
+
+
+
+
+
+competitive ratios = 0.6810817299780725, 0.681081730647545, 0.681081726425392
+num variables = 374601
+num constraints = 211806
+constructed LP [3.774] seconds
+matroid #78 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 2, 3, 4], [1, 2, 3, 4], [0, 2, 3, 5], [1, 2, 3, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.767 seconds
+Solution found!
+Objective value = 0.4999999999872795
+
+
+
+
+
+solving with more symmetry
+num variables = 1068
+num constraints = 690
+constructed LP [0.021] seconds
+time taken = 0.012 seconds
+Solution found!
+Objective value = 0.49999999999982947
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1419
+num constraints = 1041
+constructed LP [0.021] seconds
+time taken = 0.006 seconds
+Solution found!
+Objective value = 0.49999999999925754
+
+
+
+
+
+competitive ratios = 0.4999999999872795, 0.49999999999982947, 0.49999999999925754
+num variables = 329293
+num constraints = 211086
+constructed LP [5.299] seconds
+matroid #67 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 1, 3], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [2, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 0.54 seconds
+Solution found!
+Objective value = 0.683333334542592
+
+
+
+
+
+solving with more symmetry
+num variables = 100
+num constraints = 60
+constructed LP [0.013] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.6833333333283292
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 136
+num constraints = 96
+constructed LP [0.012] seconds
+time taken = 0.0 seconds
+Solution found!
+Objective value = 0.683333327402043
+
+
+
+
+
+competitive ratios = 0.683333334542592, 0.6833333333283292, 0.683333327402043
+num variables = 381043
+num constraints = 211806
+constructed LP [4.014] seconds
+matroid #85 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [1, 2, 3, 5], [0, 1, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.897 seconds
+Solution found!
+Objective value = 0.7499999997898987
+
+
+
+
+
+solving with more symmetry
+num variables = 1512
+num constraints = 964
+constructed LP [0.016] seconds
+time taken = 0.022 seconds
+Solution found!
+Objective value = 0.7500000002644969
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1971
+num constraints = 1423
+constructed LP [0.016] seconds
+time taken = 0.013 seconds
+Solution found!
+Objective value = 0.7499999999997132
+
+
+
+
+
+competitive ratios = 0.7499999997898987, 0.7500000002644969, 0.7499999999997132
+num variables = 381565
+num constraints = 211806
+constructed LP [3.528] seconds
+matroid #86 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [0, 1, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.921 seconds
+Solution found!
+Objective value = 0.7904394155719849
+
+
+
+
+
+solving with more symmetry
+num variables = 1213
+num constraints = 777
+constructed LP [0.015] seconds
+time taken = 0.023 seconds
+Solution found!
+Objective value = 0.7904394142691027
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1537
+num constraints = 1101
+constructed LP [0.015] seconds
+time taken = 0.01 seconds
+Solution found!
+Objective value = 0.7904394139946069
+
+
+
+
+
+competitive ratios = 0.7904394155719849, 0.7904394142691027, 0.7904394139946069
+num variables = 378787
+num constraints = 211806
+constructed LP [3.897] seconds
+matroid #84 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [0, 1, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 1.191 seconds
+Solution found!
+Objective value = 0.7499999999950511
+
+
+
+
+
+solving with more symmetry
+num variables = 4612
+num constraints = 2969
+constructed LP [0.041] seconds
+time taken = 0.158 seconds
+Solution found!
+Objective value = 0.7499999999800337
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 5920
+num constraints = 4277
+constructed LP [0.048] seconds
+time taken = 0.074 seconds
+Solution found!
+Objective value = 0.7499999999912902
+
+
+
+
+
+competitive ratios = 0.7499999999950511, 0.7499999999800337, 0.7499999999912902
+num variables = 386077
+num constraints = 211806
+constructed LP [2.909] seconds
+matroid #89 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [1, 2, 3, 5], [0, 1, 4, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.871 seconds
+Solution found!
+Objective value = 0.7950379250299289
+
+
+
+
+
+solving with more symmetry
+num variables = 1189
+num constraints = 746
+constructed LP [0.015] seconds
+time taken = 0.017 seconds
+Solution found!
+Objective value = 0.7950379240311083
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 1551
+num constraints = 1108
+constructed LP [0.015] seconds
+time taken = 0.008 seconds
+Solution found!
+Objective value = 0.7950379258485809
+
+
+
+
+
+competitive ratios = 0.7950379250299289, 0.7950379240311083, 0.7950379258485809
+num variables = 388333
+num constraints = 211806
+constructed LP [2.425] seconds
+matroid #90 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 1, 3, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [1, 2, 3, 5], [0, 1, 4, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 0.792 seconds
+Solution found!
+Objective value = 0.7986111111104819
+
+
+
+
+
+solving with more symmetry
+num variables = 96
+num constraints = 57
+constructed LP [0.008] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.7986111110437324
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 131
+num constraints = 92
+constructed LP [0.008] seconds
+time taken = 0.001 seconds
+Solution found!
+Objective value = 0.7986111111099079
+
+
+
+
+
+competitive ratios = 0.7986111111104819, 0.7986111110437324, 0.7986111111099079
+num variables = 383821
+num constraints = 211806
+constructed LP [3.083] seconds
+matroid #88 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 2, 3, 4], [1, 2, 3, 4], [0, 1, 2, 5], [0, 1, 3, 5], [0, 2, 3, 5], [0, 1, 4, 5], [0, 2, 4, 5], [1, 2, 4, 5], [0, 3, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5]])
+time taken = 1.146 seconds
+Solution found!
+Objective value = 0.7930989439849707
+
+
+
+
+
+solving with more symmetry
+num variables = 3432
+num constraints = 2200
+constructed LP [0.028] seconds
+time taken = 0.122 seconds
+Solution found!
+Objective value = 0.7930989444656156
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 4386
+num constraints = 3154
+constructed LP [0.026] seconds
+time taken = 0.062 seconds
+Solution found!
+Objective value = 0.7930989445985402
+
+
+
+
+
+competitive ratios = 0.7930989439849707, 0.7930989444656156, 0.7930989445985402
+num variables = 327727
+num constraints = 211086
+constructed LP [6.166] seconds
+matroid #62 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4], [0, 1, 5], [0, 2, 5], [1, 2, 5], [0, 3, 5], [1, 3, 5], [0, 4, 5], [1, 4, 5], [2, 4, 5], [3, 4, 5]])
+time taken = 3.326 seconds
+Solution found!
+Objective value = 0.6794262687608841
+
+
+
+
+
+solving with more symmetry
+num variables = 9836
+num constraints = 6338
+constructed LP [0.084] seconds
+time taken = 0.956 seconds
+Solution found!
+Objective value = 0.6794262633108374
+
+
+
+
+
+solving with more symmetry and sparser constraint matrix
+num variables = 12260
+num constraints = 8762
+constructed LP [0.064] seconds
+time taken = 0.276 seconds
+Solution found!
+Objective value = 0.6794262715129196
+
+
+
+
+
+competitive ratios = 0.6794262687608841, 0.6794262633108374, 0.6794262715129196
