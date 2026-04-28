@@ -11,7 +11,7 @@ fun main() = runBlocking(Dispatchers.Default) {
     println("Running on architecture: ${System.getProperty("os.arch")}")
     val n = 9
     val k = 2
-    val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n, targetRank = k)
+    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n, targetRank = k)
     println("num matroids = ${matroids.size}")
 
     val prevProgress = extractDataStructured(File("matroids_9_2_competitive_ratios.txt"))//"" // File("progress.txt").readText()
@@ -19,13 +19,15 @@ fun main() = runBlocking(Dispatchers.Default) {
 
     val withAutomorphisms = mutableListOf<Pair<Int, Int>>()
     for ((index, matroid) in matroids.withIndex()) {
-        /*if (matroid.isDecomposable()) {
+        if (matroid.isDecomposable()) {
             println("matroid #$index is decomposable")
-        } else if (index in prevProgress) {
+        }
+        /*else if (index in prevProgress) {
             println("matroid #$index already computed")
         } /*else if (greedyData[index]!! > .406) {
             println("matroid #$index filtered by greedy")
-        } */else*/ if (index == 64) {
+        } */else*/
+        if (index == 64) {
             //val numAutomorphisms = bijections(matroid.elements()).count { isAutomorphism(matroid, it) }
             val numAutomorphisms = matroid.automorphisms().size
             println("#$index has $numAutomorphisms automorphisms")
