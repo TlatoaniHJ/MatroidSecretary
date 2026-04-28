@@ -1,6 +1,5 @@
 package org.example
 
-import kotlin.math.max
 import kotlin.math.min
 
 /**
@@ -187,8 +186,7 @@ fun <E> evaluateMatroidOnGreedyOptimized(
 
     // Map automorphisms to numerical indices
     val indexAutomorphisms = mutableListOf<IntArray>()
-    val automorphisms = bijections(elements.toSet()).filter { isAutomorphism(matroid, it) }
-    for (bij in automorphisms) {
+    for (bij in matroid.automorphisms()) {
         val mapping = IntArray(n)
         for (i in 0 until n) {
             mapping[i] = elements.indexOf(bij[elements[i]])
@@ -236,7 +234,7 @@ fun <E> evaluateMatroidOnGreedyOptimized(
             "Panic Greedy"
         )
 
-        for (algoType in 0..3) {
+        for (algoType in 1..3) {
             log("${algorithmNames[algoType]} with threshold $threshold -> competitive ratio = ${worstRatios[algoType]} [${timer.lapSeconds()} seconds]")
         }
 

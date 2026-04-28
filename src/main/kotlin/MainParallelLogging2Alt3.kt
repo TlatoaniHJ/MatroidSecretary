@@ -9,31 +9,29 @@ import kotlinx.coroutines.sync.withPermit
 
 fun main() = runBlocking(Dispatchers.Default) {
     val n = 9
-    val k = 3
+    val k = 2
     val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n, targetRank = k)
     println("num matroids = ${matroids.size}")
 
-    val prevProgress = extractDataStructured(File("matroids_9_greedy_filter_3.txt"))
-    //val prevTrueProgress = extractDataStructured(File("matroids_8_competitive_ratios.txt"))
+    //val prevProgress = extractDataStructured(File("matroids_9_2_competitive_ratios.txt"))//"" // File("progress.txt").readText()
+    //val greedyData = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
 
-    val file = File("matroids_9_3_greedy_filter_raw.txt")
-    val nondecomposable = mutableListOf<Int>()
+    val withAutomorphisms = mutableListOf<Pair<Int, Int>>()
     for ((index, matroid) in matroids.withIndex()) {
-        if (index in prevProgress) {
-            println("matroid #$index already handled")
-        } else if (matroid.isDecomposable()) {
-            println("matroid #$index is decomposable")
-            file.appendText("matroid #$index is decomposable\n")
-        } else {
-            nondecomposable.add(index)
+        if (index in listOf(43)) {
+            //val numAutomorphisms = bijections(matroid.elements()).count { isAutomorphism(matroid, it) }
+            val numAutomorphisms = matroid.automorphisms().size
+            println("#$index has $numAutomorphisms automorphisms")
+            withAutomorphisms.add(Pair(index, numAutomorphisms))
         }
     }
-    //nondecomposable.sortBy { matroids[it].rank() }
+    withAutomorphisms.sortByDescending { it.second }
+    withAutomorphisms.sortBy { matroids[it.first].rank() }
 
     // 1. Create a lock to synchronize console output
     val printMutex = Mutex()
     val currWorking = mutableMapOf<Int, InProgressMatroid>()
-    var remMatroids = nondecomposable.size
+    var remMatroids = withAutomorphisms.size
     // ANSI escape codes
     val green = "\u001B[32m"
     val magenta = "\u001B[35m"
@@ -58,39 +56,39 @@ fun main() = runBlocking(Dispatchers.Default) {
         println("$remMatroids matroids remaining [ $numInProgress matroids in progress ]")
         println("-".repeat(20))
     }
-    val concurrentSolves = Semaphore(10)
+    val concurrentSolves = Semaphore(12)
 
-    val hits = nondecomposable.map { index ->
+    val file = File("matroids_9_2_competitive_ratios_raw.txt")
+
+    val hits = withAutomorphisms.map { (index, numAutomorphisms) ->
         async {
             concurrentSolves.withPermit {
                 val matroid = matroids[index]
-                //val (variables, constraints) = assessMatroidQuietly(matroid)
-                val variables = 0
-                val constraints = 0
-                val numAutomorphisms = matroid.automorphisms().size
 
                 // 2. Create a local string builder for this specific execution
                 val log = java.lang.StringBuilder()
 
+                val lp = solveMatroidStep1(matroid, 22, log, target = .406)
+                val variables = lp.getNumVariables()
+                val constraints = lp.getNumConstraints()
+
                 log.appendLine("matroid #$index = $matroid")
-                log.appendLine("num automorphisms = $numAutomorphisms")
+                lp.solver.enableOutput()
 
                 val startTime = System.currentTimeMillis()
                 printMutex.withLock {
+                    print(log.toString())
                     currWorking[index] = InProgressMatroid(matroid, variables, constraints, startTime, numAutomorphisms)
                     printCurrWorking(add = index)
                 }
 
-                val timer = Timer()
+                log.appendLine("solving with more symmetry")
+                val z = solveMatroidStep2(lp, log)
 
-                val greedyCompetitiveRatio: Double = evaluateMatroidOnGreedyOptimized(matroid, listOf(3, 2, 4, 1, 5), log::appendLine)
-                log.appendLine("overall greedy competitive ratio = $greedyCompetitiveRatio")
-                log.appendLine("total time = ${timer.lapSeconds()} seconds")
-
-                var hitResult: HitResult? = null
-                if (greedyCompetitiveRatio < 0.406) {
+                var hitResult: Double? = null
+                if (z < 0.406) {
                     log.appendLine("HIT")
-                    hitResult = HitResult(index, InProgressMatroid(matroid, variables, constraints, startTime, numAutomorphisms), greedyCompetitiveRatio)
+                    hitResult = z
                 }
 
                 // The equivalent of repeat(5) { println() }
@@ -102,8 +100,8 @@ fun main() = runBlocking(Dispatchers.Default) {
                     printCurrWorking(remove = index)
                     currWorking.remove(index)
                     print(log.toString()) // Use print, not println, since we appended lines
-                    file.appendText(log.toString())
                 }
+                file.appendText(log.toString())
 
                 hitResult // Return the actual computation result to the list
             }
@@ -111,7 +109,7 @@ fun main() = runBlocking(Dispatchers.Default) {
     }.awaitAll().filterNotNull()
 
     println("Total hits: ${hits.size}")
-    for ((index, progress, ratio) in hits) {
-        println("#$index [rank = ${progress.matroid.rank()}] (greedy comp. ratio = $ratio)")
+    for (matroid in hits) {
+        println(matroid)
     }
 }

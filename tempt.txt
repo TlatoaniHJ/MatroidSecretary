@@ -1,0 +1,2532 @@
+matroid #0 is decomposable
+matroid #1 is decomposable
+matroid #2 is decomposable
+matroid #3 is decomposable
+matroid #4 is decomposable
+matroid #5 is decomposable
+matroid #6 is decomposable
+matroid #7 is decomposable
+matroid #8 is decomposable
+matroid #9 is decomposable
+matroid #10 is decomposable
+matroid #11 is decomposable
+matroid #12 is decomposable
+matroid #13 is decomposable
+matroid #14 is decomposable
+matroid #15 is decomposable
+matroid #16 is decomposable
+matroid #17 is decomposable
+matroid #18 is decomposable
+matroid #19 is decomposable
+matroid #27 is decomposable
+matroid #28 is decomposable
+matroid #29 is decomposable
+matroid #30 is decomposable
+matroid #31 is decomposable
+matroid #32 is decomposable
+matroid #33 is decomposable
+matroid #34 is decomposable
+matroid #35 is decomposable
+matroid #36 is decomposable
+matroid #37 is decomposable
+matroid #38 is decomposable
+matroid #39 is decomposable
+matroid #40 is decomposable
+matroid #41 is decomposable
+matroid #42 is decomposable
+matroid #49 is decomposable
+matroid #50 is decomposable
+matroid #51 is decomposable
+matroid #52 is decomposable
+matroid #53 is decomposable
+matroid #54 is decomposable
+matroid #55 is decomposable
+matroid #56 is decomposable
+matroid #57 is decomposable
+matroid #58 is decomposable
+matroid #59 is decomposable
+matroid #60 is decomposable
+matroid #66 is decomposable
+matroid #67 is decomposable
+matroid #68 is decomposable
+matroid #69 is decomposable
+matroid #70 is decomposable
+matroid #71 is decomposable
+matroid #72 is decomposable
+matroid #76 is decomposable
+matroid #77 is decomposable
+matroid #78 is decomposable
+matroid #79 is decomposable
+matroid #82 is decomposable
+matroid #83 is decomposable
+matroid #85 is decomposable
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [7, 8]])
+num automorphisms = 1440
+built bitmask matroid [0.013 seconds]
+computed index automorphisms [125.732 seconds]
+computed all permutations
+reduced to 252 canonical orders [1.581 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.449 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.367526455026455 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34052028218694885 [0.448 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34382716049382717 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34601521164021165 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.33787477954144624 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.328 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.35972222222222217 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2678130511463845 [0.498 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.280489417989418 [0.006 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2678130511463845 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2678130511463845 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.288 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.31845238095238093 [0.0 seconds]
+overall greedy competitive ratio = 0.3755952380952381
+HIT
+
+
+
+
+
+matroid #25 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 960
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [125.35 seconds]
+computed all permutations
+reduced to 378 canonical orders [1.558 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3738095238095238 [0.683 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37936507936507935 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3678571428571429 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3374338624338625 [0.743 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.35811287477954146 [0.035 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.35025903880070547 [0.002 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3354497354497355 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.465 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3759920634920635 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3632936507936508 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2669312169312169 [0.796 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2953703703703704 [0.003 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2669312169312169 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2669312169312169 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.41 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.002 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32506613756613756 [0.0 seconds]
+overall greedy competitive ratio = 0.37936507936507935
+HIT
+
+
+
+
+
+matroid #22 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8]])
+num automorphisms = 1296
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [126.436 seconds]
+computed all permutations
+reduced to 280 canonical orders [0.993 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3843584656084656 [0.477 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4018849206349207 [0.004 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.38237433862433856 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3587852733686067 [0.55 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.39798280423280424 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3755952380952381 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3581238977072311 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.37876984126984126 [0.347 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3848544973544974 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3748015873015873 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2985449735449735 [0.64 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33379629629629626 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2985449735449735 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.29854497354497356 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.241 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3468915343915344 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33895502645502645 [0.0 seconds]
+overall greedy competitive ratio = 0.4018849206349207
+HIT
+
+
+
+
+
+matroid #20 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [4, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 1152
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [127.287 seconds]
+computed all permutations
+reduced to 315 canonical orders [0.773 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37576058201058204 [0.473 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38230820105820107 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3717923280423281 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34324294532627864 [0.561 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3632826278659612 [0.017 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3724481922398589 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.34192019400352736 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.398 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3676587301587302 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.28201058201058204 [0.634 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3161706349206349 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.28201058201058204 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.28201058201058204 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.33 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3316798941798942 [0.0 seconds]
+overall greedy competitive ratio = 0.38230820105820107
+HIT
+
+
+
+
+
+matroid #21 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [7, 8]])
+num automorphisms = 720
+built bitmask matroid [0.039 seconds]
+computed index automorphisms [125.213 seconds]
+computed all permutations
+reduced to 504 canonical orders [1.471 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37387566137566136 [1.015 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36792328042328043 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.33785273368606705 [1.003 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3479056437389771 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3560460758377425 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3358686067019401 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.608 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36329365079365084 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.26894841269841274 [1.025 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.29867724867724865 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.26894841269841274 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2689484126984127 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.622 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32506613756613756 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #45 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 480
+built bitmask matroid [0.098 seconds]
+computed index automorphisms [123.422 seconds]
+computed all permutations
+reduced to 756 canonical orders [0.91 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.36917989417989416 [1.279 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.17 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36322751322751323 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3281084656084656 [2.118 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34777336860670194 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34204144620811283 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.32612433862433865 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3735449735449735 [0.911 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36164021164021165 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25342813051146384 [1.527 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.28743386243386243 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25342813051146384 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25342813051146384 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.048 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32473544973544965 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #26 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [7, 8]])
+num automorphisms = 10080
+built bitmask matroid [0.042 seconds]
+computed index automorphisms [134.445 seconds]
+computed all permutations
+reduced to 36 canonical orders [0.799 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.38244047619047616 [0.047 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38244047619047616 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3725198412698413 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.35198412698412695 [0.077 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.35198412698412695 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33458994708994705 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3486772486772487 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.37843915343915346 [0.04 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.37843915343915346 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3585978835978836 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27420634920634923 [0.084 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.27420634920634923 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27420634920634923 [0.003 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.27420634920634923 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.033 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3125 [0.0 seconds]
+overall greedy competitive ratio = 0.38244047619047616
+HIT
+
+
+
+
+
+matroid #44 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [124.155 seconds]
+computed all permutations
+reduced to 1260 canonical orders [0.856 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3706679894179894 [2.552 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36669973544973544 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3312279541446208 [2.347 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3623897707231041 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.348533950617284 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.32990520282186947 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3739417989417989 [1.814 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.366005291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.259755291005291 [2.747 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3133597883597884 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.259755291005291 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.259755291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.737 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.003 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3313492063492063 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [4, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [124.65 seconds]
+computed all permutations
+reduced to 1260 canonical orders [1.271 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37549603174603174 [2.354 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38330026455026456 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3715277777777778 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3414351851851852 [2.462 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.36830908289241626 [0.011 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36024029982363315 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3401124338624339 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [1.684 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36765873015873013 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27508818342151675 [2.594 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3236441798941799 [0.003 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27508818342151675 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.27508818342151675 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3449074074074074 [1.683 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3316798941798942 [0.0 seconds]
+overall greedy competitive ratio = 0.38330026455026456
+HIT
+
+
+
+
+
+matroid #47 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.008 seconds]
+computed index automorphisms [125.292 seconds]
+computed all permutations
+reduced to 1260 canonical orders [1.292 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37820767195767196 [1.826 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.40006613756613757 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.376223544973545 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3442901234567901 [2.82 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3914902998236332 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3562389770723104 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3436287477954144 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3768518518518519 [1.531 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3728835978835978 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2729056437389771 [3.005 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3323743386243386 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2729056437389771 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2729056437389771 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [1.336 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.40006613756613757
+HIT
+
+
+
+
+
+matroid #46 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 192
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [123.05 seconds]
+computed all permutations
+reduced to 1890 canonical orders [0.821 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3706018518518518 [3.685 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36663359788359795 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3306768077601411 [3.919 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3622574955908289 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3454530423280423 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3293540564373898 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3739417989417989 [2.174 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.366005291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25707671957671957 [4.452 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3118716931216931 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25707671957671957 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25707671957671957 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.435 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #43 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [7, 8]])
+num automorphisms = 144
+built bitmask matroid [0.007 seconds]
+computed index automorphisms [122.802 seconds]
+computed all permutations
+reduced to 2520 canonical orders [0.938 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37820767195767196 [4.662 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4000661375661375 [0.003 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37622354497354493 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.344510582010582 [5.267 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38950617283950617 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.35853725749559084 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.34384920634920635 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3768518518518519 [3.402 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.37288359788359793 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2743055555555556 [4.579 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.32466931216931216 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2743055555555556 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2743055555555555 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [1.197 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.4000661375661375
+HIT
+
+
+
+
+
+matroid #61 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 432
+built bitmask matroid [0.012 seconds]
+computed index automorphisms [130.661 seconds]
+computed all permutations
+reduced to 840 canonical orders [0.421 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37714947089947093 [0.833 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3751653439153439 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34046516754850087 [1.222 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38887786596119933 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3513833774250441 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3398037918871252 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.764 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2645171957671958 [1.329 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3202380952380952 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2645171957671958 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2645171957671958 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.803 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #62 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.018 seconds]
+computed index automorphisms [129.208 seconds]
+computed all permutations
+reduced to 1260 canonical orders [0.417 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.36984126984126986 [0.98 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.005 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3658730158730159 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32793209876543206 [1.61 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3621252204585538 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33995260141093475 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3266093474426808 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3738095238095238 [1.007 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36587301587301585 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2497905643738977 [2.153 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3066468253968254 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2497905643738977 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2497905643738977 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.079 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #48 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [6, 8], [7, 8]])
+num automorphisms = 4320
+built bitmask matroid [0.019 seconds]
+computed index automorphisms [140.59 seconds]
+computed all permutations
+reduced to 84 canonical orders [0.607 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37179232804232804 [0.094 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.002 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36385582010582007 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3339065255731922 [0.112 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34382716049382717 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.340922619047619 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3312610229276896 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3741402116402116 [0.066 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3582671957671958 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25888447971781303 [0.119 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2718915343915344 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25888447971781303 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25888447971781303 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.075 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.31812169312169314 [0.0 seconds]
+overall greedy competitive ratio = 0.3755952380952381
+HIT
+
+
+
+
+
+matroid #65 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 2880
+built bitmask matroid [0.01 seconds]
+computed index automorphisms [140.055 seconds]
+computed all permutations
+reduced to 126 canonical orders [0.458 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3684854497354497 [0.118 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3625330687830688 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32612433862433865 [0.151 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34777336860670194 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3384038800705468 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3241402116402117 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3734126984126984 [0.096 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36150793650793656 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.24846781305114637 [0.166 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2834656084656085 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.24846781305114637 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.24846781305114637 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.111 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3247354497354497 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #73 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.02 seconds]
+computed index automorphisms [132.427 seconds]
+computed all permutations
+reduced to 1260 canonical orders [0.474 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [1.517 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.40013227513227506 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36770282186948855 [1.471 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.41313932980599644 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3718694885361552 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36770282186948855 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [1.072 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703703 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2792328042328042 [1.9 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33521825396825394 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2792328042328042 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2792328042328042 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.645 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #74 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.032 seconds]
+computed index automorphisms [131.437 seconds]
+computed all permutations
+reduced to 1260 canonical orders [0.502 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3770502645502645 [1.258 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37506613756613755 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3389109347442681 [1.612 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3884810405643739 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34564594356261025 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.33824955908289245 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.893 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25578703703703703 [1.548 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3245866402116402 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25578703703703703 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25578703703703703 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.534 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #75 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 2880
+built bitmask matroid [0.03 seconds]
+computed index automorphisms [137.587 seconds]
+computed all permutations
+reduced to 126 canonical orders [0.382 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3697420634920635 [0.088 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36577380952380956 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32733686067019396 [0.129 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3621252204585538 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33741732804232805 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3260141093474427 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3738095238095238 [0.055 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3658730158730159 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.24602072310405645 [0.153 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3040674603174603 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.24602072310405645 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.24602072310405643 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.047 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #81 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 4320
+built bitmask matroid [0.04 seconds]
+computed index automorphisms [138.955 seconds]
+computed all permutations
+reduced to 84 canonical orders [0.373 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3770502645502646 [0.049 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37506613756613755 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.33877865961199294 [0.081 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3884810405643739 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3437610229276896 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3381172839506173 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.054 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.252281746031746 [0.1 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33115079365079364 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.252281746031746 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.252281746031746 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.035 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3468915343915344 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #80 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 960
+built bitmask matroid [0.048 seconds]
+computed index automorphisms [139.39 seconds]
+computed all permutations
+reduced to 378 canonical orders [0.384 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [0.235 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4001322751322751 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36690917107583776 [0.383 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.41313932980599644 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36870590828924166 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36690917107583776 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.184 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703704 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27318121693121694 [0.483 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3334325396825396 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27318121693121694 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2731812169312169 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.165 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #64 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 96
+built bitmask matroid [0.032 seconds]
+computed index automorphisms [131.341 seconds]
+computed all permutations
+reduced to 3780 canonical orders [0.558 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3771494708994709 [3.329 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37516534391534395 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3400903880070547 [3.829 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38861331569664903 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34931657848324515 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.339429012345679 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [1.812 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.26179453262786595 [4.482 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.32711640211640214 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.26179453262786595 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.26179453262786595 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [1.558 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #63 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 384
+built bitmask matroid [0.02 seconds]
+computed index automorphisms [32.213 seconds]
+computed all permutations
+reduced to 945 canonical orders [0.399 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.40062830687830686 [0.591 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4006283068783068 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.37037037037037035 [0.927 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.4132716049382716 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.377634479717813 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.37037037037037035 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.45 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703703 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2892195767195767 [1.096 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33796296296296297 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2892195767195767 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2892195767195767 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.367 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #0 is decomposable
+matroid #1 is decomposable
+matroid #2 is decomposable
+matroid #3 is decomposable
+matroid #4 is decomposable
+matroid #5 is decomposable
+matroid #6 is decomposable
+matroid #7 is decomposable
+matroid #8 is decomposable
+matroid #9 is decomposable
+matroid #10 is decomposable
+matroid #11 is decomposable
+matroid #12 is decomposable
+matroid #13 is decomposable
+matroid #14 is decomposable
+matroid #15 is decomposable
+matroid #16 is decomposable
+matroid #17 is decomposable
+matroid #18 is decomposable
+matroid #19 is decomposable
+matroid #27 is decomposable
+matroid #28 is decomposable
+matroid #29 is decomposable
+matroid #30 is decomposable
+matroid #31 is decomposable
+matroid #32 is decomposable
+matroid #33 is decomposable
+matroid #34 is decomposable
+matroid #35 is decomposable
+matroid #36 is decomposable
+matroid #37 is decomposable
+matroid #38 is decomposable
+matroid #39 is decomposable
+matroid #40 is decomposable
+matroid #41 is decomposable
+matroid #42 is decomposable
+matroid #49 is decomposable
+matroid #50 is decomposable
+matroid #51 is decomposable
+matroid #52 is decomposable
+matroid #53 is decomposable
+matroid #54 is decomposable
+matroid #55 is decomposable
+matroid #56 is decomposable
+matroid #57 is decomposable
+matroid #58 is decomposable
+matroid #59 is decomposable
+matroid #60 is decomposable
+matroid #66 is decomposable
+matroid #67 is decomposable
+matroid #68 is decomposable
+matroid #69 is decomposable
+matroid #70 is decomposable
+matroid #71 is decomposable
+matroid #72 is decomposable
+matroid #76 is decomposable
+matroid #77 is decomposable
+matroid #78 is decomposable
+matroid #79 is decomposable
+matroid #82 is decomposable
+matroid #83 is decomposable
+matroid #85 is decomposable
+matroid #48 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [6, 8], [7, 8]])
+num automorphisms = 4320
+built bitmask matroid [0.044 seconds]
+computed index automorphisms [5.273 seconds]
+reduced to 84 canonical orders [1.846 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37179232804232804 [0.297 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.11 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36385582010582007 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3339065255731922 [0.356 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34382716049382717 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.340922619047619 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3312610229276896 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3741402116402116 [0.113 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3582671957671958 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25888447971781303 [0.193 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2718915343915344 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25888447971781303 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25888447971781303 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.139 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.31812169312169314 [0.0 seconds]
+overall greedy competitive ratio = 0.3755952380952381
+HIT
+
+
+
+
+
+matroid #20 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [4, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 1152
+built bitmask matroid [0.046 seconds]
+computed index automorphisms [5.517 seconds]
+reduced to 315 canonical orders [1.7 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37576058201058204 [0.753 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38230820105820107 [0.003 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3717923280423281 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34324294532627864 [0.735 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3632826278659612 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3724481922398589 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.34192019400352736 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.579 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3676587301587302 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.28201058201058204 [0.76 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3161706349206349 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.28201058201058204 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.28201058201058204 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.324 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3316798941798942 [0.0 seconds]
+overall greedy competitive ratio = 0.38230820105820107
+HIT
+
+
+
+
+
+matroid #22 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8]])
+num automorphisms = 1296
+built bitmask matroid [0.009 seconds]
+computed index automorphisms [5.613 seconds]
+reduced to 280 canonical orders [1.889 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3843584656084656 [0.509 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4018849206349207 [0.008 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.38237433862433856 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3587852733686067 [0.698 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.39798280423280424 [0.005 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3755952380952381 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3581238977072311 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.37876984126984126 [0.584 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3848544973544974 [0.003 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3748015873015873 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2985449735449735 [0.542 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33379629629629626 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2985449735449735 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.29854497354497356 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.294 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3468915343915344 [0.004 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33895502645502645 [0.0 seconds]
+overall greedy competitive ratio = 0.4018849206349207
+HIT
+
+
+
+
+
+matroid #25 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 960
+built bitmask matroid [0.049 seconds]
+computed index automorphisms [5.53 seconds]
+reduced to 378 canonical orders [1.649 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3738095238095238 [0.863 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37936507936507935 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3678571428571429 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3374338624338625 [0.936 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.35811287477954146 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.35025903880070547 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3354497354497355 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.691 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3759920634920635 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3632936507936508 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2669312169312169 [0.73 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2953703703703704 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2669312169312169 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2669312169312169 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.41 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32506613756613756 [0.0 seconds]
+overall greedy competitive ratio = 0.37936507936507935
+HIT
+
+
+
+
+
+matroid #21 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [7, 8]])
+num automorphisms = 720
+built bitmask matroid [0.049 seconds]
+computed index automorphisms [5.504 seconds]
+reduced to 504 canonical orders [1.656 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37387566137566136 [1.113 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36792328042328043 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.33785273368606705 [1.328 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3479056437389771 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3560460758377425 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3358686067019401 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.597 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36329365079365084 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.26894841269841274 [0.994 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.29867724867724865 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.26894841269841274 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2689484126984127 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.627 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32506613756613756 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #45 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 480
+built bitmask matroid [0.071 seconds]
+computed index automorphisms [5.614 seconds]
+reduced to 756 canonical orders [1.946 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.36917989417989416 [1.502 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36322751322751323 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3281084656084656 [1.483 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34777336860670194 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34204144620811283 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.32612433862433865 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3735449735449735 [0.954 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36164021164021165 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25342813051146384 [1.585 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.28743386243386243 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25342813051146384 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25342813051146384 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.041 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32473544973544965 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #26 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [7, 8]])
+num automorphisms = 10080
+built bitmask matroid [0.012 seconds]
+computed index automorphisms [2.379 seconds]
+reduced to 36 canonical orders [0.95 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.38244047619047616 [0.043 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38244047619047616 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3725198412698413 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.35198412698412695 [0.161 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.35198412698412695 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33458994708994705 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3486772486772487 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.37843915343915346 [0.029 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.37843915343915346 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3585978835978836 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27420634920634923 [0.056 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.27420634920634923 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27420634920634923 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.27420634920634923 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.05 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3125 [0.0 seconds]
+overall greedy competitive ratio = 0.38244047619047616
+HIT
+
+
+
+
+
+matroid #61 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 432
+built bitmask matroid [0.008 seconds]
+computed index automorphisms [6.507 seconds]
+reduced to 840 canonical orders [1.522 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37714947089947093 [1.481 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.004 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3751653439153439 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34046516754850087 [1.702 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38887786596119933 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3513833774250441 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3398037918871252 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.96 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2645171957671958 [1.869 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3202380952380952 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2645171957671958 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2645171957671958 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.997 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [4, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.012 seconds]
+computed index automorphisms [5.724 seconds]
+reduced to 1260 canonical orders [1.805 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37549603174603174 [2.417 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38330026455026456 [0.003 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.002 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3715277777777778 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3414351851851852 [2.416 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.36830908289241626 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36024029982363315 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3401124338624339 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [1.578 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36765873015873013 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27508818342151675 [2.748 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3236441798941799 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27508818342151675 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.27508818342151675 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3449074074074074 [1.291 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3316798941798942 [0.0 seconds]
+overall greedy competitive ratio = 0.38330026455026456
+HIT
+
+
+
+
+
+matroid #44 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.013 seconds]
+computed index automorphisms [5.748 seconds]
+reduced to 1260 canonical orders [2.178 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3706679894179894 [2.269 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36669973544973544 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3312279541446208 [2.469 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3623897707231041 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.348533950617284 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.32990520282186947 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3739417989417989 [1.655 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.003 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.366005291005291 [0.001 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.259755291005291 [2.712 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3133597883597884 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.259755291005291 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.259755291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.403 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3313492063492063 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #47 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.008 seconds]
+computed index automorphisms [6.411 seconds]
+reduced to 1260 canonical orders [1.489 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37820767195767196 [2.087 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.40006613756613757 [0.012 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.376223544973545 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3442901234567901 [2.448 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3914902998236332 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3562389770723104 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3436287477954144 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3768518518518519 [1.638 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3728835978835978 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2729056437389771 [2.748 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3323743386243386 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2729056437389771 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2729056437389771 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [1.418 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.40006613756613757
+HIT
+
+
+
+
+
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [7, 8]])
+num automorphisms = 1440
+built bitmask matroid [0.018 seconds]
+computed index automorphisms [3.001 seconds]
+reduced to 252 canonical orders [0.997 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.325 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.002 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.367526455026455 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34052028218694885 [0.442 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34382716049382717 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34601521164021165 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.33787477954144624 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.374 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.35972222222222217 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2678130511463845 [0.488 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.280489417989418 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2678130511463845 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2678130511463845 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.275 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.31845238095238093 [0.0 seconds]
+overall greedy competitive ratio = 0.3755952380952381
+HIT
+
+
+
+
+
+matroid #46 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 192
+built bitmask matroid [0.01 seconds]
+computed index automorphisms [5.811 seconds]
+reduced to 1890 canonical orders [1.975 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3706018518518518 [3.042 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.003 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36663359788359795 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3306768077601411 [3.733 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3622574955908289 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3454530423280423 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3293540564373898 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3739417989417989 [2.223 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.366005291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25707671957671957 [3.755 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3118716931216931 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25707671957671957 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25707671957671957 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.644 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.002 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #86 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 362880
+built bitmask matroid [0.011 seconds]
+computed index automorphisms [7.069 seconds]
+reduced to 1 canonical orders [1.578 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.48452380952380947 [0.002 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.46458333333333335 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4845238095238096 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.4392857142857143 [0.001 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.4429563492063492 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.4392857142857143 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.43928571428571433 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.46904761904761905 [0.001 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4409391534391534 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.46904761904761905 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.3055555555555556 [0.001 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.35059523809523807 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.3055555555555556 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.3055555555555556 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.4113756613756614 [0.001 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.38591269841269843 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.41137566137566134 [0.0 seconds]
+overall greedy competitive ratio = 0.4845238095238096
+
+
+
+
+
+matroid #65 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 2880
+built bitmask matroid [0.007 seconds]
+computed index automorphisms [4.428 seconds]
+reduced to 126 canonical orders [1.071 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3684854497354497 [0.24 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3625330687830688 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32612433862433865 [0.198 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34777336860670194 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3384038800705468 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3241402116402117 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3734126984126984 [0.15 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36150793650793656 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.24846781305114637 [0.404 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2834656084656085 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.24846781305114637 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.24846781305114637 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.141 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3247354497354497 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #43 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [7, 8]])
+num automorphisms = 144
+built bitmask matroid [0.008 seconds]
+computed index automorphisms [5.973 seconds]
+reduced to 2520 canonical orders [1.926 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37820767195767196 [4.019 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4000661375661375 [0.002 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.026 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37622354497354493 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.344510582010582 [5.021 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38950617283950617 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.35853725749559084 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.34384920634920635 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3768518518518519 [2.473 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.37288359788359793 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2743055555555556 [5.331 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.32466931216931216 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2743055555555556 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2743055555555555 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [2.346 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.4000661375661375
+HIT
+
+
+
+
+
+matroid #62 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.011 seconds]
+computed index automorphisms [4.209 seconds]
+reduced to 1260 canonical orders [1.557 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.36984126984126986 [1.648 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3658730158730159 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32793209876543206 [2.358 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3621252204585538 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33995260141093475 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3266093474426808 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3738095238095238 [1.236 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36587301587301585 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2497905643738977 [2.523 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3066468253968254 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2497905643738977 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2497905643738977 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.896 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #75 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 2880
+built bitmask matroid [0.017 seconds]
+computed index automorphisms [4.738 seconds]
+reduced to 126 canonical orders [0.776 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3697420634920635 [0.144 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36577380952380956 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32733686067019396 [0.158 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3621252204585538 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33741732804232805 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3260141093474427 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3738095238095238 [0.096 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3658730158730159 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.24602072310405645 [0.212 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3040674603174603 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.24602072310405645 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.24602072310405643 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.091 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #81 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 4320
+built bitmask matroid [0.012 seconds]
+computed index automorphisms [4.554 seconds]
+reduced to 84 canonical orders [0.703 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3770502645502646 [0.06 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37506613756613755 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.33877865961199294 [0.145 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3884810405643739 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3437610229276896 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3381172839506173 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.045 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.252281746031746 [0.131 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33115079365079364 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.252281746031746 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.252281746031746 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.07 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3468915343915344 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #84 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 10080
+built bitmask matroid [0.033 seconds]
+computed index automorphisms [4.587 seconds]
+reduced to 36 canonical orders [0.574 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [0.025 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.43191137566137566 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4001322751322751 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36690917107583776 [0.039 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.4169863315696649 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36690917107583776 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36690917107583776 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.039 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.40863095238095243 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2695436507936507 [0.06 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3395337301587302 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2695436507936507 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2695436507936508 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3521825396825397 [0.014 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.35962301587301587 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.43191137566137566
+
+
+
+
+
+matroid #63 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 384
+built bitmask matroid [0.014 seconds]
+computed index automorphisms [5.483 seconds]
+reduced to 945 canonical orders [1.321 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.40062830687830686 [1.45 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4006283068783068 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.37037037037037035 [1.434 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.4132716049382716 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.377634479717813 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.37037037037037035 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.687 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703703 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2892195767195767 [1.437 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33796296296296297 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2892195767195767 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2892195767195767 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.507 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.006 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #80 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 960
+built bitmask matroid [0.014 seconds]
+computed index automorphisms [4.907 seconds]
+reduced to 378 canonical orders [0.696 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [0.346 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4001322751322751 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36690917107583776 [0.496 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.41313932980599644 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36870590828924166 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36690917107583776 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.295 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703704 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.002 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27318121693121694 [0.793 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3334325396825396 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27318121693121694 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2731812169312169 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.232 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #74 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.012 seconds]
+computed index automorphisms [5.619 seconds]
+reduced to 1260 canonical orders [1.567 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3770502645502645 [1.439 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37506613756613755 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3389109347442681 [1.822 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3884810405643739 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34564594356261025 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.33824955908289245 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.747 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25578703703703703 [2.309 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3245866402116402 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25578703703703703 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25578703703703703 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [1.428 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.003 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #73 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.011 seconds]
+computed index automorphisms [3.468 seconds]
+reduced to 1260 canonical orders [0.905 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [1.667 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.002 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.40013227513227506 [0.001 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36770282186948855 [3.258 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.41313932980599644 [0.003 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3718694885361552 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36770282186948855 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [1.662 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703703 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2792328042328042 [3.704 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33521825396825394 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2792328042328042 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2792328042328042 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [1.401 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.004 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #64 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 96
+built bitmask matroid [0.028 seconds]
+computed index automorphisms [4.947 seconds]
+reduced to 3780 canonical orders [0.885 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3771494708994709 [5.187 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37516534391534395 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3400903880070547 [5.56 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38861331569664903 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34931657848324515 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.339429012345679 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [5.144 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.004 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.26179453262786595 [10.641 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.32711640211640214 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.26179453262786595 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.26179453262786595 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [3.61 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #0 is decomposable
+matroid #1 is decomposable
+matroid #2 is decomposable
+matroid #3 is decomposable
+matroid #4 is decomposable
+matroid #5 is decomposable
+matroid #6 is decomposable
+matroid #7 is decomposable
+matroid #8 is decomposable
+matroid #9 is decomposable
+matroid #10 is decomposable
+matroid #11 is decomposable
+matroid #12 is decomposable
+matroid #13 is decomposable
+matroid #14 is decomposable
+matroid #15 is decomposable
+matroid #16 is decomposable
+matroid #17 is decomposable
+matroid #18 is decomposable
+matroid #19 is decomposable
+matroid #27 is decomposable
+matroid #28 is decomposable
+matroid #29 is decomposable
+matroid #30 is decomposable
+matroid #31 is decomposable
+matroid #32 is decomposable
+matroid #33 is decomposable
+matroid #34 is decomposable
+matroid #35 is decomposable
+matroid #36 is decomposable
+matroid #37 is decomposable
+matroid #38 is decomposable
+matroid #39 is decomposable
+matroid #40 is decomposable
+matroid #41 is decomposable
+matroid #42 is decomposable
+matroid #49 is decomposable
+matroid #50 is decomposable
+matroid #51 is decomposable
+matroid #52 is decomposable
+matroid #53 is decomposable
+matroid #54 is decomposable
+matroid #55 is decomposable
+matroid #56 is decomposable
+matroid #57 is decomposable
+matroid #58 is decomposable
+matroid #59 is decomposable
+matroid #60 is decomposable
+matroid #66 is decomposable
+matroid #67 is decomposable
+matroid #68 is decomposable
+matroid #69 is decomposable
+matroid #70 is decomposable
+matroid #71 is decomposable
+matroid #72 is decomposable
+matroid #76 is decomposable
+matroid #77 is decomposable
+matroid #78 is decomposable
+matroid #79 is decomposable
+matroid #82 is decomposable
+matroid #83 is decomposable
+matroid #85 is decomposable
+matroid #26 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [2, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [7, 8]])
+num automorphisms = 10080
+built bitmask matroid [0.057 seconds]
+computed index automorphisms [4.348 seconds]
+reduced to 36 canonical orders [1.433 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.38244047619047616 [0.189 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38244047619047616 [0.086 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3725198412698413 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.35198412698412695 [0.105 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.35198412698412695 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33458994708994705 [0.01 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3486772486772487 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.37843915343915346 [0.024 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.37843915343915346 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3585978835978836 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27420634920634923 [0.042 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.27420634920634923 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27420634920634923 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.27420634920634923 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.023 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.005 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3125 [0.0 seconds]
+overall greedy competitive ratio = 0.38244047619047616
+HIT
+
+
+
+
+
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [2, 6], [3, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [7, 8]])
+num automorphisms = 1440
+built bitmask matroid [0.089 seconds]
+computed index automorphisms [4.755 seconds]
+reduced to 252 canonical orders [1.061 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.353 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.367526455026455 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34052028218694885 [0.289 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34382716049382717 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34601521164021165 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.33787477954144624 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.209 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.35972222222222217 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2678130511463845 [0.272 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.280489417989418 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2678130511463845 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2678130511463845 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.239 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.003 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.31845238095238093 [0.0 seconds]
+overall greedy competitive ratio = 0.3755952380952381
+HIT
+
+
+
+
+
+matroid #20 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [4, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 1152
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [5.359 seconds]
+reduced to 315 canonical orders [1.917 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37576058201058204 [0.401 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38230820105820107 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3717923280423281 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34324294532627864 [0.863 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3632826278659612 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3724481922398589 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.34192019400352736 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.534 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.019 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3676587301587302 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.28201058201058204 [0.679 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3161706349206349 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.28201058201058204 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.28201058201058204 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.303 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3316798941798942 [0.0 seconds]
+overall greedy competitive ratio = 0.38230820105820107
+HIT
+
+
+
+
+
+matroid #25 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 960
+built bitmask matroid [0.005 seconds]
+computed index automorphisms [5.245 seconds]
+reduced to 378 canonical orders [1.89 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3738095238095238 [0.445 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37936507936507935 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3678571428571429 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3374338624338625 [0.925 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.35811287477954146 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.35025903880070547 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3354497354497355 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.728 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3759920634920635 [0.01 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3632936507936508 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2669312169312169 [0.646 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2953703703703704 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2669312169312169 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2669312169312169 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.376 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.003 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32506613756613756 [0.001 seconds]
+overall greedy competitive ratio = 0.37936507936507935
+HIT
+
+
+
+
+
+matroid #21 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [2, 6], [3, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [7, 8]])
+num automorphisms = 720
+built bitmask matroid [0.006 seconds]
+computed index automorphisms [5.349 seconds]
+reduced to 504 canonical orders [1.473 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37387566137566136 [0.608 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.007 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36792328042328043 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.33785273368606705 [1.176 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3479056437389771 [0.005 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3560460758377425 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3358686067019401 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.804 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36329365079365084 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.26894841269841274 [0.876 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.29867724867724865 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.26894841269841274 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2689484126984127 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.46 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32506613756613756 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #22 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8]])
+num automorphisms = 1296
+built bitmask matroid [0.006 seconds]
+computed index automorphisms [5.797 seconds]
+reduced to 280 canonical orders [2.368 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3843584656084656 [0.589 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4018849206349207 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.38237433862433856 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3587852733686067 [0.46 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.39798280423280424 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3755952380952381 [0.001 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3581238977072311 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.37876984126984126 [0.297 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3848544973544974 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3748015873015873 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2985449735449735 [0.492 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33379629629629626 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2985449735449735 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.29854497354497356 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3455687830687831 [0.431 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3468915343915344 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33895502645502645 [0.0 seconds]
+overall greedy competitive ratio = 0.4018849206349207
+HIT
+
+
+
+
+
+matroid #45 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 480
+built bitmask matroid [0.06 seconds]
+computed index automorphisms [5.497 seconds]
+reduced to 756 canonical orders [2.21 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.36917989417989416 [1.422 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36322751322751323 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3281084656084656 [1.149 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34777336860670194 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34204144620811283 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.32612433862433865 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3735449735449735 [1.199 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36164021164021165 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25342813051146384 [1.809 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.28743386243386243 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25342813051146384 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25342813051146384 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.661 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.079 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.32473544973544965 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #48 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [2, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [6, 8], [7, 8]])
+num automorphisms = 4320
+built bitmask matroid [0.011 seconds]
+computed index automorphisms [2.86 seconds]
+reduced to 84 canonical orders [1.321 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37179232804232804 [0.115 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.37546296296296294 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36385582010582007 [0.001 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3339065255731922 [0.171 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34382716049382717 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.340922619047619 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3312610229276896 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3741402116402116 [0.1 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3755952380952381 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3582671957671958 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25888447971781303 [0.16 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2718915343915344 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25888447971781303 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25888447971781303 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.099 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.31812169312169314 [0.0 seconds]
+overall greedy competitive ratio = 0.3755952380952381
+HIT
+
+
+
+
+
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [4, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.008 seconds]
+computed index automorphisms [5.718 seconds]
+reduced to 1260 canonical orders [2.403 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37549603174603174 [1.902 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.38330026455026456 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3715277777777778 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3414351851851852 [2.618 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.36830908289241626 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36024029982363315 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3401124338624339 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3755952380952381 [1.585 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36765873015873013 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27508818342151675 [2.482 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3236441798941799 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27508818342151675 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.27508818342151675 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3449074074074074 [1.424 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3316798941798942 [0.0 seconds]
+overall greedy competitive ratio = 0.38330026455026456
+HIT
+
+
+
+
+
+matroid #44 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.006 seconds]
+computed index automorphisms [6.066 seconds]
+reduced to 1260 canonical orders [2.38 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3706679894179894 [1.676 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36669973544973544 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3312279541446208 [2.891 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3623897707231041 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.348533950617284 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.32990520282186947 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3739417989417989 [1.303 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.366005291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.259755291005291 [2.59 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3133597883597884 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.259755291005291 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.259755291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [1.538 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3313492063492063 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #47 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.006 seconds]
+computed index automorphisms [6.59 seconds]
+reduced to 1260 canonical orders [1.983 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37820767195767196 [1.788 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.40006613756613757 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.001 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.376223544973545 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3442901234567901 [2.6 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3914902998236332 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3562389770723104 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3436287477954144 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3768518518518519 [1.449 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3728835978835978 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2729056437389771 [2.626 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3323743386243386 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2729056437389771 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2729056437389771 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [1.726 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.40006613756613757
+HIT
+
+
+
+
+
+matroid #65 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [2, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 2880
+built bitmask matroid [0.014 seconds]
+computed index automorphisms [4.023 seconds]
+reduced to 126 canonical orders [0.778 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3684854497354497 [0.163 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.375462962962963 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3625330687830688 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32612433862433865 [0.17 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.34777336860670194 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3384038800705468 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3241402116402117 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3734126984126984 [0.183 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3751984126984127 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36150793650793656 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.24846781305114637 [0.235 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.2834656084656085 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.24846781305114637 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.24846781305114637 [0.001 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.145 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3247354497354497 [0.0 seconds]
+overall greedy competitive ratio = 0.375462962962963
+HIT
+
+
+
+
+
+matroid #61 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 432
+built bitmask matroid [0.024 seconds]
+computed index automorphisms [4.289 seconds]
+reduced to 840 canonical orders [1.366 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37714947089947093 [1.247 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3751653439153439 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.34046516754850087 [1.961 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38887786596119933 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3513833774250441 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3398037918871252 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.977 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2645171957671958 [1.549 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3202380952380952 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2645171957671958 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2645171957671958 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.871 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #46 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 192
+built bitmask matroid [0.006 seconds]
+computed index automorphisms [6.64 seconds]
+reduced to 1890 canonical orders [2.126 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3706018518518518 [2.779 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36663359788359795 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3306768077601411 [3.455 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3622574955908289 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3454530423280423 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3293540564373898 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3739417989417989 [2.314 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.366005291005291 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25707671957671957 [4.268 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3118716931216931 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25707671957671957 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25707671957671957 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [2.036 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #86 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 362880
+built bitmask matroid [0.01 seconds]
+computed index automorphisms [6.622 seconds]
+reduced to 1 canonical orders [1.629 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.48452380952380947 [0.001 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.46458333333333335 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4845238095238096 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.4392857142857143 [0.001 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.4429563492063492 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.4392857142857143 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.43928571428571433 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.46904761904761905 [0.001 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4409391534391534 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.46904761904761905 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.3055555555555556 [0.003 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.35059523809523807 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.3055555555555556 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.3055555555555556 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.4113756613756614 [0.0 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.38591269841269843 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.41137566137566134 [0.0 seconds]
+overall greedy competitive ratio = 0.4845238095238096
+
+
+
+
+
+matroid #62 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.14 seconds]
+computed index automorphisms [3.933 seconds]
+reduced to 1260 canonical orders [1.332 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.36984126984126986 [2.009 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.3658730158730159 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32793209876543206 [2.691 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3621252204585538 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33995260141093475 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3266093474426808 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3738095238095238 [1.344 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.36587301587301585 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2497905643738977 [2.81 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3066468253968254 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2497905643738977 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2497905643738977 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.754 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3449074074074074 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #63 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 384
+built bitmask matroid [0.009 seconds]
+computed index automorphisms [5.126 seconds]
+reduced to 945 canonical orders [1.25 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.40062830687830686 [1.131 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4006283068783068 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.37037037037037035 [2.079 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.4132716049382716 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.377634479717813 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.37037037037037035 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [1.001 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703703 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2892195767195767 [1.471 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33796296296296297 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2892195767195767 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2892195767195767 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.504 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #43 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4], [0, 5], [1, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [7, 8]])
+num automorphisms = 144
+built bitmask matroid [0.007 seconds]
+computed index automorphisms [6.45 seconds]
+reduced to 2520 canonical orders [2.22 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.37820767195767196 [3.921 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4000661375661375 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37622354497354493 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.344510582010582 [4.678 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38950617283950617 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.35853725749559084 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.34384920634920635 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3768518518518519 [3.493 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.37288359788359793 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2743055555555556 [5.086 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.32466931216931216 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2743055555555556 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2743055555555555 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [1.308 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.4000661375661375
+HIT
+
+
+
+
+
+matroid #75 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 2880
+built bitmask matroid [0.006 seconds]
+computed index automorphisms [4.812 seconds]
+reduced to 126 canonical orders [0.691 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3697420634920635 [0.075 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3822089947089947 [0.001 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.36577380952380956 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.32733686067019396 [0.144 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3621252204585538 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.33741732804232805 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3260141093474427 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3738095238095238 [0.057 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3767857142857143 [0.0 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3658730158730159 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.24602072310405645 [0.164 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3040674603174603 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.24602072310405645 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.24602072310405643 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3445767195767196 [0.093 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34490740740740744 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.33134920634920634 [0.0 seconds]
+overall greedy competitive ratio = 0.3822089947089947
+HIT
+
+
+
+
+
+matroid #80 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 960
+built bitmask matroid [0.045 seconds]
+computed index automorphisms [3.877 seconds]
+reduced to 378 canonical orders [1.037 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [0.316 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4001322751322751 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36690917107583776 [0.427 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.41313932980599644 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36870590828924166 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36690917107583776 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.237 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703704 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.27318121693121694 [0.485 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3334325396825396 [0.0 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.27318121693121694 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2731812169312169 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.186 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #81 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 4320
+built bitmask matroid [0.007 seconds]
+computed index automorphisms [3.55 seconds]
+reduced to 84 canonical orders [0.529 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3770502645502646 [0.087 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37506613756613755 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.33877865961199294 [0.081 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3884810405643739 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3437610229276896 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.3381172839506173 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.064 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.252281746031746 [0.135 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33115079365079364 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.252281746031746 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.252281746031746 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.046 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.3468915343915344 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #84 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 10080
+built bitmask matroid [0.009 seconds]
+computed index automorphisms [3.913 seconds]
+reduced to 36 canonical orders [0.808 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [0.038 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.43191137566137566 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.4001322751322751 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36690917107583776 [0.07 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.4169863315696649 [0.002 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.36690917107583776 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36690917107583776 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.035 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.40863095238095243 [0.002 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.002 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2695436507936507 [0.076 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3395337301587302 [0.002 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2695436507936507 [0.001 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2695436507936508 [0.001 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.3521825396825397 [0.029 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.35962301587301587 [0.003 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.43191137566137566
+
+
+
+
+
+matroid #74 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [2, 8], [3, 8], [4, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.007 seconds]
+computed index automorphisms [5.026 seconds]
+reduced to 1260 canonical orders [0.879 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3770502645502645 [1.158 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37506613756613755 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3389109347442681 [1.408 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.3884810405643739 [0.0 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34564594356261025 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.33824955908289245 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [0.69 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.25578703703703703 [2.275 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.3245866402116402 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.25578703703703703 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.25578703703703703 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [0.961 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.0 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+
+matroid #73 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [4, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [5, 8], [6, 8], [7, 8]])
+num automorphisms = 288
+built bitmask matroid [0.007 seconds]
+computed index automorphisms [5.105 seconds]
+reduced to 1260 canonical orders [1.038 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.4001322751322751 [1.116 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.4298941798941799 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.40013227513227506 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.36770282186948855 [1.422 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.41313932980599644 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.3718694885361552 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.36770282186948855 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3913359788359788 [0.743 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.4078703703703703 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3913359788359788 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.2792328042328042 [2.446 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.33521825396825394 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.2792328042328042 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.2792328042328042 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.35218253968253965 [0.967 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.359457671957672 [0.002 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.35218253968253965 [0.0 seconds]
+overall greedy competitive ratio = 0.4298941798941799
+
+
+
+
+
+matroid #64 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6, 7, 8], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4], [0, 5], [1, 5], [2, 5], [3, 5], [0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [0, 7], [1, 7], [2, 7], [3, 7], [4, 7], [5, 7], [6, 7], [0, 8], [1, 8], [2, 8], [3, 8], [6, 8], [7, 8]])
+num automorphisms = 96
+built bitmask matroid [0.009 seconds]
+computed index automorphisms [4.975 seconds]
+reduced to 3780 canonical orders [1.319 seconds]
+Standard Greedy 1 with threshold 3 -> competitive ratio = 0.3771494708994709 [4.923 seconds]
+Standard Greedy 2 with threshold 3 -> competitive ratio = 0.3999669312169312 [0.0 seconds]
+Rank-Based Threshold with threshold 3 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 3 -> competitive ratio = 0.37516534391534395 [0.0 seconds]
+Standard Greedy 1 with threshold 2 -> competitive ratio = 0.3400903880070547 [4.597 seconds]
+Standard Greedy 2 with threshold 2 -> competitive ratio = 0.38861331569664903 [0.001 seconds]
+Rank-Based Threshold with threshold 2 -> competitive ratio = 0.34931657848324515 [0.0 seconds]
+Panic Greedy with threshold 2 -> competitive ratio = 0.339429012345679 [0.0 seconds]
+Standard Greedy 1 with threshold 4 -> competitive ratio = 0.3767195767195767 [2.48 seconds]
+Standard Greedy 2 with threshold 4 -> competitive ratio = 0.3847222222222222 [0.001 seconds]
+Rank-Based Threshold with threshold 4 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 4 -> competitive ratio = 0.3727513227513227 [0.0 seconds]
+Standard Greedy 1 with threshold 1 -> competitive ratio = 0.26179453262786595 [7.231 seconds]
+Standard Greedy 2 with threshold 1 -> competitive ratio = 0.32711640211640214 [0.001 seconds]
+Rank-Based Threshold with threshold 1 -> competitive ratio = 0.26179453262786595 [0.0 seconds]
+Panic Greedy with threshold 1 -> competitive ratio = 0.26179453262786595 [0.0 seconds]
+Standard Greedy 1 with threshold 5 -> competitive ratio = 0.34523809523809523 [2.489 seconds]
+Standard Greedy 2 with threshold 5 -> competitive ratio = 0.34689153439153436 [0.001 seconds]
+Rank-Based Threshold with threshold 5 -> competitive ratio = 0.0 [0.0 seconds]
+Panic Greedy with threshold 5 -> competitive ratio = 0.3386243386243386 [0.0 seconds]
+overall greedy competitive ratio = 0.3999669312169312
+HIT
+
+
+
+
+

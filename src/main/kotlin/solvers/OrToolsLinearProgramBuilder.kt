@@ -13,8 +13,8 @@ class OrToolsLinearProgramBuilder : LinearProgramBuilder<MPVariable> {
     }
 
     // 2. Now it is perfectly safe to call the native C++ solver creation.
-    val solver: MPSolver = MPSolver.createSolver("GLOP")
-        ?: throw IllegalStateException("GLOP solver could not be created.")
+    val solver: MPSolver = MPSolver.createSolver("PDLP")
+        ?: throw IllegalStateException("PDLP solver could not be created.")
 
     init {
         // 3. Configure instance-specific settings here.

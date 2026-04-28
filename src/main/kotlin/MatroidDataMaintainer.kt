@@ -64,9 +64,12 @@ fun addData(file: File, valueIdentifier: String) {
 
 fun main() {
     //addData(File("matroids_8_competitive_ratios.txt"), "Objective value = ")
-    displayCurrentResults()
+    //displayCurrentResults()
     //addData(File("matroids_8_greedy_filter.txt"), "greedy competitive ratio = ")
     //writeDataStructured(File("matroids_8_greedy_filter_3.txt"), extractDataRaw(File("matroids_8_optimized_3_greedy_filter_raw.txt").readText(), "greedy competitive ratio = "))
+    writeDataStructured(File("matroids_9_greedy_filter_3.txt"), extractDataRaw(File("matroids_9_3_greedy_filter_raw.txt").readText(), "greedy competitive ratio = "))
+    displayCurrentGreedyResults()
+    //rank2Information(9)
 }
 
 fun displayCurrentResults() {
@@ -75,12 +78,14 @@ fun displayCurrentResults() {
     val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n)
     val currentData = extractDataStructured(File("matroids_8_competitive_ratios.txt"))
     val currentGreedyData = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
+    var position = 0
     for ((index, ratio) in currentData.entries.filter { it.value != null }.sortedBy { it.value }) {
+        position++
         val matroid = matroids[index]
         val numAutomorphisms = matroid.automorphisms().size
         val rank = matroid.rank()
         val greedyRatio = currentGreedyData[index]!!
-        println("matroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\tgreedy competitive ratio = ${ratioFormat.format(greedyRatio)}\t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 5)}") //\t\tbases = ${matroid.bases()}")
+        println("${position}.\tmatroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\tgreedy competitive ratio = ${ratioFormat.format(greedyRatio)}\t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 5)}") //\t\tbases = ${matroid.bases()}")
         if (greedyRatio > ratio!!) {
             println("CONTRADICTION")
             return
@@ -93,7 +98,66 @@ fun displayCurrentResults() {
     }
 }
 
+fun displayCurrentGreedyResults() {
+    val ratioFormat = DecimalFormat("0.00000000")
+    val n = 9
+    val k = 3
+    val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n, targetRank = k)
+    val currentGreedyData = extractDataStructured(File("matroids_9_greedy_filter_3.txt"))
+    var switch = false
+    var position = 0
+    for ((index, ratio) in currentGreedyData.entries.filter { it.value != null }.sortedBy { it.value }) {
+        position++
+        if (!switch && ratio!! > .406) {
+            switch = true
+            println("-".repeat(32))
+        }
+        val matroid = matroids[index]
+        val automorphismText = if (false) {
+            val numAutomorphisms = matroid.automorphisms().size
+            "\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 6)}"
+        } else {
+            ""
+        }
+        val rank = matroid.rank()
+        println("$position.\tmatroid #$index  \t\tgreedy competitive ratio = ${ratioFormat.format(ratio)}\t\trank = $rank$automorphismText") //\t\tbases = ${matroid.bases()}")
+    }
+    println()
+    for (rank in k..k) {
+        val numUncalculated = matroids.withIndex().filter { (_, matroid) -> matroid.rank() == rank }.count { (index, _) -> index !in currentGreedyData }
+        println("there are $numUncalculated matroids of rank $rank for which the greedy competitive ratio has not been calculated")
+    }
+}
+
 fun padWithSpaces(x: Int, length: Int): String {
     var result = x.toString()
     return " ".repeat(length - result.length) + result
+}
+
+fun rank2Information(n: Int) {
+    val ratioFormat = DecimalFormat("0.00000000")
+    val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n, targetRank = 2)
+    val currentData = extractDataRaw(File("matroids_9_2_competitive_ratios_raw.txt").readText(), "Objective value = ")
+    for ((index, ratio) in currentData.entries.filter { it.value != null }.sortedBy { it.value }) {
+        val matroid = matroids[index]
+        val numAutomorphisms = matroid.automorphisms().size
+        val rank = matroid.rank()
+        val classes = mutableListOf<MutableList<Int>>()
+        for (elem in matroid.elements()) {
+            var c = classes.find { setOf(elem, it.first()) !in matroid }
+            if (c == null) {
+                c = mutableListOf()
+                classes.add(c)
+            }
+            c.add(elem)
+        }
+        val classSizes = classes.map { it.size }
+
+        println("matroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 6)}\t\tclass sizes = $classSizes") //\t\tbases = ${matroid.bases()}")
+    }
+    println()
+    for (rank in 2..2) {
+        val numUncalculated = matroids.withIndex().filter { (_, matroid) -> matroid.rank() == rank }.count { (index, _) -> index !in currentData }
+        println("there are $numUncalculated matroids of rank $rank for which the competitive ratio has not been calculated")
+    }
 }

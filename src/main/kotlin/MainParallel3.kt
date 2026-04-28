@@ -8,22 +8,23 @@ import kotlinx.coroutines.sync.Semaphore
 import kotlinx.coroutines.sync.withPermit
 
 fun main() = runBlocking(Dispatchers.Default) {
-    val n = 8
-    val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n)
+    val n = 9
+    val k = 2
+    val matroids = parseMatroidsFile(File("matroids09_bases.txt"), targetSize = n, targetRank = k)
     println("num matroids = ${matroids.size}")
 
-    val prevProgress = extractDataStructured(File("matroids_8_competitive_ratios.txt"))//"" // File("progress.txt").readText()
-    val greedyData = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
+    val prevProgress = extractDataStructured(File("matroids_9_2_competitive_ratios.txt"))//"" // File("progress.txt").readText()
+    //val greedyData = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
 
     val withAutomorphisms = mutableListOf<Pair<Int, Int>>()
     for ((index, matroid) in matroids.withIndex()) {
-        /*if (matroid.isDecomposable()) {
+        if (matroid.isDecomposable()) {
             println("matroid #$index is decomposable")
-        } else*/ if (index in prevProgress) {
+        } else if (index in prevProgress) {
             println("matroid #$index already computed")
-        } else if (greedyData[index]!! > .4099) {
+        } /*else if (greedyData[index]!! > .406) {
             println("matroid #$index filtered by greedy")
-        } else {
+        } */else {
             //val numAutomorphisms = bijections(matroid.elements()).count { isAutomorphism(matroid, it) }
             val numAutomorphisms = matroid.automorphisms().size
             println("#$index has $numAutomorphisms automorphisms")
@@ -44,10 +45,12 @@ fun main() = runBlocking(Dispatchers.Default) {
     val reset = "\u001B[0m"
     fun printCurrWorking(add: Int? = null, remove: Int? = null) {
         println("-".repeat(20))
+        var numInProgress = currWorking.size
         for ((index, inProgress) in currWorking) {
             if (index == add) {
                 print(green)
             } else if (index == remove) {
+                numInProgress--
                 print(magenta)
             }
             println("#$index (rank = ${inProgress.matroid.rank(inProgress.matroid.elements())}) | since ${formatTimestamp(inProgress.startTime)} | ${inProgress.variables} variables, ${inProgress.constraints} constraints [${inProgress.automorphisms} automorphisms]")
@@ -56,35 +59,39 @@ fun main() = runBlocking(Dispatchers.Default) {
             }
         }
         println("-".repeat(20))
-        println("$remMatroids matroids remaining [ ${currWorking.size} matroids in progress ]")
+        println("$remMatroids matroids remaining [ $numInProgress matroids in progress ]")
         println("-".repeat(20))
     }
     val concurrentSolves = Semaphore(12)
 
-    val file = File("matroids_8_competitive_ratios_raw.txt")
+    val file = File("matroids_9_2_competitive_ratios_raw.txt")
 
     val hits = withAutomorphisms.map { (index, numAutomorphisms) ->
         async {
             concurrentSolves.withPermit {
                 val matroid = matroids[index]
-                val (variables, constraints) = assessMatroidQuietly(matroid)
 
                 // 2. Create a local string builder for this specific execution
                 val log = java.lang.StringBuilder()
+
+                val lp = solveMatroidStep1(matroid, 2, log)
+                val variables = lp.getNumVariables()
+                val constraints = lp.getNumConstraints()
 
                 log.appendLine("matroid #$index = $matroid")
 
                 val startTime = System.currentTimeMillis()
                 printMutex.withLock {
+                    print(log.toString())
                     currWorking[index] = InProgressMatroid(matroid, variables, constraints, startTime, numAutomorphisms)
                     printCurrWorking(add = index)
                 }
 
                 log.appendLine("solving with more symmetry")
-                val z = solveMatroidWithLog(matroid, 2, log)
+                val z = solveMatroidStep2(lp, log)
 
                 var hitResult: Double? = null
-                if (z < 0.4099) {
+                if (z < 0.406) {
                     log.appendLine("HIT")
                     hitResult = z
                 }

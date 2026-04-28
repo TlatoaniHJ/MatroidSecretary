@@ -128,11 +128,11 @@ fun <E> isAutomorphism(matroid: Matroid<E>, bijection: Map<E, E>): Boolean {
     return true
 }
 
-fun <E, V> buildMatroidSecretaryLP(matroid: Matroid<E>, lpBuilder: LinearProgramBuilder<V>) {
+fun <E, V> buildMatroidSecretaryLP(matroid: Matroid<E>, lpBuilder: LinearProgramBuilder<V>, target: Double? = null) {
     val allSubsets = subsets(matroid.elements())
     val allOrderedSubsets = orderedSubsets(matroid.elements())
 
-    val automorphisms = bijections(matroid.elements()).filter { isAutomorphism(matroid, it) }
+    val automorphisms = matroid.automorphisms()
     val orderedSubsetIdentity = mutableMapOf<List<E>, List<E>>()
     for (orderedSubset in allOrderedSubsets) {
         if (orderedSubset !in orderedSubsetIdentity) {
@@ -203,8 +203,13 @@ fun <E, V> buildMatroidSecretaryLP(matroid: Matroid<E>, lpBuilder: LinearProgram
         yesTotals[partialKey] = (yesTotals[partialKey] ?: Expression.zero()) + yesExpr
     }
 
-    val competitiveRatio = lpBuilder.newVariable(VariableType.UNBOUNDED)
-    lpBuilder.optimize(OptimizationMode.MAXIMIZE, competitiveRatio)
+    val competitiveRatio = if (target == null) {
+        val c = lpBuilder.newVariable(VariableType.UNBOUNDED)
+        lpBuilder.optimize(OptimizationMode.MAXIMIZE, c)
+        c
+    } else {
+        Expression.fromConstant(target)
+    }
 
     val seenOrders = mutableSetOf<List<E>>()
     for (order in permutations(matroid.elements())) {
@@ -415,6 +420,255 @@ fun <E, V> buildMatroidSecretaryLP3(matroid: Matroid<E>, lpBuilder: LinearProgra
 
     val competitiveRatio = lpBuilder.newVariable(VariableType.UNBOUNDED)
     lpBuilder.optimize(OptimizationMode.MAXIMIZE, competitiveRatio)
+
+    val seenOrders = mutableSetOf<List<E>>()
+    for (order in permutations(matroid.elements())) {
+        if (order !in seenOrders) {
+            for (automorphism in automorphisms) {
+                seenOrders.add(order.map(automorphism::getValue))
+            }
+            val probabilities = MutableList(order.size) { Expression.zero<V>() }
+            for (j in order.indices) {
+                for (partialOrder in subsets(order.indices.toSet())) {
+                    if (j in partialOrder) {
+                        val partialOrder = partialOrder.sorted()
+                        val orderedSubset = partialOrder.map(order::get)
+                        val index = partialOrder.indexOf(j)
+                        val key = PartialVariableKey(orderedSubsetIdentity[orderedSubset]!!, index)
+                        probabilities[j] += yesTotals[key]!!
+                    }
+                }
+            }
+            for (threshold in 1..order.size) {
+                val rank = matroid.rank(order.subList(0, threshold).toSet())
+                val prevRank = matroid.rank(order.subList(0, threshold - 1).toSet())
+                if (rank > prevRank) {
+                    val contributions = probabilities.subList(0, threshold).reduce(Expression<V>::plus)
+                    lpBuilder.newConstraint(
+                        contributions,
+                        ConstraintType.GREATER_OR_EQUAL,
+                        rank.toDouble() * competitiveRatio
+                    )
+                }
+            }
+        }
+    }
+}
+
+fun <E, V> buildMatroidSecretaryLPSparser(matroid: Matroid<E>, lpBuilder: LinearProgramBuilder<V>, target: Double? = null) {
+    val allSubsets = subsets(matroid.elements())
+    val allOrderedSubsets = orderedSubsets(matroid.elements())
+
+    val automorphisms = matroid.automorphisms()
+    val orderedSubsetIdentity = mutableMapOf<List<E>, List<E>>()
+    for (orderedSubset in allOrderedSubsets) {
+        if (orderedSubset !in orderedSubsetIdentity) {
+            for (automorphism in automorphisms) {
+                val image = orderedSubset.map(automorphism::getValue)
+                orderedSubsetIdentity[image] = orderedSubset
+            }
+        }
+    }
+
+    val spanIdentity = mutableMapOf<SpanKey<E>, Set<E>>()
+    for (seen in allSubsets) {
+        val notSeen = matroid.elements() - seen
+        val minors = mutableListOf<Pair<Set<E>, Matroid<E>>>()
+        for (subset in subsets(seen)) {
+            val minor = matroid.minor(subset, notSeen)
+            val existing = minors.find { minor.same(it.second) }?.first
+            if (existing == null) {
+                minors.add(Pair(subset, minor))
+            }
+            spanIdentity[SpanKey(seen, subset)] = existing ?: subset
+        }
+    }
+
+    val yes = mutableMapOf<VariableKey<E>, Expression<V>>()
+    val no = mutableMapOf<VariableKey<E>, Expression<V>>()
+    for (orderedSubset in orderedSubsetIdentity.values.toSet()) {
+        for ((index, elem) in orderedSubset.withIndex()) {
+            val prev = (orderedSubset - elem).toSet()
+            for (prevSpan in subsets(prev).map { spanIdentity[SpanKey<E>(prev, it)]!! }.toSet()) {
+                val key = VariableKey(orderedSubset, index, prevSpan)
+                yes[key] = if (matroid.spans(prevSpan, elem)) Expression.zero() else lpBuilder.newVariable(VariableType.NONNEGATIVE)
+                no[key] = lpBuilder.newVariable(VariableType.NONNEGATIVE)
+            }
+        }
+    }
+
+    val summary = mutableMapOf<SummaryKey<E>, Expression<V>>()
+    for ((key, expression) in yes) {
+        val span = spanIdentity[SpanKey(key.orderedSubset.toSet(), key.prevSpan + key.orderedSubset[key.index])]!!
+        val summaryKey = SummaryKey(key.orderedSubset, span)
+        summary[summaryKey] = (summary[summaryKey] ?: Expression.zero()) + expression
+    }
+    for ((key, expression) in no) {
+        val span = spanIdentity[SpanKey(key.orderedSubset.toSet(), key.prevSpan)]!!
+        val summaryKey = SummaryKey(key.orderedSubset, span)
+        summary[summaryKey] = (summary[summaryKey] ?: Expression.zero()) + expression
+    }
+    summary[SummaryKey(listOf(), setOf())] = Expression.fromConstant(1.0)
+
+    for ((key, yesExpr) in yes) {
+        val noExpr = no[key]!!
+        val prevOrderedSubset = key.orderedSubset - key.orderedSubset[key.index]
+        val covered = prevOrderedSubset.indices.filter { matroid.spans(key.prevSpan, prevOrderedSubset[it]) }
+        val prevIdentity = orderedSubsetIdentity[prevOrderedSubset]!!
+        val coveredImage = covered.map(prevIdentity::get).toSet()
+        val prevSpanIdentity = spanIdentity[SpanKey(prevIdentity.toSet(), coveredImage)]!!
+
+        val prevKey = SummaryKey(prevIdentity, prevSpanIdentity)
+        //println("prevKey = $prevKey")
+        val prevSummary = summary[prevKey]!!
+        lpBuilder.newConstraint(yesExpr + noExpr, ConstraintType.EQUAL, prevSummary / (matroid.elements().size - prevOrderedSubset.size).toDouble())
+    }
+
+    val yesTotals = mutableMapOf<PartialVariableKey<E>, Expression<V>>()
+    for ((key, yesExpr) in yes) {
+        val partialKey = PartialVariableKey(key.orderedSubset, key.index)
+        yesTotals[partialKey] = (yesTotals[partialKey] ?: Expression.zero()) + yesExpr
+    }
+    for (key in yesTotals.keys.toSet()) {
+        val variable = lpBuilder.newVariable(VariableType.UNBOUNDED)
+        lpBuilder.newConstraint(variable, ConstraintType.EQUAL, yesTotals[key]!!)
+        yesTotals[key] = variable
+    }
+
+    val competitiveRatio = if (target == null) {
+        val c = lpBuilder.newVariable(VariableType.UNBOUNDED)
+        lpBuilder.optimize(OptimizationMode.MAXIMIZE, c)
+        c
+    } else {
+        Expression.fromConstant(target)
+    }
+
+    val seenOrders = mutableSetOf<List<E>>()
+    for (order in permutations(matroid.elements())) {
+        if (order !in seenOrders) {
+            for (automorphism in automorphisms) {
+                seenOrders.add(order.map(automorphism::getValue))
+            }
+            val probabilities = MutableList(order.size) { Expression.zero<V>() }
+            for (j in order.indices) {
+                for (partialOrder in subsets(order.indices.toSet())) {
+                    if (j in partialOrder) {
+                        val partialOrder = partialOrder.sorted()
+                        val orderedSubset = partialOrder.map(order::get)
+                        val index = partialOrder.indexOf(j)
+                        val key = PartialVariableKey(orderedSubsetIdentity[orderedSubset]!!, index)
+                        probabilities[j] += yesTotals[key]!!
+                    }
+                }
+            }
+            for (threshold in 1..order.size) {
+                val rank = matroid.rank(order.subList(0, threshold).toSet())
+                val prevRank = matroid.rank(order.subList(0, threshold - 1).toSet())
+                if (rank > prevRank) {
+                    val contributions = probabilities.subList(0, threshold).reduce(Expression<V>::plus)
+                    lpBuilder.newConstraint(
+                        contributions,
+                        ConstraintType.GREATER_OR_EQUAL,
+                        rank.toDouble() * competitiveRatio
+                    )
+                }
+            }
+        }
+    }
+}
+
+fun <E, V> buildMatroidSecretaryLPSparser2(matroid: Matroid<E>, lpBuilder: LinearProgramBuilder<V>, target: Double? = null) {
+    val allSubsets = subsets(matroid.elements())
+    val allOrderedSubsets = orderedSubsets(matroid.elements())
+
+    val automorphisms = matroid.automorphisms()
+    val orderedSubsetIdentity = mutableMapOf<List<E>, List<E>>()
+    for (orderedSubset in allOrderedSubsets) {
+        if (orderedSubset !in orderedSubsetIdentity) {
+            for (automorphism in automorphisms) {
+                val image = orderedSubset.map(automorphism::getValue)
+                orderedSubsetIdentity[image] = orderedSubset
+            }
+        }
+    }
+
+    val spanIdentity = mutableMapOf<SpanKey<E>, Set<E>>()
+    for (seen in allSubsets) {
+        val notSeen = matroid.elements() - seen
+        val minors = mutableListOf<Pair<Set<E>, Matroid<E>>>()
+        for (subset in subsets(seen)) {
+            val minor = matroid.minor(subset, notSeen)
+            val existing = minors.find { minor.same(it.second) }?.first
+            if (existing == null) {
+                minors.add(Pair(subset, minor))
+            }
+            spanIdentity[SpanKey(seen, subset)] = existing ?: subset
+        }
+    }
+
+    val yes = mutableMapOf<VariableKey<E>, Expression<V>>()
+    val no = mutableMapOf<VariableKey<E>, Expression<V>>()
+    for (orderedSubset in orderedSubsetIdentity.values.toSet()) {
+        for ((index, elem) in orderedSubset.withIndex()) {
+            val prev = (orderedSubset - elem).toSet()
+            for (prevSpan in subsets(prev).map { spanIdentity[SpanKey<E>(prev, it)]!! }.toSet()) {
+                val key = VariableKey(orderedSubset, index, prevSpan)
+                yes[key] = if (matroid.spans(prevSpan, elem)) Expression.zero() else lpBuilder.newVariable(VariableType.NONNEGATIVE)
+                no[key] = lpBuilder.newVariable(VariableType.NONNEGATIVE)
+            }
+        }
+    }
+
+    val summary = mutableMapOf<SummaryKey<E>, Expression<V>>()
+    for ((key, expression) in yes) {
+        val span = spanIdentity[SpanKey(key.orderedSubset.toSet(), key.prevSpan + key.orderedSubset[key.index])]!!
+        val summaryKey = SummaryKey(key.orderedSubset, span)
+        summary[summaryKey] = (summary[summaryKey] ?: Expression.zero()) + expression
+    }
+    for ((key, expression) in no) {
+        val span = spanIdentity[SpanKey(key.orderedSubset.toSet(), key.prevSpan)]!!
+        val summaryKey = SummaryKey(key.orderedSubset, span)
+        summary[summaryKey] = (summary[summaryKey] ?: Expression.zero()) + expression
+    }
+    for (key in summary.keys.toSet()) {
+        val variable = lpBuilder.newVariable(VariableType.UNBOUNDED)
+        lpBuilder.newConstraint(variable, ConstraintType.EQUAL, summary[key]!!)
+        summary[key] = variable
+    }
+    summary[SummaryKey(listOf(), setOf())] = Expression.fromConstant(1.0)
+
+    for ((key, yesExpr) in yes) {
+        val noExpr = no[key]!!
+        val prevOrderedSubset = key.orderedSubset - key.orderedSubset[key.index]
+        val covered = prevOrderedSubset.indices.filter { matroid.spans(key.prevSpan, prevOrderedSubset[it]) }
+        val prevIdentity = orderedSubsetIdentity[prevOrderedSubset]!!
+        val coveredImage = covered.map(prevIdentity::get).toSet()
+        val prevSpanIdentity = spanIdentity[SpanKey(prevIdentity.toSet(), coveredImage)]!!
+
+        val prevKey = SummaryKey(prevIdentity, prevSpanIdentity)
+        //println("prevKey = $prevKey")
+        val prevSummary = summary[prevKey]!!
+        lpBuilder.newConstraint(yesExpr + noExpr, ConstraintType.EQUAL, prevSummary / (matroid.elements().size - prevOrderedSubset.size).toDouble())
+    }
+
+    val yesTotals = mutableMapOf<PartialVariableKey<E>, Expression<V>>()
+    for ((key, yesExpr) in yes) {
+        val partialKey = PartialVariableKey(key.orderedSubset, key.index)
+        yesTotals[partialKey] = (yesTotals[partialKey] ?: Expression.zero()) + yesExpr
+    }
+    for (key in yesTotals.keys.toSet()) {
+        val variable = lpBuilder.newVariable(VariableType.UNBOUNDED)
+        lpBuilder.newConstraint(variable, ConstraintType.EQUAL, yesTotals[key]!!)
+        yesTotals[key] = variable
+    }
+
+    val competitiveRatio = if (target == null) {
+        val c = lpBuilder.newVariable(VariableType.UNBOUNDED)
+        lpBuilder.optimize(OptimizationMode.MAXIMIZE, c)
+        c
+    } else {
+        Expression.fromConstant(target)
+    }
 
     val seenOrders = mutableSetOf<List<E>>()
     for (order in permutations(matroid.elements())) {
