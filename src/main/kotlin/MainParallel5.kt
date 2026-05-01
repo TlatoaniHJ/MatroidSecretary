@@ -2,45 +2,50 @@ package org.example
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
-import kotlinx.coroutines.sync.withLock
-import java.io.File
 import kotlinx.coroutines.sync.Semaphore
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.sync.withPermit
+import org.example.core.graphicMatroidOf
 
 fun main() = runBlocking(Dispatchers.Default) {
     println("Running on architecture: ${System.getProperty("os.arch")}")
-    val n = 9
-    val k = 3
-    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n, targetRank = k)
-    println("num matroids = ${matroids.size}")
 
-    //val prevProgress = extractDataStructured(File("matroids_9_3_competitive_ratios.txt"))//"" // File("progress.txt").readText()
-    //val greedyData = extractDataStructured(File("matroids_8_greedy_filter_3.txt"))
-
-    val withAutomorphisms = mutableListOf<Pair<Int, Int>>()
-    for ((index, matroid) in matroids.withIndex()) {
-        if (matroid.isDecomposable()) {
-            println("matroid #$index is decomposable")
-        }
-        /*else if (index in prevProgress) {
-            println("matroid #$index already computed")
-        } /*else if (greedyData[index]!! > .406) {
-            println("matroid #$index filtered by greedy")
-        } */else*/
-        /*if (index == 64)*/ else {
-            //val numAutomorphisms = bijections(matroid.elements()).count { isAutomorphism(matroid, it) }
-            val numAutomorphisms = matroid.automorphisms().size
-            println("#$index has $numAutomorphisms automorphisms")
-            withAutomorphisms.add(Pair(index, numAutomorphisms))
-        }
-    }
-    withAutomorphisms.sortByDescending { it.second }
-    withAutomorphisms.sortBy { matroids[it.first].rank() }
+    /*val matroids = listOf(
+        //rank2MatroidFrom(8, 1, 1),
+        //rank2MatroidFrom(7, 2, 1),
+        rank2MatroidFrom(7, 1, 1, 1),
+        //rank2MatroidFrom(6, 2, 2),
+        rank2MatroidFrom(6, 3, 1),
+        //rank2MatroidFrom(5, 4, 1),
+        rank2MatroidFrom(5, 3, 2),
+        rank2MatroidFrom(4, 4, 2),
+        //rank2MatroidFrom(4, 3, 3),
+        rank2MatroidFrom(2, 2, 2, 2, 2),
+    )*/
+    /*val matroids = listOf(
+        //rank2MatroidFrom(2),
+        rank2MatroidFrom(2, 2),
+        //rank2MatroidFrom(2, 2, 2),
+        //rank2MatroidFrom(2, 2, 2, 2),
+        rank2MatroidFrom(2, 2, 1),
+        rank2MatroidFrom(2, 2, 1, 1),
+        rank2MatroidFrom(2, 2, 1, 1, 1),
+        rank2MatroidFrom(2, 2, 1, 1, 1, 1),
+        rank2MatroidFrom(2, 2, 1, 1, 1, 1, 1),
+        rank2MatroidFrom(2, 2, 1, 1, 1, 1, 1, 1),
+        rank2MatroidFrom(2, 2, 1, 1, 1, 1, 1, 1, 1),
+        rank2MatroidFrom(2, 2, 1, 1, 1, 1, 1, 1, 1, 1),
+        //rank2MatroidFrom(2, 2, 2, 2, 2),
+    )*/
+    val A = -1
+    val B = 0
+    val hat3 = graphicMatroidOf(A to B, A to 1, 1 to B, A to 2, 2 to B, A to 3, 3 to B, A to 4, 4 to B)
+    val matroids = listOf(TruncatedMatroid(hat3, 3), TruncatedMatroid(hat3, 2))
 
     // 1. Create a lock to synchronize console output
     val printMutex = Mutex()
     val currWorking = mutableMapOf<Int, InProgressMatroid>()
-    var remMatroids = withAutomorphisms.size
+    var remMatroids = matroids.size
     // ANSI escape codes
     val green = "\u001B[32m"
     val magenta = "\u001B[35m"
@@ -65,28 +70,28 @@ fun main() = runBlocking(Dispatchers.Default) {
         println("$remMatroids matroids remaining [ $numInProgress matroids in progress ]")
         println("-".repeat(20))
     }
-    val concurrentSolves = Semaphore(12)
+    val concurrentSolves = Semaphore(4)
 
-    val file = File("matroids_9_3_competitive_ratios_raw.txt")
+    //val file = File("matroids_9_2_competitive_ratios_raw.txt")
 
-    val hits = withAutomorphisms.map { (index, numAutomorphisms) ->
+    val hits = matroids.withIndex().map { (index, matroid) ->
         async {
             concurrentSolves.withPermit {
-                val matroid = matroids[index]
 
-                // 2. Create a local string builder for this specific execution
+                // 2. Create a local streing builder for this specific execution
                 val log = java.lang.StringBuilder()
 
-                val lp = solveMatroidStep1Gurobi(matroid, 32, log, logLP = withAutomorphisms.size == 1)
+                val lp = solveMatroidStep1Gurobi(matroid, 32, log, logLP = matroids.size == 1)
                 val variables = lp.getNumVariables()
                 val constraints = lp.getNumConstraints()
+                val numAutomorphisms = matroid.automorphisms().size
 
                 log.appendLine("matroid #$index = $matroid")
 
                 val startTime = System.currentTimeMillis()
                 printMutex.withLock {
                     print(log.toString())
-                    currWorking[index] = InProgressMatroid(matroid, variables, constraints, startTime, numAutomorphisms)
+                    currWorking[index] = InProgressMatroid(uniformMatroid((1..8).toSet(), 3), variables, constraints, startTime, numAutomorphisms)
                     printCurrWorking(add = index)
                 }
 
@@ -109,7 +114,7 @@ fun main() = runBlocking(Dispatchers.Default) {
                     currWorking.remove(index)
                     print(log.toString()) // Use print, not println, since we appended lines
                 }
-                file.appendText(log.toString())
+                //file.appendText(log.toString())
 
                 hitResult // Return the actual computation result to the list
             }
@@ -120,4 +125,23 @@ fun main() = runBlocking(Dispatchers.Default) {
     for (matroid in hits) {
         println(matroid)
     }
+}
+
+class Rank2Matroid<E>(val classes: List<Set<E>>): Matroid<E> {
+    override fun elements() = classes.flatten().toSet()
+    override fun contains(set: Set<E>) = set.size <= 2 && classes.all { it.intersect(set).size <= 1 }
+    override fun toString(): String {
+        val sizes = classes.map { it.size }
+        return "Rank2Matroid(${sizes.joinToString(", ")})"
+    }
+}
+
+fun rank2MatroidFrom(vararg classSizes: Int): Matroid<Int> {
+    val classes = mutableListOf<Set<Int>>()
+    var element = 0
+    for (classSize in classSizes) {
+        classes.add((element + 1..element + classSize).toSet())
+        element += classSize
+    }
+    return Rank2Matroid(classes)
 }

@@ -114,6 +114,7 @@ fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuild
         2 -> buildMatroidSecretaryLP(matroid, builder, target)
         12 -> buildMatroidSecretaryLPSparser(matroid, builder, target)
         22 -> buildMatroidSecretaryLPSparser2(matroid, builder, target)
+        32 -> buildMatroidSecretaryLPStopgap(matroid, builder, target)
         else -> throw IllegalArgumentException("mode = $mode, should be 0, 1, 2")
     }
     builder.updateModel()

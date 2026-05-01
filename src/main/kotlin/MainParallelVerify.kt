@@ -82,7 +82,7 @@ fun main() = runBlocking(Dispatchers.Default) {
                 val y = solveMatroidStep2Gurobi(lpSymmetry, log)
                 log.append("\n\n\n\n\n")
                 log.appendLine("solving with more symmetry and sparser constraint matrix")
-                val lpSparse = solveMatroidStep1Gurobi(matroid, 22, log, logLP = false)
+                val lpSparse = solveMatroidStep1Gurobi(matroid, 32, log, logLP = false)
                 val z = solveMatroidStep2Gurobi(lpSparse, log)
                 // The equivalent of repeat(5) { println() }
                 log.append("\n\n\n\n\n")

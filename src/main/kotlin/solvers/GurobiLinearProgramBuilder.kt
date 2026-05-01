@@ -21,7 +21,7 @@ class GurobiLinearProgramBuilder(logToConsole: Boolean = true) : LinearProgramBu
         model = GRBModel(env)
 
         // Limit Gurobi to exactly 1 thread
-        model.set(GRB.IntParam.Threads, 1)
+        model.set(GRB.IntParam.Threads, 2)
 
         // Explicitly disable the Crossover phase
         model.set(GRB.IntParam.Crossover, 0)
@@ -135,5 +135,13 @@ class GurobiLinearProgramBuilder(logToConsole: Boolean = true) : LinearProgramBu
      */
     fun getNumConstraints(): Int {
         return model.get(GRB.IntAttr.NumConstrs)
+    }
+
+    /**
+     * Retrieves the total number of non-zero coefficients in the linear constraint matrix.
+     * Note: Requires model.update() or model.optimize() to have been called first.
+     */
+    fun getNumNonZeros(): Int {
+        return model.get(GRB.IntAttr.NumNZs)
     }
 }

@@ -1,5 +1,7 @@
 package org.example
 
+import org.example.core.automorphismsOptimized
+
 interface Matroid<E> {
 
     fun elements(): Set<E>
@@ -57,10 +59,11 @@ interface Matroid<E> {
         return subsets(elements()).filter { it in this && it.size == rank }.toSet()
     }
 
-    fun automorphisms(): List<Map<E, E>> {
+    /*fun automorphisms(): List<Map<E, E>> {
         val bases = bases()
         return bijections(elements()).filter { bijection -> bases.map { it.map(bijection::getValue).toSet() }.toSet() == bases }
-    }
+    }*/
+    fun automorphisms(): List<Map<E, E>> = automorphismsOptimized(this)
 }
 
 data class MatroidByBases<E>(val elements: Set<E>, val bases: List<Set<E>>): Matroid<E> {
@@ -109,6 +112,12 @@ fun <E, F> isomorphic(matroid1: Matroid<E>, matroid2: Matroid<F>): Boolean {
     if (elements1.size != elements2.size) {
         return false
     }
+    if (matroid1.rank() != matroid2.rank()) {
+        return false
+    }
+    if (matroid1.bases().size != matroid2.bases().size) {
+        return false
+    }
     for (permutation in permutations(elements2)) {
         var works = true
         for (set in subsets(elements1.zip(permutation).toSet())) {
@@ -144,4 +153,14 @@ class CachedMatroid<E>(val matroid: Matroid<E>): Matroid<E> {
     override fun contains(set: Set<E>) = set in matroid
 
     override fun spans(set: Set<E>, x: E) = Pair(set, x) in spans
+}
+
+data class TruncatedMatroid<E>(val matroid: Matroid<E>, val truncation: Int): Matroid<E> {
+    override fun elements() = matroid.elements()
+    override fun contains(set: Set<E>) = set.size <= truncation && set in matroid
+}
+
+data class DualMatroid<E>(val matroid: Matroid<E>): Matroid<E> {
+    override fun elements() = matroid.elements()
+    override fun contains(set: Set<E>) = matroid.rank(elements() - set) == matroid.rank()
 }
