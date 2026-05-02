@@ -6,15 +6,17 @@ import kotlinx.coroutines.sync.Semaphore
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.sync.withPermit
 import java.io.File
+import kotlin.random.Random
 
 fun main() = runBlocking(Dispatchers.Default) {
     println("Running on architecture: ${System.getProperty("os.arch")}")
-    val n = 6
+    val n = 8
     val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n)
     println("num matroids = ${matroids.size}")
 
-    val considered = mutableListOf<Int>()
-    for ((index, matroid) in matroids.withIndex()) {
+    val random = Random(23423)
+    val considered = matroids.indices.shuffled(random).subList(0, 6)
+    /*for ((index, matroid) in matroids.withIndex()) {
         if (matroid.isDecomposable()) {
             println("matroid #$index is decomposable")
             if (matroid.rank() != 0) {
@@ -23,7 +25,7 @@ fun main() = runBlocking(Dispatchers.Default) {
         } else {
             considered.add(index)
         }
-    }
+    }*/
 
     // 1. Create a lock to synchronize console output
     val printMutex = Mutex()
@@ -63,7 +65,8 @@ fun main() = runBlocking(Dispatchers.Default) {
                 // 2. Create a local string builder for this specific execution
                 val log = java.lang.StringBuilder()
 
-                val lpBaseline = solveMatroidStep1Gurobi(matroid, 0, log, logLP = false)
+                log.appendLine("solving with stopgap")
+                val lpBaseline = solveMatroidStep1Gurobi(matroid, 32, log, logFileName = "matroid_${index}_method_32")
                 val variables = lpBaseline.getNumVariables()
                 val constraints = lpBaseline.getNumConstraints()
                 val numAutomorphisms = matroid.automorphisms().size
@@ -77,12 +80,12 @@ fun main() = runBlocking(Dispatchers.Default) {
                 }
                 val x = solveMatroidStep2Gurobi(lpBaseline, log)
                 log.append("\n\n\n\n\n")
-                log.appendLine("solving with more symmetry")
-                val lpSymmetry = solveMatroidStep1Gurobi(matroid, 2, log, logLP = false)
+                log.appendLine("solving with prefix sums")
+                val lpSymmetry = solveMatroidStep1Gurobi(matroid, 42, log, logFileName = "matroid_${index}_method_42")
                 val y = solveMatroidStep2Gurobi(lpSymmetry, log)
                 log.append("\n\n\n\n\n")
-                log.appendLine("solving with more symmetry and sparser constraint matrix")
-                val lpSparse = solveMatroidStep1Gurobi(matroid, 32, log, logLP = false)
+                log.appendLine("solving with subset sums")
+                val lpSparse = solveMatroidStep1Gurobi(matroid, 52, log, logFileName = "matroid_${index}_method_52")
                 val z = solveMatroidStep2Gurobi(lpSparse, log)
                 // The equivalent of repeat(5) { println() }
                 log.append("\n\n\n\n\n")

@@ -1,0 +1,105 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Fri May  1 09:43:33 2026
+
+Set parameter LogFile to value "logs/matroid_264.txt"
+Set parameter Threads to value 1
+Set parameter Crossover to value 0
+Set parameter Method to value 2
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 1 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 570609 rows, 698098 columns and 1840425 nonzeros (Max)
+Model fingerprint: 0x5554b8d1
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 102240 rows and 102240 columns
+Presolve time: 0.07s
+
+Barrier solved model in 0 iterations and 0.07 seconds (0.10 work units)
+Model is infeasible or unbounded
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 1 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 585729 rows, 698098 columns and 5081425 nonzeros (Max)
+Model fingerprint: 0xba5e76a6
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 8e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 402457 rows and 415657 columns
+Presolve time: 1.89s
+Presolved: 183272 rows, 282441 columns, 4188392 nonzeros
+Elapsed ordering time = 6s
+Elapsed ordering time = 10s
+Elapsed ordering time = 16s
+Elapsed ordering time = 20s
+Elapsed ordering time = 25s
+Elapsed ordering time = 26s
+Elapsed ordering time = 30s
+Elapsed ordering time = 35s
+Elapsed ordering time = 35s
+Elapsed ordering time = 40s
+Elapsed ordering time = 45s
+Elapsed ordering time = 45s
+Elapsed ordering time = 50s
+Ordering time: 51.93s
+
+Barrier statistics:
+ Dense cols : 1605
+ Free vars  : 1
+ AA' NZ     : 2.547e+07
+ Factor NZ  : 8.488e+08 (roughly 7.0 GB of memory)
+ Factor Ops : 1.873e+13 (roughly 140 seconds per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.96654367e-08 -0.00000000e+00  1.71e+01 5.00e-01  9.99e-03    59s
+   1   4.20063006e+00  4.28957269e-01  1.06e+01 2.97e-01  5.65e-03    59s
+   2   4.85935625e+00  9.12450067e-01  6.73e+00 2.09e-01  3.45e-03    60s
+   3   4.23757658e+00  2.11888600e+00  5.68e+00 1.37e-01  2.51e-03    63s
+   4   2.97511437e+00  4.11228517e+00  4.15e+00 8.06e-02  1.65e-03    67s
+   5   2.10657378e+00  6.80885852e+00  3.00e+00 3.94e-02  1.01e-03    71s
+   6   1.21137461e+00  1.25423390e+01  1.82e+00 1.67e-02  5.91e-04    79s
+   7   4.10237293e-01  1.38902711e+01  7.13e-01 3.80e-03  1.95e-04    86s
+   8   3.11716669e-01  1.14984836e+01  3.52e-01 2.55e-03  1.02e-04   100s
+   9   3.03413668e-01  8.58447049e+00  2.24e-01 1.52e-03  6.46e-05   177s
+  10   3.09307072e-01  6.81485822e+00  9.45e-02 1.03e-03  3.55e-05   248s
+  11   3.46517662e-01  3.29787608e+00  2.12e-02 3.07e-04  1.15e-05   345s
+  12   3.76576212e-01  1.74943712e+00  1.33e-02 1.25e-04  5.08e-06   417s
+  13   4.14614206e-01  1.35284127e+00  8.92e-03 8.19e-05  3.37e-06   484s
+  14   4.51361373e-01  1.01431366e+00  5.55e-03 4.53e-05  1.98e-06   540s
+  15   4.61906117e-01  9.50377708e-01  4.67e-03 3.92e-05  1.70e-06   592s
+  16   4.84899873e-01  7.43932287e-01  2.20e-03 1.92e-05  8.87e-07   649s
+  17   4.97093768e-01  6.03022984e-01  6.34e-04 6.76e-05  3.59e-07   713s
+  18   4.99822163e-01  5.02191964e-01  2.11e-07 1.88e-07  7.72e-09   900s
+  19   4.99999820e-01  5.00002203e-01  1.46e-13 7.89e-13  7.74e-12  1049s
+  20   5.00000000e-01  5.00000002e-01  9.41e-12 8.77e-15  7.74e-15  1191s
+
+Barrier solved model in 20 iterations and 1191.45 seconds (17259.65 work units)
+Optimal objective 5.00000000e-01
+

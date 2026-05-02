@@ -3,9 +3,9 @@ package org.example
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.sync.Mutex
-import kotlinx.coroutines.sync.Semaphore
 import kotlinx.coroutines.sync.withLock
 import java.io.File
+import kotlin.math.min
 import kotlin.system.exitProcess
 
 fun main() = runBlocking(Dispatchers.Default) {
@@ -14,13 +14,12 @@ fun main() = runBlocking(Dispatchers.Default) {
     val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n)
     println("num matroids = ${matroids.size}")
 
-    val prevProgress = File("matroids_8_truncation_conjecture.txt").readText()
+    val prevProgress = extractDataRaw(File("matroids_8_truncation_conjecture.txt").readText(), "original ratio = ")
     //val prevProgress = extractDataStructured(File("matroids_9_3_competitive_ratios.txt"))//"" // File("progress.txt").readText()
     //val greedyData = extractDataStructured(File("matroids_9_greedy_filter_3.txt"))
 
     // 1. Create a lock to synchronize console output
     val printMutex = Mutex()
-    val concurrentSolves = Semaphore(12)
     val file = File("matroids_8_truncation_conjecture.txt")
 
     val currWorking = mutableMapOf<Int, InProgressMatroid3>()
@@ -57,7 +56,7 @@ fun main() = runBlocking(Dispatchers.Default) {
 
     println("sorting by automorphisms...")
     val timer = Timer()
-    val sorted = matroids.withIndex().map { (index, matroid) -> Pair(index, matroid.automorphisms().size) }.sortedByDescending { it.second }
+    val sorted = matroids.withIndex().map { (index, matroid) -> Pair(index, matroid.automorphisms().size) }.sortedByDescending { it.second }.sortedBy { matroids[it.first].rank() }
     println("sorted [${timer.lapSeconds()} seconds]")
 
 // ... (keep everything above this exactly the same, down to the printMutex declaration)
@@ -65,7 +64,7 @@ fun main() = runBlocking(Dispatchers.Default) {
     // 1. Create a Channel and load it in your strict, sorted order
     val workChannel = Channel<Pair<Int, Int>>(Channel.UNLIMITED)
     for ((index, numAutomorphisms) in sorted) {
-        if ("matroid #$index" in prevProgress) {
+        if (index in prevProgress) {
             println("ignoring #$index as already handled")
         } else if (matroids[index].rank() <= 1) {
             println("ignoring #$index as its rank is too small")
@@ -76,7 +75,7 @@ fun main() = runBlocking(Dispatchers.Default) {
     }
     workChannel.close() // Signals to the workers that no more items are coming
 
-    val numWorkers = 6
+    val numWorkers = 1
 
     // 2. Spawn exactly 12 long-living worker coroutines
     (1..numWorkers).map {
@@ -101,7 +100,23 @@ fun main() = runBlocking(Dispatchers.Default) {
                         printCurrWorking(add = index)
                     }
 
-                    val lp = solveMatroidStep1Gurobi(if (truncation) truncated else matroid, 32, log, logLP = false)
+                    if (!truncation) {
+                        val decomposition = matroid.withoutLoops().decompose()
+                        if (decomposition != null) {
+                            val (matroid1, matroid2) = decomposition
+                            val index1 = matroids.indexOfFirst { isomorphic(it.withoutLoops(), matroid1) }
+                            val index2 = matroids.indexOfFirst { isomorphic(it.withoutLoops(), matroid2) }
+                            val ratio1 = prevProgress[index1]!!
+                            val ratio2 = prevProgress[index2]!!
+                            log.appendLine("identified matroid as sum of #$index1 (ratio = $ratio1) and #$index2 (ratio = $ratio2)")
+                            val ratio = min(ratio1, ratio2)
+                            log.appendLine("concluding that ratio = $ratio")
+                            ratios.add(ratio)
+                            continue
+                        }
+                    }
+
+                    val lp = solveMatroidStep1Gurobi(if (truncation) truncated else matroid, 42, log, logFileName = if (truncation) "truncated_$index" else "matroid_$index", threads = 0)
                     val variables = lp.getNumVariables()
                     val constraints = lp.getNumConstraints()
                     val nonzeros = lp.getNumNonZeros()
@@ -113,13 +128,23 @@ fun main() = runBlocking(Dispatchers.Default) {
                         printCurrWorking(constructed = index)
                     }
 
-                    log.appendLine("solving with more symmetry")
-                    ratios.add(solveMatroidStep2Gurobi(lp, log))
+                    if (!truncation || nonzeros <= 300000) {
+                        log.appendLine("solving with more symmetry")
+                        ratios.add(solveMatroidStep2Gurobi(lp, log))
+                    } else {
+                        log.appendLine("truncated matroid LP too large, searching for previous calculation")
+                        val truncatedIndex = matroids.indexOfFirst { isomorphic(it, truncated) }
+                        log.appendLine("identified as #$truncatedIndex")
+                        ratios.add(prevProgress[truncatedIndex]!!)
+                    }
                 }
 
                 log.append("\n\n")
                 log.appendLine("original ratio = ${ratios[0]}")
                 log.appendLine("truncated ratio = ${ratios[1]}")
+                if (ratios[0] < ratios[1] - .000001) {
+                    log.appendLine("COUNTEREXAMPLE")
+                }
                 log.append("\n\n\n\n\n")
                 printMutex.withLock {
                     remMatroids--

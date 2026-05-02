@@ -2,32 +2,31 @@ package org.example
 
 import com.gurobi.gurobi.*
 
-class GurobiLinearProgramBuilder(logToConsole: Boolean = true) : LinearProgramBuilder<GRBVar>, AutoCloseable {
+class GurobiLinearProgramBuilder(
+    logToConsole: Boolean = false,
+    logFileName: String? = null,
+    threads: Int = 1,
+) : LinearProgramBuilder<GRBVar>, AutoCloseable {
 
-    val env: GRBEnv
-    val model: GRBModel
+    companion object {
+        // 1. Keep the environment initialization minimal
+        val env = GRBEnv(true).apply { start() }
+    }
 
-    init {
-        // Initialize an empty environment, configure logging, then start it
-        env = GRBEnv(true)
-        if (logToConsole) {
-            //env.set(GRB.StringParam.LogFile, "/Users/Tlatoani/Projects/MatroidSecretary/gurobi_matroid.log")
+    // 2. Create and configure the model
+    val model: GRBModel = GRBModel(env).apply {
+        if (logToConsole || logFileName != null) {
+            set(GRB.IntParam.LogToConsole, if (logToConsole) 1 else 0)
+            if (logFileName != null) {
+                set(GRB.StringParam.LogFile, "logs/$logFileName.txt")
+            }
         } else {
-            env.set(GRB.IntParam.OutputFlag, 0)
+            set(GRB.IntParam.OutputFlag, 0) // Total silence
         }
-        env.start()
 
-        // Create the model using the environment
-        model = GRBModel(env)
-
-        // Limit Gurobi to exactly 1 thread
-        model.set(GRB.IntParam.Threads, 2)
-
-        // Explicitly disable the Crossover phase
-        model.set(GRB.IntParam.Crossover, 0)
-
-        // Optional: Force Gurobi to use the Barrier method by default
-        model.set(GRB.IntParam.Method, GRB.METHOD_BARRIER)
+        set(GRB.IntParam.Threads, threads)
+        set(GRB.IntParam.Crossover, 0)
+        set(GRB.IntParam.Method, GRB.METHOD_BARRIER)
     }
 
     override fun newVariableRaw(type: VariableType): GRBVar {
@@ -110,7 +109,6 @@ class GurobiLinearProgramBuilder(logToConsole: Boolean = true) : LinearProgramBu
      */
     override fun close() {
         model.dispose()
-        env.dispose()
     }
 
     /**

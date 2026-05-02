@@ -113,7 +113,7 @@ fun main() = runBlocking(Dispatchers.Default) {
 
                 val log = java.lang.StringBuilder()
 
-                val lp = solveMatroidStep1Gurobi(matroid, 32, log, logLP = withAutomorphisms.size == 1)
+                val lp = solveMatroidStep1Gurobi(matroid, 32, log)
                 val variables = lp.getNumVariables()
                 val constraints = lp.getNumConstraints()
                 val nonzeros = lp.getNumNonZeros()

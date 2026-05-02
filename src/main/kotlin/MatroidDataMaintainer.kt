@@ -72,7 +72,8 @@ fun main() {
     //writeDataStructured(File("matroids_9_3_competitive_ratios.txt"), extractDataRaw(File("matroids_9_3_competitive_ratios_raw.txt").readText(), "Objective value = "))
     //displayCurrentResults()
     //rank2Information(9)
-    dualCheck()
+    //dualCheck()
+    truncationInformation()
 }
 
 fun displayCurrentResults() {
@@ -179,5 +180,37 @@ fun dualCheck() {
         val dual = DualMatroid(matroid)
         val dualIndex = matroids.indexOfFirst { isomorphic(it, dual) }
         println("#$index | rank ${matroid.rank()} | competitive ratio = ${data[index]} | dual competitive ratio = ${data[dualIndex]}")
+    }
+}
+
+fun truncationInformation() {
+    val ratioFormat = DecimalFormat("0.00000000")
+    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
+    val originalRatios = extractDataRaw(File("matroids_8_truncation_conjecture.txt").readText(), "original ratio = ")
+    val truncatedRatios = extractDataRaw(File("matroids_8_truncation_conjecture.txt").readText(), "truncated ratio = ")
+    var position = 0
+    var line = false
+    for (index in matroids.indices.filter { it in originalRatios }.sortedBy { originalRatios[it]!! - truncatedRatios[it]!! }) {
+        position++
+        val matroid = matroids[index]
+        val ratio = originalRatios[index]!!
+        val truncatedRatio = truncatedRatios[index]!!
+        if (!line && ratio - truncatedRatio > .000001) {
+            line = true
+            println("-".repeat(200))
+        }
+        val numAutomorphisms = matroid.automorphisms().size
+        val rank = matroid.rank()
+        println("${position}.  \tmatroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\ttruncated competitive ratio = ${ratioFormat.format(truncatedRatio)}\t\tdifference = ${ratioFormat.format(ratio - truncatedRatio)}\t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 6)}") //\t\tbases = ${matroid.bases()}")
+    }
+    println()
+    for (rank in 2..8) {
+        val numUncalculated = matroids.withIndex().filter { (_, matroid) -> matroid.rank() == rank }.count { (index, _) -> index !in originalRatios }
+        println("there are $numUncalculated matroids of rank $rank for which the competitive ratio has not been calculated")
+    }
+    println()
+    for (rank in 2..8) {
+        val numUncalculated = matroids.withIndex().filter { (_, matroid) -> matroid.rank() == rank }.count { (index, _) -> index !in originalRatios && !matroids[index].withoutLoops().isDecomposable() }
+        println("there are $numUncalculated nondecomposable matroids of rank $rank for which the competitive ratio has not been calculated")
     }
 }

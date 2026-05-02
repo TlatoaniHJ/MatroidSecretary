@@ -104,9 +104,9 @@ fun <E> solveMatroidStep1(matroid: Matroid<E>, mode: Int, log: StringBuilder, ta
     return builder
 }
 
-fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuilder, target: Double? = null, logLP: Boolean = true): GurobiLinearProgramBuilder {
+fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuilder, target: Double? = null, logFileName: String? = null, threads: Int = 1): GurobiLinearProgramBuilder {
     val timer = Timer()
-    var builder = GurobiLinearProgramBuilder(logToConsole = logLP)
+    var builder = GurobiLinearProgramBuilder(logFileName = logFileName, threads = threads)
 
     when (mode) {
         0 -> buildMatroidSecretaryLPNoSymmetry(matroid, builder)
@@ -115,6 +115,8 @@ fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuild
         12 -> buildMatroidSecretaryLPSparser(matroid, builder, target)
         22 -> buildMatroidSecretaryLPSparser2(matroid, builder, target)
         32 -> buildMatroidSecretaryLPStopgap(matroid, builder, target)
+        42 -> buildMatroidSecretaryLPPrefixSum(matroid, builder, target)
+        52 -> buildMatroidSecretaryLPSubsetSum(matroid, builder, target)
         else -> throw IllegalArgumentException("mode = $mode, should be 0, 1, 2")
     }
     builder.updateModel()
@@ -122,6 +124,7 @@ fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuild
 
     log.appendLine("num variables = ${builder.getNumVariables()}")
     log.appendLine("num constraints = ${builder.getNumConstraints()}")
+    log.appendLine("num nonzeros = ${builder.getNumNonZeros()}")
     log.appendLine("constructed LP [${timer.lapSeconds()}] seconds")
     return builder
 }

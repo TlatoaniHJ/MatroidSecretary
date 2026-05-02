@@ -17,10 +17,10 @@ fun main() {
         println("matroid #$index = $matroid")
         val truncated = TruncatedMatroid(matroid, k - 1)
         val timer = Timer()
-        val lp1 = solveMatroidStep1Gurobi(matroid, 32, StringBuilder(), logLP = false)
+        val lp1 = solveMatroidStep1Gurobi(matroid, 32, StringBuilder())
         val ratio1 = solveMatroidStep2Gurobi(lp1, StringBuilder())
         println("ratio of original = $ratio1 [${timer.lapSeconds()}]")
-        val lp2 = solveMatroidStep1Gurobi(truncated, 32, StringBuilder(), logLP = false)
+        val lp2 = solveMatroidStep1Gurobi(truncated, 32, StringBuilder())
         val ratio2 = solveMatroidStep2Gurobi(lp2, StringBuilder())
         println("ratio of truncation = $ratio2 [${timer.lapSeconds()}]")
         if (ratio2 - ratio1 > .000001) {

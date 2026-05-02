@@ -77,7 +77,7 @@ fun main() = runBlocking(Dispatchers.Default) {
                 // 2. Create a local string builder for this specific execution
                 val log = java.lang.StringBuilder()
 
-                val lp = solveMatroidStep1Gurobi(matroid, 32, log, logLP = withAutomorphisms.size == 1)
+                val lp = solveMatroidStep1Gurobi(matroid, 32, log)
                 val variables = lp.getNumVariables()
                 val constraints = lp.getNumConstraints()
 

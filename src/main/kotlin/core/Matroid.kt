@@ -30,19 +30,26 @@ interface Matroid<E> {
 
     fun restrict(newElements: Set<E>) = minor(setOf(), newElements)
 
-    fun isDecomposable(): Boolean {
+    fun withoutLoops(): Matroid<E> {
+        val nonLoops = elements().filter { setOf(it) in this }.toSet()
+        return restrict(nonLoops)
+    }
+
+    fun decompose(): Pair<Matroid<E>, Matroid<E>>? {
         for (subset in subsets(elements())) {
             if (subset.isNotEmpty() && subset.size < elements().size) {
                 val matroid1 = restrict(subset)
                 val matroid2 = restrict(elements() - subset)
                 val sum = MatroidSum(matroid1, matroid2)
                 if (same(sum)) {
-                    return true
+                    return Pair(matroid1, matroid2)
                 }
             }
         }
-        return false
+        return null
     }
+
+    fun isDecomposable() = decompose() != null
 
     fun same(other: Matroid<E>): Boolean {
         assert(elements() == other.elements())

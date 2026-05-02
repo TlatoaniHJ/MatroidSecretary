@@ -1,0 +1,107 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Fri May  1 12:27:09 2026
+
+Set parameter LogFile to value "logs/matroid_414.txt"
+Set parameter Threads to value 2
+Set parameter Crossover to value 0
+Set parameter Method to value 2
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 2 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  2
+
+Optimize a model with 384195 rows, 477906 columns and 1207162 nonzeros (Max)
+Model fingerprint: 0x0d2bbda4
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 104685 rows and 104685 columns
+Presolve time: 0.03s
+
+Barrier solved model in 0 iterations and 0.03 seconds (0.07 work units)
+Model is infeasible or unbounded
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 2 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  2
+
+Optimize a model with 419475 rows, 493026 columns and 4269958 nonzeros (Max)
+Model fingerprint: 0x1892f8e1
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 8e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 279738 rows and 284172 columns
+Presolve time: 2.27s
+Presolved: 139737 rows, 208854 columns, 3420198 nonzeros
+Elapsed ordering time = 5s
+Elapsed ordering time = 10s
+Elapsed ordering time = 15s
+Elapsed ordering time = 20s
+Elapsed ordering time = 25s
+Elapsed ordering time = 26s
+Elapsed ordering time = 30s
+Elapsed ordering time = 35s
+Elapsed ordering time = 39s
+Elapsed ordering time = 40s
+Elapsed ordering time = 45s
+Elapsed ordering time = 50s
+Elapsed ordering time = 52s
+Elapsed ordering time = 55s
+Elapsed ordering time = 60s
+Elapsed ordering time = 64s
+Elapsed ordering time = 65s
+Elapsed ordering time = 70s
+Ordering time: 77.53s
+
+Barrier statistics:
+ Dense cols : 1145
+ Free vars  : 1
+ AA' NZ     : 3.032e+07
+ Factor NZ  : 6.945e+08 (roughly 6.0 GB of memory)
+ Factor Ops : 1.473e+13 (roughly 120 seconds per iteration)
+ Threads    : 2
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.31267736e-07  3.03571429e-02  1.44e+01 1.00e+00  1.37e-02    85s
+   1   1.58377059e+00  5.58284390e-01  1.03e+01 7.21e-01  9.62e-03    85s
+   2   1.81188822e+00  5.72870003e+00  8.25e+00 4.81e-01  7.14e-03    86s
+   3   1.89754381e+00  1.17352821e+01  6.36e+00 3.44e-01  5.27e-03    88s
+   4   1.79204537e+00  2.51158316e+01  4.64e+00 1.58e-01  3.33e-03    91s
+   5   1.30426006e+00  3.34758980e+01  1.68e+00 4.54e-02  9.65e-04    92s
+   6   4.59435057e-01  3.10401939e+01  3.42e-01 1.65e-02  2.64e-04    96s
+   7   4.31456539e-01  2.13356699e+01  2.26e-01 9.84e-03  1.68e-04   105s
+   8   4.07589409e-01  1.28749728e+01  1.23e-01 4.74e-03  8.76e-05   155s
+   9   3.99389685e-01  9.02114046e+00  5.28e-02 2.93e-03  5.22e-05   203s
+  10   4.04225846e-01  4.11017274e+00  1.41e-02 9.77e-04  1.97e-05   249s
+  11   4.35890377e-01  2.07877469e+00  5.34e-03 3.63e-04  8.24e-06   293s
+  12   4.50783283e-01  1.29541024e+00  4.01e-03 1.63e-04  4.16e-06   337s
+  13   4.90872251e-01  9.25923247e-01  3.23e-04 8.49e-05  2.10e-06   477s
+  14   4.98301883e-01  5.27203876e-01  1.38e-05 1.77e-06  1.30e-07   592s
+  15   4.99971424e-01  5.01393569e-01  1.88e-07 7.96e-08  6.40e-09   715s
+  16   4.99999950e-01  5.00000436e-01  3.14e-09 2.47e-11  2.09e-12   847s
+  17   5.00000000e-01  5.00000001e-01  1.22e-11 1.96e-11  4.07e-15   974s
+
+Barrier solved model in 17 iterations and 974.27 seconds (6206.53 work units)
+Optimal objective 5.00000000e-01
+
