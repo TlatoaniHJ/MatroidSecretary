@@ -9,6 +9,7 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import java.util.StringTokenizer
+import kotlin.math.roundToInt
 
 fun extractDataRaw(contents: String, valueIdentifier: String): Map<Int, Double?> {
     val matroidIdentifier = "matroid #"
@@ -83,7 +84,8 @@ fun main() {
     //truncationInformation()
     //lpStatistics()
     //evaluateMatroidRAM()
-    sortMatroidLPStats()
+    //sortMatroidLPStats()
+    tightConjectureInformation()
 }
 
 fun displayCurrentResults() {
@@ -341,5 +343,18 @@ fun sortMatroidLPStats() {
     for ((j, stat) in stats.withIndex()) {
         val (index, rank, automorphisms, nonZeros) = stat
         println("${j + 1}.  \t #$index\t\tnonzeros = ${format.format(nonZeros)}\trank = $rank\tautomorphisms = $automorphisms")
+    }
+}
+
+data class TightConjectureLine(val index: Int, val ratio: Double, val trueRatio: Double, val diff: Double)
+
+fun tightConjectureInformation() {
+    //val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
+    val lines = File("matroids_8_tight_conjecture.txt").readLines().map { line ->
+        val (index, ratio, trueRatio, diff) = line.split(" ").map(String::toDouble)
+        TightConjectureLine(index.roundToInt(), ratio, trueRatio, diff)
+    }.sortedByDescending { it.diff }
+    for ((index, ratio, trueRatio, diff) in lines) {
+        println("$index   \t\t$ratio\t$trueRatio\t$diff")
     }
 }

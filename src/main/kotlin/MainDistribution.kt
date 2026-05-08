@@ -7,6 +7,7 @@ import org.example.core.buildSymmetricDistributionLP
 import org.example.core.buildTightInstanceLP
 import java.io.File
 import java.util.LinkedList
+import java.util.StringTokenizer
 import kotlin.math.abs
 import kotlin.math.min
 import kotlin.random.Random
@@ -196,67 +197,93 @@ fun main4() {
 }
 
 fun main() {
-    val n = 7
+    val n = 8
     val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n)
-    for ((index, matroid) in matroids.withIndex()) {
+    println("num matroids = ${matroids.size}")
+    val withAutomorphisms = matroids.withIndex().map { (index, matroid) -> Pair(index, matroid.automorphisms().size) }
+    println("computed automorphisms")
+    var numMatroidsConsiderd = 0
+    val file = File("matroids_8_tight_conjecture.txt")
+    val covered = mutableSetOf<Int>()
+    for (line in file.readLines()) {
+        val tokenizer = StringTokenizer(line)
+        covered.add(tokenizer.nextToken().toInt())
+        numMatroidsConsiderd++
+    }
+    var maxDiff = .0
+    var maxDiffIndex = -1
+    for ((index, numAutomorphisms) in withAutomorphisms.sortedByDescending { it.second }) {
+        numMatroidsConsiderd++
+        val matroid = matroids[index]
         if (matroid.rank() == 0) {
             continue
         }
-        if (index < 68) {
-            //continue
+        if (index in covered) { //!in listOf(1526, 1437, 1523, 434, 1428, 651, 1521, 1334)) { //covered) { //!= 1437) { //
+            continue
         }
-        println("\n".repeat(5))
-        println("matroid #$index = $matroid")
-        println("num automorphisms = ${matroid.automorphisms().size}")
+            println("\n".repeat(5))
+            println("matroid #$index = $matroid")
+            println("num automorphisms = ${matroid.automorphisms().size}")
 
-        val timer = Timer()
-        var builder = GurobiLinearProgramBuilder(threads = 12, logToConsole = true)
-        //buildTightInstanceLP(matroid, builder)
-        buildMatroidSecretaryLPTight(matroid, builder)
+            val timer = Timer()
+            var builder = GurobiLinearProgramBuilder(threads = 12, logToConsole = true)
+            //buildTightInstanceLP(matroid, builder)
+            buildMatroidSecretaryLPTight(matroid, builder)
 
-        println("num variables = ${builder.getNumVariables()}")
-        println("num constraints = ${builder.getNumConstraints()}")
-        println("num nonzeros = ${builder.getNumNonZeros()}")
-        println("constructed LP [${timer.lapSeconds()}] seconds")
+            println("num variables = ${builder.getNumVariables()}")
+            println("num constraints = ${builder.getNumConstraints()}")
+            println("num nonzeros = ${builder.getNumNonZeros()}")
+            println("constructed LP [${timer.lapSeconds()}] seconds")
 
 
-        val startTime = System.currentTimeMillis()
+            val startTime = System.currentTimeMillis()
 
-        // Trigger the native Gurobi optimization process
-        // (Assuming you haven't already called builder.optimize() which does this automatically)
-        builder.model.optimize()
+            // Trigger the native Gurobi optimization process
+            // (Assuming you haven't already called builder.optimize() which does this automatically)
+            builder.model.optimize()
 
-        // Query the status attribute from the underlying Gurobi model
-        val status = builder.model.get(GRB.IntAttr.Status)
+            // Query the status attribute from the underlying Gurobi model
+            val status = builder.model.get(GRB.IntAttr.Status)
 
-        val endTime = System.currentTimeMillis()
-        println("time taken = ${(endTime - startTime).toDouble() / 1000.0} seconds")
+            val endTime = System.currentTimeMillis()
+            println("time taken = ${(endTime - startTime).toDouble() / 1000.0} seconds")
 
-        // Compare against Gurobi's OPTIMAL status code
-        val ratio: Double
-        if (status == GRB.Status.OPTIMAL) {
-            println("Solution found!")
-            println("Objective value = ${builder.getObjectiveValue()}")
-            ratio = builder.getObjectiveValue()
-        } else {
-            // It is highly recommended to print the actual status code for debugging
-            println("The problem does not have an optimal solution. Gurobi status code: $status")
+            // Compare against Gurobi's OPTIMAL status code
+            val ratio: Double
+            if (status == GRB.Status.OPTIMAL) {
+                println("Solution found!")
+                println("Objective value = ${builder.getObjectiveValue()}")
+                ratio = builder.getObjectiveValue()
+            } else {
+                // It is highly recommended to print the actual status code for debugging
+                println("The problem does not have an optimal solution. Gurobi status code: $status")
 
-            if (status == GRB.Status.INFEASIBLE) {
-                println("The model is mathematically infeasible.")
-            } else if (status == GRB.Status.UNBOUNDED) {
-                println("The model is unbounded.")
+                if (status == GRB.Status.INFEASIBLE) {
+                    println("The model is mathematically infeasible.")
+                } else if (status == GRB.Status.UNBOUNDED) {
+                    println("The model is unbounded.")
+                }
+
+                exitProcess(1)
             }
-
-            exitProcess(1)
-        }
-        println("tight instance ratio = $ratio")
-        val trueRatio = solveMatroidSimpleGurobi(matroid, threads = 12)
-        println("true ratio = $trueRatio")
-        if (abs(ratio - trueRatio) > .000001) {
-            println("COUNTEREXAMPLE")
-            return
-        }
+        println()
+            println("tight instance ratio\t= $ratio")
+            timer.lapSeconds()
+            val trueRatio = solveMatroidSimpleGurobi(matroid, threads = 12)
+            println("true ratio\t\t\t\t= $trueRatio [${timer.lapSeconds()} seconds]")
+        println("diff\t\t\t\t\t= ${ratio - trueRatio}")
+        file.appendText("$index $ratio $trueRatio ${ratio - trueRatio}\n")
+            if (abs(ratio - trueRatio) > maxDiff) {
+                maxDiff = abs(ratio - trueRatio)
+                maxDiffIndex = index
+            }
+            if (abs(ratio - trueRatio) > .000001) {
+                println("COUNTEREXAMPLE")
+                return
+            }
+        println()
+        println("max diff = $maxDiff, max diff index = $maxDiffIndex")
+        println("num matroids considered = $numMatroidsConsiderd")
     }
 }
 

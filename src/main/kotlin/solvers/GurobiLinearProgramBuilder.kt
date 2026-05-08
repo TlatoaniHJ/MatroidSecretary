@@ -23,7 +23,7 @@ class GurobiLinearProgramBuilder(
         } else {
             set(GRB.IntParam.OutputFlag, 0) // Total silence
         }
-
+        //set(GRB.DoubleParam.BarConvTol, 1e-11)
         set(GRB.IntParam.Threads, threads)
         set(GRB.IntParam.Crossover, 0)
         set(GRB.IntParam.Method, GRB.METHOD_BARRIER)

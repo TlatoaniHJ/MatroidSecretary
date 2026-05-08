@@ -96,3 +96,10 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
   18   7.49710004e-01  7.55003253e-01  5.86e-07 9.71e-08  1.11e-08   611s
   19   7.49981028e-01  7.50223993e-01  1.91e-08 6.46e-11  5.01e-10   664s
   20   7.49999956e-01  7.50000224e-01  2.99e-09 2.28e-13  5.82e-13   717s
+
+Gurobi 13.0.1 (mac64[arm]) logging started Thu May  7 22:54:07 2026
+
+Set parameter LogFile to value "logs/matroid_1488.txt"
+Set parameter Threads to value 12
+Set parameter Crossover to value 0
+Set parameter Method to value 2
