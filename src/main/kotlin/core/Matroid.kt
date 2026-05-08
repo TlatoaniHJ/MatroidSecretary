@@ -30,6 +30,10 @@ interface Matroid<E> {
 
     fun restrict(newElements: Set<E>) = minor(setOf(), newElements)
 
+    fun contract(contracted: Set<E>) = minor(contracted, elements() - contracted)
+
+    fun loops() = elements().filter { setOf(it) !in this }.toSet()
+
     fun withoutLoops(): Matroid<E> {
         val nonLoops = elements().filter { setOf(it) in this }.toSet()
         return restrict(nonLoops)
@@ -79,13 +83,13 @@ data class MatroidByBases<E>(val elements: Set<E>, val bases: List<Set<E>>): Mat
     override fun contains(set: Set<E>) = bases.any { it.containsAll(set) }
 }
 
-class MatroidMinor<E>(val elements: Set<E>, val contract: Set<E>, val parent: Matroid<E>): Matroid<E> {
+data class MatroidMinor<E>(val elements: Set<E>, val contract: Set<E>, val parent: Matroid<E>): Matroid<E> {
     override fun elements() = elements
 
     override fun contains(set: Set<E>) = contract + set in parent
 }
 
-class MatroidSum<E>(val matroid1: Matroid<E>, val matroid2: Matroid<E>): Matroid<E> {
+data class MatroidSum<E>(val matroid1: Matroid<E>, val matroid2: Matroid<E>): Matroid<E> {
     override fun elements() = matroid1.elements() + matroid2.elements()
 
     override fun contains(set: Set<E>) = set.intersect(matroid1.elements()) in matroid1 && set.intersect(matroid2.elements()) in matroid2

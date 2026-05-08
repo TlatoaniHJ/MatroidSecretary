@@ -11,3 +11,6 @@ class Timer {
 
     fun lapSeconds(): Double = lapMilliseconds().toDouble() / 1000.0
 }
+
+fun <E> List<E>.suffix(startIndex: Int) = subList(startIndex, size)
+fun <E> List<E>.prefix(endIndex: Int) = subList(0, endIndex)

@@ -5,6 +5,8 @@ import com.gurobi.gurobi.GRB
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
+import org.example.core.buildDistributionComparisonLP
+import org.example.core.buildMatroidSecretaryLPOnlyFullRank
 import java.io.File
 import kotlin.system.exitProcess
 
@@ -104,9 +106,9 @@ fun <E> solveMatroidStep1(matroid: Matroid<E>, mode: Int, log: StringBuilder, ta
     return builder
 }
 
-fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuilder, target: Double? = null, logFileName: String? = null, threads: Int = 1): GurobiLinearProgramBuilder {
+fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuilder, target: Double? = null, logFileName: String? = null, logToConsole: Boolean = false, threads: Int = 1): GurobiLinearProgramBuilder {
     val timer = Timer()
-    var builder = GurobiLinearProgramBuilder(logFileName = logFileName, threads = threads)
+    var builder = GurobiLinearProgramBuilder(logFileName = logFileName, threads = threads, logToConsole = logToConsole)
 
     when (mode) {
         0 -> buildMatroidSecretaryLPNoSymmetry(matroid, builder)
@@ -117,6 +119,8 @@ fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuild
         32 -> buildMatroidSecretaryLPStopgap(matroid, builder, target)
         42 -> buildMatroidSecretaryLPPrefixSum(matroid, builder, target)
         52 -> buildMatroidSecretaryLPSubsetSum(matroid, builder, target)
+        101 -> buildMatroidSecretaryLPOnlyFullRank(matroid, builder, target)
+        //201 -> buildDistributionComparisonLP(matroid, builder)
         else -> throw IllegalArgumentException("mode = $mode, should be 0, 1, 2")
     }
     builder.updateModel()
@@ -178,4 +182,9 @@ fun solveMatroidStep2Gurobi(builder: GurobiLinearProgramBuilder, log: StringBuil
 
         exitProcess(1)
     }
+}
+
+fun <E> solveMatroidSimpleGurobi(matroid: Matroid<E>, mode: Int = 42, threads: Int = 1): Double {
+    val lp = solveMatroidStep1Gurobi(matroid, mode, StringBuilder(), threads = threads)
+    return solveMatroidStep2Gurobi(lp, StringBuilder())
 }

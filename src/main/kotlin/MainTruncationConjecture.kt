@@ -11,7 +11,7 @@ fun main() {
             println()
         }
         val k = matroid.rank()
-        if (k <= 1) {
+        if (k != 1) {
             continue
         }
         println("matroid #$index = $matroid")
@@ -20,6 +20,7 @@ fun main() {
         val lp1 = solveMatroidStep1Gurobi(matroid, 32, StringBuilder())
         val ratio1 = solveMatroidStep2Gurobi(lp1, StringBuilder())
         println("ratio of original = $ratio1 [${timer.lapSeconds()}]")
+        continue
         val lp2 = solveMatroidStep1Gurobi(truncated, 32, StringBuilder())
         val ratio2 = solveMatroidStep2Gurobi(lp2, StringBuilder())
         println("ratio of truncation = $ratio2 [${timer.lapSeconds()}]")

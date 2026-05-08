@@ -2,6 +2,13 @@ package org.example
 
 import java.io.File
 import java.text.DecimalFormat
+import kotlin.math.max
+
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import java.util.StringTokenizer
 
 fun extractDataRaw(contents: String, valueIdentifier: String): Map<Int, Double?> {
     val matroidIdentifier = "matroid #"
@@ -73,7 +80,10 @@ fun main() {
     //displayCurrentResults()
     //rank2Information(9)
     //dualCheck()
-    truncationInformation()
+    //truncationInformation()
+    //lpStatistics()
+    //evaluateMatroidRAM()
+    sortMatroidLPStats()
 }
 
 fun displayCurrentResults() {
@@ -201,7 +211,10 @@ fun truncationInformation() {
         }
         val numAutomorphisms = matroid.automorphisms().size
         val rank = matroid.rank()
-        println("${position}.  \tmatroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\ttruncated competitive ratio = ${ratioFormat.format(truncatedRatio)}\t\tdifference = ${ratioFormat.format(ratio - truncatedRatio)}\t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 6)}") //\t\tbases = ${matroid.bases()}")
+        if (rank <= 1) {
+            continue
+        }
+        println("${position}.  \tmatroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\ttruncated competitive ratio = ${ratioFormat.format(truncatedRatio)}\t\tdifference = ${ratioFormat.format(ratio - truncatedRatio)} \t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 6)}") //\t\tbases = ${matroid.bases()}")
     }
     println()
     for (rank in 2..8) {
@@ -212,5 +225,121 @@ fun truncationInformation() {
     for (rank in 2..8) {
         val numUncalculated = matroids.withIndex().filter { (_, matroid) -> matroid.rank() == rank }.count { (index, _) -> index !in originalRatios && !matroids[index].withoutLoops().isDecomposable() }
         println("there are $numUncalculated nondecomposable matroids of rank $rank for which the competitive ratio has not been calculated")
+    }
+}
+
+fun lpStatistics() {
+    val prefixes = listOf("", "archive_8_truncation_conjecture/", "archive_8_truncation_conjecture_2/", "archive_8_truncation_conjecture_3/", "archive_8_truncation_conjecture_4/")
+    val lps = mutableListOf<LP>()
+
+    val nonzeroLabel = " nonzeros (Max)"
+    val ramLabel = "roughly "
+    for (index in 1..1725) {
+        for (prefix in prefixes) {
+            val fileName = "logs/${prefix}matroid_$index.txt"
+            println(fileName)
+            try {
+                val text = File(fileName).readText()
+                var index = text.lastIndexOf(nonzeroLabel)
+                var nonzerosString = ""
+                index--
+                while (text[index].isDigit()) {
+                    nonzerosString = text[index] + nonzerosString
+                    index--
+                }
+                val nonzeros = nonzerosString.toInt()
+
+                index = text.indexOf(ramLabel) + ramLabel.length
+                var ramString = ""
+                while (text[index].isDigit() || text[index] == '.') {
+                    ramString += text[index]
+                    index++
+                }
+                var ram = ramString.toDouble()
+                if (text.startsWith(" MB", startIndex = index)) {
+                    ram /= 1024.0
+                }
+                println("\tsucceeded: nonzeros = $nonzeros, ram estimate = $ram")
+                lps.add(LP(nonzeros, ram, fileName))
+            } catch (e: Exception) {
+                println("\tfailed: $e")
+            }
+        }
+    }
+    lps.sortBy { it.nonzeros }
+    var mexico = .0
+    for ((nonzeros, ramEstimate, source) in lps) {
+        mexico = max(mexico, ramEstimate)
+        println("nonzeros = $nonzeros\tram estimate = $ramEstimate\tprefix max ram estimate = $mexico\tsource = $source")
+    }
+}
+
+data class LP(val nonzeros: Int, val ramEstimate: Double, val source: String)
+
+/*fun evaluateMatroidRAM() {
+    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
+    val originalRatios = extractDataRaw(File("matroids_8_truncation_conjecture.txt").readText(), "original ratio = ")
+    val timer = Timer()
+    for ((index, matroid) in matroids.withIndex()) {
+        if (index !in originalRatios && index != 0) {
+            val rank = matroid.rank()
+            val automorphisms = matroid.automorphisms().size
+            val lp = solveMatroidStep1Gurobi(matroid, mode = 42, log = StringBuilder())
+            println("$index ${lp.getNumNonZeros()} | rank = $rank, num automorphisms = $automorphisms [${timer.lapSeconds()} seconds]")
+        }
+    }
+}*/
+
+fun evaluateMatroidRAM() = runBlocking {
+    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
+    val originalRatios = extractDataRaw(File("matroids_8_truncation_conjecture.txt").readText(), "original ratio = ")
+    val timer = Timer()
+
+    // Protects the console from overlapping print statements
+    val printMutex = Mutex()
+
+    // Set this based on your RAM overhead for Step 1 LP generation
+    val maxConcurrentWorkers = 8
+    val dispatcher = Dispatchers.Default.limitedParallelism(maxConcurrentWorkers)
+
+    matroids.withIndex()
+        .filter { it.index !in originalRatios && it.index != 0 }
+        .map { (index, matroid) ->
+            launch(dispatcher) {
+                val rank = matroid.rank()
+                val automorphisms = matroid.automorphisms().size
+
+                val lp = solveMatroidStep1Gurobi(matroid, mode = 42, log = StringBuilder())
+                val nonZeros = lp.getNumNonZeros()
+
+                // Lock the output stream so rows don't overlap in the console
+                printMutex.withLock {
+                    println("$index $nonZeros | rank = $rank, num automorphisms = $automorphisms [${timer.lapSeconds()} seconds]")
+                }
+
+                // CRITICAL: Free the C++ pointer before the coroutine dies
+                lp.close()
+            }
+        }
+        .joinAll()
+}
+
+data class MatroidLPStat(val index: Int, val rank: Int, val automorphisms: Int, val nonZeros: Int)
+
+fun sortMatroidLPStats() {
+    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
+    val stats = mutableListOf<MatroidLPStat>()
+    for (line in File("matroids_8_lp_stats.txt").readLines()) {
+        val tokenizer = StringTokenizer(line)
+        val index = tokenizer.nextToken().toInt()
+        val nonZeros = tokenizer.nextToken().toInt()
+        val matroid = matroids[index]
+        stats.add(MatroidLPStat(index, matroid.rank(), matroid.automorphisms().size, nonZeros))
+    }
+    stats.sortBy { it.nonZeros }
+    val format = DecimalFormat("000,000")
+    for ((j, stat) in stats.withIndex()) {
+        val (index, rank, automorphisms, nonZeros) = stat
+        println("${j + 1}.  \t #$index\t\tnonzeros = ${format.format(nonZeros)}\trank = $rank\tautomorphisms = $automorphisms")
     }
 }

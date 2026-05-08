@@ -1,5 +1,7 @@
 package org.example
 
+import kotlin.math.exp
+
 enum class VariableType {
     NONNEGATIVE,
     NONPOSITIVE,
@@ -46,4 +48,13 @@ interface LinearProgramBuilder<V> {
     fun newVariable(type: VariableType) = Expression.fromVariable(newVariableRaw(type))
     fun newConstraint(left: Expression<V>, type: ConstraintType, right: Double) = newConstraint(left, type, Expression.fromConstant(right))
     fun newConstraint(left: Double, type: ConstraintType, right: Expression<V>) = newConstraint(Expression.fromConstant(left), type, right)
+
+    fun extractVariable(expression: Expression<V>): V {
+        if (expression.terms.size == 1 && expression.terms[0].coefficient == 1.0 && expression.constant == .0) {
+            return expression.terms[0].variable
+        }
+        val variable = newVariable(VariableType.UNBOUNDED)
+        newConstraint(variable, ConstraintType.EQUAL, expression)
+        return variable.terms[0].variable
+    }
 }

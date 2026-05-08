@@ -2426,3 +2426,56 @@ ratio of original = 1.0 [0.022]
 ratio of truncation = 0.9023809508807143 [0.03]
 
 Process finished with exit code 0
+
+
+
+===== adding in rank 1 matroids for completeness =====
+
+
+matroid #1 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6], bases=[[0], [1], [2], [3], [4], [5], [6]])
+Set parameter Username
+Set parameter LicenseID to value 2814104
+Academic license - for non-commercial use only - expires 2027-04-27
+ratio of original = 0.4142857142857142 [0.136]
+
+
+
+
+
+matroid #2 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6], bases=[[0], [1], [2], [3], [4], [5]])
+ratio of original = 0.4277777776682957 [0.078]
+
+
+
+
+
+matroid #3 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6], bases=[[0], [1], [2], [3], [4]])
+ratio of original = 0.4333333331918955 [0.057]
+
+
+
+
+
+matroid #4 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6], bases=[[0], [1], [2], [3]])
+ratio of original = 0.45833333141809873 [0.057]
+
+
+
+
+
+matroid #5 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6], bases=[[0], [1], [2]])
+ratio of original = 0.4999999987520796 [0.053]
+
+
+
+
+
+matroid #6 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6], bases=[[0], [1]])
+ratio of original = 0.49999999999870925 [0.032]
+
+
+
+
+
+matroid #7 = MatroidByBases(elements=[0, 1, 2, 3, 4, 5, 6], bases=[[0]])
+ratio of original = 1.0 [0.024]

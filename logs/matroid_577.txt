@@ -1,0 +1,95 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Sun May  3 19:39:57 2026
+
+Set parameter LogFile to value "logs/matroid_577.txt"
+Set parameter Threads to value 0
+Set parameter Crossover to value 0
+Set parameter Method to value 2
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+
+Optimize a model with 59003 rows, 79000 columns and 209542 nonzeros (Max)
+Model fingerprint: 0x0517b924
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 11081 rows and 11081 columns
+Presolve time: 0.00s
+
+Barrier solved model in 0 iterations and 0.00 seconds (0.01 work units)
+Model is infeasible or unbounded
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+
+Optimize a model with 63413 rows, 80890 columns and 365944 nonzeros (Max)
+Model fingerprint: 0xac5a3d15
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [2e-01, 8e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 37527 rows and 37797 columns
+Presolve time: 0.10s
+Presolved: 25886 rows, 43093 columns, 310686 nonzeros
+Ordering time: 0.87s
+
+Barrier statistics:
+ Dense cols : 56
+ Free vars  : 1
+ AA' NZ     : 1.513e+06
+ Factor NZ  : 1.589e+07 (roughly 160 MB of memory)
+ Factor Ops : 4.551e+10 (less than 1 second per iteration)
+ Threads    : 16
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.06679396e-07 -0.00000000e+00  7.63e+00 1.00e+00  1.28e-02     1s
+   1   1.58132358e+00  1.33012090e+00  4.99e+00 5.43e-01  7.44e-03     1s
+   2   1.15537595e+00  5.57836484e+00  2.07e+00 1.85e-01  3.03e-03     1s
+   3   5.13867169e-01  7.13136800e+00  1.71e-01 4.88e-02  4.24e-04     1s
+   4   4.90562382e-01  3.64809445e+00  1.88e-02 9.13e-03  9.65e-05     1s
+   5   5.26761912e-01  1.21286015e+00  8.18e-04 1.18e-03  1.68e-05     2s
+   6   6.33549021e-01  8.65585653e-01  1.70e-04 2.42e-04  5.39e-06     2s
+   7   6.68864099e-01  7.88273228e-01  1.03e-04 8.58e-05  2.73e-06     2s
+   8   6.94867767e-01  7.61845907e-01  5.34e-05 4.64e-05  1.53e-06     2s
+   9   7.04241557e-01  7.52706676e-01  3.61e-05 3.43e-05  1.11e-06     2s
+  10   7.11621724e-01  7.40882067e-01  2.31e-05 1.89e-05  6.66e-07     2s
+  11   7.16409852e-01  7.32864666e-01  1.20e-05 1.03e-05  3.74e-07     2s
+  12   7.18066877e-01  7.28436093e-01  6.10e-06 6.62e-06  2.36e-07     3s
+  13   7.18531794e-01  7.26081154e-01  4.20e-06 4.75e-06  1.71e-07     3s
+  14   7.18769908e-01  7.24654037e-01  3.50e-06 3.58e-06  1.34e-07     3s
+  15   7.18986041e-01  7.23365428e-01  2.79e-06 2.59e-06  9.93e-08     3s
+  16   7.19396310e-01  7.22506875e-01  1.46e-06 1.92e-06  7.06e-08     3s
+  17   7.19613993e-01  7.21699151e-01  8.82e-07 1.31e-06  4.73e-08     4s
+  18   7.19656359e-01  7.21297126e-01  7.72e-07 1.00e-06  3.72e-08     4s
+  19   7.19700594e-01  7.21242569e-01  6.82e-07 9.46e-07  3.50e-08     4s
+  20   7.19751734e-01  7.20919457e-01  5.44e-07 6.97e-07  2.65e-08     4s
+  21   7.19753611e-01  7.20898640e-01  4.90e-07 6.82e-07  2.60e-08     4s
+  22   7.19814210e-01  7.20518358e-01  3.55e-07 4.12e-07  1.60e-08     4s
+  23   7.19883533e-01  7.19915907e-01  1.55e-08 1.55e-10  7.14e-10     5s
+  24   7.19897935e-01  7.19898148e-01  7.98e-12 3.43e-13  4.70e-12     5s
+  25   7.19897959e-01  7.19897959e-01  1.39e-11 1.93e-14  4.70e-15     5s
+
+Barrier solved model in 25 iterations and 4.95 seconds (12.80 work units)
+Optimal objective 7.19897959e-01
+

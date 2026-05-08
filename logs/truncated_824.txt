@@ -1,0 +1,97 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Mon May  4 01:54:22 2026
+
+Set parameter LogFile to value "logs/truncated_824.txt"
+Set parameter Threads to value 12
+Set parameter Crossover to value 0
+Set parameter Method to value 2
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  12
+
+Optimize a model with 29626 rows, 35678 columns and 91651 nonzeros (Max)
+Model fingerprint: 0x55ae26f1
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 6146 rows and 6146 columns
+Presolve time: 0.00s
+
+Barrier solved model in 0 iterations and 0.00 seconds (0.00 work units)
+Model is infeasible or unbounded
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  12
+
+Optimize a model with 31026 rows, 36238 columns and 153155 nonzeros (Max)
+Model fingerprint: 0x5b25aa59
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 22795 rows and 22538 columns
+Presolve time: 0.04s
+Presolved: 8231 rows, 13700 columns, 113083 nonzeros
+Ordering time: 0.20s
+
+Barrier statistics:
+ Dense cols : 33
+ Free vars  : 1
+ AA' NZ     : 3.549e+05
+ Factor NZ  : 2.596e+06 (roughly 30 MB of memory)
+ Factor Ops : 2.774e+09 (less than 1 second per iteration)
+ Threads    : 12
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.47289868e-07 -0.00000000e+00  3.08e+00 1.00e+00  9.90e-03     0s
+   1   1.10714891e+00  3.07732551e-01  2.00e+00 5.04e-01  6.15e-03     0s
+   2   9.72631899e-01  5.60215817e-01  1.29e+00 3.36e-01  4.12e-03     0s
+   3   7.61867476e-01  2.12935405e+00  7.97e-01 7.26e-02  2.38e-03     0s
+   4   4.39756111e-01  2.05109811e+00  7.22e-02 5.70e-03  3.02e-04     0s
+   5   5.07677900e-01  1.46198723e+00  2.19e-02 1.92e-03  1.17e-04     0s
+   6   5.39059987e-01  1.08748123e+00  1.10e-02 8.55e-04  5.90e-05     0s
+   7   5.76111173e-01  8.97204811e-01  4.81e-03 4.52e-04  2.99e-05     0s
+   8   5.96804424e-01  8.00317908e-01  3.32e-03 2.54e-04  1.87e-05     0s
+   9   6.02614106e-01  7.79319953e-01  2.94e-03 2.15e-04  1.61e-05     0s
+  10   6.23502050e-01  7.42310547e-01  1.70e-03 1.42e-04  1.04e-05     0s
+  11   6.35212303e-01  7.03283227e-01  1.00e-03 7.49e-05  5.86e-06     1s
+  12   6.50294672e-01  6.75704838e-01  1.93e-04 2.64e-05  1.99e-06     1s
+  13   6.55355945e-01  6.66845863e-01  5.82e-05 1.25e-05  8.73e-07     1s
+  14   6.56826292e-01  6.62996723e-01  2.80e-05 6.49e-06  4.65e-07     1s
+  15   6.57363672e-01  6.61135832e-01  1.75e-05 3.82e-06  2.85e-07     1s
+  16   6.57917220e-01  6.59492487e-01  6.92e-06 1.50e-06  1.18e-07     1s
+  17   6.58199410e-01  6.58730020e-01  2.21e-06 4.70e-07  3.98e-08     1s
+  18   6.58324329e-01  6.58512809e-01  4.17e-07 1.86e-07  1.38e-08     1s
+  19   6.58353781e-01  6.58401892e-01  6.48e-08 4.56e-08  3.49e-09     1s
+  20   6.58362667e-01  6.58373683e-01  5.58e-09 1.10e-08  7.91e-10     1s
+  21   6.58363813e-01  6.58366258e-01  1.43e-09 2.15e-09  1.74e-10     1s
+  22   6.58364050e-01  6.58364615e-01  1.69e-09 4.12e-10  3.68e-11     1s
+  23   6.58364122e-01  6.58364362e-01  1.06e-09 1.81e-10  1.61e-11     1s
+  24   6.58364130e-01  6.58364204e-01  1.00e-09 3.66e-11  4.10e-12     1s
+  25   6.58364147e-01  6.58364170e-01  1.20e-09 6.07e-12  5.82e-13     1s
+
+Barrier solved model in 25 iterations and 0.79 seconds (1.63 work units)
+Optimal objective 6.58364147e-01
+

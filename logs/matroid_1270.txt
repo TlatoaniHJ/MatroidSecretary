@@ -1,0 +1,7 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Thu May  7 21:19:58 2026
+
+Set parameter LogFile to value "logs/matroid_1270.txt"
+Set parameter Threads to value 12
+Set parameter Crossover to value 0
+Set parameter Method to value 2

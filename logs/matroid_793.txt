@@ -1,0 +1,100 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Mon May  4 00:18:18 2026
+
+Set parameter LogFile to value "logs/matroid_793.txt"
+Set parameter Threads to value 12
+Set parameter Crossover to value 0
+Set parameter Method to value 2
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  12
+
+Optimize a model with 543056 rows, 704467 columns and 1863846 nonzeros (Max)
+Model fingerprint: 0xb75c500f
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 103438 rows and 103438 columns
+Presolve time: 0.04s
+
+Barrier solved model in 0 iterations and 0.04 seconds (0.10 work units)
+Model is infeasible or unbounded
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  12
+
+Optimize a model with 578336 rows, 719587 columns and 4234980 nonzeros (Max)
+Model fingerprint: 0x0f4f9bc6
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 8e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 357239 rows and 356231 columns
+Presolve time: 1.53s
+Presolved: 221097 rows, 363356 columns, 3535946 nonzeros
+Elapsed ordering time = 5s
+Elapsed ordering time = 10s
+Elapsed ordering time = 28s
+Elapsed ordering time = 30s
+Elapsed ordering time = 35s
+Elapsed ordering time = 40s
+Ordering time: 43.59s
+
+Barrier statistics:
+ Dense cols : 813
+ Free vars  : 1
+ AA' NZ     : 2.930e+07
+ Factor NZ  : 9.070e+08 (roughly 8.0 GB of memory)
+ Factor Ops : 2.316e+13 (roughly 11 seconds per iteration)
+ Threads    : 12
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.96358909e-07 -0.00000000e+00  1.16e+01 1.00e+00  1.06e-02    49s
+   1   1.13192382e+00  1.23434599e+00  9.48e+00 6.31e-01  8.16e-03    49s
+   2   1.55865646e+00  2.88545988e+00  6.50e+00 4.88e-01  5.62e-03    49s
+   3   1.39266199e+00  7.91353943e+00  5.12e+00 2.97e-01  3.91e-03    50s
+   4   1.19293695e+00  1.84150675e+01  3.83e+00 1.23e-01  2.42e-03    52s
+   5   1.15062502e+00  2.48620733e+01  1.62e+00 3.58e-02  7.84e-04    52s
+   6   5.58469934e-01  2.45558882e+01  6.10e-01 1.75e-02  2.95e-04    53s
+   7   4.85839479e-01  2.04244816e+01  3.65e-01 1.14e-02  1.86e-04    57s
+   8   4.47212334e-01  1.72050741e+01  1.87e-01 7.94e-03  1.10e-04    70s
+   9   4.34498756e-01  1.15201279e+01  8.11e-02 3.10e-03  5.12e-05    82s
+  10   4.36301021e-01  5.65423621e+00  1.96e-02 8.49e-04  1.71e-05    95s
+  11   4.66331977e-01  1.90856279e+00  3.08e-03 1.58e-04  4.08e-06   109s
+  12   5.17803783e-01  1.16060735e+00  1.87e-03 5.80e-05  1.78e-06   122s
+  13   5.56065957e-01  9.29948866e-01  1.29e-03 3.07e-05  1.03e-06   135s
+  14   5.89681313e-01  8.13864516e-01  8.72e-04 1.55e-05  6.13e-07   148s
+  15   6.05751422e-01  7.79492479e-01  6.32e-04 1.21e-05  4.74e-07   180s
+  16   6.12628718e-01  7.56210835e-01  5.17e-04 1.00e-05  3.91e-07   211s
+  17   6.14308134e-01  7.12984347e-01  4.47e-04 6.38e-06  2.69e-07   243s
+  18   6.22379492e-01  6.41075773e-01  7.25e-05 7.08e-07  5.03e-08   276s
+  19   6.24791335e-01  6.26567982e-01  5.26e-06 5.08e-08  4.75e-09   307s
+  20   6.24998576e-01  6.25030547e-01  2.45e-08 2.21e-10  8.44e-11   339s
+  21   6.24999999e-01  6.25000031e-01  1.47e-10 3.15e-14  8.44e-14   370s
+  22   6.25000000e-01  6.25000000e-01  2.02e-12 1.38e-14  8.44e-17   401s
+
+Barrier solved model in 22 iterations and 401.19 seconds (3036.70 work units)
+Optimal objective 6.25000000e-01
+

@@ -57,6 +57,14 @@ class GurobiLinearProgramBuilder(
         model.addConstr(lhs, sense, rhs, "")
     }
 
+    fun maxOfZeroToOne(left: Expression<GRBVar>, right: Expression<GRBVar>): Expression<GRBVar> {
+        val left = extractVariable(left)
+        val right = extractVariable(right)
+        val result = model.addVar(-1.0, 2.0, 0.0, GRB.CONTINUOUS, "")
+        model.addGenConstrMax(result, arrayOf(left, right), .0, "")
+        return Expression.fromVariable(result)
+    }
+
     override fun optimize(mode: OptimizationMode, expression: Expression<GRBVar>) {
         val objExpr = expression.toGRBLinExpr()
         val sense = when (mode) {

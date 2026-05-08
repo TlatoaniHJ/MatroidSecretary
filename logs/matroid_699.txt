@@ -1,0 +1,92 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Sun May  3 22:44:02 2026
+
+Set parameter LogFile to value "logs/matroid_699.txt"
+Set parameter Threads to value 12
+Set parameter Crossover to value 0
+Set parameter Method to value 2
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  12
+
+Optimize a model with 55972 rows, 74065 columns and 194435 nonzeros (Max)
+Model fingerprint: 0x133eb072
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [2e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 11236 rows and 11236 columns
+Presolve time: 0.00s
+
+Barrier solved model in 0 iterations and 0.00 seconds (0.01 work units)
+Model is infeasible or unbounded
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  12
+
+Optimize a model with 60382 rows, 75955 columns and 341781 nonzeros (Max)
+Model fingerprint: 0x116cac6e
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [2e-01, 4e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 36716 rows and 36290 columns
+Presolve time: 0.10s
+Presolved: 23666 rows, 39665 columns, 286625 nonzeros
+Ordering time: 0.88s
+
+Barrier statistics:
+ Dense cols : 45
+ Free vars  : 1
+ AA' NZ     : 1.395e+06
+ Factor NZ  : 1.485e+07 (roughly 150 MB of memory)
+ Factor Ops : 4.129e+10 (less than 1 second per iteration)
+ Threads    : 12
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.42927389e-07 -0.00000000e+00  4.24e+00 1.00e+00  1.30e-02     1s
+   1   2.73609527e+00  1.28766367e+00  1.97e+00 5.65e-01  4.42e-03     1s
+   2   1.45047936e+00  5.02295515e+00  8.11e-01 1.42e-01  1.65e-03     1s
+   3   5.76944907e-01  5.84071481e+00  6.65e-02 1.43e-02  2.43e-04     1s
+   4   5.34521987e-01  1.87168066e+00  4.73e-03 7.89e-04  3.58e-05     1s
+   5   6.13113802e-01  9.51320004e-01  1.15e-03 1.24e-04  8.50e-06     1s
+   6   6.63004230e-01  8.41827274e-01  6.11e-04 5.00e-05  4.45e-06     2s
+   7   7.06884184e-01  7.83316258e-01  2.44e-04 1.35e-05  1.88e-06     2s
+   8   7.46318594e-01  7.59361558e-01  1.12e-05 1.42e-06  3.17e-07     2s
+   9   7.50953792e-01  7.55097611e-01  3.23e-06 3.36e-07  1.01e-07     2s
+  10   7.52523742e-01  7.54291783e-01  1.06e-06 1.68e-07  4.29e-08     2s
+  11   7.53140900e-01  7.53694615e-01  2.54e-07 5.12e-08  1.34e-08     2s
+  12   7.53296737e-01  7.53541443e-01  8.58e-08 2.48e-08  5.93e-09     3s
+  13   7.53353843e-01  7.53465368e-01  3.05e-08 1.21e-08  2.70e-09     3s
+  14   7.53375258e-01  7.53411155e-01  1.10e-08 3.13e-09  8.70e-10     3s
+  15   7.53384741e-01  7.53396928e-01  3.37e-09 1.05e-09  2.95e-10     3s
+  16   7.53387937e-01  7.53392226e-01  9.24e-10 3.73e-10  1.04e-10     3s
+  17   7.53388750e-01  7.53390452e-01  4.47e-10 1.47e-10  4.12e-11     3s
+  18   7.53389115e-01  7.53389769e-01  4.24e-10 5.18e-11  1.58e-11     4s
+  19   7.53389367e-01  7.53389414e-01  7.88e-10 3.54e-12  1.14e-12     4s
+  20   7.53389383e-01  7.53389385e-01  1.54e-09 2.70e-14  4.64e-14     4s
+
+Barrier solved model in 20 iterations and 3.88 seconds (11.62 work units)
+Optimal objective 7.53389383e-01
+

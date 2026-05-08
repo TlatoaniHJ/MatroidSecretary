@@ -1,0 +1,32 @@
+
+Gurobi 13.0.1 (mac64[arm]) logging started Tue May  5 09:00:12 2026
+
+Set parameter LogFile to value "logs/matroid_361.txt"
+Set parameter Threads to value 12
+Set parameter Crossover to value 0
+Set parameter Method to value 2
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (mac64[arm] - Darwin 23.6.0 23H626)
+
+CPU model: Apple M3 Max
+Thread count: 16 physical cores, 16 logical processors, using up to 12 threads
+
+Non-default parameters:
+Method  2
+Crossover  0
+LogToConsole  0
+Threads  12
+
+Optimize a model with 2133517 rows, 2575860 columns and 6739132 nonzeros (Max)
+Model fingerprint: 0x5b154b13
+Model has 1 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-01, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e-01, 1e-01]
+
+Presolve removed 403767 rows and 403767 columns
+Presolve time: 0.19s
+
+Barrier solved model in 0 iterations and 0.19 seconds (0.40 work units)
+Model is infeasible or unbounded
