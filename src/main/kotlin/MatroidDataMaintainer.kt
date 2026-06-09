@@ -85,7 +85,8 @@ fun main() {
     //lpStatistics()
     //evaluateMatroidRAM()
     //sortMatroidLPStats()
-    tightConjectureInformation()
+    //tightConjectureInformation()
+    sortMatroidLPStatsTight()
 }
 
 fun displayCurrentResults() {
@@ -213,18 +214,18 @@ fun truncationInformation() {
         }
         val numAutomorphisms = matroid.automorphisms().size
         val rank = matroid.rank()
-        if (rank <= 1) {
+        /*if (rank <= 1) {
             continue
-        }
+        }*/
         println("${position}.  \tmatroid #$index  \t\tcompetitive ratio = ${ratioFormat.format(ratio)}\t\ttruncated competitive ratio = ${ratioFormat.format(truncatedRatio)}\t\tdifference = ${ratioFormat.format(ratio - truncatedRatio)} \t\trank = $rank\t\tnum automorphisms = ${padWithSpaces(numAutomorphisms, 6)}") //\t\tbases = ${matroid.bases()}")
     }
     println()
-    for (rank in 2..8) {
+    for (rank in 1..8) {
         val numUncalculated = matroids.withIndex().filter { (_, matroid) -> matroid.rank() == rank }.count { (index, _) -> index !in originalRatios }
         println("there are $numUncalculated matroids of rank $rank for which the competitive ratio has not been calculated")
     }
     println()
-    for (rank in 2..8) {
+    for (rank in 1..8) {
         val numUncalculated = matroids.withIndex().filter { (_, matroid) -> matroid.rank() == rank }.count { (index, _) -> index !in originalRatios && !matroids[index].withoutLoops().isDecomposable() }
         println("there are $numUncalculated nondecomposable matroids of rank $rank for which the competitive ratio has not been calculated")
     }
@@ -330,13 +331,45 @@ data class MatroidLPStat(val index: Int, val rank: Int, val automorphisms: Int, 
 
 fun sortMatroidLPStats() {
     val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
+    val prevProgress = extractDataRaw(File("matroids_8_truncation_conjecture.txt").readText(), "original ratio = ")
     val stats = mutableListOf<MatroidLPStat>()
     for (line in File("matroids_8_lp_stats.txt").readLines()) {
         val tokenizer = StringTokenizer(line)
         val index = tokenizer.nextToken().toInt()
         val nonZeros = tokenizer.nextToken().toInt()
         val matroid = matroids[index]
-        stats.add(MatroidLPStat(index, matroid.rank(), matroid.automorphisms().size, nonZeros))
+        if (index !in prevProgress) {
+            stats.add(MatroidLPStat(index, matroid.rank(), matroid.automorphisms().size, nonZeros))
+        }
+    }
+    stats.sortBy { it.nonZeros }
+    val format = DecimalFormat("000,000")
+    for ((j, stat) in stats.withIndex()) {
+        val (index, rank, automorphisms, nonZeros) = stat
+        println("${j + 1}.  \t #$index\t\tnonzeros = ${format.format(nonZeros)}\trank = $rank\tautomorphisms = $automorphisms")
+    }
+}
+
+fun sortMatroidLPStatsTight() {
+    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
+
+    val covered = mutableSetOf<Int>()
+    for (line in File("matroids_8_tight_conjecture.txt").readLines()) {
+        val tokenizer = StringTokenizer(line)
+        if (tokenizer.hasMoreTokens()) {
+            covered.add(tokenizer.nextToken().toInt())
+        }
+    }
+
+    val stats = mutableListOf<MatroidLPStat>()
+    for (line in File("matroids_8_lp_stats.txt").readLines()) {
+        val tokenizer = StringTokenizer(line)
+        val index = tokenizer.nextToken().toInt()
+        val nonZeros = tokenizer.nextToken().toInt()
+        val matroid = matroids[index]
+        if (index !in covered) {
+            stats.add(MatroidLPStat(index, matroid.rank(), matroid.automorphisms().size, nonZeros))
+        }
     }
     stats.sortBy { it.nonZeros }
     val format = DecimalFormat("000,000")
@@ -350,7 +383,7 @@ data class TightConjectureLine(val index: Int, val ratio: Double, val trueRatio:
 
 fun tightConjectureInformation() {
     //val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = 8)
-    val lines = File("matroids_8_tight_conjecture.txt").readLines().map { line ->
+    val lines = File("matroids_8_tight_conjecture.txt").readLines().filter(String::isNotBlank).map { line ->
         val (index, ratio, trueRatio, diff) = line.split(" ").map(String::toDouble)
         TightConjectureLine(index.roundToInt(), ratio, trueRatio, diff)
     }.sortedByDescending { it.diff }

@@ -5,43 +5,40 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import java.io.File
-import java.util.StringTokenizer
 import kotlin.math.min
 import kotlin.system.exitProcess
 
-fun main(args: Array<String>) = runBlocking(Dispatchers.Default) {
-    val numWorkers = args[0].toInt()
-    val numThreads = args[1].toInt()
-    val nnzLimit = args[2].toInt()
+fun main() = runBlocking(Dispatchers.Default) {
+    val numWorkers = 13
+    val numThreads = 1
 
     println("Running on architecture: ${System.getProperty("os.arch")}")
     val n = 8
     val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n)
     println("num matroids = ${matroids.size}")
 
-    val prevProgress = extractDataRaw(File("matroids_${n}_truncation_conjecture.txt").readText(), "original ratio = ")
-    //val prevProgress = extractDataStructured(File("matroids_9_3_competitive_ratios.txt"))//"" // File("progress.txt").readText()
-    //val greedyData = extractDataStructured(File("matroids_9_greedy_filter_3.txt"))
+    val salvage = mapOf(
+        815 to 7.10169310e-01,
+        804 to 7.09788146e-01,
+        800 to 7.08672682e-01,
+        778 to 6.79426270e-01,
+        777 to 6.79426270e-01,
+        810 to 6.81081730e-01,
+        806 to 7.07689678e-01,
+        816 to 7.09436352e-01,
+        801 to 7.09804597e-01,
+        817 to 6.81081731e-01,
+        822 to 7.10354937e-01,
+        839 to 7.10527787e-01,
+        841 to 6.81081729e-01,
+    )
 
-    val preCalcNonZeros = mutableMapOf<Int, Int>()
-    for (line in File("matroids_8_lp_stats.txt").readLines()) {
-        val tokenizer = StringTokenizer(line)
-        val index = tokenizer.nextToken().toInt()
-        val nonZeros = tokenizer.nextToken().toInt()
-        preCalcNonZeros[index] = nonZeros
-    }
+    val prevProgress = extractDataRaw(File("matroids_${n}_truncation_conjecture.txt").readText(), "original ratio = ")
 
     // 1. Create a lock to synchronize console output
     val printMutex = Mutex()
-    val file = File("matroids_${n}_truncation_conjecture.txt")
-    val skipFile = File("matroids_${n}_skip_list.txt")
-    val prevSkipped = StringTokenizer(skipFile.readText()).let {
-        val result = mutableSetOf<Int>()
-        while (it.hasMoreTokens()) {
-            result.add(it.nextToken().toInt())
-        }
-        result
-    }
+    val file = File("matroids_8_truncation_salvage.txt")
+    file.createNewFile()
 
     val currWorking = mutableMapOf<Int, InProgressMatroid3>()
     var remMatroids = 0
@@ -95,18 +92,8 @@ fun main(args: Array<String>) = runBlocking(Dispatchers.Default) {
 
     // 1. Create a Channel and load it in your strict, sorted order
     val workChannel = Channel<Pair<Int, Int>>(Channel.UNLIMITED)
-    for ((index, numAutomorphisms) in sorted) {
-        if (index in prevProgress) {
-            println("ignoring #$index as already handled")
-        } else if (matroids[index].rank() <= 0) {
-            println("ignoring #$index as its rank is too small")
-        } else /*if (index in prevSkipped) {
-            println("ignoring $index as it was previously skipped")
-        } else*/ {
-            println("#$index, of rank ${matroids[index].rank()}, has $numAutomorphisms automorphisms")
-            remMatroids++
-            workChannel.trySend(Pair(index, numAutomorphisms))
-        }
+    for (index in salvage.keys) {
+        workChannel.trySend(Pair(index, matroids[index].automorphisms().size))
     }
     workChannel.close() // Signals to the workers that no more items are coming
 
@@ -132,6 +119,11 @@ fun main(args: Array<String>) = runBlocking(Dispatchers.Default) {
 
 
                 for (truncation in listOf(false, true)) {
+                    if (!truncation) {
+                        log.appendLine("salvaging existing ratio")
+                        ratios.add(salvage[index]!!)
+                        continue
+                    }
                     if (truncation && matroid.rank() <= 1) {
                         ratios.add(.0)
                         break
@@ -156,17 +148,13 @@ fun main(args: Array<String>) = runBlocking(Dispatchers.Default) {
                             //println(matroids[index2])
                             //println(matroids[index2].automorphisms())
                             //println("identified matroid as sum of #$index1 and #$index2")
-                            if (index1 in prevSkipped || index2 in prevSkipped) {
-                                log.appendLine("identified matroid as sum of #$index1 and #$index2, but at least one is skipped")
-                            } else {
-                                val ratio1 = prevProgress[index1]!!
-                                val ratio2 = prevProgress[index2]!!
-                                log.appendLine("identified matroid as sum of #$index1 (ratio = $ratio1) and #$index2 (ratio = $ratio2)")
-                                val ratio = min(ratio1, ratio2)
-                                log.appendLine("concluding that ratio = $ratio")
-                                ratios.add(ratio)
-                                continue
-                            }
+                            val ratio1 = prevProgress[index1]!!
+                            val ratio2 = prevProgress[index2]!!
+                            log.appendLine("identified matroid as sum of #$index1 (ratio = $ratio1) and #$index2 (ratio = $ratio2)")
+                            val ratio = min(ratio1, ratio2)
+                            log.appendLine("concluding that ratio = $ratio")
+                            ratios.add(ratio)
+                            continue
                         }
                     }
 
@@ -176,20 +164,6 @@ fun main(args: Array<String>) = runBlocking(Dispatchers.Default) {
                         log.appendLine("identified as #$truncatedIndex")
                         ratios.add(prevProgress[truncatedIndex] ?: throw Exception("uncalculated matroid #$truncatedIndex"))
                         continue
-                    }
-
-                    if (preCalcNonZeros[index]!! > nnzLimit * 1_000_000) {
-                        printMutex.withLock {
-                            skipped++
-                            skipFile.appendText("$index\n")
-                            currWorking[index] =
-                                InProgressMatroid3(matroid, -1, -1, preCalcNonZeros[index]!!, startTime, numAutomorphisms, truncation)
-                            log.appendLine("LP is too large, skipping")
-                            printCurrWorking(skip = index)
-                            currWorking.remove(index)
-                            println(log.toString())
-                        }
-                        continue@outer
                     }
 
                     val lp = solveMatroidStep1Gurobi(if (truncation) truncated else matroid, 42, log, logFileName = if (truncation) "truncated_$index" else "matroid_$index", threads = numThreads)
@@ -243,5 +217,3 @@ fun main(args: Array<String>) = runBlocking(Dispatchers.Default) {
 
     Unit
 }
-
-data class InProgressMatroid3(val matroid: Matroid<Int>, val variables: Int, val constraints: Int, val nonzeros: Int, val startTime: Long, val automorphisms: Int, val truncation: Boolean)

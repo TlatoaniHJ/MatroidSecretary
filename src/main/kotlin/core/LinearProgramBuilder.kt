@@ -1,5 +1,6 @@
 package org.example
 
+import com.gurobi.gurobi.GRBVar
 import kotlin.math.exp
 
 enum class VariableType {
@@ -36,6 +37,26 @@ data class Expression<V>(val constant: Double, val terms: List<Term<V>>) {
 
     operator fun plus(other: Double) = this + fromConstant(other)
     operator fun minus(other: Double) = this - fromConstant(other)
+    fun isConstant() = terms.isEmpty()
+
+    override fun toString(): String {
+        var components = mutableListOf<String>()
+        if (constant != .0 || terms.isEmpty()) {
+            components.add(constant.toString())
+        }
+        for ((coefficient, variable) in terms) {
+            var component = if (variable is GRBVar) {
+                "x_${variable.index()}"
+            } else {
+                variable.toString()
+            }
+            if (coefficient != 1.0) {
+                component = "$coefficient$component"
+            }
+            components.add(component)
+        }
+        return components.joinToString(" + ")
+    }
 }
 
 operator fun <V> Double.times(expression: Expression<V>) = expression * this

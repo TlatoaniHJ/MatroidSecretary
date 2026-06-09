@@ -1,0 +1,8550 @@
+num matroids = 38
+computed automorphisms
+
+
+
+
+
+
+matroid #6 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 4], [3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3240
+	num constraints = 3192
+	num nonzeros = 9222
+	constructed LP [0.076] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.3333333333238099
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.086] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.1999999999999944
+
+original ratio = 0.3333333333238099
+truncated ratio = 0.1999999999999944
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 3176
+	num constraints = 3150
+	num nonzeros = 9118
+	constructed LP [0.062] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.333333332674275
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.035] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999802
+
+original ratio = 0.333333332674275
+truncated ratio = 0.1999999999999802
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2982
+	num constraints = 3012
+	num nonzeros = 8618
+	constructed LP [0.023] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333332120485
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997597
+
+original ratio = 0.33333333332120485
+truncated ratio = 0.19999999999997597
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3240
+	num constraints = 3192
+	num nonzeros = 9202
+	constructed LP [0.02] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3333333333160957
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999994
+
+original ratio = 0.3333333333160957
+truncated ratio = 0.19999999999994
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 3170
+	num constraints = 3144
+	num nonzeros = 9058
+	constructed LP [0.021] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333333323667
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999998985
+
+original ratio = 0.3333333333323667
+truncated ratio = 0.19999999999998985
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3110
+	num constraints = 3106
+	num nonzeros = 8774
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333333014835
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999713
+
+original ratio = 0.3333333333014835
+truncated ratio = 0.1999999999999713
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3240
+	num constraints = 3192
+	num nonzeros = 9192
+	constructed LP [0.021] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.33333333331769377
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997664
+
+original ratio = 0.33333333331769377
+truncated ratio = 0.19999999999997664
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 3170
+	num constraints = 3144
+	num nonzeros = 9048
+	constructed LP [0.02] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3333333332876738
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999999107
+
+original ratio = 0.3333333332876738
+truncated ratio = 0.19999999999999107
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 3110
+	num constraints = 3106
+	num nonzeros = 8764
+	constructed LP [0.019] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3333333333154258
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999994456
+
+original ratio = 0.3333333333154258
+truncated ratio = 0.19999999999994456
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 3016
+	num constraints = 3046
+	num nonzeros = 8486
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333306711792
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.20000000000001839
+
+original ratio = 0.3333333306711792
+truncated ratio = 0.20000000000001839
+min ratio for matroid = 0.3333333306711792
+min ratio overall = 0.3333333306711792
+
+
+
+
+
+
+matroid #7 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [2, 3], [2, 4]])
+num automorphisms = 24
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3134
+	num constraints = 3076
+	num nonzeros = 9408
+	constructed LP [0.027] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.24999999971377918
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.025] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999944
+
+original ratio = 0.24999999971377918
+truncated ratio = 0.1999999999999944
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3186
+	num constraints = 3090
+	num nonzeros = 9818
+	constructed LP [0.022] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.24999999968740172
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2000000000000015
+
+original ratio = 0.24999999968740172
+truncated ratio = 0.2000000000000015
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 2963
+	num constraints = 2959
+	num nonzeros = 9593
+	constructed LP [0.021] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.24999999999776623
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999802
+
+original ratio = 0.24999999999776623
+truncated ratio = 0.1999999999999802
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3104
+	num constraints = 3076
+	num nonzeros = 9210
+	constructed LP [0.022] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.24999999886347635
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999994
+
+original ratio = 0.24999999886347635
+truncated ratio = 0.19999999999994
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3080
+	num constraints = 3076
+	num nonzeros = 9084
+	constructed LP [0.021] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.24999999277703044
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997664
+
+original ratio = 0.24999999277703044
+truncated ratio = 0.19999999999997664
+min ratio for matroid = 0.24999999277703044
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #8 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [0, 3], [1, 3]])
+num automorphisms = 8
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2698
+	num constraints = 2799
+	num nonzeros = 7828
+	constructed LP [0.019] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999942355
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709548149
+
+original ratio = 0.4999999999942355
+truncated ratio = 0.24999999709548149
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2782
+	num constraints = 2848
+	num nonzeros = 8170
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999997905364
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993570532
+
+original ratio = 0.49999999997905364
+truncated ratio = 0.24999999993570532
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2806
+	num constraints = 2848
+	num nonzeros = 8298
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999821812324
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.249999998363735
+
+original ratio = 0.49999999821812324
+truncated ratio = 0.249999998363735
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2796
+	num constraints = 2859
+	num nonzeros = 8098
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999362112824
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709547294
+
+original ratio = 0.49999999362112824
+truncated ratio = 0.24999999709547294
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 2880
+	num constraints = 2908
+	num nonzeros = 8440
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999997097144
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.249999999935697
+
+original ratio = 0.49999999997097144
+truncated ratio = 0.249999999935697
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 2796
+	num constraints = 2859
+	num nonzeros = 8098
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999959203323
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999970954775
+
+original ratio = 0.49999999959203323
+truncated ratio = 0.2499999970954775
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 2880
+	num constraints = 2908
+	num nonzeros = 8440
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999329944
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999999357171
+
+original ratio = 0.4999999999329944
+truncated ratio = 0.2499999999357171
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 2958
+	num constraints = 2954
+	num nonzeros = 8710
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999032936
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999983636244
+
+original ratio = 0.4999999999032936
+truncated ratio = 0.2499999983636244
+
+
+	order = [1, 3, 4, 2, 0]
+	ORIGINAL
+	num variables = 2958
+	num constraints = 2954
+	num nonzeros = 8710
+	constructed LP [0.023] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999613093
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999836359854
+
+original ratio = 0.4999999999613093
+truncated ratio = 0.24999999836359854
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2856
+	num constraints = 2878
+	num nonzeros = 8464
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999999441525
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999998529876
+
+original ratio = 0.49999999999441525
+truncated ratio = 0.2499999998529876
+
+
+	order = [3, 1, 2, 4, 0]
+	ORIGINAL
+	num variables = 2980
+	num constraints = 2954
+	num nonzeros = 8804
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999864625
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999985298627
+
+original ratio = 0.4999999999864625
+truncated ratio = 0.24999999985298627
+
+
+	order = [1, 3, 2, 4, 0]
+	ORIGINAL
+	num variables = 2980
+	num constraints = 2954
+	num nonzeros = 8804
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999999025735
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.016] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.24999999985298804
+
+original ratio = 0.49999999999025735
+truncated ratio = 0.24999999985298804
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2870
+	num constraints = 2878
+	num nonzeros = 8520
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999873794887
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971752923
+
+original ratio = 0.49999999873794887
+truncated ratio = 0.24999999971752923
+
+
+	order = [3, 1, 2, 0, 4]
+	ORIGINAL
+	num variables = 2994
+	num constraints = 2954
+	num nonzeros = 8860
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999998083303
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.021] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.24999999971753206
+
+original ratio = 0.4999999998083303
+truncated ratio = 0.24999999971753206
+
+
+	order = [1, 3, 2, 0, 4]
+	ORIGINAL
+	num variables = 2994
+	num constraints = 2954
+	num nonzeros = 8860
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999987645827
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971753223
+
+original ratio = 0.49999999987645827
+truncated ratio = 0.24999999971753223
+min ratio for matroid = 0.49999999362112824
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #9 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [2, 3]])
+num automorphisms = 6
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2790
+	num constraints = 2829
+	num nonzeros = 8502
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333332961444884
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709548149
+
+original ratio = 0.33333332961444884
+truncated ratio = 0.24999999709548149
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2908
+	num constraints = 2912
+	num nonzeros = 8842
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333309403145
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993570532
+
+original ratio = 0.3333333309403145
+truncated ratio = 0.24999999993570532
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 2660
+	num constraints = 2753
+	num nonzeros = 8316
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333333027204
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999970954916
+
+original ratio = 0.3333333333027204
+truncated ratio = 0.2499999970954916
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 2709
+	num constraints = 2753
+	num nonzeros = 8895
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333333104687
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993569455
+
+original ratio = 0.33333333333104687
+truncated ratio = 0.24999999993569455
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2964
+	num constraints = 2916
+	num nonzeros = 9234
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.333333333219924
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.249999998363735
+
+original ratio = 0.333333333219924
+truncated ratio = 0.249999998363735
+
+
+	order = [2, 3, 4, 1, 0]
+	ORIGINAL
+	num variables = 2805
+	num constraints = 2825
+	num nonzeros = 9187
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333332990067
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999836358822
+
+original ratio = 0.33333333332990067
+truncated ratio = 0.24999999836358822
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2752
+	num constraints = 2821
+	num nonzeros = 8264
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333281830524
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709547294
+
+original ratio = 0.33333333281830524
+truncated ratio = 0.24999999709547294
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 2878
+	num constraints = 2912
+	num nonzeros = 8652
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333328815395
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.249999999935697
+
+original ratio = 0.33333333328815395
+truncated ratio = 0.249999999935697
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 2898
+	num constraints = 2906
+	num nonzeros = 8708
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333294648363
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999983636244
+
+original ratio = 0.3333333294648363
+truncated ratio = 0.2499999983636244
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2982
+	num constraints = 2916
+	num nonzeros = 9296
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333328609616
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999998529876
+
+original ratio = 0.33333333328609616
+truncated ratio = 0.2499999998529876
+
+
+	order = [2, 3, 1, 4, 0]
+	ORIGINAL
+	num variables = 2817
+	num constraints = 2819
+	num nonzeros = 9211
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333321096875
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999998529897
+
+original ratio = 0.3333333321096875
+truncated ratio = 0.2499999998529897
+
+
+	order = [3, 1, 2, 4, 0]
+	ORIGINAL
+	num variables = 2934
+	num constraints = 2906
+	num nonzeros = 8924
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333324276184
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999985298627
+
+original ratio = 0.3333333324276184
+truncated ratio = 0.24999999985298627
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 2728
+	num constraints = 2821
+	num nonzeros = 8142
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.33333333299598567
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709549126
+
+original ratio = 0.33333333299598567
+truncated ratio = 0.24999999709549126
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 2854
+	num constraints = 2912
+	num nonzeros = 8530
+	constructed LP [0.019] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.33333333331825443
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993572575
+
+original ratio = 0.33333333331825443
+truncated ratio = 0.24999999993572575
+
+
+	order = [3, 1, 4, 0, 2]
+	ORIGINAL
+	num variables = 2874
+	num constraints = 2906
+	num nonzeros = 8586
+	constructed LP [0.022] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.3333333333129217
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999836339526
+
+original ratio = 0.3333333333129217
+truncated ratio = 0.24999999836339526
+
+
+	order = [3, 1, 0, 4, 2]
+	ORIGINAL
+	num variables = 2894
+	num constraints = 2906
+	num nonzeros = 8654
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333333136934
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999985298726
+
+original ratio = 0.3333333333136934
+truncated ratio = 0.24999999985298726
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2996
+	num constraints = 2916
+	num nonzeros = 9342
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.333333333313407
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971752923
+
+original ratio = 0.333333333313407
+truncated ratio = 0.24999999971752923
+
+
+	order = [2, 3, 1, 0, 4]
+	ORIGINAL
+	num variables = 2831
+	num constraints = 2819
+	num nonzeros = 9257
+	constructed LP [0.022] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333333240577
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971753184
+
+original ratio = 0.3333333333240577
+truncated ratio = 0.24999999971753184
+
+
+	order = [3, 1, 2, 0, 4]
+	ORIGINAL
+	num variables = 2948
+	num constraints = 2906
+	num nonzeros = 8970
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333330764402
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971753206
+
+original ratio = 0.3333333330764402
+truncated ratio = 0.24999999971753206
+
+
+	order = [3, 1, 0, 2, 4]
+	ORIGINAL
+	num variables = 2918
+	num constraints = 2906
+	num nonzeros = 8780
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333327598313
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999544282536
+
+original ratio = 0.33333333327598313
+truncated ratio = 0.24999999544282536
+min ratio for matroid = 0.3333333294648363
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #10 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2]])
+num automorphisms = 4
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2426
+	num constraints = 2587
+	num nonzeros = 7542
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999991573272
+	TRUNCATION
+	num variables = 2432
+	num constraints = 2509
+	num nonzeros = 5784
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333322820905
+
+original ratio = 0.4999999991573272
+truncated ratio = 0.3333333322820905
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 2464
+	num constraints = 2587
+	num nonzeros = 7856
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999900394765
+	TRUNCATION
+	num variables = 2522
+	num constraints = 2583
+	num nonzeros = 6090
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333298583092
+
+original ratio = 0.49999999900394765
+truncated ratio = 0.3333333298583092
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 2513
+	num constraints = 2587
+	num nonzeros = 8403
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999990039481
+	TRUNCATION
+	num variables = 2628
+	num constraints = 2668
+	num nonzeros = 6448
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333314614515
+
+original ratio = 0.4999999990039481
+truncated ratio = 0.3333333314614515
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2480
+	num constraints = 2617
+	num nonzeros = 7612
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999220917746
+	TRUNCATION
+	num variables = 2432
+	num constraints = 2509
+	num nonzeros = 5784
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333322820904
+
+original ratio = 0.49999999220917746
+truncated ratio = 0.3333333322820904
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 2548
+	num constraints = 2655
+	num nonzeros = 7840
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999998793687
+	TRUNCATION
+	num variables = 2522
+	num constraints = 2583
+	num nonzeros = 6090
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333332985830055
+
+original ratio = 0.49999999998793687
+truncated ratio = 0.33333332985830055
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 2636
+	num constraints = 2704
+	num nonzeros = 8162
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999987209
+	TRUNCATION
+	num variables = 2628
+	num constraints = 2668
+	num nonzeros = 6448
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333146145305
+
+original ratio = 0.4999999999987209
+truncated ratio = 0.33333333146145305
+
+
+	order = [4, 2, 1, 3, 0]
+	ORIGINAL
+	num variables = 2516
+	num constraints = 2617
+	num nonzeros = 8020
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999981579135
+	TRUNCATION
+	num variables = 2524
+	num constraints = 2574
+	num nonzeros = 6086
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333333098363
+
+original ratio = 0.49999999981579135
+truncated ratio = 0.3333333333098363
+
+
+	order = [2, 4, 1, 3, 0]
+	ORIGINAL
+	num variables = 2565
+	num constraints = 2617
+	num nonzeros = 8567
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999964883535
+	TRUNCATION
+	num variables = 2639
+	num constraints = 2668
+	num nonzeros = 6501
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333332995071
+
+original ratio = 0.49999999964883535
+truncated ratio = 0.3333333332995071
+
+
+	order = [4, 1, 2, 3, 0]
+	ORIGINAL
+	num variables = 2584
+	num constraints = 2655
+	num nonzeros = 8048
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999483464574
+	TRUNCATION
+	num variables = 2524
+	num constraints = 2574
+	num nonzeros = 6086
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333333098373
+
+original ratio = 0.49999999483464574
+truncated ratio = 0.3333333333098373
+
+
+	order = [1, 4, 2, 3, 0]
+	ORIGINAL
+	num variables = 2672
+	num constraints = 2704
+	num nonzeros = 8370
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999973059595
+	TRUNCATION
+	num variables = 2639
+	num constraints = 2668
+	num nonzeros = 6501
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333329950876
+
+original ratio = 0.49999999973059595
+truncated ratio = 0.33333333329950876
+
+
+	order = [2, 1, 4, 3, 0]
+	ORIGINAL
+	num variables = 2631
+	num constraints = 2655
+	num nonzeros = 8789
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999783443
+	TRUNCATION
+	num variables = 2642
+	num constraints = 2657
+	num nonzeros = 6515
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333312902821
+
+original ratio = 0.4999999999783443
+truncated ratio = 0.3333333312902821
+
+
+	order = [1, 2, 4, 3, 0]
+	ORIGINAL
+	num variables = 2718
+	num constraints = 2704
+	num nonzeros = 8708
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999841346
+	TRUNCATION
+	num variables = 2642
+	num constraints = 2657
+	num nonzeros = 6515
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333129028253
+
+original ratio = 0.4999999999841346
+truncated ratio = 0.33333333129028253
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 2456
+	num constraints = 2617
+	num nonzeros = 7500
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999099307
+	TRUNCATION
+	num variables = 2432
+	num constraints = 2509
+	num nonzeros = 5784
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333322820905
+
+original ratio = 0.4999999999099307
+truncated ratio = 0.3333333322820905
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 2524
+	num constraints = 2655
+	num nonzeros = 7728
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.499999993637233
+	TRUNCATION
+	num variables = 2522
+	num constraints = 2583
+	num nonzeros = 6090
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333298582972
+
+original ratio = 0.499999993637233
+truncated ratio = 0.3333333298582972
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 2612
+	num constraints = 2704
+	num nonzeros = 8050
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999983317955
+	TRUNCATION
+	num variables = 2628
+	num constraints = 2668
+	num nonzeros = 6448
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333314614513
+
+original ratio = 0.49999999983317955
+truncated ratio = 0.3333333314614513
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 2546
+	num constraints = 2655
+	num nonzeros = 7814
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999942215746
+	TRUNCATION
+	num variables = 2524
+	num constraints = 2574
+	num nonzeros = 6086
+	constructed LP [0.018] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.3333333333098387
+
+original ratio = 0.4999999942215746
+truncated ratio = 0.3333333333098387
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 2634
+	num constraints = 2704
+	num nonzeros = 8136
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999918250226
+	TRUNCATION
+	num variables = 2639
+	num constraints = 2668
+	num nonzeros = 6501
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333329950754
+
+original ratio = 0.49999999918250226
+truncated ratio = 0.33333333329950754
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 2662
+	num constraints = 2704
+	num nonzeros = 8260
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999997701083
+	TRUNCATION
+	num variables = 2642
+	num constraints = 2657
+	num nonzeros = 6515
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333312902823
+
+original ratio = 0.49999999997701083
+truncated ratio = 0.3333333312902823
+
+
+	order = [4, 2, 1, 0, 3]
+	ORIGINAL
+	num variables = 2532
+	num constraints = 2617
+	num nonzeros = 8078
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.499999996304503
+	TRUNCATION
+	num variables = 2532
+	num constraints = 2574
+	num nonzeros = 6120
+	constructed LP [0.016] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.33333333314673985
+
+original ratio = 0.499999996304503
+truncated ratio = 0.33333333314673985
+
+
+	order = [2, 4, 1, 0, 3]
+	ORIGINAL
+	num variables = 2581
+	num constraints = 2617
+	num nonzeros = 8625
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.499999996304498
+	TRUNCATION
+	num variables = 2647
+	num constraints = 2668
+	num nonzeros = 6535
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333331664503
+
+original ratio = 0.499999996304498
+truncated ratio = 0.3333333331664503
+
+
+	order = [4, 1, 2, 0, 3]
+	ORIGINAL
+	num variables = 2600
+	num constraints = 2655
+	num nonzeros = 8106
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999997232647
+	TRUNCATION
+	num variables = 2532
+	num constraints = 2574
+	num nonzeros = 6120
+	constructed LP [0.016] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.333333333146739
+
+original ratio = 0.49999999997232647
+truncated ratio = 0.333333333146739
+
+
+	order = [1, 4, 2, 0, 3]
+	ORIGINAL
+	num variables = 2688
+	num constraints = 2704
+	num nonzeros = 8428
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999654201
+	TRUNCATION
+	num variables = 2647
+	num constraints = 2668
+	num nonzeros = 6535
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333331664533
+
+original ratio = 0.4999999999654201
+truncated ratio = 0.3333333331664533
+
+
+	order = [2, 1, 4, 0, 3]
+	ORIGINAL
+	num variables = 2647
+	num constraints = 2655
+	num nonzeros = 8847
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999743683665
+	TRUNCATION
+	num variables = 2650
+	num constraints = 2657
+	num nonzeros = 6549
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333331015481
+
+original ratio = 0.49999999743683665
+truncated ratio = 0.3333333331015481
+
+
+	order = [1, 2, 4, 0, 3]
+	ORIGINAL
+	num variables = 2734
+	num constraints = 2704
+	num nonzeros = 8766
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999991479727
+	TRUNCATION
+	num variables = 2650
+	num constraints = 2657
+	num nonzeros = 6549
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333331366355
+
+original ratio = 0.49999999991479727
+truncated ratio = 0.33333333331366355
+
+
+	order = [4, 1, 0, 2, 3]
+	ORIGINAL
+	num variables = 2570
+	num constraints = 2655
+	num nonzeros = 7936
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999652365
+	TRUNCATION
+	num variables = 2532
+	num constraints = 2574
+	num nonzeros = 6120
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333314672864
+
+original ratio = 0.49999999652365
+truncated ratio = 0.33333333314672864
+
+
+	order = [1, 4, 0, 2, 3]
+	ORIGINAL
+	num variables = 2658
+	num constraints = 2704
+	num nonzeros = 8258
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999998764255
+	TRUNCATION
+	num variables = 2647
+	num constraints = 2668
+	num nonzeros = 6535
+	constructed LP [0.016] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.33333333316645136
+
+original ratio = 0.49999999998764255
+truncated ratio = 0.33333333316645136
+
+
+	order = [1, 0, 4, 2, 3]
+	ORIGINAL
+	num variables = 2686
+	num constraints = 2704
+	num nonzeros = 8382
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999816167
+	TRUNCATION
+	num variables = 2650
+	num constraints = 2657
+	num nonzeros = 6549
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333310154967
+
+original ratio = 0.4999999999816167
+truncated ratio = 0.33333333310154967
+
+
+	order = [2, 1, 0, 4, 3]
+	ORIGINAL
+	num variables = 2667
+	num constraints = 2655
+	num nonzeros = 8927
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999989714963
+	TRUNCATION
+	num variables = 2660
+	num constraints = 2657
+	num nonzeros = 6599
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333304242021
+
+original ratio = 0.4999999989714963
+truncated ratio = 0.3333333304242021
+
+
+	order = [1, 2, 0, 4, 3]
+	ORIGINAL
+	num variables = 2754
+	num constraints = 2704
+	num nonzeros = 8846
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999036996
+	TRUNCATION
+	num variables = 2660
+	num constraints = 2657
+	num nonzeros = 6599
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333304241577
+
+original ratio = 0.4999999999036996
+truncated ratio = 0.3333333304241577
+
+
+	order = [1, 0, 2, 4, 3]
+	ORIGINAL
+	num variables = 2716
+	num constraints = 2704
+	num nonzeros = 8572
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999896386504
+	TRUNCATION
+	num variables = 2660
+	num constraints = 2657
+	num nonzeros = 6599
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333304241537
+
+original ratio = 0.49999999896386504
+truncated ratio = 0.3333333304241537
+min ratio for matroid = 0.49999999220917746
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #11 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2228
+	num constraints = 2443
+	num nonzeros = 7156
+	constructed LP [0.014] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.9999999998805519
+	TRUNCATION
+	num variables = 2252
+	num constraints = 2347
+	num nonzeros = 5640
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.499999999899134
+
+original ratio = 0.9999999998805519
+truncated ratio = 0.499999999899134
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2258
+	num constraints = 2443
+	num nonzeros = 7326
+	constructed LP [0.014] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2300
+	num constraints = 2377
+	num nonzeros = 5812
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999235838
+
+original ratio = 1.0
+truncated ratio = 0.4999999999235838
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 2296
+	num constraints = 2443
+	num nonzeros = 7600
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2361
+	num constraints = 2415
+	num nonzeros = 6059
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999599757
+
+original ratio = 1.0
+truncated ratio = 0.4999999999599757
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 2345
+	num constraints = 2443
+	num nonzeros = 8067
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2440
+	num constraints = 2464
+	num nonzeros = 6434
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.499999999954057
+
+original ratio = 1.0
+truncated ratio = 0.499999999954057
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 2282
+	num constraints = 2443
+	num nonzeros = 7438
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2312
+	num constraints = 2377
+	num nonzeros = 5868
+	constructed LP [0.015] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.4999999999939486
+
+original ratio = 1.0
+truncated ratio = 0.4999999999939486
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 2320
+	num constraints = 2443
+	num nonzeros = 7712
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2373
+	num constraints = 2415
+	num nonzeros = 6115
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999993821365
+
+original ratio = 1.0
+truncated ratio = 0.49999999993821365
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 2369
+	num constraints = 2443
+	num nonzeros = 8179
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.9999999999670744
+	TRUNCATION
+	num variables = 2452
+	num constraints = 2464
+	num nonzeros = 6490
+	constructed LP [0.015] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.49999999995416894
+
+original ratio = 0.9999999999670744
+truncated ratio = 0.49999999995416894
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 2350
+	num constraints = 2443
+	num nonzeros = 7882
+	constructed LP [0.032] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2388
+	num constraints = 2415
+	num nonzeros = 6200
+	constructed LP [0.014] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.4999999999782584
+
+original ratio = 1.0
+truncated ratio = 0.4999999999782584
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 2399
+	num constraints = 2443
+	num nonzeros = 8349
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2467
+	num constraints = 2464
+	num nonzeros = 6575
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999855767
+
+original ratio = 1.0
+truncated ratio = 0.4999999999855767
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 2437
+	num constraints = 2443
+	num nonzeros = 8623
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2486
+	num constraints = 2464
+	num nonzeros = 6712
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999703132153
+
+original ratio = 1.0
+truncated ratio = 0.49999999703132153
+min ratio for matroid = 0.9999999998805519
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #12 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+num automorphisms = 8
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3188
+	num constraints = 3174
+	num nonzeros = 8804
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999990546764
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999944
+
+original ratio = 0.39999999990546764
+truncated ratio = 0.1999999999999944
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 3248
+	num constraints = 3214
+	num nonzeros = 8970
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999820646
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999802
+
+original ratio = 0.3999999999820646
+truncated ratio = 0.1999999999999802
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 3048
+	num constraints = 3066
+	num nonzeros = 8366
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999976908884
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997597
+
+original ratio = 0.39999999976908884
+truncated ratio = 0.19999999999997597
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3244
+	num constraints = 3202
+	num nonzeros = 8954
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999983019396
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999994
+
+original ratio = 0.39999999983019396
+truncated ratio = 0.19999999999994
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 3298
+	num constraints = 3236
+	num nonzeros = 9082
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999996635798
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999998985
+
+original ratio = 0.3999999996635798
+truncated ratio = 0.19999999999998985
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3244
+	num constraints = 3202
+	num nonzeros = 8954
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999889424
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999713
+
+original ratio = 0.3999999999889424
+truncated ratio = 0.1999999999999713
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3298
+	num constraints = 3236
+	num nonzeros = 9082
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999263114
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999813
+
+original ratio = 0.3999999999263114
+truncated ratio = 0.1999999999999813
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 3344
+	num constraints = 3266
+	num nonzeros = 9192
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999999271985
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.1999999999999833
+
+original ratio = 0.39999999999271985
+truncated ratio = 0.1999999999999833
+
+
+	order = [1, 3, 4, 2, 0]
+	ORIGINAL
+	num variables = 3344
+	num constraints = 3266
+	num nonzeros = 9192
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999974445455
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999998475
+
+original ratio = 0.39999999974445455
+truncated ratio = 0.19999999999998475
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 3092
+	num constraints = 3096
+	num nonzeros = 8478
+	constructed LP [0.022] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999999073854
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997742
+
+original ratio = 0.39999999999073854
+truncated ratio = 0.19999999999997742
+
+
+	order = [3, 1, 2, 4, 0]
+	ORIGINAL
+	num variables = 3292
+	num constraints = 3244
+	num nonzeros = 9066
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999998373984
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999998153
+
+original ratio = 0.3999999998373984
+truncated ratio = 0.19999999999998153
+
+
+	order = [1, 3, 2, 4, 0]
+	ORIGINAL
+	num variables = 3286
+	num constraints = 3238
+	num nonzeros = 9026
+	constructed LP [0.019] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3999999997900866
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.1999999999999873
+
+original ratio = 0.3999999997900866
+truncated ratio = 0.1999999999999873
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 3078
+	num constraints = 3096
+	num nonzeros = 8432
+	constructed LP [0.018] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999971332234
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997742
+
+original ratio = 0.39999999971332234
+truncated ratio = 0.19999999999997742
+
+
+	order = [3, 1, 2, 0, 4]
+	ORIGINAL
+	num variables = 3278
+	num constraints = 3244
+	num nonzeros = 9020
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999998485857
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999862
+
+original ratio = 0.3999999998485857
+truncated ratio = 0.1999999999999862
+
+
+	order = [1, 3, 2, 0, 4]
+	ORIGINAL
+	num variables = 3272
+	num constraints = 3238
+	num nonzeros = 8980
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999992363755
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999996632
+
+original ratio = 0.39999999992363755
+truncated ratio = 0.19999999999996632
+min ratio for matroid = 0.3999999996635798
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #13 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3190
+	num constraints = 3140
+	num nonzeros = 9074
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333318814754
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999944
+
+original ratio = 0.3333333318814754
+truncated ratio = 0.1999999999999944
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 3318
+	num constraints = 3222
+	num nonzeros = 9356
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333314434466
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999802
+
+original ratio = 0.33333333314434466
+truncated ratio = 0.1999999999999802
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3094
+	num constraints = 3076
+	num nonzeros = 8878
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333304250035
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.2000000000000015
+
+original ratio = 0.33333333304250035
+truncated ratio = 0.2000000000000015
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3172
+	num constraints = 3140
+	num nonzeros = 8990
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333315854863
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999994
+
+original ratio = 0.33333333315854863
+truncated ratio = 0.19999999999994
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 3300
+	num constraints = 3222
+	num nonzeros = 9274
+	constructed LP [0.019] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.33333333331593784
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.024] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999998985
+
+original ratio = 0.33333333331593784
+truncated ratio = 0.19999999999998985
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 3166
+	num constraints = 3132
+	num nonzeros = 8808
+	constructed LP [0.024] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333301967816
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.023] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999833
+
+original ratio = 0.3333333301967816
+truncated ratio = 0.1999999999999833
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3158
+	num constraints = 3140
+	num nonzeros = 8934
+	constructed LP [0.027] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3333333331206426
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.025] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997664
+
+original ratio = 0.3333333331206426
+truncated ratio = 0.19999999999997664
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 3286
+	num constraints = 3222
+	num nonzeros = 9218
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333331727324
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999999107
+
+original ratio = 0.3333333331727324
+truncated ratio = 0.19999999999999107
+
+
+	order = [3, 1, 4, 0, 2]
+	ORIGINAL
+	num variables = 3152
+	num constraints = 3132
+	num nonzeros = 8752
+	constructed LP [0.018] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3333333332939584
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997442
+
+original ratio = 0.3333333332939584
+truncated ratio = 0.19999999999997442
+
+
+	order = [3, 1, 0, 4, 2]
+	ORIGINAL
+	num variables = 3058
+	num constraints = 3072
+	num nonzeros = 8466
+	constructed LP [0.018] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.33333333325005277
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999995655
+
+original ratio = 0.33333333325005277
+truncated ratio = 0.19999999999995655
+min ratio for matroid = 0.3333333301967816
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #14 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3]])
+num automorphisms = 4
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2750
+	num constraints = 2821
+	num nonzeros = 7834
+	constructed LP [0.024] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999998917194854
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709548149
+
+original ratio = 0.49999998917194854
+truncated ratio = 0.24999999709548149
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2804
+	num constraints = 2840
+	num nonzeros = 8130
+	constructed LP [0.022] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999785461524
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.24999999993570532
+
+original ratio = 0.49999999785461524
+truncated ratio = 0.24999999993570532
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2910
+	num constraints = 2912
+	num nonzeros = 8508
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999989347077
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.249999998363735
+
+original ratio = 0.49999999989347077
+truncated ratio = 0.249999998363735
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2796
+	num constraints = 2851
+	num nonzeros = 7940
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999908319
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709547294
+
+original ratio = 0.4999999999908319
+truncated ratio = 0.24999999709547294
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 2850
+	num constraints = 2870
+	num nonzeros = 8236
+	constructed LP [0.017] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999730598754
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.249999999935697
+
+original ratio = 0.49999999730598754
+truncated ratio = 0.249999999935697
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 2858
+	num constraints = 2889
+	num nonzeros = 8098
+	constructed LP [0.027] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999992406485
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999970954775
+
+original ratio = 0.49999999992406485
+truncated ratio = 0.2499999970954775
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 2944
+	num constraints = 2944
+	num nonzeros = 8390
+	constructed LP [0.018] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999645369
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999999357171
+
+original ratio = 0.4999999999645369
+truncated ratio = 0.2499999999357171
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 2958
+	num constraints = 2950
+	num nonzeros = 8576
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999998896819
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999983636244
+
+original ratio = 0.4999999998896819
+truncated ratio = 0.2499999983636244
+
+
+	order = [1, 3, 4, 2, 0]
+	ORIGINAL
+	num variables = 3030
+	num constraints = 2992
+	num nonzeros = 8704
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999996146094
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999836359854
+
+original ratio = 0.49999999996146094
+truncated ratio = 0.24999999836359854
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2920
+	num constraints = 2906
+	num nonzeros = 8534
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999985752771
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999998529876
+
+original ratio = 0.4999999985752771
+truncated ratio = 0.2499999998529876
+
+
+	order = [3, 1, 2, 4, 0]
+	ORIGINAL
+	num variables = 2978
+	num constraints = 2944
+	num nonzeros = 8652
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999997777316
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999985298627
+
+original ratio = 0.4999999997777316
+truncated ratio = 0.24999999985298627
+
+
+	order = [1, 3, 2, 4, 0]
+	ORIGINAL
+	num variables = 3056
+	num constraints = 2992
+	num nonzeros = 8818
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999783241356
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999985298804
+
+original ratio = 0.49999999783241356
+truncated ratio = 0.24999999985298804
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 2780
+	num constraints = 2851
+	num nonzeros = 7882
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999749548
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709549126
+
+original ratio = 0.4999999999749548
+truncated ratio = 0.24999999709549126
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 2834
+	num constraints = 2870
+	num nonzeros = 8178
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999722958
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993572575
+
+original ratio = 0.4999999999722958
+truncated ratio = 0.24999999993572575
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 2842
+	num constraints = 2889
+	num nonzeros = 8040
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999990951566
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999970954785
+
+original ratio = 0.4999999990951566
+truncated ratio = 0.2499999970954785
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 2928
+	num constraints = 2944
+	num nonzeros = 8332
+	constructed LP [0.019] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999943167095
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.023] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993568534
+
+original ratio = 0.49999999943167095
+truncated ratio = 0.24999999993568534
+
+
+	order = [3, 1, 4, 0, 2]
+	ORIGINAL
+	num variables = 2942
+	num constraints = 2950
+	num nonzeros = 8518
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999996942157
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999836339526
+
+original ratio = 0.4999999996942157
+truncated ratio = 0.24999999836339526
+
+
+	order = [1, 3, 4, 0, 2]
+	ORIGINAL
+	num variables = 3014
+	num constraints = 2992
+	num nonzeros = 8646
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999473361
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999836361475
+
+original ratio = 0.4999999999473361
+truncated ratio = 0.24999999836361475
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 2736
+	num constraints = 2821
+	num nonzeros = 7702
+	constructed LP [0.02] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999989560199
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.24999999709549858
+
+original ratio = 0.4999999989560199
+truncated ratio = 0.24999999709549858
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 2830
+	num constraints = 2884
+	num nonzeros = 8042
+	constructed LP [0.019] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999995011486
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993568522
+
+original ratio = 0.4999999995011486
+truncated ratio = 0.24999999993568522
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 2844
+	num constraints = 2876
+	num nonzeros = 8092
+	constructed LP [0.022] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999922170457
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999983636192
+
+original ratio = 0.49999999922170457
+truncated ratio = 0.2499999983636192
+
+
+	order = [3, 1, 0, 4, 2]
+	ORIGINAL
+	num variables = 2956
+	num constraints = 2944
+	num nonzeros = 8556
+	constructed LP [0.023] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999964055786
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999985298726
+
+original ratio = 0.49999999964055786
+truncated ratio = 0.24999999985298726
+
+
+	order = [1, 3, 0, 4, 2]
+	ORIGINAL
+	num variables = 3034
+	num constraints = 2992
+	num nonzeros = 8722
+	constructed LP [0.023] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999984098411
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999985298893
+
+original ratio = 0.4999999984098411
+truncated ratio = 0.24999999985298893
+
+
+	order = [1, 0, 3, 4, 2]
+	ORIGINAL
+	num variables = 2900
+	num constraints = 2906
+	num nonzeros = 8284
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999999540556
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.2499999998529875
+
+original ratio = 0.49999999999540556
+truncated ratio = 0.2499999998529875
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2932
+	num constraints = 2906
+	num nonzeros = 8578
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999968635656
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971752923
+
+original ratio = 0.49999999968635656
+truncated ratio = 0.24999999971752923
+
+
+	order = [3, 1, 2, 0, 4]
+	ORIGINAL
+	num variables = 2990
+	num constraints = 2944
+	num nonzeros = 8696
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999988633773
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971753206
+
+original ratio = 0.4999999988633773
+truncated ratio = 0.24999999971753206
+
+
+	order = [1, 3, 2, 0, 4]
+	ORIGINAL
+	num variables = 3068
+	num constraints = 2992
+	num nonzeros = 8862
+	constructed LP [0.023] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999981005864
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971753223
+
+original ratio = 0.4999999981005864
+truncated ratio = 0.24999999971753223
+
+
+	order = [3, 1, 0, 2, 4]
+	ORIGINAL
+	num variables = 2970
+	num constraints = 2944
+	num nonzeros = 8616
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999996966802
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.017] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.24999999544282536
+
+original ratio = 0.4999999996966802
+truncated ratio = 0.24999999544282536
+
+
+	order = [1, 3, 0, 2, 4]
+	ORIGINAL
+	num variables = 3048
+	num constraints = 2992
+	num nonzeros = 8782
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999997085106
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999902352732
+
+original ratio = 0.4999999997085106
+truncated ratio = 0.24999999902352732
+
+
+	order = [1, 0, 3, 2, 4]
+	ORIGINAL
+	num variables = 2914
+	num constraints = 2906
+	num nonzeros = 8344
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999999121103
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971753153
+
+original ratio = 0.49999999999121103
+truncated ratio = 0.24999999971753153
+min ratio for matroid = 0.49999998917194854
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #15 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1], [0, 2], [1, 2]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2480
+	num constraints = 2617
+	num nonzeros = 7252
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666575175427
+	TRUNCATION
+	num variables = 2432
+	num constraints = 2509
+	num nonzeros = 5784
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333322820905
+
+original ratio = 0.6666666575175427
+truncated ratio = 0.3333333322820905
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 2518
+	num constraints = 2625
+	num nonzeros = 7442
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666666538192
+	TRUNCATION
+	num variables = 2522
+	num constraints = 2583
+	num nonzeros = 6090
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333298583092
+
+original ratio = 0.6666666666538192
+truncated ratio = 0.3333333298583092
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 2568
+	num constraints = 2636
+	num nonzeros = 7746
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.6666666582339906
+	TRUNCATION
+	num variables = 2628
+	num constraints = 2668
+	num nonzeros = 6448
+	constructed LP [0.021] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333314614515
+
+original ratio = 0.6666666582339906
+truncated ratio = 0.3333333314614515
+
+
+	order = [4, 2, 1, 3, 0]
+	ORIGINAL
+	num variables = 2576
+	num constraints = 2655
+	num nonzeros = 7644
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666616739979
+	TRUNCATION
+	num variables = 2524
+	num constraints = 2574
+	num nonzeros = 6086
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333333098363
+
+original ratio = 0.6666666616739979
+truncated ratio = 0.3333333333098363
+
+
+	order = [2, 4, 1, 3, 0]
+	ORIGINAL
+	num variables = 2626
+	num constraints = 2666
+	num nonzeros = 7948
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666613253571
+	TRUNCATION
+	num variables = 2639
+	num constraints = 2668
+	num nonzeros = 6501
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333332995071
+
+original ratio = 0.6666666613253571
+truncated ratio = 0.3333333332995071
+
+
+	order = [2, 1, 4, 3, 0]
+	ORIGINAL
+	num variables = 2700
+	num constraints = 2704
+	num nonzeros = 8234
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666661912548
+	TRUNCATION
+	num variables = 2642
+	num constraints = 2657
+	num nonzeros = 6515
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333312902821
+
+original ratio = 0.6666666661912548
+truncated ratio = 0.3333333312902821
+
+
+	order = [4, 2, 1, 0, 3]
+	ORIGINAL
+	num variables = 2592
+	num constraints = 2655
+	num nonzeros = 7712
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666657994772
+	TRUNCATION
+	num variables = 2532
+	num constraints = 2574
+	num nonzeros = 6120
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.33333333314673985
+
+original ratio = 0.6666666657994772
+truncated ratio = 0.33333333314673985
+
+
+	order = [2, 4, 1, 0, 3]
+	ORIGINAL
+	num variables = 2642
+	num constraints = 2666
+	num nonzeros = 8016
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666666662553
+	TRUNCATION
+	num variables = 2647
+	num constraints = 2668
+	num nonzeros = 6535
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333331664503
+
+original ratio = 0.6666666666662553
+truncated ratio = 0.3333333331664503
+
+
+	order = [2, 1, 4, 0, 3]
+	ORIGINAL
+	num variables = 2716
+	num constraints = 2704
+	num nonzeros = 8302
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666666666357
+	TRUNCATION
+	num variables = 2650
+	num constraints = 2657
+	num nonzeros = 6549
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333331015481
+
+original ratio = 0.6666666666666357
+truncated ratio = 0.3333333331015481
+
+
+	order = [2, 1, 0, 4, 3]
+	ORIGINAL
+	num variables = 2736
+	num constraints = 2704
+	num nonzeros = 8402
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666606917038
+	TRUNCATION
+	num variables = 2660
+	num constraints = 2657
+	num nonzeros = 6599
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3333333304242021
+
+original ratio = 0.6666666606917038
+truncated ratio = 0.3333333304242021
+min ratio for matroid = 0.6666666575175427
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #16 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3160
+	num constraints = 3140
+	num nonzeros = 8656
+	constructed LP [0.021] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999963276167
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999944
+
+original ratio = 0.39999999963276167
+truncated ratio = 0.1999999999999944
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3198
+	num constraints = 3166
+	num nonzeros = 8740
+	constructed LP [0.021] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999656966
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999994
+
+original ratio = 0.3999999999656966
+truncated ratio = 0.19999999999994
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3252
+	num constraints = 3204
+	num nonzeros = 8870
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999993680824
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.019] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999713
+
+original ratio = 0.39999999993680824
+truncated ratio = 0.1999999999999713
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3302
+	num constraints = 3236
+	num nonzeros = 8982
+	constructed LP [0.021] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3999999997459224
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.02] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999813
+
+original ratio = 0.3999999997459224
+truncated ratio = 0.1999999999999813
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3186
+	num constraints = 3166
+	num nonzeros = 8700
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999968499708
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997664
+
+original ratio = 0.3999999968499708
+truncated ratio = 0.19999999999997664
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 3240
+	num constraints = 3204
+	num nonzeros = 8830
+	constructed LP [0.024] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999749751614
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999994456
+
+original ratio = 0.39999999749751614
+truncated ratio = 0.19999999999994456
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 3290
+	num constraints = 3236
+	num nonzeros = 8942
+	constructed LP [0.018] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3999999999881163
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999997398
+
+original ratio = 0.3999999999881163
+truncated ratio = 0.19999999999997398
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 3222
+	num constraints = 3202
+	num nonzeros = 8764
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999937327
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.018] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.20000000000001839
+
+original ratio = 0.3999999999937327
+truncated ratio = 0.20000000000001839
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 3280
+	num constraints = 3242
+	num nonzeros = 8926
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999746592
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.19999999999998797
+
+original ratio = 0.3999999999746592
+truncated ratio = 0.19999999999998797
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 3080
+	num constraints = 3092
+	num nonzeros = 8316
+	constructed LP [0.018] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999992477238
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999672
+
+original ratio = 0.3999999992477238
+truncated ratio = 0.1999999999999672
+min ratio for matroid = 0.3999999968499708
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #17 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3]])
+num automorphisms = 24
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2788
+	num constraints = 2851
+	num nonzeros = 7732
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999999117906
+	TRUNCATION
+	num variables = 2654
+	num constraints = 2711
+	num nonzeros = 6184
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999709548149
+
+original ratio = 0.49999999999117906
+truncated ratio = 0.24999999709548149
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2846
+	num constraints = 2878
+	num nonzeros = 7988
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999322017374
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2835
+	num nonzeros = 6635
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999993570532
+
+original ratio = 0.49999999322017374
+truncated ratio = 0.24999999993570532
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2950
+	num constraints = 2950
+	num nonzeros = 8336
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999745356
+	TRUNCATION
+	num variables = 2792
+	num constraints = 2822
+	num nonzeros = 6610
+	constructed LP [0.018] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.249999998363735
+
+original ratio = 0.4999999999745356
+truncated ratio = 0.249999998363735
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2964
+	num constraints = 2944
+	num nonzeros = 8382
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999996975366
+	TRUNCATION
+	num variables = 2800
+	num constraints = 2822
+	num nonzeros = 6646
+	constructed LP [0.014] seconds
+	time taken = 0.0 seconds
+	Solution found!
+	Objective value = 0.2499999998529876
+
+original ratio = 0.4999999996975366
+truncated ratio = 0.2499999998529876
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2976
+	num constraints = 2944
+	num nonzeros = 8430
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.499999999467046
+	TRUNCATION
+	num variables = 2806
+	num constraints = 2822
+	num nonzeros = 6670
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.24999999971752923
+
+original ratio = 0.499999999467046
+truncated ratio = 0.24999999971752923
+min ratio for matroid = 0.49999999322017374
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #18 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1], [0, 2], [1, 2], [0, 3], [1, 3], [2, 3], [0, 4], [1, 4], [2, 4], [3, 4]])
+num automorphisms = 120
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602697
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2961
+	num nonzeros = 6797
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.1999999999999944
+
+original ratio = 0.3999999986602697
+truncated ratio = 0.1999999999999944
+min ratio for matroid = 0.3999999986602697
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #19 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2, 3], [1, 2, 3], [0, 3, 4], [1, 3, 4]])
+num automorphisms = 8
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3054
+	num constraints = 3088
+	num nonzeros = 10116
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999994716215
+	TRUNCATION
+	num variables = 3248
+	num constraints = 3214
+	num nonzeros = 8970
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.39999999998394253
+
+original ratio = 0.49999999994716215
+truncated ratio = 0.39999999998394253
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2967
+	num constraints = 3039
+	num nonzeros = 10165
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999955050933
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3174
+	num nonzeros = 8804
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999990537605
+
+original ratio = 0.49999999955050933
+truncated ratio = 0.39999999990537605
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3016
+	num constraints = 3088
+	num nonzeros = 9858
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999987784316
+	TRUNCATION
+	num variables = 3048
+	num constraints = 3066
+	num nonzeros = 8366
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999976906864
+
+original ratio = 0.49999999987784316
+truncated ratio = 0.39999999976906864
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3156
+	num constraints = 3148
+	num nonzeros = 10398
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999999492173
+	TRUNCATION
+	num variables = 3298
+	num constraints = 3236
+	num nonzeros = 9082
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999966349686
+
+original ratio = 0.49999999999492173
+truncated ratio = 0.39999999966349686
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 3069
+	num constraints = 3099
+	num nonzeros = 10447
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999977539116
+	TRUNCATION
+	num variables = 3244
+	num constraints = 3202
+	num nonzeros = 8954
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999983018053
+
+original ratio = 0.4999999977539116
+truncated ratio = 0.39999999983018053
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3238
+	num constraints = 3194
+	num nonzeros = 10480
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999998968037
+	TRUNCATION
+	num variables = 3344
+	num constraints = 3266
+	num nonzeros = 9192
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999998782276
+
+original ratio = 0.49999999998968037
+truncated ratio = 0.39999999998782276
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3238
+	num constraints = 3194
+	num nonzeros = 10480
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999887581
+	TRUNCATION
+	num variables = 3344
+	num constraints = 3266
+	num nonzeros = 9192
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999997444813
+
+original ratio = 0.4999999999887581
+truncated ratio = 0.3999999997444813
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 3069
+	num constraints = 3099
+	num nonzeros = 10447
+	constructed LP [0.012] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999987041197
+	TRUNCATION
+	num variables = 3244
+	num constraints = 3202
+	num nonzeros = 8954
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999998905744
+
+original ratio = 0.4999999987041197
+truncated ratio = 0.39999999998905744
+
+
+	order = [1, 3, 4, 2, 0]
+	ORIGINAL
+	num variables = 3156
+	num constraints = 3148
+	num nonzeros = 10398
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999960879893
+	TRUNCATION
+	num variables = 3298
+	num constraints = 3236
+	num nonzeros = 9082
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999992632884
+
+original ratio = 0.49999999960879893
+truncated ratio = 0.39999999992632884
+
+
+	order = [4, 2, 1, 3, 0]
+	ORIGINAL
+	num variables = 3070
+	num constraints = 3118
+	num nonzeros = 9936
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999998776924
+	TRUNCATION
+	num variables = 3092
+	num constraints = 3096
+	num nonzeros = 8478
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3999999999907041
+
+original ratio = 0.4999999998776924
+truncated ratio = 0.3999999999907041
+
+
+	order = [4, 1, 2, 3, 0]
+	ORIGINAL
+	num variables = 3202
+	num constraints = 3194
+	num nonzeros = 10300
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999999579126
+	TRUNCATION
+	num variables = 3292
+	num constraints = 3244
+	num nonzeros = 9066
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999983738244
+
+original ratio = 0.49999999999579126
+truncated ratio = 0.39999999983738244
+
+
+	order = [1, 4, 2, 3, 0]
+	ORIGINAL
+	num variables = 3202
+	num constraints = 3194
+	num nonzeros = 10300
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999987128688
+	TRUNCATION
+	num variables = 3286
+	num constraints = 3238
+	num nonzeros = 9026
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.399999999790036
+
+original ratio = 0.4999999987128688
+truncated ratio = 0.399999999790036
+
+
+	order = [4, 2, 1, 0, 3]
+	ORIGINAL
+	num variables = 3046
+	num constraints = 3118
+	num nonzeros = 9828
+	constructed LP [0.014] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.49999999999563527
+	TRUNCATION
+	num variables = 3078
+	num constraints = 3096
+	num nonzeros = 8432
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999997134278
+
+original ratio = 0.49999999999563527
+truncated ratio = 0.3999999997134278
+
+
+	order = [4, 1, 2, 0, 3]
+	ORIGINAL
+	num variables = 3178
+	num constraints = 3194
+	num nonzeros = 10192
+	constructed LP [0.013] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.4999999999463708
+	TRUNCATION
+	num variables = 3278
+	num constraints = 3244
+	num nonzeros = 9020
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3999999998485818
+
+original ratio = 0.4999999999463708
+truncated ratio = 0.3999999998485818
+
+
+	order = [1, 4, 2, 0, 3]
+	ORIGINAL
+	num variables = 3178
+	num constraints = 3194
+	num nonzeros = 10192
+	constructed LP [0.013] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.49999999999093325
+	TRUNCATION
+	num variables = 3272
+	num constraints = 3238
+	num nonzeros = 8980
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999229944
+
+original ratio = 0.49999999999093325
+truncated ratio = 0.3999999999229944
+min ratio for matroid = 0.4999999977539116
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #20 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2, 3], [1, 2, 3], [2, 3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3212
+	num constraints = 3156
+	num nonzeros = 10742
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.3333333326552328
+	TRUNCATION
+	num variables = 3318
+	num constraints = 3222
+	num nonzeros = 9356
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333331441114
+
+original ratio = 0.3333333326552328
+truncated ratio = 0.3333333331441114
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 3057
+	num constraints = 3069
+	num nonzeros = 10603
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.33333333183974023
+	TRUNCATION
+	num variables = 3190
+	num constraints = 3140
+	num nonzeros = 9074
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.33333333188141356
+
+original ratio = 0.33333333183974023
+truncated ratio = 0.33333333188141356
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2929
+	num constraints = 2995
+	num nonzeros = 10373
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333332537536
+	TRUNCATION
+	num variables = 3094
+	num constraints = 3076
+	num nonzeros = 8878
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333330424946
+
+original ratio = 0.3333333332537536
+truncated ratio = 0.3333333330424946
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3182
+	num constraints = 3156
+	num nonzeros = 10580
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3333333319211269
+	TRUNCATION
+	num variables = 3300
+	num constraints = 3222
+	num nonzeros = 9274
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.333333333316132
+
+original ratio = 0.3333333319211269
+truncated ratio = 0.333333333316132
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 3021
+	num constraints = 3063
+	num nonzeros = 10405
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3333333322342352
+	TRUNCATION
+	num variables = 3172
+	num constraints = 3140
+	num nonzeros = 8990
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333331610885
+
+original ratio = 0.3333333322342352
+truncated ratio = 0.3333333331610885
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3138
+	num constraints = 3150
+	num nonzeros = 10286
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.33333333291947764
+	TRUNCATION
+	num variables = 3166
+	num constraints = 3132
+	num nonzeros = 8808
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333301967357
+
+original ratio = 0.33333333291947764
+truncated ratio = 0.3333333301967357
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3158
+	num constraints = 3156
+	num nonzeros = 10472
+	constructed LP [0.014] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.33333332767158463
+	TRUNCATION
+	num variables = 3286
+	num constraints = 3222
+	num nonzeros = 9218
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.333333333172656
+
+original ratio = 0.33333332767158463
+truncated ratio = 0.333333333172656
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 2997
+	num constraints = 3063
+	num nonzeros = 10297
+	constructed LP [0.014] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.3333333306505639
+	TRUNCATION
+	num variables = 3158
+	num constraints = 3140
+	num nonzeros = 8934
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.33333333312300584
+
+original ratio = 0.3333333306505639
+truncated ratio = 0.33333333312300584
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 3114
+	num constraints = 3150
+	num nonzeros = 10178
+	constructed LP [0.013] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.3333333292230092
+	TRUNCATION
+	num variables = 3152
+	num constraints = 3132
+	num nonzeros = 8752
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.33333333329405845
+
+original ratio = 0.3333333292230092
+truncated ratio = 0.33333333329405845
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 3084
+	num constraints = 3150
+	num nonzeros = 10016
+	constructed LP [0.014] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.33333333325129266
+	TRUNCATION
+	num variables = 3058
+	num constraints = 3072
+	num nonzeros = 8466
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3333333332500239
+
+original ratio = 0.33333333325129266
+truncated ratio = 0.3333333332500239
+min ratio for matroid = 0.33333332767158463
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #21 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2, 3], [1, 2, 3]])
+num automorphisms = 4
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2638
+	num constraints = 2827
+	num nonzeros = 9092
+	constructed LP [0.011] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999998814293
+	TRUNCATION
+	num variables = 2750
+	num constraints = 2821
+	num nonzeros = 7834
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999998917194854
+
+original ratio = 0.49999999998814293
+truncated ratio = 0.49999998917194854
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2687
+	num constraints = 2827
+	num nonzeros = 9527
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999998108335
+	TRUNCATION
+	num variables = 2804
+	num constraints = 2840
+	num nonzeros = 8130
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999785461524
+
+original ratio = 0.49999999998108335
+truncated ratio = 0.49999999785461524
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2725
+	num constraints = 2827
+	num nonzeros = 9785
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999818695
+	TRUNCATION
+	num variables = 2910
+	num constraints = 2912
+	num nonzeros = 8508
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999989347077
+
+original ratio = 0.4999999999818695
+truncated ratio = 0.49999999989347077
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2692
+	num constraints = 2857
+	num nonzeros = 9182
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999086481
+	TRUNCATION
+	num variables = 2796
+	num constraints = 2851
+	num nonzeros = 7940
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999908319
+
+original ratio = 0.4999999999086481
+truncated ratio = 0.4999999999908319
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 2741
+	num constraints = 2857
+	num nonzeros = 9617
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999994111144
+	TRUNCATION
+	num variables = 2850
+	num constraints = 2870
+	num nonzeros = 8236
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999730598754
+
+original ratio = 0.49999999994111144
+truncated ratio = 0.49999999730598754
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 2760
+	num constraints = 2895
+	num nonzeros = 9250
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999997605308
+	TRUNCATION
+	num variables = 2858
+	num constraints = 2889
+	num nonzeros = 8098
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999992406485
+
+original ratio = 0.4999999997605308
+truncated ratio = 0.49999999992406485
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 2852
+	num constraints = 2944
+	num nonzeros = 9552
+	constructed LP [0.012] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.499999999729265
+	TRUNCATION
+	num variables = 2944
+	num constraints = 2944
+	num nonzeros = 8390
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999645369
+
+original ratio = 0.499999999729265
+truncated ratio = 0.4999999999645369
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 2811
+	num constraints = 2895
+	num nonzeros = 9835
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999497372
+	TRUNCATION
+	num variables = 2958
+	num constraints = 2950
+	num nonzeros = 8576
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999998896819
+
+original ratio = 0.4999999999497372
+truncated ratio = 0.4999999998896819
+
+
+	order = [1, 3, 4, 2, 0]
+	ORIGINAL
+	num variables = 2898
+	num constraints = 2944
+	num nonzeros = 9834
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999999401223
+	TRUNCATION
+	num variables = 3030
+	num constraints = 2992
+	num nonzeros = 8704
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999996146094
+
+original ratio = 0.49999999999401223
+truncated ratio = 0.49999999996146094
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2779
+	num constraints = 2857
+	num nonzeros = 9947
+	constructed LP [0.012] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999971577636
+	TRUNCATION
+	num variables = 2920
+	num constraints = 2906
+	num nonzeros = 8534
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999985752771
+
+original ratio = 0.49999999971577636
+truncated ratio = 0.4999999985752771
+
+
+	order = [3, 1, 2, 4, 0]
+	ORIGINAL
+	num variables = 2847
+	num constraints = 2895
+	num nonzeros = 10015
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999006345597
+	TRUNCATION
+	num variables = 2978
+	num constraints = 2944
+	num nonzeros = 8652
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999997777316
+
+original ratio = 0.49999999006345597
+truncated ratio = 0.4999999997777316
+
+
+	order = [1, 3, 2, 4, 0]
+	ORIGINAL
+	num variables = 2934
+	num constraints = 2944
+	num nonzeros = 10014
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.499999997470841
+	TRUNCATION
+	num variables = 3056
+	num constraints = 2992
+	num nonzeros = 8818
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999783241356
+
+original ratio = 0.499999997470841
+truncated ratio = 0.49999999783241356
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 2668
+	num constraints = 2857
+	num nonzeros = 9080
+	constructed LP [0.012] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.4999999999367617
+	TRUNCATION
+	num variables = 2780
+	num constraints = 2851
+	num nonzeros = 7882
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999749548
+
+original ratio = 0.4999999999367617
+truncated ratio = 0.4999999999749548
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 2717
+	num constraints = 2857
+	num nonzeros = 9515
+	constructed LP [0.012] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.4999999996608089
+	TRUNCATION
+	num variables = 2834
+	num constraints = 2870
+	num nonzeros = 8178
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999722958
+
+original ratio = 0.4999999996608089
+truncated ratio = 0.4999999999722958
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 2736
+	num constraints = 2895
+	num nonzeros = 9148
+	constructed LP [0.012] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.49999999998825184
+	TRUNCATION
+	num variables = 2842
+	num constraints = 2889
+	num nonzeros = 8040
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999990951566
+
+original ratio = 0.49999999998825184
+truncated ratio = 0.4999999990951566
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 2828
+	num constraints = 2944
+	num nonzeros = 9450
+	constructed LP [0.012] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.4999999999049032
+	TRUNCATION
+	num variables = 2928
+	num constraints = 2944
+	num nonzeros = 8332
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999943167095
+
+original ratio = 0.4999999999049032
+truncated ratio = 0.49999999943167095
+
+
+	order = [3, 1, 4, 0, 2]
+	ORIGINAL
+	num variables = 2787
+	num constraints = 2895
+	num nonzeros = 9733
+	constructed LP [0.013] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.49999999667605544
+	TRUNCATION
+	num variables = 2942
+	num constraints = 2950
+	num nonzeros = 8518
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999996942157
+
+original ratio = 0.49999999667605544
+truncated ratio = 0.4999999996942157
+
+
+	order = [1, 3, 4, 0, 2]
+	ORIGINAL
+	num variables = 2874
+	num constraints = 2944
+	num nonzeros = 9732
+	constructed LP [0.014] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.4999999988200373
+	TRUNCATION
+	num variables = 3014
+	num constraints = 2992
+	num nonzeros = 8646
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999473361
+
+original ratio = 0.4999999988200373
+truncated ratio = 0.4999999999473361
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 2706
+	num constraints = 2895
+	num nonzeros = 8998
+	constructed LP [0.012] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.4999999986393149
+	TRUNCATION
+	num variables = 2736
+	num constraints = 2821
+	num nonzeros = 7702
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999989560199
+
+original ratio = 0.4999999986393149
+truncated ratio = 0.4999999989560199
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 2798
+	num constraints = 2944
+	num nonzeros = 9300
+	constructed LP [0.012] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.4999999986448205
+	TRUNCATION
+	num variables = 2830
+	num constraints = 2884
+	num nonzeros = 8042
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999995011486
+
+original ratio = 0.4999999986448205
+truncated ratio = 0.4999999995011486
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 2830
+	num constraints = 2944
+	num nonzeros = 9420
+	constructed LP [0.011] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.4999999996247074
+	TRUNCATION
+	num variables = 2844
+	num constraints = 2876
+	num nonzeros = 8092
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999922170457
+
+original ratio = 0.4999999996247074
+truncated ratio = 0.49999999922170457
+
+
+	order = [3, 1, 0, 4, 2]
+	ORIGINAL
+	num variables = 2811
+	num constraints = 2895
+	num nonzeros = 9817
+	constructed LP [0.013] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.49999999914271076
+	TRUNCATION
+	num variables = 2956
+	num constraints = 2944
+	num nonzeros = 8556
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999964055786
+
+original ratio = 0.49999999914271076
+truncated ratio = 0.49999999964055786
+
+
+	order = [1, 3, 0, 4, 2]
+	ORIGINAL
+	num variables = 2898
+	num constraints = 2944
+	num nonzeros = 9816
+	constructed LP [0.013] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.4999999937891386
+	TRUNCATION
+	num variables = 3034
+	num constraints = 2992
+	num nonzeros = 8722
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999984098411
+
+original ratio = 0.4999999937891386
+truncated ratio = 0.4999999984098411
+
+
+	order = [1, 0, 3, 4, 2]
+	ORIGINAL
+	num variables = 2860
+	num constraints = 2944
+	num nonzeros = 9582
+	constructed LP [0.012] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.4999999999429179
+	TRUNCATION
+	num variables = 2900
+	num constraints = 2906
+	num nonzeros = 8284
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999999540556
+
+original ratio = 0.4999999999429179
+truncated ratio = 0.49999999999540556
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2797
+	num constraints = 2857
+	num nonzeros = 10007
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.499999999994563
+	TRUNCATION
+	num variables = 2932
+	num constraints = 2906
+	num nonzeros = 8578
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999968635656
+
+original ratio = 0.499999999994563
+truncated ratio = 0.49999999968635656
+
+
+	order = [3, 1, 2, 0, 4]
+	ORIGINAL
+	num variables = 2865
+	num constraints = 2895
+	num nonzeros = 10075
+	constructed LP [0.012] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999999907512
+	TRUNCATION
+	num variables = 2990
+	num constraints = 2944
+	num nonzeros = 8696
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999988633773
+
+original ratio = 0.4999999999907512
+truncated ratio = 0.4999999988633773
+
+
+	order = [1, 3, 2, 0, 4]
+	ORIGINAL
+	num variables = 2952
+	num constraints = 2944
+	num nonzeros = 10074
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999379380633
+	TRUNCATION
+	num variables = 3068
+	num constraints = 2992
+	num nonzeros = 8862
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999981005864
+
+original ratio = 0.49999999379380633
+truncated ratio = 0.4999999981005864
+
+
+	order = [3, 1, 0, 2, 4]
+	ORIGINAL
+	num variables = 2835
+	num constraints = 2895
+	num nonzeros = 9925
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999936433963
+	TRUNCATION
+	num variables = 2970
+	num constraints = 2944
+	num nonzeros = 8616
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999996966802
+
+original ratio = 0.4999999936433963
+truncated ratio = 0.4999999996966802
+
+
+	order = [1, 3, 0, 2, 4]
+	ORIGINAL
+	num variables = 2922
+	num constraints = 2944
+	num nonzeros = 9924
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999998354058
+	TRUNCATION
+	num variables = 3048
+	num constraints = 2992
+	num nonzeros = 8782
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999997085106
+
+original ratio = 0.4999999998354058
+truncated ratio = 0.4999999997085106
+
+
+	order = [1, 0, 3, 2, 4]
+	ORIGINAL
+	num variables = 2884
+	num constraints = 2944
+	num nonzeros = 9690
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999985658083
+	TRUNCATION
+	num variables = 2914
+	num constraints = 2906
+	num nonzeros = 8344
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999999121103
+
+original ratio = 0.49999999985658083
+truncated ratio = 0.49999999999121103
+min ratio for matroid = 0.49999999006345597
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #22 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2402
+	num constraints = 2683
+	num nonzeros = 8318
+	constructed LP [0.011] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.9999999997377784
+	TRUNCATION
+	num variables = 2480
+	num constraints = 2617
+	num nonzeros = 7252
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666575175427
+
+original ratio = 0.9999999997377784
+truncated ratio = 0.6666666575175427
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 2440
+	num constraints = 2683
+	num nonzeros = 8552
+	constructed LP [0.012] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.9999999999572543
+	TRUNCATION
+	num variables = 2518
+	num constraints = 2625
+	num nonzeros = 7442
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666666538192
+
+original ratio = 0.9999999999572543
+truncated ratio = 0.6666666666538192
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 2489
+	num constraints = 2683
+	num nonzeros = 8939
+	constructed LP [0.011] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.9999999999827811
+	TRUNCATION
+	num variables = 2568
+	num constraints = 2636
+	num nonzeros = 7746
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666582339906
+
+original ratio = 0.9999999999827811
+truncated ratio = 0.6666666582339906
+
+
+	order = [4, 2, 1, 3, 0]
+	ORIGINAL
+	num variables = 2470
+	num constraints = 2683
+	num nonzeros = 8702
+	constructed LP [0.011] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.9999999999893614
+	TRUNCATION
+	num variables = 2576
+	num constraints = 2655
+	num nonzeros = 7644
+	constructed LP [0.011] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666616739979
+
+original ratio = 0.9999999999893614
+truncated ratio = 0.6666666616739979
+
+
+	order = [2, 4, 1, 3, 0]
+	ORIGINAL
+	num variables = 2519
+	num constraints = 2683
+	num nonzeros = 9089
+	constructed LP [0.012] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.9999999961400082
+	TRUNCATION
+	num variables = 2626
+	num constraints = 2666
+	num nonzeros = 7948
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666613253571
+
+original ratio = 0.9999999961400082
+truncated ratio = 0.6666666613253571
+
+
+	order = [2, 1, 4, 3, 0]
+	ORIGINAL
+	num variables = 2557
+	num constraints = 2683
+	num nonzeros = 9323
+	constructed LP [0.012] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.9999999997740141
+	TRUNCATION
+	num variables = 2700
+	num constraints = 2704
+	num nonzeros = 8234
+	constructed LP [0.012] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666661912548
+
+original ratio = 0.9999999997740141
+truncated ratio = 0.6666666661912548
+
+
+	order = [4, 2, 1, 0, 3]
+	ORIGINAL
+	num variables = 2494
+	num constraints = 2683
+	num nonzeros = 8804
+	constructed LP [0.011] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2592
+	num constraints = 2655
+	num nonzeros = 7712
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666657994772
+
+original ratio = 1.0
+truncated ratio = 0.6666666657994772
+
+
+	order = [2, 4, 1, 0, 3]
+	ORIGINAL
+	num variables = 2543
+	num constraints = 2683
+	num nonzeros = 9191
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.9999999880316668
+	TRUNCATION
+	num variables = 2642
+	num constraints = 2666
+	num nonzeros = 8016
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666666662553
+
+original ratio = 0.9999999880316668
+truncated ratio = 0.6666666666662553
+
+
+	order = [2, 1, 4, 0, 3]
+	ORIGINAL
+	num variables = 2581
+	num constraints = 2683
+	num nonzeros = 9425
+	constructed LP [0.012] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.9999999999572291
+	TRUNCATION
+	num variables = 2716
+	num constraints = 2704
+	num nonzeros = 8302
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666666666357
+
+original ratio = 0.9999999999572291
+truncated ratio = 0.6666666666666357
+
+
+	order = [2, 1, 0, 4, 3]
+	ORIGINAL
+	num variables = 2611
+	num constraints = 2683
+	num nonzeros = 9575
+	constructed LP [0.012] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2736
+	num constraints = 2704
+	num nonzeros = 8402
+	constructed LP [0.011] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666606917038
+
+original ratio = 1.0
+truncated ratio = 0.6666666606917038
+min ratio for matroid = 0.9999999880316668
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #23 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3042
+	num constraints = 3088
+	num nonzeros = 9726
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999667446027
+	TRUNCATION
+	num variables = 3160
+	num constraints = 3140
+	num nonzeros = 8656
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999963276167
+
+original ratio = 0.49999999667446027
+truncated ratio = 0.39999999963276167
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3144
+	num constraints = 3148
+	num nonzeros = 9996
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999963119934
+	TRUNCATION
+	num variables = 3198
+	num constraints = 3166
+	num nonzeros = 8740
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999656966
+
+original ratio = 0.49999999963119934
+truncated ratio = 0.3999999999656966
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3158
+	num constraints = 3156
+	num nonzeros = 10010
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999942499973
+	TRUNCATION
+	num variables = 3252
+	num constraints = 3204
+	num nonzeros = 8870
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999993680824
+
+original ratio = 0.49999999942499973
+truncated ratio = 0.39999999993680824
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3220
+	num constraints = 3194
+	num nonzeros = 10132
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999999290423
+	TRUNCATION
+	num variables = 3302
+	num constraints = 3236
+	num nonzeros = 8982
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999997459224
+
+original ratio = 0.49999999999290423
+truncated ratio = 0.3999999997459224
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3144
+	num constraints = 3148
+	num nonzeros = 9990
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999996266253
+	TRUNCATION
+	num variables = 3186
+	num constraints = 3166
+	num nonzeros = 8700
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999968499708
+
+original ratio = 0.49999999996266253
+truncated ratio = 0.3999999968499708
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 3158
+	num constraints = 3156
+	num nonzeros = 10004
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999985226506
+	TRUNCATION
+	num variables = 3240
+	num constraints = 3204
+	num nonzeros = 8830
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.39999999749751614
+
+original ratio = 0.49999999985226506
+truncated ratio = 0.39999999749751614
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 3220
+	num constraints = 3194
+	num nonzeros = 10126
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999980750376
+	TRUNCATION
+	num variables = 3290
+	num constraints = 3236
+	num nonzeros = 8942
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999881163
+
+original ratio = 0.49999999980750376
+truncated ratio = 0.3999999999881163
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 3050
+	num constraints = 3096
+	num nonzeros = 9692
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999964229425
+	TRUNCATION
+	num variables = 3222
+	num constraints = 3202
+	num nonzeros = 8764
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999937327
+
+original ratio = 0.49999999964229425
+truncated ratio = 0.3999999999937327
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 3112
+	num constraints = 3134
+	num nonzeros = 9814
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999897363
+	TRUNCATION
+	num variables = 3280
+	num constraints = 3242
+	num nonzeros = 8926
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999746592
+
+original ratio = 0.4999999999897363
+truncated ratio = 0.3999999999746592
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 3058
+	num constraints = 3118
+	num nonzeros = 9636
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999833439
+	TRUNCATION
+	num variables = 3080
+	num constraints = 3092
+	num nonzeros = 8316
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3999999992477238
+
+original ratio = 0.4999999999833439
+truncated ratio = 0.3999999992477238
+min ratio for matroid = 0.49999999667446027
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #24 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4]])
+num automorphisms = 4
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3188
+	num constraints = 3156
+	num nonzeros = 10316
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999870595024
+	TRUNCATION
+	num variables = 3160
+	num constraints = 3140
+	num nonzeros = 8656
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.39999999963276167
+
+original ratio = 0.49999999870595024
+truncated ratio = 0.39999999963276167
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3060
+	num constraints = 3082
+	num nonzeros = 10086
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999995353003
+	TRUNCATION
+	num variables = 3160
+	num constraints = 3140
+	num nonzeros = 8656
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999963281263
+
+original ratio = 0.4999999995353003
+truncated ratio = 0.39999999963281263
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 3027
+	num constraints = 3063
+	num nonzeros = 10285
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999910275195
+	TRUNCATION
+	num variables = 3160
+	num constraints = 3140
+	num nonzeros = 8656
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999996326552
+
+original ratio = 0.49999999910275195
+truncated ratio = 0.3999999996326552
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3152
+	num constraints = 3150
+	num nonzeros = 10106
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999986391842
+	TRUNCATION
+	num variables = 3198
+	num constraints = 3166
+	num nonzeros = 8740
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999656966
+
+original ratio = 0.4999999986391842
+truncated ratio = 0.3999999999656966
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3214
+	num constraints = 3188
+	num nonzeros = 10252
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.500000000006464
+	TRUNCATION
+	num variables = 3252
+	num constraints = 3204
+	num nonzeros = 8870
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999993680824
+
+original ratio = 0.500000000006464
+truncated ratio = 0.39999999993680824
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3288
+	num constraints = 3232
+	num nonzeros = 10428
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999717066435
+	TRUNCATION
+	num variables = 3302
+	num constraints = 3236
+	num nonzeros = 8982
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999997459224
+
+original ratio = 0.49999999717066435
+truncated ratio = 0.3999999997459224
+
+
+	order = [4, 2, 1, 3, 0]
+	ORIGINAL
+	num variables = 3108
+	num constraints = 3112
+	num nonzeros = 10206
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999758986
+	TRUNCATION
+	num variables = 3198
+	num constraints = 3166
+	num nonzeros = 8740
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999657303
+
+original ratio = 0.4999999999758986
+truncated ratio = 0.3999999999657303
+
+
+	order = [2, 4, 1, 3, 0]
+	ORIGINAL
+	num variables = 3075
+	num constraints = 3093
+	num nonzeros = 10405
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999993360429
+	TRUNCATION
+	num variables = 3198
+	num constraints = 3166
+	num nonzeros = 8740
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999657946
+
+original ratio = 0.4999999993360429
+truncated ratio = 0.3999999999657946
+
+
+	order = [4, 1, 2, 3, 0]
+	ORIGINAL
+	num variables = 3250
+	num constraints = 3194
+	num nonzeros = 10450
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999998314728
+	TRUNCATION
+	num variables = 3252
+	num constraints = 3204
+	num nonzeros = 8870
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999367747
+
+original ratio = 0.4999999998314728
+truncated ratio = 0.3999999999367747
+
+
+	order = [1, 4, 2, 3, 0]
+	ORIGINAL
+	num variables = 3318
+	num constraints = 3232
+	num nonzeros = 10590
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999994382216
+	TRUNCATION
+	num variables = 3302
+	num constraints = 3236
+	num nonzeros = 8982
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999974582456
+
+original ratio = 0.49999999994382216
+truncated ratio = 0.39999999974582456
+
+
+	order = [2, 1, 4, 3, 0]
+	ORIGINAL
+	num variables = 3135
+	num constraints = 3129
+	num nonzeros = 10567
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999981124477
+	TRUNCATION
+	num variables = 3252
+	num constraints = 3204
+	num nonzeros = 8870
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999993677493
+
+original ratio = 0.49999999981124477
+truncated ratio = 0.39999999993677493
+
+
+	order = [1, 2, 4, 3, 0]
+	ORIGINAL
+	num variables = 3236
+	num constraints = 3186
+	num nonzeros = 10508
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999773044734
+	TRUNCATION
+	num variables = 3302
+	num constraints = 3236
+	num nonzeros = 8982
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999974589706
+
+original ratio = 0.49999999773044734
+truncated ratio = 0.39999999974589706
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3128
+	num constraints = 3150
+	num nonzeros = 9992
+	constructed LP [0.015] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.499999999994746
+	TRUNCATION
+	num variables = 3186
+	num constraints = 3166
+	num nonzeros = 8700
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999968499708
+
+original ratio = 0.499999999994746
+truncated ratio = 0.3999999968499708
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 3190
+	num constraints = 3188
+	num nonzeros = 10138
+	constructed LP [0.015] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.49999999976225984
+	TRUNCATION
+	num variables = 3240
+	num constraints = 3204
+	num nonzeros = 8830
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.39999999749751614
+
+original ratio = 0.49999999976225984
+truncated ratio = 0.39999999749751614
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 3264
+	num constraints = 3232
+	num nonzeros = 10314
+	constructed LP [0.014] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.49999999997486366
+	TRUNCATION
+	num variables = 3290
+	num constraints = 3236
+	num nonzeros = 8942
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999881163
+
+original ratio = 0.49999999997486366
+truncated ratio = 0.3999999999881163
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 3166
+	num constraints = 3188
+	num nonzeros = 10054
+	constructed LP [0.015] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.4999999983957427
+	TRUNCATION
+	num variables = 3222
+	num constraints = 3202
+	num nonzeros = 8764
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999937327
+
+original ratio = 0.4999999983957427
+truncated ratio = 0.3999999999937327
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 3240
+	num constraints = 3232
+	num nonzeros = 10230
+	constructed LP [0.013] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.4999999998019522
+	TRUNCATION
+	num variables = 3280
+	num constraints = 3242
+	num nonzeros = 8926
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999746592
+
+original ratio = 0.4999999998019522
+truncated ratio = 0.3999999999746592
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 3102
+	num constraints = 3150
+	num nonzeros = 9806
+	constructed LP [0.014] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.4999999999898549
+	TRUNCATION
+	num variables = 3080
+	num constraints = 3092
+	num nonzeros = 8316
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999992477238
+
+original ratio = 0.4999999999898549
+truncated ratio = 0.3999999992477238
+
+
+	order = [4, 2, 1, 0, 3]
+	ORIGINAL
+	num variables = 3090
+	num constraints = 3112
+	num nonzeros = 10146
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999420246
+	TRUNCATION
+	num variables = 3186
+	num constraints = 3166
+	num nonzeros = 8700
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.399999996849969
+
+original ratio = 0.4999999999420246
+truncated ratio = 0.399999996849969
+
+
+	order = [2, 4, 1, 0, 3]
+	ORIGINAL
+	num variables = 3057
+	num constraints = 3093
+	num nonzeros = 10345
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999628756
+	TRUNCATION
+	num variables = 3186
+	num constraints = 3166
+	num nonzeros = 8700
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999968499638
+
+original ratio = 0.4999999999628756
+truncated ratio = 0.3999999968499638
+
+
+	order = [4, 1, 2, 0, 3]
+	ORIGINAL
+	num variables = 3232
+	num constraints = 3194
+	num nonzeros = 10390
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999997212138
+	TRUNCATION
+	num variables = 3240
+	num constraints = 3204
+	num nonzeros = 8830
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999974975009
+
+original ratio = 0.4999999997212138
+truncated ratio = 0.3999999974975009
+
+
+	order = [1, 4, 2, 0, 3]
+	ORIGINAL
+	num variables = 3300
+	num constraints = 3232
+	num nonzeros = 10530
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999998919965
+	TRUNCATION
+	num variables = 3290
+	num constraints = 3236
+	num nonzeros = 8942
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999867032
+
+original ratio = 0.4999999998919965
+truncated ratio = 0.3999999999867032
+
+
+	order = [2, 1, 4, 0, 3]
+	ORIGINAL
+	num variables = 3117
+	num constraints = 3129
+	num nonzeros = 10507
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999870197
+	TRUNCATION
+	num variables = 3240
+	num constraints = 3204
+	num nonzeros = 8830
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999974975943
+
+original ratio = 0.4999999999870197
+truncated ratio = 0.3999999974975943
+
+
+	order = [1, 2, 4, 0, 3]
+	ORIGINAL
+	num variables = 3218
+	num constraints = 3186
+	num nonzeros = 10448
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999703549713
+	TRUNCATION
+	num variables = 3290
+	num constraints = 3236
+	num nonzeros = 8942
+	constructed LP [0.023] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999878746
+
+original ratio = 0.49999999703549713
+truncated ratio = 0.3999999999878746
+
+
+	order = [4, 1, 0, 2, 3]
+	ORIGINAL
+	num variables = 3190
+	num constraints = 3188
+	num nonzeros = 10162
+	constructed LP [0.018] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999631103
+	TRUNCATION
+	num variables = 3222
+	num constraints = 3202
+	num nonzeros = 8764
+	constructed LP [0.019] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999948999
+
+original ratio = 0.4999999999631103
+truncated ratio = 0.3999999999948999
+
+
+	order = [1, 4, 0, 2, 3]
+	ORIGINAL
+	num variables = 3264
+	num constraints = 3232
+	num nonzeros = 10338
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.499999998795293
+	TRUNCATION
+	num variables = 3280
+	num constraints = 3242
+	num nonzeros = 8926
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999748888
+
+original ratio = 0.499999998795293
+truncated ratio = 0.3999999999748888
+
+
+	order = [1, 0, 4, 2, 3]
+	ORIGINAL
+	num variables = 3126
+	num constraints = 3150
+	num nonzeros = 9914
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999998556697
+	TRUNCATION
+	num variables = 3080
+	num constraints = 3092
+	num nonzeros = 8316
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999992477614
+
+original ratio = 0.4999999998556697
+truncated ratio = 0.3999999992477614
+
+
+	order = [2, 1, 0, 4, 3]
+	ORIGINAL
+	num variables = 3009
+	num constraints = 3063
+	num nonzeros = 10177
+	constructed LP [0.013] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.4999999999931136
+	TRUNCATION
+	num variables = 3222
+	num constraints = 3202
+	num nonzeros = 8764
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999899664
+
+original ratio = 0.4999999999931136
+truncated ratio = 0.3999999999899664
+
+
+	order = [1, 2, 0, 4, 3]
+	ORIGINAL
+	num variables = 3116
+	num constraints = 3126
+	num nonzeros = 10154
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999959540994
+	TRUNCATION
+	num variables = 3280
+	num constraints = 3242
+	num nonzeros = 8926
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.399999999973247
+
+original ratio = 0.4999999959540994
+truncated ratio = 0.399999999973247
+
+
+	order = [1, 0, 2, 4, 3]
+	ORIGINAL
+	num variables = 3072
+	num constraints = 3120
+	num nonzeros = 9836
+	constructed LP [0.013] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.4999999986243622
+	TRUNCATION
+	num variables = 3080
+	num constraints = 3092
+	num nonzeros = 8316
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.3999999992477058
+
+original ratio = 0.4999999986243622
+truncated ratio = 0.3999999992477058
+min ratio for matroid = 0.4999999959540994
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #25 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3]])
+num automorphisms = 6
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2706
+	num constraints = 2865
+	num nonzeros = 8914
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.6666666636600347
+	TRUNCATION
+	num variables = 2788
+	num constraints = 2851
+	num nonzeros = 7732
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999999117906
+
+original ratio = 0.6666666636600347
+truncated ratio = 0.49999999999117906
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2760
+	num constraints = 2876
+	num nonzeros = 9166
+	constructed LP [0.012] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.6666666652655946
+	TRUNCATION
+	num variables = 2846
+	num constraints = 2878
+	num nonzeros = 7988
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999322017374
+
+original ratio = 0.6666666652655946
+truncated ratio = 0.49999999322017374
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 2692
+	num constraints = 2857
+	num nonzeros = 8996
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.6666666666410372
+	TRUNCATION
+	num variables = 2788
+	num constraints = 2851
+	num nonzeros = 7732
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999892383
+
+original ratio = 0.6666666666410372
+truncated ratio = 0.4999999999892383
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 2741
+	num constraints = 2857
+	num nonzeros = 9479
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.6666666635571155
+	TRUNCATION
+	num variables = 2846
+	num constraints = 2878
+	num nonzeros = 7988
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999322017363
+
+original ratio = 0.6666666635571155
+truncated ratio = 0.49999999322017363
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2800
+	num constraints = 2876
+	num nonzeros = 9454
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.6666666659573592
+	TRUNCATION
+	num variables = 2950
+	num constraints = 2950
+	num nonzeros = 8336
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999745356
+
+original ratio = 0.6666666659573592
+truncated ratio = 0.4999999999745356
+
+
+	order = [2, 3, 4, 1, 0]
+	ORIGINAL
+	num variables = 2781
+	num constraints = 2865
+	num nonzeros = 9643
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.6666666652426684
+	TRUNCATION
+	num variables = 2950
+	num constraints = 2950
+	num nonzeros = 8336
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999997410294
+
+original ratio = 0.6666666652426684
+truncated ratio = 0.49999999997410294
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2760
+	num constraints = 2895
+	num nonzeros = 9004
+	constructed LP [0.012] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.666666663756943
+	TRUNCATION
+	num variables = 2788
+	num constraints = 2851
+	num nonzeros = 7732
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999911199
+
+original ratio = 0.666666663756943
+truncated ratio = 0.4999999999911199
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 2814
+	num constraints = 2906
+	num nonzeros = 9256
+	constructed LP [0.012] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.6666666662240055
+	TRUNCATION
+	num variables = 2846
+	num constraints = 2878
+	num nonzeros = 7988
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999932201792
+
+original ratio = 0.6666666662240055
+truncated ratio = 0.4999999932201792
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 2892
+	num constraints = 2944
+	num nonzeros = 9522
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.6666666664910843
+	TRUNCATION
+	num variables = 2950
+	num constraints = 2950
+	num nonzeros = 8336
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999997216327
+
+original ratio = 0.6666666664910843
+truncated ratio = 0.49999999997216327
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2860
+	num constraints = 2906
+	num nonzeros = 9646
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.6666666628280642
+	TRUNCATION
+	num variables = 2964
+	num constraints = 2944
+	num nonzeros = 8382
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999996975366
+
+original ratio = 0.6666666628280642
+truncated ratio = 0.4999999996975366
+
+
+	order = [2, 3, 1, 4, 0]
+	ORIGINAL
+	num variables = 2841
+	num constraints = 2895
+	num nonzeros = 9835
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666666623041
+	TRUNCATION
+	num variables = 2964
+	num constraints = 2944
+	num nonzeros = 8382
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999969753417
+
+original ratio = 0.6666666666623041
+truncated ratio = 0.49999999969753417
+
+
+	order = [3, 1, 2, 4, 0]
+	ORIGINAL
+	num variables = 2928
+	num constraints = 2944
+	num nonzeros = 9714
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666665672588
+	TRUNCATION
+	num variables = 2964
+	num constraints = 2944
+	num nonzeros = 8382
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999996975373
+
+original ratio = 0.6666666665672588
+truncated ratio = 0.4999999996975373
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 2736
+	num constraints = 2895
+	num nonzeros = 8902
+	constructed LP [0.012] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.666666665659787
+	TRUNCATION
+	num variables = 2788
+	num constraints = 2851
+	num nonzeros = 7732
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999999117895
+
+original ratio = 0.666666665659787
+truncated ratio = 0.49999999999117895
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 2790
+	num constraints = 2906
+	num nonzeros = 9154
+	constructed LP [0.012] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.6666666662865579
+	TRUNCATION
+	num variables = 2846
+	num constraints = 2878
+	num nonzeros = 7988
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999322017874
+
+original ratio = 0.6666666662865579
+truncated ratio = 0.49999999322017874
+
+
+	order = [3, 1, 4, 0, 2]
+	ORIGINAL
+	num variables = 2868
+	num constraints = 2944
+	num nonzeros = 9420
+	constructed LP [0.012] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.6666666666433159
+	TRUNCATION
+	num variables = 2950
+	num constraints = 2950
+	num nonzeros = 8336
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999997427125
+
+original ratio = 0.6666666666433159
+truncated ratio = 0.49999999997427125
+
+
+	order = [3, 1, 0, 4, 2]
+	ORIGINAL
+	num variables = 2892
+	num constraints = 2944
+	num nonzeros = 9516
+	constructed LP [0.012] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.666666666427038
+	TRUNCATION
+	num variables = 2964
+	num constraints = 2944
+	num nonzeros = 8382
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.49999999969753584
+
+original ratio = 0.666666666427038
+truncated ratio = 0.49999999969753584
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2878
+	num constraints = 2906
+	num nonzeros = 9712
+	constructed LP [0.022] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666664695284
+	TRUNCATION
+	num variables = 2976
+	num constraints = 2944
+	num nonzeros = 8430
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.499999999467046
+
+original ratio = 0.6666666664695284
+truncated ratio = 0.499999999467046
+
+
+	order = [2, 3, 1, 0, 4]
+	ORIGINAL
+	num variables = 2859
+	num constraints = 2895
+	num nonzeros = 9901
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666666612684
+	TRUNCATION
+	num variables = 2976
+	num constraints = 2944
+	num nonzeros = 8430
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999994670471
+
+original ratio = 0.6666666666612684
+truncated ratio = 0.4999999994670471
+
+
+	order = [3, 1, 2, 0, 4]
+	ORIGINAL
+	num variables = 2946
+	num constraints = 2944
+	num nonzeros = 9780
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.6666666666075824
+	TRUNCATION
+	num variables = 2976
+	num constraints = 2944
+	num nonzeros = 8430
+	constructed LP [0.016] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999994670489
+
+original ratio = 0.6666666666075824
+truncated ratio = 0.4999999994670489
+
+
+	order = [3, 1, 0, 2, 4]
+	ORIGINAL
+	num variables = 2916
+	num constraints = 2944
+	num nonzeros = 9630
+	constructed LP [0.014] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.66666666650804
+	TRUNCATION
+	num variables = 2976
+	num constraints = 2944
+	num nonzeros = 8430
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.499999999467047
+
+original ratio = 0.66666666650804
+truncated ratio = 0.499999999467047
+min ratio for matroid = 0.6666666628280642
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #26 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3048
+	num constraints = 3082
+	num nonzeros = 9696
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999978446774
+	TRUNCATION
+	num variables = 3160
+	num constraints = 3140
+	num nonzeros = 8656
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999963276167
+
+original ratio = 0.49999999978446774
+truncated ratio = 0.39999999963276167
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3096
+	num constraints = 3112
+	num nonzeros = 9804
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999343071
+	TRUNCATION
+	num variables = 3198
+	num constraints = 3166
+	num nonzeros = 8740
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999656966
+
+original ratio = 0.4999999999343071
+truncated ratio = 0.3999999999656966
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3170
+	num constraints = 3156
+	num nonzeros = 9980
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999757363
+	TRUNCATION
+	num variables = 3252
+	num constraints = 3204
+	num nonzeros = 8870
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999993680824
+
+original ratio = 0.4999999999757363
+truncated ratio = 0.39999999993680824
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3246
+	num constraints = 3202
+	num nonzeros = 10092
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999992029565
+	TRUNCATION
+	num variables = 3302
+	num constraints = 3236
+	num nonzeros = 8982
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999997459224
+
+original ratio = 0.49999999992029565
+truncated ratio = 0.3999999997459224
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3078
+	num constraints = 3112
+	num nonzeros = 9738
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999997148403
+	TRUNCATION
+	num variables = 3186
+	num constraints = 3166
+	num nonzeros = 8700
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999968499708
+
+original ratio = 0.49999999997148403
+truncated ratio = 0.3999999968499708
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 3152
+	num constraints = 3156
+	num nonzeros = 9914
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999998279858
+	TRUNCATION
+	num variables = 3240
+	num constraints = 3204
+	num nonzeros = 8830
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999749751614
+
+original ratio = 0.4999999998279858
+truncated ratio = 0.39999999749751614
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 3228
+	num constraints = 3202
+	num nonzeros = 10026
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999531918
+	TRUNCATION
+	num variables = 3290
+	num constraints = 3236
+	num nonzeros = 8942
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999881163
+
+original ratio = 0.4999999999531918
+truncated ratio = 0.3999999999881163
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 3038
+	num constraints = 3090
+	num nonzeros = 9554
+	constructed LP [0.015] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.4999999994892965
+	TRUNCATION
+	num variables = 3222
+	num constraints = 3202
+	num nonzeros = 8764
+	constructed LP [0.02] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999937327
+
+original ratio = 0.4999999994892965
+truncated ratio = 0.3999999999937327
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 3120
+	num constraints = 3142
+	num nonzeros = 9702
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999997514015
+	TRUNCATION
+	num variables = 3280
+	num constraints = 3242
+	num nonzeros = 8926
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999999746592
+
+original ratio = 0.4999999997514015
+truncated ratio = 0.3999999999746592
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 3060
+	num constraints = 3120
+	num nonzeros = 9464
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999941008678
+	TRUNCATION
+	num variables = 3080
+	num constraints = 3092
+	num nonzeros = 8316
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999992477238
+
+original ratio = 0.4999999941008678
+truncated ratio = 0.3999999992477238
+min ratio for matroid = 0.4999999941008678
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #27 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2], [0, 1, 3], [0, 2, 3], [1, 2, 3]])
+num automorphisms = 24
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2706
+	num constraints = 2865
+	num nonzeros = 8668
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.7499999999698749
+	TRUNCATION
+	num variables = 2788
+	num constraints = 2851
+	num nonzeros = 7732
+	constructed LP [0.013] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999999117906
+
+original ratio = 0.7499999999698749
+truncated ratio = 0.49999999999117906
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2752
+	num constraints = 2868
+	num nonzeros = 8948
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.7499999947604575
+	TRUNCATION
+	num variables = 2846
+	num constraints = 2878
+	num nonzeros = 7988
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.49999999322017374
+
+original ratio = 0.7499999947604575
+truncated ratio = 0.49999999322017374
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2794
+	num constraints = 2876
+	num nonzeros = 9142
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.7499999906048254
+	TRUNCATION
+	num variables = 2950
+	num constraints = 2950
+	num nonzeros = 8336
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.4999999999745356
+
+original ratio = 0.7499999906048254
+truncated ratio = 0.4999999999745356
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2854
+	num constraints = 2906
+	num nonzeros = 9346
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.7499999999999322
+	TRUNCATION
+	num variables = 2964
+	num constraints = 2944
+	num nonzeros = 8382
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.4999999996975366
+
+original ratio = 0.7499999999999322
+truncated ratio = 0.4999999996975366
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2872
+	num constraints = 2906
+	num nonzeros = 9418
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.7499999999221558
+	TRUNCATION
+	num variables = 2976
+	num constraints = 2944
+	num nonzeros = 8430
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.499999999467046
+
+original ratio = 0.7499999999221558
+truncated ratio = 0.499999999467046
+min ratio for matroid = 0.7499999906048254
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #28 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 2, 4], [1, 2, 4], [2, 3, 4]])
+num automorphisms = 24
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3244
+	num constraints = 3194
+	num nonzeros = 10312
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999999312694
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602697
+
+original ratio = 0.49999999999312694
+truncated ratio = 0.3999999986602697
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3116
+	num constraints = 3120
+	num nonzeros = 10106
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999850281
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602589
+
+original ratio = 0.4999999999850281
+truncated ratio = 0.3999999986602589
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 3069
+	num constraints = 3093
+	num nonzeros = 10315
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999980739207
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602457
+
+original ratio = 0.49999999980739207
+truncated ratio = 0.3999999986602457
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3208
+	num constraints = 3188
+	num nonzeros = 10102
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999980354657
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602695
+
+original ratio = 0.4999999980354657
+truncated ratio = 0.3999999986602695
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3184
+	num constraints = 3188
+	num nonzeros = 9988
+	constructed LP [0.017] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.4999999999935655
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.023] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.39999999866026414
+
+original ratio = 0.4999999999935655
+truncated ratio = 0.39999999866026414
+min ratio for matroid = 0.4999999980354657
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #29 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4]])
+num automorphisms = 8
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3148
+	num constraints = 3158
+	num nonzeros = 9790
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999986720093
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602697
+
+original ratio = 0.5999999986720093
+truncated ratio = 0.3999999986602697
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 3148
+	num constraints = 3158
+	num nonzeros = 9790
+	constructed LP [0.017] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999997559939
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.017] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866024827
+
+original ratio = 0.5999999997559939
+truncated ratio = 0.39999999866024827
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3194
+	num constraints = 3186
+	num nonzeros = 9938
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999997020051
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3999999986602589
+
+original ratio = 0.5999999997020051
+truncated ratio = 0.3999999986602589
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3196
+	num constraints = 3188
+	num nonzeros = 9910
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999990076219
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.014] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602695
+
+original ratio = 0.5999999990076219
+truncated ratio = 0.3999999986602695
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 3196
+	num constraints = 3188
+	num nonzeros = 9910
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999936631262
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999866030833
+
+original ratio = 0.5999999936631262
+truncated ratio = 0.39999999866030833
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3256
+	num constraints = 3224
+	num nonzeros = 10072
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999999708268
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602931
+
+original ratio = 0.5999999999708268
+truncated ratio = 0.3999999986602931
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3276
+	num constraints = 3232
+	num nonzeros = 10080
+	constructed LP [0.018] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999947625141
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.017] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3999999986602526
+
+original ratio = 0.5999999947625141
+truncated ratio = 0.3999999986602526
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 3256
+	num constraints = 3224
+	num nonzeros = 10072
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999994985201
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602416
+
+original ratio = 0.5999999994985201
+truncated ratio = 0.3999999986602416
+
+
+	order = [1, 3, 4, 2, 0]
+	ORIGINAL
+	num variables = 3276
+	num constraints = 3232
+	num nonzeros = 10080
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.59999999902142
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866023317
+
+original ratio = 0.59999999902142
+truncated ratio = 0.39999999866023317
+
+
+	order = [4, 2, 1, 3, 0]
+	ORIGINAL
+	num variables = 3086
+	num constraints = 3120
+	num nonzeros = 9608
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999997635662
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866021885
+
+original ratio = 0.5999999997635662
+truncated ratio = 0.39999999866021885
+
+
+	order = [4, 1, 2, 3, 0]
+	ORIGINAL
+	num variables = 3100
+	num constraints = 3128
+	num nonzeros = 9622
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999986544462
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866025626
+
+original ratio = 0.5999999986544462
+truncated ratio = 0.39999999866025626
+
+
+	order = [1, 4, 2, 3, 0]
+	ORIGINAL
+	num variables = 3126
+	num constraints = 3142
+	num nonzeros = 9666
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.599999999729508
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.39999999866026037
+
+original ratio = 0.599999999729508
+truncated ratio = 0.39999999866026037
+
+
+	order = [4, 3, 2, 0, 1]
+	ORIGINAL
+	num variables = 3166
+	num constraints = 3158
+	num nonzeros = 9850
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999992805707
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602397
+
+original ratio = 0.5999999992805707
+truncated ratio = 0.3999999986602397
+
+
+	order = [3, 4, 2, 0, 1]
+	ORIGINAL
+	num variables = 3166
+	num constraints = 3158
+	num nonzeros = 9850
+	constructed LP [0.017] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999959026403
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866027114
+
+original ratio = 0.5999999959026403
+truncated ratio = 0.39999999866027114
+
+
+	order = [4, 2, 3, 0, 1]
+	ORIGINAL
+	num variables = 3212
+	num constraints = 3186
+	num nonzeros = 9998
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999996808805
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986603012
+
+original ratio = 0.5999999996808805
+truncated ratio = 0.3999999986603012
+min ratio for matroid = 0.5999999936631262
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #30 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3112
+	num constraints = 3128
+	num nonzeros = 9628
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999997954122
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602697
+
+original ratio = 0.5999999997954122
+truncated ratio = 0.3999999986602697
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 3126
+	num constraints = 3136
+	num nonzeros = 9618
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999299239
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866024827
+
+original ratio = 0.5999999999299239
+truncated ratio = 0.39999999866024827
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3098
+	num constraints = 3120
+	num nonzeros = 9614
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999833443
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602589
+
+original ratio = 0.5999999999833443
+truncated ratio = 0.3999999986602589
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3160
+	num constraints = 3158
+	num nonzeros = 9748
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999910737
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602695
+
+original ratio = 0.5999999999910737
+truncated ratio = 0.3999999986602695
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 3174
+	num constraints = 3166
+	num nonzeros = 9738
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999989019797
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866030833
+
+original ratio = 0.5999999989019797
+truncated ratio = 0.39999999866030833
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 3220
+	num constraints = 3194
+	num nonzeros = 9862
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.599999999816526
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602416
+
+original ratio = 0.599999999816526
+truncated ratio = 0.3999999986602416
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3142
+	num constraints = 3158
+	num nonzeros = 9688
+	constructed LP [0.016] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999979444823
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.016] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866026414
+
+original ratio = 0.5999999979444823
+truncated ratio = 0.39999999866026414
+
+
+	order = [3, 4, 1, 0, 2]
+	ORIGINAL
+	num variables = 3156
+	num constraints = 3166
+	num nonzeros = 9678
+	constructed LP [0.017] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.599999998881424
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.028] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.3999999986602525
+
+original ratio = 0.599999998881424
+truncated ratio = 0.3999999986602525
+
+
+	order = [3, 1, 4, 0, 2]
+	ORIGINAL
+	num variables = 3202
+	num constraints = 3194
+	num nonzeros = 9802
+	constructed LP [0.016] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999997069345
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.3999999986602454
+
+original ratio = 0.5999999997069345
+truncated ratio = 0.3999999986602454
+
+
+	order = [3, 1, 0, 4, 2]
+	ORIGINAL
+	num variables = 3094
+	num constraints = 3128
+	num nonzeros = 9472
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999734366
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.015] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.39999999866019664
+
+original ratio = 0.5999999999734366
+truncated ratio = 0.39999999866019664
+min ratio for matroid = 0.5999999979444823
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #31 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2], [0, 1, 3], [0, 2, 3], [1, 2, 3], [0, 1, 4], [0, 2, 4], [1, 2, 4], [0, 3, 4], [1, 3, 4], [2, 3, 4]])
+num automorphisms = 120
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3106
+	num constraints = 3128
+	num nonzeros = 9478
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999626646
+	TRUNCATION
+	num variables = 3188
+	num constraints = 3166
+	num nonzeros = 8594
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 0.3999999986602697
+
+original ratio = 0.5999999999626646
+truncated ratio = 0.3999999986602697
+min ratio for matroid = 0.5999999999626646
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #32 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 2, 3, 4], [1, 2, 3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2899
+	num constraints = 3067
+	num nonzeros = 10721
+	constructed LP [0.011] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999998352285
+	TRUNCATION
+	num variables = 3048
+	num constraints = 3082
+	num nonzeros = 9696
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.49999999978446774
+
+original ratio = 0.49999999998352285
+truncated ratio = 0.49999999978446774
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2953
+	num constraints = 3097
+	num nonzeros = 10823
+	constructed LP [0.012] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.49999999960174857
+	TRUNCATION
+	num variables = 3096
+	num constraints = 3112
+	num nonzeros = 9804
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999343071
+
+original ratio = 0.49999999960174857
+truncated ratio = 0.4999999999343071
+
+
+	order = [4, 1, 3, 2, 0]
+	ORIGINAL
+	num variables = 3021
+	num constraints = 3135
+	num nonzeros = 10915
+	constructed LP [0.012] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.499999999981684
+	TRUNCATION
+	num variables = 3170
+	num constraints = 3156
+	num nonzeros = 9980
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.4999999999757363
+
+original ratio = 0.499999999981684
+truncated ratio = 0.4999999999757363
+
+
+	order = [1, 4, 3, 2, 0]
+	ORIGINAL
+	num variables = 3108
+	num constraints = 3184
+	num nonzeros = 10962
+	constructed LP [0.013] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.49999999999241973
+	TRUNCATION
+	num variables = 3246
+	num constraints = 3202
+	num nonzeros = 10092
+	constructed LP [0.014] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.49999999992029565
+
+original ratio = 0.49999999999241973
+truncated ratio = 0.49999999992029565
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 2929
+	num constraints = 3097
+	num nonzeros = 10727
+	constructed LP [0.012] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.4999999997153154
+	TRUNCATION
+	num variables = 3078
+	num constraints = 3112
+	num nonzeros = 9738
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.49999999997148403
+
+original ratio = 0.4999999997153154
+truncated ratio = 0.49999999997148403
+
+
+	order = [4, 1, 3, 0, 2]
+	ORIGINAL
+	num variables = 2997
+	num constraints = 3135
+	num nonzeros = 10819
+	constructed LP [0.012] seconds
+	time taken = 0.01 seconds
+	Solution found!
+	Objective value = 0.4999999998972624
+	TRUNCATION
+	num variables = 3152
+	num constraints = 3156
+	num nonzeros = 9914
+	constructed LP [0.012] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999998279858
+
+original ratio = 0.4999999998972624
+truncated ratio = 0.4999999998279858
+
+
+	order = [1, 4, 3, 0, 2]
+	ORIGINAL
+	num variables = 3084
+	num constraints = 3184
+	num nonzeros = 10866
+	constructed LP [0.013] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.49999999696925546
+	TRUNCATION
+	num variables = 3228
+	num constraints = 3202
+	num nonzeros = 10026
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999999531918
+
+original ratio = 0.49999999696925546
+truncated ratio = 0.4999999999531918
+
+
+	order = [4, 1, 0, 3, 2]
+	ORIGINAL
+	num variables = 2967
+	num constraints = 3135
+	num nonzeros = 10681
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.4999999999765393
+	TRUNCATION
+	num variables = 3038
+	num constraints = 3090
+	num nonzeros = 9554
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999994892965
+
+original ratio = 0.4999999999765393
+truncated ratio = 0.4999999994892965
+
+
+	order = [1, 4, 0, 3, 2]
+	ORIGINAL
+	num variables = 3054
+	num constraints = 3184
+	num nonzeros = 10728
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.49999999881351154
+	TRUNCATION
+	num variables = 3120
+	num constraints = 3142
+	num nonzeros = 9702
+	constructed LP [0.014] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999997514015
+
+original ratio = 0.49999999881351154
+truncated ratio = 0.4999999997514015
+
+
+	order = [1, 0, 4, 3, 2]
+	ORIGINAL
+	num variables = 3016
+	num constraints = 3184
+	num nonzeros = 10518
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.4999999989974183
+	TRUNCATION
+	num variables = 3060
+	num constraints = 3120
+	num nonzeros = 9464
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.4999999941008678
+
+original ratio = 0.4999999989974183
+truncated ratio = 0.4999999941008678
+min ratio for matroid = 0.49999999696925546
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #33 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2, 3]])
+num automorphisms = 24
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2614
+	num constraints = 2923
+	num nonzeros = 9530
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.9999999999705398
+	TRUNCATION
+	num variables = 2706
+	num constraints = 2865
+	num nonzeros = 8668
+	constructed LP [0.012] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.7499999999698749
+
+original ratio = 0.9999999999705398
+truncated ratio = 0.7499999999698749
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 2663
+	num constraints = 2923
+	num nonzeros = 9869
+	constructed LP [0.013] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.9999999980709114
+	TRUNCATION
+	num variables = 2752
+	num constraints = 2868
+	num nonzeros = 8948
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.7499999947604575
+
+original ratio = 0.9999999980709114
+truncated ratio = 0.7499999947604575
+
+
+	order = [3, 2, 4, 1, 0]
+	ORIGINAL
+	num variables = 2701
+	num constraints = 2923
+	num nonzeros = 10079
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2794
+	num constraints = 2876
+	num nonzeros = 9142
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.7499999906048254
+
+original ratio = 1.0
+truncated ratio = 0.7499999906048254
+
+
+	order = [3, 2, 1, 4, 0]
+	ORIGINAL
+	num variables = 2731
+	num constraints = 2923
+	num nonzeros = 10217
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.9999999999453225
+	TRUNCATION
+	num variables = 2854
+	num constraints = 2906
+	num nonzeros = 9346
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.7499999999999322
+
+original ratio = 0.9999999999453225
+truncated ratio = 0.7499999999999322
+
+
+	order = [3, 2, 1, 0, 4]
+	ORIGINAL
+	num variables = 2755
+	num constraints = 2923
+	num nonzeros = 10313
+	constructed LP [0.012] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2872
+	num constraints = 2906
+	num nonzeros = 9418
+	constructed LP [0.012] seconds
+	time taken = 0.002 seconds
+	Solution found!
+	Objective value = 0.7499999999221558
+
+original ratio = 1.0
+truncated ratio = 0.7499999999221558
+min ratio for matroid = 0.9999999980709114
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #34 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2, 3], [0, 1, 3, 4], [1, 2, 3, 4]])
+num automorphisms = 12
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 3040
+	num constraints = 3146
+	num nonzeros = 10654
+	constructed LP [0.012] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.66666666515852
+	TRUNCATION
+	num variables = 3174
+	num constraints = 3166
+	num nonzeros = 9738
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999989019555
+
+original ratio = 0.66666666515852
+truncated ratio = 0.5999999989019555
+
+
+	order = [3, 4, 2, 1, 0]
+	ORIGINAL
+	num variables = 3021
+	num constraints = 3135
+	num nonzeros = 10795
+	constructed LP [0.012] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.666666666650257
+	TRUNCATION
+	num variables = 3160
+	num constraints = 3158
+	num nonzeros = 9748
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999929957
+
+original ratio = 0.666666666650257
+truncated ratio = 0.5999999999929957
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 3108
+	num constraints = 3184
+	num nonzeros = 10746
+	constructed LP [0.012] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.666666666415602
+	TRUNCATION
+	num variables = 3220
+	num constraints = 3194
+	num nonzeros = 9862
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999998165257
+
+original ratio = 0.666666666415602
+truncated ratio = 0.5999999998165257
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 2986
+	num constraints = 3116
+	num nonzeros = 10552
+	constructed LP [0.012] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.6666666607117288
+	TRUNCATION
+	num variables = 3126
+	num constraints = 3136
+	num nonzeros = 9618
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999296746
+
+original ratio = 0.6666666607117288
+truncated ratio = 0.5999999999296746
+
+
+	order = [3, 4, 1, 2, 0]
+	ORIGINAL
+	num variables = 2967
+	num constraints = 3105
+	num nonzeros = 10693
+	constructed LP [0.013] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.6666666666070441
+	TRUNCATION
+	num variables = 3112
+	num constraints = 3128
+	num nonzeros = 9628
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999997953971
+
+original ratio = 0.6666666666070441
+truncated ratio = 0.5999999997953971
+
+
+	order = [3, 1, 4, 2, 0]
+	ORIGINAL
+	num variables = 2953
+	num constraints = 3097
+	num nonzeros = 10751
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.6666666606515288
+	TRUNCATION
+	num variables = 3098
+	num constraints = 3120
+	num nonzeros = 9614
+	constructed LP [0.015] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999980661
+
+original ratio = 0.6666666606515288
+truncated ratio = 0.5999999999980661
+
+
+	order = [4, 3, 2, 0, 1]
+	ORIGINAL
+	num variables = 3016
+	num constraints = 3146
+	num nonzeros = 10558
+	constructed LP [0.013] seconds
+	time taken = 0.01 seconds
+	Solution found!
+	Objective value = 0.6666666666527825
+	TRUNCATION
+	num variables = 3156
+	num constraints = 3166
+	num nonzeros = 9678
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.599999998881537
+
+original ratio = 0.6666666666527825
+truncated ratio = 0.599999998881537
+
+
+	order = [3, 4, 2, 0, 1]
+	ORIGINAL
+	num variables = 2997
+	num constraints = 3135
+	num nonzeros = 10699
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.666666665232937
+	TRUNCATION
+	num variables = 3142
+	num constraints = 3158
+	num nonzeros = 9688
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999979444903
+
+original ratio = 0.666666665232937
+truncated ratio = 0.5999999979444903
+
+
+	order = [4, 2, 3, 0, 1]
+	ORIGINAL
+	num variables = 3084
+	num constraints = 3184
+	num nonzeros = 10650
+	constructed LP [0.014] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.666666666544154
+	TRUNCATION
+	num variables = 3202
+	num constraints = 3194
+	num nonzeros = 9802
+	constructed LP [0.015] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999997069262
+
+original ratio = 0.666666666544154
+truncated ratio = 0.5999999997069262
+
+
+	order = [4, 2, 0, 3, 1]
+	ORIGINAL
+	num variables = 3054
+	num constraints = 3184
+	num nonzeros = 10512
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.6666666666582297
+	TRUNCATION
+	num variables = 3094
+	num constraints = 3128
+	num nonzeros = 9472
+	constructed LP [0.013] seconds
+	time taken = 0.004 seconds
+	Solution found!
+	Objective value = 0.5999999999732808
+
+original ratio = 0.6666666666582297
+truncated ratio = 0.5999999999732808
+min ratio for matroid = 0.6666666606515288
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #35 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 2, 3, 4], [1, 2, 3, 4]])
+num automorphisms = 24
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2986
+	num constraints = 3116
+	num nonzeros = 10336
+	constructed LP [0.013] seconds
+	time taken = 0.006 seconds
+	Solution found!
+	Objective value = 0.749999999970901
+	TRUNCATION
+	num variables = 3106
+	num constraints = 3128
+	num nonzeros = 9478
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999626646
+
+original ratio = 0.749999999970901
+truncated ratio = 0.5999999999626646
+
+
+	order = [4, 2, 3, 1, 0]
+	ORIGINAL
+	num variables = 2972
+	num constraints = 3108
+	num nonzeros = 10394
+	constructed LP [0.012] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.7499999999600153
+	TRUNCATION
+	num variables = 3106
+	num constraints = 3128
+	num nonzeros = 9478
+	constructed LP [0.012] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.599999999962574
+
+original ratio = 0.7499999999600153
+truncated ratio = 0.599999999962574
+
+
+	order = [2, 4, 3, 1, 0]
+	ORIGINAL
+	num variables = 2967
+	num constraints = 3105
+	num nonzeros = 10573
+	constructed LP [0.012] seconds
+	time taken = 0.005 seconds
+	Solution found!
+	Objective value = 0.7499999998676266
+	TRUNCATION
+	num variables = 3106
+	num constraints = 3128
+	num nonzeros = 9478
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999905875
+
+original ratio = 0.7499999998676266
+truncated ratio = 0.5999999999905875
+
+
+	order = [4, 3, 1, 2, 0]
+	ORIGINAL
+	num variables = 3040
+	num constraints = 3146
+	num nonzeros = 10438
+	constructed LP [0.012] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.7499999978514766
+	TRUNCATION
+	num variables = 3106
+	num constraints = 3128
+	num nonzeros = 9478
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999623505
+
+original ratio = 0.7499999978514766
+truncated ratio = 0.5999999999623505
+
+
+	order = [4, 3, 1, 0, 2]
+	ORIGINAL
+	num variables = 3016
+	num constraints = 3146
+	num nonzeros = 10342
+	constructed LP [0.013] seconds
+	time taken = 0.009 seconds
+	Solution found!
+	Objective value = 0.7499999999652116
+	TRUNCATION
+	num variables = 3106
+	num constraints = 3128
+	num nonzeros = 9478
+	constructed LP [0.014] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999623521
+
+original ratio = 0.7499999999652116
+truncated ratio = 0.5999999999623521
+min ratio for matroid = 0.7499999978514766
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #36 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2, 3], [0, 1, 2, 4], [0, 1, 3, 4], [0, 2, 3, 4], [1, 2, 3, 4]])
+num automorphisms = 120
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2972
+	num constraints = 3108
+	num nonzeros = 10178
+	constructed LP [0.013] seconds
+	time taken = 0.007 seconds
+	Solution found!
+	Objective value = 0.7999999999521212
+	TRUNCATION
+	num variables = 3106
+	num constraints = 3128
+	num nonzeros = 9478
+	constructed LP [0.013] seconds
+	time taken = 0.003 seconds
+	Solution found!
+	Objective value = 0.5999999999626646
+
+original ratio = 0.7999999999521212
+truncated ratio = 0.5999999999626646
+min ratio for matroid = 0.7999999999521212
+min ratio overall = 0.24999999277703044
+
+
+
+
+
+
+matroid #37 = MatroidByBases(elements=[0, 1, 2, 3, 4], bases=[[0, 1, 2, 3, 4]])
+num automorphisms = 120
+
+
+	order = [4, 3, 2, 1, 0]
+	ORIGINAL
+	num variables = 2875
+	num constraints = 3163
+	num nonzeros = 10937
+	constructed LP [0.013] seconds
+	time taken = 0.001 seconds
+	Solution found!
+	Objective value = 1.0
+	TRUNCATION
+	num variables = 2972
+	num constraints = 3108
+	num nonzeros = 10178
+	constructed LP [0.013] seconds
+	time taken = 0.008 seconds
+	Solution found!
+	Objective value = 0.7999999999521212
+
+original ratio = 1.0
+truncated ratio = 0.7999999999521212
+min ratio for matroid = 1.0
+min ratio overall = 0.24999999277703044

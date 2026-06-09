@@ -196,7 +196,7 @@ fun main4() {
     }
 }
 
-fun main() {
+fun main5() {
     val n = 8
     val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n)
     println("num matroids = ${matroids.size}")
@@ -210,17 +210,20 @@ fun main() {
         covered.add(tokenizer.nextToken().toInt())
         numMatroidsConsiderd++
     }
+    val prevProgress = extractDataRaw(File("matroids_${n}_truncation_conjecture.txt").readText(), "original ratio = ")
     var maxDiff = .0
     var maxDiffIndex = -1
+    println("num matroids considered = $numMatroidsConsiderd")
     for ((index, numAutomorphisms) in withAutomorphisms.sortedByDescending { it.second }) {
-        numMatroidsConsiderd++
         val matroid = matroids[index]
         if (matroid.rank() == 0) {
+            numMatroidsConsiderd++
             continue
         }
         if (index in covered) { //!in listOf(1526, 1437, 1523, 434, 1428, 651, 1521, 1334)) { //covered) { //!= 1437) { //
             continue
         }
+        numMatroidsConsiderd++
             println("\n".repeat(5))
             println("matroid #$index = $matroid")
             println("num automorphisms = ${matroid.automorphisms().size}")
@@ -229,6 +232,7 @@ fun main() {
             var builder = GurobiLinearProgramBuilder(threads = 12, logToConsole = true)
             //buildTightInstanceLP(matroid, builder)
             buildMatroidSecretaryLPTight(matroid, builder)
+            builder.updateModel()
 
             println("num variables = ${builder.getNumVariables()}")
             println("num constraints = ${builder.getNumConstraints()}")
@@ -269,7 +273,7 @@ fun main() {
         println()
             println("tight instance ratio\t= $ratio")
             timer.lapSeconds()
-            val trueRatio = solveMatroidSimpleGurobi(matroid, threads = 12)
+            val trueRatio = prevProgress[index] ?: solveMatroidSimpleGurobi(matroid, threads = 12)
             println("true ratio\t\t\t\t= $trueRatio [${timer.lapSeconds()} seconds]")
         println("diff\t\t\t\t\t= ${ratio - trueRatio}")
         file.appendText("$index $ratio $trueRatio ${ratio - trueRatio}\n")
@@ -281,6 +285,52 @@ fun main() {
                 println("COUNTEREXAMPLE")
                 return
             }
+        println()
+        println("max diff = $maxDiff, max diff index = $maxDiffIndex")
+        println("num matroids considered = $numMatroidsConsiderd")
+    }
+}
+
+fun main() {
+    val n = 5
+    val matroids = parseMatroidsFile(File("matroids09_bases"), targetSize = n)
+    println("num matroids = ${matroids.size}")
+    val withAutomorphisms = matroids.withIndex().map { (index, matroid) -> Pair(index, matroid.automorphisms().size) }
+    println("computed automorphisms")
+    var numMatroidsConsiderd = 0
+    var maxDiff = .0
+    var maxDiffIndex = -1
+    for ((index, numAutomorphisms) in withAutomorphisms) {
+        numMatroidsConsiderd++
+        val matroid = matroids[index]
+        if (matroid.rank() == 0) {
+            continue
+        }
+
+        println("\n".repeat(5))
+        println("matroid #$index = $matroid")
+        println("num automorphisms = $numAutomorphisms")
+
+        val tightRatios = mutableListOf<Double>()
+        val timer = Timer()
+        for (k in 1..matroid.rank()) {
+            val ratio = solveMatroidSimpleGurobi(matroid, mode = 400 + k, threads = 12)
+            println("\ttight ratio for rank $k = $ratio [${timer.lapSeconds()} seconds]")
+            tightRatios.add(ratio)
+        }
+        val derivedRatio = tightRatios.min()
+        println("derived ratio\t= $derivedRatio")
+        val trueRatio = solveMatroidSimpleGurobi(matroid, threads = 12)
+        println("true ratio\t\t= $trueRatio [${timer.lapSeconds()} seconds]")
+        println("diff\t\t\t\t= ${derivedRatio - trueRatio}")
+        if (abs(derivedRatio - trueRatio) > maxDiff) {
+            maxDiff = abs(derivedRatio - trueRatio)
+            maxDiffIndex = index
+        }
+        if (abs(derivedRatio - trueRatio) > .000001) {
+            println("COUNTEREXAMPLE")
+            return
+        }
         println()
         println("max diff = $maxDiff, max diff index = $maxDiffIndex")
         println("num matroids considered = $numMatroidsConsiderd")

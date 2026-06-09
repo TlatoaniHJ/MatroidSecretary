@@ -5,8 +5,9 @@ import com.gurobi.gurobi.GRB
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import org.example.core.buildDistributionComparisonLP
 import org.example.core.buildMatroidSecretaryLPOnlyFullRank
+import org.example.core.buildMatroidSecretaryLPTight
+import org.example.core.buildMatroidSecretaryLPTightOneRank
 import java.io.File
 import kotlin.system.exitProcess
 
@@ -107,29 +108,37 @@ fun <E> solveMatroidStep1(matroid: Matroid<E>, mode: Int, log: StringBuilder, ta
 }
 
 fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: StringBuilder, target: Double? = null, logFileName: String? = null, logToConsole: Boolean = false, threads: Int = 1): GurobiLinearProgramBuilder {
+    return solveMatroidStep1Gurobi(matroid, mode, log::appendLine, target, logFileName, logToConsole, threads)
+}
+
+fun <E> solveMatroidStep1Gurobi(matroid: Matroid<E>, mode: Int, log: (String) -> Unit, target: Double? = null, logFileName: String? = null, logToConsole: Boolean = false, threads: Int = 1): GurobiLinearProgramBuilder {
     val timer = Timer()
     var builder = GurobiLinearProgramBuilder(logFileName = logFileName, threads = threads, logToConsole = logToConsole)
 
-    when (mode) {
-        0 -> buildMatroidSecretaryLPNoSymmetry(matroid, builder)
-        1 -> buildMatroidSecretaryLPOld(matroid, builder)
-        2 -> buildMatroidSecretaryLP(matroid, builder, target)
-        12 -> buildMatroidSecretaryLPSparser(matroid, builder, target)
-        22 -> buildMatroidSecretaryLPSparser2(matroid, builder, target)
-        32 -> buildMatroidSecretaryLPStopgap(matroid, builder, target)
-        42 -> buildMatroidSecretaryLPPrefixSum(matroid, builder, target)
-        52 -> buildMatroidSecretaryLPSubsetSum(matroid, builder, target)
-        101 -> buildMatroidSecretaryLPOnlyFullRank(matroid, builder, target)
-        //201 -> buildDistributionComparisonLP(matroid, builder)
-        else -> throw IllegalArgumentException("mode = $mode, should be 0, 1, 2")
+    if (mode in 400 until 500) {
+        buildMatroidSecretaryLPTightOneRank(matroid, builder, mode - 400, target)
+    } else {
+        when (mode) {
+            0 -> buildMatroidSecretaryLPNoSymmetry(matroid, builder)
+            1 -> buildMatroidSecretaryLPOld(matroid, builder)
+            2 -> buildMatroidSecretaryLP(matroid, builder, target)
+            12 -> buildMatroidSecretaryLPSparser(matroid, builder, target)
+            22 -> buildMatroidSecretaryLPSparser2(matroid, builder, target)
+            32 -> buildMatroidSecretaryLPStopgap(matroid, builder, target)
+            42 -> buildMatroidSecretaryLPPrefixSum(matroid, builder, target)
+            52 -> buildMatroidSecretaryLPSubsetSum(matroid, builder, target)
+            101 -> buildMatroidSecretaryLPOnlyFullRank(matroid, builder, target)
+            //201 -> buildDistributionComparisonLP(matroid, builder)
+            301 -> buildMatroidSecretaryLPTight(matroid, builder)
+            else -> throw IllegalArgumentException("mode = $mode, should be 0, 1, 2")
+        }
     }
     builder.updateModel()
 
-
-    log.appendLine("num variables = ${builder.getNumVariables()}")
-    log.appendLine("num constraints = ${builder.getNumConstraints()}")
-    log.appendLine("num nonzeros = ${builder.getNumNonZeros()}")
-    log.appendLine("constructed LP [${timer.lapSeconds()}] seconds")
+    log("num variables = ${builder.getNumVariables()}")
+    log("num constraints = ${builder.getNumConstraints()}")
+    log("num nonzeros = ${builder.getNumNonZeros()}")
+    log("constructed LP [${timer.lapSeconds()}] seconds")
     return builder
 }
 
@@ -153,6 +162,9 @@ fun solveMatroidStep2(builder: OrToolsLinearProgramBuilder, log: StringBuilder):
 }
 
 fun solveMatroidStep2Gurobi(builder: GurobiLinearProgramBuilder, log: StringBuilder): Double {
+    return solveMatroidStep2Gurobi(builder, log::appendLine)
+}
+fun solveMatroidStep2Gurobi(builder: GurobiLinearProgramBuilder, log: (String) -> Unit): Double {
     val startTime = System.currentTimeMillis()
 
     // Trigger the native Gurobi optimization process
@@ -163,12 +175,12 @@ fun solveMatroidStep2Gurobi(builder: GurobiLinearProgramBuilder, log: StringBuil
     val status = builder.model.get(GRB.IntAttr.Status)
 
     val endTime = System.currentTimeMillis()
-    log.appendLine("time taken = ${(endTime - startTime).toDouble() / 1000.0} seconds")
+    log("time taken = ${(endTime - startTime).toDouble() / 1000.0} seconds")
 
     // Compare against Gurobi's OPTIMAL status code
     if (status == GRB.Status.OPTIMAL) {
-        log.appendLine("Solution found!")
-        log.appendLine("Objective value = ${builder.getObjectiveValue()}")
+        log("Solution found!")
+        log("Objective value = ${builder.getObjectiveValue()}")
         return builder.getObjectiveValue()
     } else {
         // It is highly recommended to print the actual status code for debugging
